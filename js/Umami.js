@@ -6,19 +6,19 @@ function umamiTrackEvent() {
 
     const navLinks = document.querySelectorAll('.nav-link, .dropdown-item');
     navLinks.forEach(link => {
-        if (link.pathname === '/Blog/') {
+        if (link.pathname === CONFIG.root) {
             link.dataset.umamiEvent = "Homepage";
-        } else if (link.pathname === '/archives/') {
+        } else if (link.pathname === CONFIG.root + 'archives/') {
             link.dataset.umamiEvent = "Archives";
-        } else if (link.pathname === '/categories/') {
+        } else if (link.pathname === CONFIG.root + 'categories/') {
             link.dataset.umamiEvent = "Categories";
-        } else if (link.pathname === '/tags/') {
+        } else if (link.pathname === CONFIG.root + 'tags/') {
             link.dataset.umamiEvent = "Tags";
-        } else if (link.pathname === '/categories/DayDream-Gallery/') {
+        } else if (link.pathname === CONFIG.root + 'categories/DayDream-Gallery/') {
             link.dataset.umamiEvent = "DayDream Gallery";
-        } else if (link.pathname === '/about/') {
+        } else if (link.pathname === CONFIG.root + 'about/') {
             link.dataset.umamiEvent = "About";
-        } else if (link.pathname === '/links/') {
+        } else if (link.pathname === CONFIG.root + 'links/') {
             link.dataset.umamiEvent = "Links";
         } else if (link.href === 'https://www.travellings.cn/go-by-clouds.html') {
             link.dataset.umamiEvent = "Travelling";
@@ -26,7 +26,7 @@ function umamiTrackEvent() {
         } else if (link.href === 'https://youyeyejie.github.io/SJTUnotes/') {
             link.dataset.umamiEvent = "SJTU Notes";
             link.target = "_blank";
-        } else if (link.href === 'https://youyeyejie.github.io/Blog/original/clock/') {
+        } else if (link.pathname === CONFIG.root + 'original/clock/') {
             link.dataset.umamiEvent = "Immersive Clock";
         } else if (link.ariaLabel === "Search") {
             link.dataset.umamiEvent = "Search";
@@ -68,9 +68,9 @@ function umamiTrackEvent() {
             item.dataset.umamiEvent = "Random Go";
         } else if (item.ariaLabel === "Search") {
             item.dataset.umamiEvent = "Search";
-        } else if (item.pathname === '/categories/') {
+        } else if (item.pathname === CONFIG.root + 'categories/') {
             item.dataset.umamiEvent = "Categories";
-        } else if (item.pathname === '/tags/') {
+        } else if (item.pathname === CONFIG.root + 'tags/') {
             item.dataset.umamiEvent = "Tags";
         } else if (item.id === 'toggle-color-mode') {
             item.dataset.umamiEvent = "Color Toggle";
@@ -106,7 +106,7 @@ function umamiTrackEvent() {
 
     const linkcardItems = document.querySelectorAll('.LinkCard');
     linkcardItems.forEach(item => {
-        if (item.pathname.startsWith('/')) {
+        if (item.origin === location.origin && item.pathname.startsWith(CONFIG.root)) {
             item.dataset.umamiEvent = "Linkcard-Internal";
         } 
         else {

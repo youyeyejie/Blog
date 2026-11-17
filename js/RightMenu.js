@@ -181,16 +181,16 @@ function copyImageLink(imgsrc) {
 
 // 随便看看-随机跳转到文章
 function RandomGo() {
-    var posts = JSON.parse(sessionStorage.getItem('posts')) || [];
+    var posts = (JSON.parse(sessionStorage.getItem('posts')) || []).filter(link => new URL(link, location.origin).pathname.startsWith(CONFIG.root + '_posts/'));
     if (posts.length === 0) {
-        fetch('/sitemap.xml')
+        fetch(CONFIG.root + 'sitemap.xml')
         .then(response => response.text())
         .then(str => (new window.DOMParser()).parseFromString(str, "text/xml"))
         .then(data => {
             const entries = data.querySelectorAll('url > loc');
             posts = Array.from(entries)
                 .map(entry => entry.textContent)
-                .filter(link => link.includes('/_posts/'))
+                .filter(link => new URL(link, location.origin).pathname.startsWith(CONFIG.root + '_posts/'))
                 .map(link => new URL(link).pathname);
             sessionStorage.setItem('posts', JSON.stringify(posts)); // 保存到 sessionStorage
             console.log('Posts updated:', posts); // 调试输出更新后的链接列表

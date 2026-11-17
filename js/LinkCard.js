@@ -20,14 +20,14 @@ function generateLinkCard () {
                     </span>
                 </span>
                 <span class="LinkCard-imageCell">
-                    <img class="LinkCard-image" alt="logo" src="${logourl}" onerror="this.src='/img/loading/loading6.gif'">
+                    <img class="LinkCard-image" alt="logo" src="${logourl}" onerror="this.onerror=null;this.src='${CONFIG.root + 'img/loading/loading6.gif'}'">
                 </span>
             </span>`;
 
         if (!logourl) {
-            if (link.startsWith('http://localhost:4000/') || link.startsWith('https://youyeyejie.com/')) {
+            if (new URL(link).origin === location.origin && new URL(link).pathname.startsWith(CONFIG.root)) {
                 var img = LinkCard.getElementsByClassName('LinkCard-image')[0];
-                img.src = '/img/avatar/avatar.webp';
+                img.src = CONFIG.root + 'img/avatar/avatar.webp';
             }
             else {
                 LinkCard.getElementsByClassName('LinkCard-imageCell')[0].style.display = 'none';
