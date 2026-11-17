@@ -20,14 +20,14 @@ function generateLinkCard () {
                     </span>
                 </span>
                 <span class="LinkCard-imageCell">
-                    <img class="LinkCard-image" alt="logo" src="${logourl}" onerror="this.src='/img/loading/loading6.gif'">
+                    <img class="LinkCard-image" alt="logo" src="${logourl}" onerror="this.src='/Blog/img/loading/loading6.gif'">
                 </span>
             </span>`;
 
         if (!logourl) {
             if (link.startsWith('http://localhost:4000/') || link.startsWith('https://youyeyejie.com/')) {
                 var img = LinkCard.getElementsByClassName('LinkCard-image')[0];
-                img.src = '/img/avatar/avatar.webp';
+                img.src = '/Blog/img/avatar/avatar.webp';
             }
             else {
                 LinkCard.getElementsByClassName('LinkCard-imageCell')[0].style.display = 'none';

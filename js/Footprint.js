@@ -30,7 +30,7 @@ function getProvinceData(counts) {
 }
 
 // 从 JSON 文件加载数据
-fetch('/json/footprint.json')
+fetch('/Blog/json/footprint.json')
     .then(response => response.json())
     .then(pointData => {
         // 获取统计数据

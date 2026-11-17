@@ -6,19 +6,19 @@ function umamiTrackEvent() {
 
     const navLinks = document.querySelectorAll('.nav-link, .dropdown-item');
     navLinks.forEach(link => {
-        if (link.pathname === '/') {
+        if (link.pathname === '/Blog/') {
             link.dataset.umamiEvent = "Homepage";
-        } else if (link.pathname === '/archives/') {
+        } else if (link.pathname === '/Blog/archives/') {
             link.dataset.umamiEvent = "Archives";
-        } else if (link.pathname === '/categories/') {
+        } else if (link.pathname === '/Blog/categories/') {
             link.dataset.umamiEvent = "Categories";
-        } else if (link.pathname === '/tags/') {
+        } else if (link.pathname === '/Blog/tags/') {
             link.dataset.umamiEvent = "Tags";
-        } else if (link.pathname === '/categories/DayDream-Gallery/') {
+        } else if (link.pathname === '/Blog/categories/DayDream-Gallery/') {
             link.dataset.umamiEvent = "DayDream Gallery";
-        } else if (link.pathname === '/about/') {
+        } else if (link.pathname === '/Blog/about/') {
             link.dataset.umamiEvent = "About";
-        } else if (link.pathname === '/links/') {
+        } else if (link.pathname === '/Blog/links/') {
             link.dataset.umamiEvent = "Links";
         } else if (link.href === 'https://www.travellings.cn/go-by-clouds.html') {
             link.dataset.umamiEvent = "Travelling";
@@ -26,7 +26,7 @@ function umamiTrackEvent() {
         } else if (link.href === 'https://youyeyejie.github.io/SJTUnotes/') {
             link.dataset.umamiEvent = "SJTU Notes";
             link.target = "_blank";
-        } else if (link.href === 'https://youyeyejie.github.io/original/clock/') {
+        } else if (link.href === 'https://youyeyejie.github.io/Blog/original/clock/') {
             link.dataset.umamiEvent = "Immersive Clock";
         } else if (link.ariaLabel === "Search") {
             link.dataset.umamiEvent = "Search";
@@ -68,9 +68,9 @@ function umamiTrackEvent() {
             item.dataset.umamiEvent = "Random Go";
         } else if (item.ariaLabel === "Search") {
             item.dataset.umamiEvent = "Search";
-        } else if (item.pathname === '/categories/') {
+        } else if (item.pathname === '/Blog/categories/') {
             item.dataset.umamiEvent = "Categories";
-        } else if (item.pathname === '/tags/') {
+        } else if (item.pathname === '/Blog/tags/') {
             item.dataset.umamiEvent = "Tags";
         } else if (item.id === 'toggle-color-mode') {
             item.dataset.umamiEvent = "Color Toggle";
