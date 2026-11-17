@@ -33,7 +33,7 @@
 <meta property="og:image" content="https://youyeyejie.github.io/Blog/_posts/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BB%EF%BC%9ARMIA%E4%B8%8EInfoRMIA/image-5.webp">
 <meta property="og:image" content="https://youyeyejie.github.io/Blog/_posts/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BB%EF%BC%9ARMIA%E4%B8%8EInfoRMIA/image-4.webp">
 <meta property="article:published_time" content="2026-02-01T08:05:03.000Z">
-<meta property="article:modified_time" content="2026-11-17T10:00:08.979Z">
+<meta property="article:modified_time" content="2026-11-17T12:30:35.913Z">
 <meta property="article:author" content="youyeyejie">
 <meta property="article:tag" content="MIA">
 <meta property="article:tag" content="人工智能安全">
@@ -94,7 +94,7 @@
   <script id="fluid-configs">
     var Fluid = window.Fluid || {};
     Fluid.ctx = Object.assign({}, Fluid.ctx)
-    var CONFIG = {"hostname":"youyeyejie.github.io","root":"/Blog/","version":"1.9.8","typing":{"enable":true,"typeSpeed":70,"cursorChar":"_","loop":false,"scope":[]},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"left","visible":"hover","icon":""},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"code_language":{"enable":false,"default":"TEXT"},"copy_btn":false,"image_caption":{"enable":true},"image_zoom":{"enable":true,"img_url_replace":["",""]},"toc":{"enable":true,"placement":"right","headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":0},"lazyload":{"enable":true,"loading_img":"/Blog/img/loading/loading3.gif","onlypost":true,"offset_factor":2},"web_analytics":{"enable":false,"follow_dnt":true,"baidu":null,"google":{"measurement_id":null},"tencent":{"sid":null,"cid":null},"leancloud":{"app_id":null,"app_key":null,"server_url":null,"path":"window.location.pathname","ignore_local":false},"umami":{"src":null,"website_id":null,"domains":null,"start_time":"2024-01-01T00:00:00.000Z","token":null,"api_server":null}},"search_path":"/Blog/local-search.xml","include_content_in_search":true};
+    var CONFIG = {"hostname":"youyeyejie.github.io","root":"/Blog/","version":"1.9.8","typing":{"enable":true,"typeSpeed":70,"cursorChar":"_","loop":false,"scope":[]},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"left","visible":"hover","icon":""},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"code_language":{"enable":false,"default":"TEXT"},"copy_btn":false,"image_caption":{"enable":true},"image_zoom":{"enable":true,"img_url_replace":["",""]},"toc":{"enable":true,"placement":"right","headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":0},"lazyload":{"enable":true,"loading_img":"/img/loading/loading3.gif","onlypost":true,"offset_factor":2},"web_analytics":{"enable":false,"follow_dnt":true,"baidu":null,"google":{"measurement_id":null},"tencent":{"sid":null,"cid":null},"leancloud":{"app_id":null,"app_key":null,"server_url":null,"path":"window.location.pathname","ignore_local":false},"umami":{"src":null,"website_id":null,"domains":null,"start_time":"2024-01-01T00:00:00.000Z","token":null,"api_server":null}},"search_path":"/Blog/local-search.xml","include_content_in_search":true};
 
     if (CONFIG.web_analytics.follow_dnt) {
       var dntVal = navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack;
@@ -144,8 +144,8 @@
     </div>
 </div>
 
-<script src="/Blog/js/RainbowLoading.js" type="text/javascript"></script>
-<link href="/Blog/css/RainbowLoading.css" type="text/css" rel="stylesheet"/><div id="rightmenu-wrapper">
+<script src="/js/RainbowLoading.js" type="text/javascript"></script>
+<link href="/css/RainbowLoading.css" type="text/css" rel="stylesheet"/><div id="rightmenu-wrapper">
   <ul class="list-v rightmenu" id="rightmenu-content">
 	    <li class="navigation menuNavigation-Content">
             <a class="nav icon-only fix-cursor-default" aria-label="back" onclick="history.back()"><i class="fa-solid fa-chevron-left"></i></a>
@@ -225,7 +225,7 @@
 		    </a>
 	    </li>
         <li class="menuLoad-Content" style="display: block;">
-		    <a class="vlts-menu fix-cursor-default" target="_self" href="/Blog/categories/">
+		    <a class="vlts-menu fix-cursor-default" target="_self" href="/categories/">
 		        <span>
 			        <i class="iconfont icon-category-fill"></i>
                     &nbsp;博客分类
@@ -233,7 +233,7 @@
 		    </a>
 	    </li>
         <li class="menuLoad-Content" style="display: block;">
-		    <a class="vlts-menu fix-cursor-default" target="_self" href="/Blog/tags/">
+		    <a class="vlts-menu fix-cursor-default" target="_self" href="/tags/">
 		        <span>
 			        <i class="fa-solid fa-tags"></i>
                     &nbsp;文章标签
@@ -287,8 +287,8 @@
 </div>
 
 
-<script src="/Blog/js/RightMenu.js" type="text/javascript"></script>
-<link href="/Blog/css/RightMenu.css" type="text/css" rel="stylesheet"/>
+<script src="/js/RightMenu.js" type="text/javascript"></script>
+<link href="/css/RightMenu.css" type="text/css" rel="stylesheet"/>
 
   <header>
     
@@ -689,28 +689,30 @@ High-Power Membership Inference Attacks</a></p>
 训练数据，作为非成员基准样本。</li>
 <li><strong>成对似然比</strong>（LR）：衡量 <span class="math inline">\(x\)</span> 相对于 <span class="math inline">\(z\)</span> 在模型 <span class="math inline">\(\theta\)</span> 上的“特殊记忆”程度，LR 越大，<span class="math inline">\(x\)</span> 越可能是成员。
 <ol type="1">
-<li><p>似然比定义： <span class="math display">\[LR_{\theta}(x,
-z)=\frac{p(\theta | x)}{p(\theta | z)}\]</span></p>
+<li><p>似然比定义： <span class="math display">\[
+LR_{\theta}(x, z)=\frac{p(\theta | x)}{p(\theta | z)}
+\]</span></p>
 <ul>
 <li><span class="math inline">\(p(\theta | x)\)</span>：目标样本 <span class="math inline">\(x\)</span> 参与训练时生成目标模型 <span class="math inline">\(\theta\)</span> 的概率，反映 <span class="math inline">\(\theta\)</span> 对 <span class="math inline">\(x\)</span> 的记忆程度；</li>
 <li><span class="math inline">\(p(\theta | z)\)</span>：典型非成员样本
 <span class="math inline">\(z\)</span> 参与训练时生成目标模型 <span class="math inline">\(\theta\)</span> 的概率，作为非成员基准。</li>
 </ul></li>
 <li><p>黑盒场景简化（贝叶斯规则）：由于上式中的“模型生成概率”不可直接计算，利用贝叶斯规则转化为“模型预测概率”：
-<span class="math display">\[LR_{\theta}(x, z)=\left(\frac{p(x |
-\theta)}{p(x)}\right) \cdot\left(\frac{p(z |
-\theta)}{p(z)}\right)^{-1}=\left(\frac{p(x | \theta)}{p(x)}\right)
-\cdot\left(\frac{p(z)}{p(z | \theta)}\right)\]</span></p>
+<span class="math display">\[
+LR_{\theta}(x, z)=\left(\frac{p(x | \theta)}{p(x)}\right)
+\cdot\left(\frac{p(z | \theta)}{p(z)}\right)^{-1}=\left(\frac{p(x |
+\theta)}{p(x)}\right) \cdot\left(\frac{p(z)}{p(z | \theta)}\right)
+\]</span></p>
 <ul>
 <li><span class="math inline">\(p(x | \theta)\)</span>：目标模型 <span class="math inline">\(\theta\)</span> 对 <span class="math inline">\(x\)</span> 的预测似然（如 Softmax 概率）；</li>
 <li><span class="math inline">\(p(x)\)</span>：参考模型对 <span class="math inline">\(x\)</span> 的平均预测似然（基准值）；</li>
 <li>两项分别表示 <span class="math inline">\(x\)</span> 和 <span class="math inline">\(z\)</span> 的“成员概率相对值”。</li>
 </ul></li>
-<li><p>攻击得分计算： <span class="math display">\[\text{Score}_{MIA}(x
-; \theta)=p_{z \sim \pi}\left(LR_{\theta}(x, z) \geq
-\gamma\right)=\mathbb{E}_{z \sim
-\pi}\left[\mathbb{I}\left(LR_{\theta}(x, z) \geq
-\gamma\right)\right]\]</span></p>
+<li><p>攻击得分计算： <span class="math display">\[
+\text{Score}_{MIA}(x ; \theta)=p_{z \sim \pi}\left(LR_{\theta}(x, z)
+\geq \gamma\right)=\mathbb{E}_{z \sim
+\pi}\left[\mathbb{I}\left(LR_{\theta}(x, z) \geq \gamma\right)\right]
+\]</span></p>
 <ul>
 <li>统计 <span class="math inline">\(x\)</span> 能“支配”的种群样本 <span class="math inline">\(z\)</span> 比例，即 <span class="math inline">\(x\)</span> 相对于 <span class="math inline">\(z\)</span> 的似然比 <span class="math inline">\(LR\geq\gamma\)</span> 的 <span class="math inline">\(z\)</span> 占种群随机样本集合 <span class="math inline">\(Z\)</span> 的比例。（<span class="math inline">\(\gamma\)</span> 为预设阈值，通常大于等于
 1）；</li>
@@ -800,14 +802,16 @@ token，另一方面隐私信号也更容易被非敏感 token 稀释。</li>
 </ul></li>
 <li><strong>核心公式</strong>
 <ol type="1">
-<li><p>原始信息增益定义： <span class="math display">\[\text{Test
-Statistic} = \mathbb{E}_{z} \left[ \log\left( \frac{p(\theta |
-x)}{p(\theta | z)} \right) \right]\]</span></p>
+<li><p>原始信息增益定义： <span class="math display">\[
+\text{Test Statistic} = \mathbb{E}_{z} \left[ \log\left( \frac{p(\theta
+| x)}{p(\theta | z)} \right) \right]
+\]</span></p>
 <ul>
 <li>对所有 <span class="math inline">\(z\)</span> 计算用 <span class="math inline">\(x\)</span> 解释 <span class="math inline">\(\theta\)</span> 与用 <span class="math inline">\(z\)</span> 解释 <span class="math inline">\(\theta\)</span>
 的对数似然比期望，即平均信息增益。</li>
 </ul></li>
-<li><p>贝叶斯分解与 KL 散度转换（最终形式）： <span class="math display">\[\begin{aligned}
+<li><p>贝叶斯分解与 KL 散度转换（最终形式）： <span class="math display">\[
+\begin{aligned}
 \text{Test Statistic} &amp; =\sum_{z} p(z) \log \left(\frac{p(\theta |
 x)}{p(\theta | z)}\right) \\
 &amp; =\sum_{z} p(z) \log \left(\frac{p(x | \theta) p(z)}{p(z | \theta)
@@ -821,7 +825,8 @@ p(x)}\right) \\
 \left[ \log\left( \frac{p(z | \theta)}{p(z)} \right) \right] \\
 &amp; =\log \left(\frac{p(x | \theta)}{p(x)}\right)+D_{KL}(p(z) \| p(z |
 \theta))
-\end{aligned}\]</span></p>
+\end{aligned}
+\]</span></p>
 <ul>
 <li><strong>记忆项</strong>：<span class="math inline">\(\log\left(
 \frac{p(x | \theta)}{p(x)} \right)\)</span>，量化 <span class="math inline">\(\theta\)</span> 对 <span class="math inline">\(x\)</span> 的记忆程度，比值越大，记忆越深；</li>
@@ -837,14 +842,17 @@ p(x)}\right) \\
 <ul>
 <li>无需额外构建种群数据集 <span class="math inline">\(Z\)</span>，直接用 LLM 词汇表中除目标 token <span class="math inline">\(x\)</span> 外的所有 token 作为 <span class="math inline">\(z\)</span>；
 <ul>
-<li>由 <span class="math display">\[\begin{aligned}
+<li>由 <span class="math display">\[
+  \begin{aligned}
   &amp; p(x | \theta) + \sum_{z \in Z} p(z | \theta) = \sum_{z \in V}
 p(z | \theta) = 1 \\
   &amp; \sum_{z \in V} p(z) = \sum_{z \in V} Avg_{\theta_{ref }} p(z |
 \theta_{ref }) = Avg_{\theta_{ref }} \sum_{z \in V} p(z | \theta_{ref })
 = 1
-  \end{aligned}\]</span></li>
-<li>可以得到一个不需要标准化的等价公式 <span class="math display">\[\begin{aligned}
+  \end{aligned}
+  \]</span></li>
+<li>可以得到一个不需要标准化的等价公式 <span class="math display">\[
+  \begin{aligned}
   &amp; \sum_{z \in Z} p(z) log \left(\frac{p(\theta | x)}{p(\theta |
 z)}\right) \\
   = &amp; \sum_{z \in Z} p(z) log \left(\frac{p(x | \theta) p(z)}{p(z |
@@ -856,7 +864,8 @@ z)}\right) \\
 \theta)}{p(x)}\right)+\sum_{z \in V} p(z) log \left(\frac{p(z)}{p(z |
 \theta)}\right) \\ = &amp; log \left(\frac{p(x |
 \theta)}{p(x)}\right)+D_{KL}(p(z) \| p(z | \theta))
-  \end{aligned}\]</span></li>
+  \end{aligned}
+  \]</span></li>
 <li>则 InfoRMIA 公式不变，但 <span class="math inline">\(z\)</span>
 取自词汇表 <span class="math inline">\(V\)</span>，无需将 <span class="math inline">\(x\)</span> 从 <span class="math inline">\(V\)</span> 中剔除。</li>
 </ul></li>
@@ -1224,7 +1233,7 @@ preprint arXiv:2510.05582</a>, 2025.</li>
     <div class="hitokoto">
         <i class="fas fa-quote-left"></i>
         <a target="_blank" rel="noopener" href="https://developer.hitokoto.cn/" id="hitokoto_text"><span id="hitokoto">且以群词 注解我这座荒山</span></a>
-        <script src="/Blog/js/Hitokoto.js" defer></script>
+        <script src="/js/Hitokoto.js" defer></script>
     </div>
     <div class="data">
         <span class="total-word-container">
@@ -1254,11 +1263,11 @@ preprint arXiv:2510.05582</a>, 2025.</li>
     <div class="duration">
         <i class="fas fa-calendar"></i>
         <span id="duration-container">人生缓缓&nbsp;自有答案</span>
-        <script src="/Blog/js/Duration.js"></script>
+        <script src="/js/Duration.js"></script>
     </div>
 </div>
 
-<link href="/Blog/css/Footer.css" type="text/css" rel="stylesheet"/>
+<link href="/css/Footer.css" type="text/css" rel="stylesheet"/>
 <script>
     document.querySelectorAll("[id^='busuanzi_value_']").forEach(element => {
         element.id = element.id.replace("busuanzi_value_", "vercount_value_");
@@ -1474,7 +1483,7 @@ preprint arXiv:2510.05582</a>, 2025.</li>
 
 
   <script type="text/javascript">
-  document.getElementById("g-total-word-id").innerHTML = "742k";
+  document.getElementById("g-total-word-id").innerHTML = "728k";
   document.getElementById('g-total-posts-id').textContent ="86";
 </script>
 

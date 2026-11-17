@@ -8,17 +8,17 @@ function umamiTrackEvent() {
     navLinks.forEach(link => {
         if (link.pathname === '/Blog/') {
             link.dataset.umamiEvent = "Homepage";
-        } else if (link.pathname === '/Blog/archives/') {
+        } else if (link.pathname === '/archives/') {
             link.dataset.umamiEvent = "Archives";
-        } else if (link.pathname === '/Blog/categories/') {
+        } else if (link.pathname === '/categories/') {
             link.dataset.umamiEvent = "Categories";
-        } else if (link.pathname === '/Blog/tags/') {
+        } else if (link.pathname === '/tags/') {
             link.dataset.umamiEvent = "Tags";
-        } else if (link.pathname === '/Blog/categories/DayDream-Gallery/') {
+        } else if (link.pathname === '/categories/DayDream-Gallery/') {
             link.dataset.umamiEvent = "DayDream Gallery";
-        } else if (link.pathname === '/Blog/about/') {
+        } else if (link.pathname === '/about/') {
             link.dataset.umamiEvent = "About";
-        } else if (link.pathname === '/Blog/links/') {
+        } else if (link.pathname === '/links/') {
             link.dataset.umamiEvent = "Links";
         } else if (link.href === 'https://www.travellings.cn/go-by-clouds.html') {
             link.dataset.umamiEvent = "Travelling";
@@ -68,9 +68,9 @@ function umamiTrackEvent() {
             item.dataset.umamiEvent = "Random Go";
         } else if (item.ariaLabel === "Search") {
             item.dataset.umamiEvent = "Search";
-        } else if (item.pathname === '/Blog/categories/') {
+        } else if (item.pathname === '/categories/') {
             item.dataset.umamiEvent = "Categories";
-        } else if (item.pathname === '/Blog/tags/') {
+        } else if (item.pathname === '/tags/') {
             item.dataset.umamiEvent = "Tags";
         } else if (item.id === 'toggle-color-mode') {
             item.dataset.umamiEvent = "Color Toggle";

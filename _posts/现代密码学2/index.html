@@ -28,7 +28,7 @@
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://youyeyejie.github.io/Blog/img/cover/nis3352.webp">
 <meta property="article:published_time" content="2026-04-21T13:12:13.000Z">
-<meta property="article:modified_time" content="2026-11-17T10:00:08.717Z">
+<meta property="article:modified_time" content="2026-11-17T12:30:35.749Z">
 <meta property="article:author" content="youyeyejie">
 <meta property="article:tag" content="SJTU">
 <meta property="article:tag" content="现代密码学">
@@ -89,7 +89,7 @@
   <script id="fluid-configs">
     var Fluid = window.Fluid || {};
     Fluid.ctx = Object.assign({}, Fluid.ctx)
-    var CONFIG = {"hostname":"youyeyejie.github.io","root":"/Blog/","version":"1.9.8","typing":{"enable":true,"typeSpeed":70,"cursorChar":"_","loop":false,"scope":[]},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"left","visible":"hover","icon":""},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"code_language":{"enable":false,"default":"TEXT"},"copy_btn":false,"image_caption":{"enable":true},"image_zoom":{"enable":true,"img_url_replace":["",""]},"toc":{"enable":true,"placement":"right","headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":0},"lazyload":{"enable":true,"loading_img":"/Blog/img/loading/loading3.gif","onlypost":true,"offset_factor":2},"web_analytics":{"enable":false,"follow_dnt":true,"baidu":null,"google":{"measurement_id":null},"tencent":{"sid":null,"cid":null},"leancloud":{"app_id":null,"app_key":null,"server_url":null,"path":"window.location.pathname","ignore_local":false},"umami":{"src":null,"website_id":null,"domains":null,"start_time":"2024-01-01T00:00:00.000Z","token":null,"api_server":null}},"search_path":"/Blog/local-search.xml","include_content_in_search":true};
+    var CONFIG = {"hostname":"youyeyejie.github.io","root":"/Blog/","version":"1.9.8","typing":{"enable":true,"typeSpeed":70,"cursorChar":"_","loop":false,"scope":[]},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"left","visible":"hover","icon":""},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"code_language":{"enable":false,"default":"TEXT"},"copy_btn":false,"image_caption":{"enable":true},"image_zoom":{"enable":true,"img_url_replace":["",""]},"toc":{"enable":true,"placement":"right","headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":0},"lazyload":{"enable":true,"loading_img":"/img/loading/loading3.gif","onlypost":true,"offset_factor":2},"web_analytics":{"enable":false,"follow_dnt":true,"baidu":null,"google":{"measurement_id":null},"tencent":{"sid":null,"cid":null},"leancloud":{"app_id":null,"app_key":null,"server_url":null,"path":"window.location.pathname","ignore_local":false},"umami":{"src":null,"website_id":null,"domains":null,"start_time":"2024-01-01T00:00:00.000Z","token":null,"api_server":null}},"search_path":"/Blog/local-search.xml","include_content_in_search":true};
 
     if (CONFIG.web_analytics.follow_dnt) {
       var dntVal = navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack;
@@ -139,8 +139,8 @@
     </div>
 </div>
 
-<script src="/Blog/js/RainbowLoading.js" type="text/javascript"></script>
-<link href="/Blog/css/RainbowLoading.css" type="text/css" rel="stylesheet"/><div id="rightmenu-wrapper">
+<script src="/js/RainbowLoading.js" type="text/javascript"></script>
+<link href="/css/RainbowLoading.css" type="text/css" rel="stylesheet"/><div id="rightmenu-wrapper">
   <ul class="list-v rightmenu" id="rightmenu-content">
 	    <li class="navigation menuNavigation-Content">
             <a class="nav icon-only fix-cursor-default" aria-label="back" onclick="history.back()"><i class="fa-solid fa-chevron-left"></i></a>
@@ -220,7 +220,7 @@
 		    </a>
 	    </li>
         <li class="menuLoad-Content" style="display: block;">
-		    <a class="vlts-menu fix-cursor-default" target="_self" href="/Blog/categories/">
+		    <a class="vlts-menu fix-cursor-default" target="_self" href="/categories/">
 		        <span>
 			        <i class="iconfont icon-category-fill"></i>
                     &nbsp;博客分类
@@ -228,7 +228,7 @@
 		    </a>
 	    </li>
         <li class="menuLoad-Content" style="display: block;">
-		    <a class="vlts-menu fix-cursor-default" target="_self" href="/Blog/tags/">
+		    <a class="vlts-menu fix-cursor-default" target="_self" href="/tags/">
 		        <span>
 			        <i class="fa-solid fa-tags"></i>
                     &nbsp;文章标签
@@ -282,8 +282,8 @@
 </div>
 
 
-<script src="/Blog/js/RightMenu.js" type="text/javascript"></script>
-<link href="/Blog/css/RightMenu.css" type="text/css" rel="stylesheet"/>
+<script src="/js/RightMenu.js" type="text/javascript"></script>
+<link href="/css/RightMenu.css" type="text/css" rel="stylesheet"/>
 
   <header>
     
@@ -484,7 +484,7 @@
         <i class="iconfont icon-chart"></i>
         
           <!-- compatible with older versions-->
-          18k 字
+          17k 字
         
       </span>
     
@@ -496,7 +496,7 @@
         
         
           <!-- compatible with older versions-->
-          147 分钟
+          138 分钟
         
       </span>
     
@@ -1069,8 +1069,9 @@ probability）：<strong>小于任意多项式倒数的概率，在密码学中�
 <span class="math inline">\(\mathrm{negl}(\lambda)\)</span>，即对任意多项式
 <span class="math inline">\(\mathrm{poly}\)</span>，<span class="math inline">\(\exists \lambda' \in \mathbb{N}\)</span>，对
 <span class="math inline">\(\forall \lambda \geq
-\lambda'\)</span>，有 <span class="math display">\[\mathrm{negl}(\lambda) \leq
-\frac{1}{\mathrm{poly}(\lambda)}\]</span>
+\lambda'\)</span>，有 <span class="math display">\[
+  \mathrm{negl}(\lambda) \leq \frac{1}{\mathrm{poly}(\lambda)}
+  \]</span>
 <ul>
 <li>性质：<span class="math inline">\(\forall c \in
 \mathbb{N}\)</span>，<span class="math inline">\(\exists \lambda'
@@ -1084,11 +1085,13 @@ probability）：<strong>小于任意多项式倒数的概率，在密码学中�
 <li><strong>不可忽略概率</strong>（Non-negligible probability）：<span class="math inline">\(\text{non-negl}(\lambda)\)</span>，即存在多项式
 <span class="math inline">\(\mathrm{poly}\)</span>，<span class="math inline">\(\forall \lambda' \in
 \mathbb{N}\)</span>，<span class="math inline">\(\exists \lambda \geq
-\lambda'\)</span>，有 <span class="math display">\[\text{non-negl}(\lambda) &gt;
-1/\mathrm{poly}(\lambda)\]</span></li>
+\lambda'\)</span>，有 <span class="math display">\[
+  \text{non-negl}(\lambda) &gt; 1/\mathrm{poly}(\lambda)
+  \]</span></li>
 <li><strong>压倒性概率</strong>（Overwhelming
-probability）：<strong>在密码学中认为几乎一定发生的概率</strong> <span class="math display">\[\mathrm{overwhelm}(\lambda) = 1 -
-\mathrm{negl}(\lambda)\]</span>
+probability）：<strong>在密码学中认为几乎一定发生的概率</strong> <span class="math display">\[
+  \mathrm{overwhelm}(\lambda) = 1 - \mathrm{negl}(\lambda)
+  \]</span>
 <ul>
 <li>例：<span class="math inline">\(\mathrm{overwhelm}(\lambda) = 1 -
 2^{-\lambda}\)</span></li>
@@ -1098,35 +1101,41 @@ probability）：<strong>在密码学中认为几乎一定发生的概率</stron
 <ul>
 <li><strong>布尔不等式</strong>：设 <span class="math inline">\(E_{1},
 \dots, E_{p}\)</span> 为 <span class="math inline">\(p\)</span>
-个事件（它们之间可以任意相关），则 <span class="math display">\[\Pr(E_{1} \vee \dots \vee E_{p}) \leq \Pr(E_{1})
-+ \dots + \Pr(E_{p})\]</span>
+个事件（它们之间可以任意相关），则 <span class="math display">\[
+  \Pr(E_{1} \vee \dots \vee E_{p}) \leq \Pr(E_{1}) + \dots + \Pr(E_{p})
+  \]</span>
 <ul>
 <li><p>设 <span class="math inline">\(E_{1}, \dots, E_{p}\)</span> 为
 <span class="math inline">\(p\)</span> 个事件。如果 <span class="math inline">\(p = \mathrm{poly}_{0}(\lambda)\)</span> 且 <span class="math inline">\(\Pr(E_{i}) =
-\mathrm{negl}_{i}(\lambda)\)</span>，则 <span class="math display">\[\Pr(E_{1} \vee \cdots \vee E_{p}) =
-\mathrm{negl}(\lambda)\]</span></p>
+\mathrm{negl}_{i}(\lambda)\)</span>，则 <span class="math display">\[
+  \Pr(E_{1} \vee \cdots \vee E_{p}) = \mathrm{negl}(\lambda)
+  \]</span></p>
 <p>即一个可忽略概率发生的事件重复做多项式次，至少发生一次的概率是可忽略的。</p></li>
 <li><p>设 <span class="math inline">\(F_{1}, \dots, F_{p}\)</span> 为
 <span class="math inline">\(p\)</span> 个事件。如果 <span class="math inline">\(p = \mathrm{poly}_{0}(\lambda)\)</span> 且 <span class="math inline">\(\Pr(F_{i}) =
-\mathrm{overwhelm}_{i}(\lambda)\)</span>，则 <span class="math display">\[\Pr(F_{1} \wedge \dots \wedge F_{p}) =
-\mathrm{overwhelm}(\lambda)\]</span></p>
+\mathrm{overwhelm}_{i}(\lambda)\)</span>，则 <span class="math display">\[
+  \Pr(F_{1} \wedge \dots \wedge F_{p}) = \mathrm{overwhelm}(\lambda)
+  \]</span></p>
 <p>即一个压倒性概率发生的事件重复做多项式次，每次都发生的概率是压倒性的。</p></li>
 </ul></li>
 <li><strong>全概率公式</strong>：若事件 <span class="math inline">\(A_{1}, A_{2}, \dots, A_{n}\)</span>
 构成一个完备事件组，即它们两两互不相容其和为全集，且都有正概率，则对任意一个事件
 <span class="math inline">\(B\)</span>，有如下公式成立，称为全概率公式：
-<span class="math display">\[\Pr(B) = \Pr(B \wedge A_{1}) + \Pr(B \wedge
-A_{2}) + \cdots + \Pr(B \wedge A_{n}) = \Pr(B\mid A_{1}) \Pr(A_{1}) +
-\Pr(B\mid A_{2}) \Pr(A_{2}) + \cdots + \Pr(B\mid A_{n})
-\Pr(A_{n})\]</span>
+<span class="math display">\[
+  \Pr(B) = \Pr(B \wedge A_{1}) + \Pr(B \wedge A_{2}) + \cdots + \Pr(B
+\wedge A_{n}) = \Pr(B\mid A_{1}) \Pr(A_{1}) + \Pr(B\mid A_{2})
+\Pr(A_{2}) + \cdots + \Pr(B\mid A_{n}) \Pr(A_{n})
+  \]</span>
 <ul>
 <li>特别地，对于任意两随机事件 <span class="math inline">\(A\)</span> 和
-<span class="math inline">\(B\)</span>，有如下成立： <span class="math display">\[\Pr(B) = \Pr(B\mid A) \Pr(A) + \Pr(B\mid \neg A)
-\Pr(\neg A)\]</span></li>
+<span class="math inline">\(B\)</span>，有如下成立： <span class="math display">\[
+  \Pr(B) = \Pr(B\mid A) \Pr(A) + \Pr(B\mid \neg A) \Pr(\neg A)
+  \]</span></li>
 </ul></li>
 <li><strong>贝叶斯公式</strong>：设 <span class="math inline">\(A\)</span>、<span class="math inline">\(B\)</span>
-为两个事件，则 <span class="math display">\[\Pr(A \wedge B) = \Pr(A\mid
-B) \Pr(B)\]</span></li>
+为两个事件，则 <span class="math display">\[
+  \Pr(A \wedge B) = \Pr(A\mid B) \Pr(B)
+  \]</span></li>
 </ul>
 <h4 id="可证明安全性的定义">可证明安全性的定义</h4>
 <ul>
@@ -1165,7 +1174,9 @@ PKE）包含三个概率多项式时间（PPT）算法 <span class="math inline"
 <li><strong>正确性要求</strong>：对于 <span class="math inline">\(\forall (PK, SK) \leftarrow
 \mathrm{Gen}(1^{\lambda})\)</span>，<span class="math inline">\(\forall
 M \in \mathbb{M}\)</span>，<span class="math inline">\(\forall C
-\leftarrow \mathrm{Enc}(PK, M)\)</span>，一定有 <span class="math display">\[\mathrm{Dec}(SK, C) = M\]</span></li>
+\leftarrow \mathrm{Enc}(PK, M)\)</span>，一定有 <span class="math display">\[
+  \mathrm{Dec}(SK, C) = M
+  \]</span></li>
 </ul>
 <h4 id="公钥加密算法的-skhphpfbh-pa-安全性">公钥加密算法的
 SKH/PH/PFbH-PA 安全性</h4>
@@ -1188,8 +1199,9 @@ PFbH）：<span class="math inline">\(\mathrm{output} = M[1]\)</span>
 </ol></li>
 <li><strong>公钥加密算法的 SKH/PH/PFbH-PA
 安全性定义</strong>：任意概率多项式时间敌手在 PA 安全模型中攻破
-SKH/PH/PFbH 安全目标的概率是可忽略的，即 <span class="math display">\[\Pr(\mathrm{output} = SK/M/M[1]) =
-\mathrm{negl}(\lambda)\]</span>
+SKH/PH/PFbH 安全目标的概率是可忽略的，即 <span class="math display">\[
+  \Pr(\mathrm{output} = SK/M/M[1]) = \mathrm{negl}(\lambda)
+  \]</span>
 <ul>
 <li>说明：SKH/PH/PFbH-PA 安全性定义 <strong>不能</strong>
 保证加密算法的安全性。</li>
@@ -1215,10 +1227,13 @@ CPA）安全模型： <img src="image-1.webp" srcset="/Blog/img/loading/loading3
 b\)</span>，则攻破该目标）</p></li>
 <li><p><strong>公钥加密算法的 IND-CPA
 安全性定义</strong>：任意概率多项式时间敌手在 CPA 安全模型中攻破 IND
-安全目标的 <strong>优势</strong>（advantage）是可忽略的，也即 <span class="math display">\[\mathrm{Adv} = \left| \Pr(\mathrm{output} = b) -
-\frac{1}{2} \right| = \mathrm{negl}(\lambda)\]</span></p>
+安全目标的 <strong>优势</strong>（advantage）是可忽略的，也即 <span class="math display">\[
+  \mathrm{Adv} = \left| \Pr(\mathrm{output} = b) - \frac{1}{2} \right| =
+\mathrm{negl}(\lambda)
+  \]</span></p>
 <ul>
-<li><strong>等价定义</strong>： <span class="math display">\[\begin{aligned}
+<li><strong>等价定义</strong>： <span class="math display">\[
+  \begin{aligned}
   \mathrm{Adv} =
   &amp;\left| \Pr(\mathrm{output} = b) - \frac{1}{2} \right| \\
   =&amp; \left| \Pr(\mathrm{output} = 0 \mid b = 0) \cdot \Pr(b=0) +
@@ -1230,7 +1245,8 @@ b\)</span>，则攻破该目标）</p></li>
 \Pr(\mathrm{output} = 0 \mid b = 1) \right| \\
   =&amp; \frac{1}{2} \left| \Pr(\mathrm{output} = 1 \mid b = 0) -
 \Pr(\mathrm{output} = 1 \mid b = 1) \right|
-  \end{aligned}\]</span></li>
+  \end{aligned}
+  \]</span></li>
 </ul></li>
 <li><p><strong>IND-CPA 安全性的合理性</strong>：公钥加密算法的
 <strong>IND-CPA 安全性</strong> <span class="math inline">\(\implies\)</span> <strong>SKH-PA/PH-PA/PFbH-PA
@@ -1242,7 +1258,7 @@ b\)</span>，则攻破该目标）</p></li>
       </div>
       <div class="fold-collapse collapse" id="collapse-9a306462">
         <div class="fold-content">
-          <p>以 SKH-PA 安全性为例，采用反证法（<strong>安全性归约</strong>）</p><ul><li><strong>假设结论错误</strong>：算法不是 SKH-PA安全的，即存在一个概率多项式敌手 <spanclass="math inline"="">\(\mathcal{A}\)，以不可忽略的概率在 PA安全模型中攻破 SKH 安全目标，即 <spanclass="math display"="">\[\mathrm{Adv}_\mathcal{A} = \Pr(\mathcal{A}(PK, C)= SK) = \text{non-negl}(\lambda)\]</spanclass="math></spanclass="math></li><li><strong>证明前提错误</strong>：构造一个概率多项式时间敌手 <spanclass="math inline"="">\(\mathcal{B}\)，在 CPA 安全模型中攻破 IND安全目标。<ul><li><p><span class="math inline">\(\mathcal{B}\)</span>的输入：公开信道中的 <span class="math inline">\(PK\)</span> 及挑战密文<span class="math inline">\(C^{*}\)</span></p></li><li><p>调用子敌手：<span class="math inline">\(\mathcal{B}\)</span> 将<span class="math inline">\((PK, C^{*})\)</span> 交给 <spanclass="math inline"="">\(\mathcal{A}\)，模拟 SKH-PA 实验，<spanclass="math inline"="">\(\mathcal{A}\) 输出一个候选私钥 <spanclass="math inline"="">\(SK'\)。<spanclass="math inline"="">\(\mathcal{B}\) 尝试使用 <spanclass="math inline"="">\(SK'\) 解密 <spanclass="math inline"="">\(C^{*}\)，得到 <spanclass="math inline"="">\(M' = \mathrm{Dec}(SK', C^{*})\)<img src="image-3.webp" srcset="/Blog/img/loading/loading3.gif" lazyload></spanclass="math></spanclass="math></spanclass="math></spanclass="math></spanclass="math></spanclass="math></spanclass="math></p></li><li><p><span class="math inline">\(\mathcal{B}\)</span> 的输出：<spanclass="math inline"="">\(\mathrm{output} = \begin{cases} 0 &amp; M' =M_0 \\ 1 &amp; M' = M_1 \\ \mathrm{random}\{0, 1\} &amp;\text{otherwise} \end{cases}\)</spanclass="math></p></li><li><p><span class="math inline">\(\mathcal{B}\)</span> 的优势： <spanclass="math display"="">\[\begin{aligned}  \mathrm{Adv}_\mathcal{B} = &amp;\left| \Pr(\mathrm{output} = b) -\frac{1}{2} \right| \\  =&amp; \left| \Pr(\mathrm{output} = b \mid SK' = SK) \cdot\Pr(SK' = SK) + \Pr(\mathrm{output} = b \mid SK' \neq SK) \cdot\Pr(SK' \neq SK) - \frac{1}{2} \right| \\  =&amp; \left| 1 \cdot \text{non-negl}(\lambda) + \frac{1}{2} \cdot (1- \text{non-negl}(\lambda)) - \frac{1}{2} \right| \\  =&amp; \frac{1}{2} \cdot \text{non-negl}(\lambda) =\text{non-negl}(\lambda)  \end{aligned}\]</spanclass="math></p><p>即 <span class="math inline">\(\mathcal{B}\)</span> 在 CPA安全模型中攻破 IND 安全目标的优势是不可忽略的，算法不是 IND-CPA安全的，与前提矛盾。</p></li></ul></spanclass="math></li></ul>
+          <p>以 SKH-PA 安全性为例，采用反证法（<strong>安全性归约</strong>）</p><ul><li><strong>假设结论错误</strong>：算法不是 SKH-PA安全的，即存在一个概率多项式敌手 <spanclass="math inline"="">\(\mathcal{A}\)，以不可忽略的概率在 PA安全模型中攻破 SKH 安全目标，即 <span class="math display">\[  \mathrm{Adv}_\mathcal{A} = \Pr(\mathcal{A}(PK, C) = SK) =\text{non-negl}(\lambda)  \]</span></spanclass="math></li><li><strong>证明前提错误</strong>：构造一个概率多项式时间敌手 <spanclass="math inline"="">\(\mathcal{B}\)，在 CPA 安全模型中攻破 IND安全目标。<ul><li><p><span class="math inline">\(\mathcal{B}\)</span>的输入：公开信道中的 <span class="math inline">\(PK\)</span> 及挑战密文<span class="math inline">\(C^{*}\)</span></p></li><li><p>调用子敌手：<span class="math inline">\(\mathcal{B}\)</span> 将<span class="math inline">\((PK, C^{*})\)</span> 交给 <spanclass="math inline"="">\(\mathcal{A}\)，模拟 SKH-PA 实验，<spanclass="math inline"="">\(\mathcal{A}\) 输出一个候选私钥 <spanclass="math inline"="">\(SK'\)。<spanclass="math inline"="">\(\mathcal{B}\) 尝试使用 <spanclass="math inline"="">\(SK'\) 解密 <spanclass="math inline"="">\(C^{*}\)，得到 <spanclass="math inline"="">\(M' = \mathrm{Dec}(SK', C^{*})\)<img src="image-3.webp" srcset="/Blog/img/loading/loading3.gif" lazyload></spanclass="math></spanclass="math></spanclass="math></spanclass="math></spanclass="math></spanclass="math></spanclass="math></p></li><li><p><span class="math inline">\(\mathcal{B}\)</span> 的输出：<spanclass="math inline"="">\(\mathrm{output} = \begin{cases} 0 &amp; M' =M_0 \\ 1 &amp; M' = M_1 \\ \mathrm{random}\{0, 1\} &amp;\text{otherwise} \end{cases}\)</spanclass="math></p></li><li><p><span class="math inline">\(\mathcal{B}\)</span> 的优势： <spanclass="math display"="">\[  \begin{aligned}  \mathrm{Adv}_\mathcal{B} = &amp;\left| \Pr(\mathrm{output} = b) -\frac{1}{2} \right| \\  =&amp; \left| \Pr(\mathrm{output} = b \mid SK' = SK) \cdot\Pr(SK' = SK) + \Pr(\mathrm{output} = b \mid SK' \neq SK) \cdot\Pr(SK' \neq SK) - \frac{1}{2} \right| \\  =&amp; \left| 1 \cdot \text{non-negl}(\lambda) + \frac{1}{2} \cdot (1- \text{non-negl}(\lambda)) - \frac{1}{2} \right| \\  =&amp; \frac{1}{2} \cdot \text{non-negl}(\lambda) =\text{non-negl}(\lambda)  \end{aligned}  \]</spanclass="math></p><p>即 <span class="math inline">\(\mathcal{B}\)</span> 在 CPA安全模型中攻破 IND 安全目标的优势是不可忽略的，算法不是 IND-CPA安全的，与前提矛盾。</p></li></ul></spanclass="math></li></ul>
         </div>
       </div>
     </div><p></p></li>
@@ -1267,17 +1283,20 @@ Chosen-Plaintext Attacks, mCPA）安全模型： <img src="image-2.webp" srcset=
 b\)</span>，则攻破该目标）</p></li>
 <li><p><strong>公钥加密算法的 IND-mCPA
 安全性定义</strong>：任意概率多项式时间敌手在 mCPA 安全模型中攻破 IND
-安全目标的优势是可忽略的，即 <span class="math display">\[\mathrm{Adv} =
-\left| \Pr(\mathrm{output} = b) - \frac{1}{2} \right| =
-\mathrm{negl}(\lambda)\]</span></p>
+安全目标的优势是可忽略的，即 <span class="math display">\[
+  \mathrm{Adv} = \left| \Pr(\mathrm{output} = b) - \frac{1}{2} \right| =
+\mathrm{negl}(\lambda)
+  \]</span></p>
 <ul>
-<li><strong>等价定义</strong>： <span class="math display">\[\begin{aligned}
+<li><strong>等价定义</strong>： <span class="math display">\[
+  \begin{aligned}
   \mathrm{Adv} =
   &amp;\frac{1}{2} \left| \Pr(\mathrm{output} = 1 \mid b = 0) -
 \Pr(\mathrm{output} = 1 \mid b = 1) \right| \\
   =&amp; \frac{1}{2} \left| \Pr(\mathrm{output} = 0 \mid b = 0) -
 \Pr(\mathrm{output} = 0 \mid b = 1) \right|
-  \end{aligned}\]</span></li>
+  \end{aligned}
+  \]</span></li>
 </ul></li>
 <li><p><strong>IND-CPA 与 IND-mCPA 的等价性</strong>：公钥加密算法的
 <strong>IND-CPA 安全性</strong> <span class="math inline">\(\iff\)</span> <strong>IND-mCPA 安全性</strong></p>
@@ -1288,7 +1307,7 @@ b\)</span>，则攻破该目标）</p></li>
       </div>
       <div class="fold-collapse collapse" id="collapse-29a621c7">
         <div class="fold-content">
-          <ul><li><strong>必要性易证</strong>（<spanclass="math inline"="">\(\impliedby\)）：IND-CPA 是 IND-mCPA <spanclass="math inline"="">\(Q=1\) 的特殊情况</spanclass="math></spanclass="math></li><li><strong>充分性证明</strong>（<spanclass="math inline"="">\(\implies\)）：采用混合论证（HybridArguments）与三角不等式，核心思路是在全加密 <spanclass="math inline"="">\(M_0^{(j)}\) 和全加密 <spanclass="math inline"="">\(M_1^{(j)}\)两个极端场景之间，插入一系列混合场景（Hybrid），证明相邻混合场景的不可区分性，最终推导出两个极端场景的不可区分性。<ol type="1"><li><p><strong>定义两个极端游戏</strong>（Game）：设敌手发起 <spanclass="math inline"="">\(Q=\mathrm{poly}(\lambda)\)次挑战，定义两个基础游戏：</spanclass="math></p><ul><li><strong>Game 0</strong> (<spanclass="math inline"="">\(b=0\))：对所有 <spanclass="math inline"="">\(j=1,\ldots,Q\)，加密 <spanclass="math inline"="">\(M_{0}^{(j)}\)，即 <spanclass="math inline"="">\(C^{*(j)} \leftarrow \mathrm{Enc}(PK,M_{0}^{(j)})\)</spanclass="math></spanclass="math></spanclass="math></spanclass="math></li><li><strong>Game 1</strong> (<spanclass="math inline"="">\(b=1\))：对所有 <spanclass="math inline"="">\(j=1,\ldots,Q\)，加密 <spanclass="math inline"="">\(M_{1}^{(j)}\)，即 <spanclass="math inline"="">\(C^{*(j)} \leftarrow \mathrm{Enc}(PK,M_{1}^{(j)})\)</spanclass="math></spanclass="math></spanclass="math></spanclass="math></li></ul></li><li><p><strong>定义混合游戏</strong>（Hybrid Game）：在 Game 0 和 Game 1之间插入 <span class="math inline">\(Q+1\)</span> 个混合游戏 <spanclass="math inline"="">\(\mathrm{Hybrid}_{i}\)，其中 <spanclass="math inline"="">\(i=0,\ldots,Q\)，<spanclass="math inline"="">\(\mathrm{Hybrid}_{i}\) 定义为对前 <spanclass="math inline"="">\(i\) 个挑战加密 <spanclass="math inline"="">\(M_{1}^{(j)}\)，对后 <spanclass="math inline"="">\(Q-i\) 个挑战加密 <spanclass="math inline"="">\(M_{0}^{(j)}\)，即 <spanclass="math display"="">\[\mathrm{Hybrid}_{i} : C^{*(j)} \leftarrow\begin{cases} \mathrm{Enc}(PK, M_{1}^{(j)}) &amp; j \leq i \\\mathrm{Enc}(PK, M_{0}^{(j)}) &amp; j &gt; i\end{cases}\]</spanclass="math></spanclass="math></spanclass="math></spanclass="math></spanclass="math></spanclass="math></spanclass="math></spanclass="math></p></li><li><p><strong>分析混合游戏</strong>：易知 Game 0 等价于 <spanclass="math inline"="">\(\mathrm{Hybrid}_{0}\)，Game 1 等价于 <spanclass="math inline"="">\(\mathrm{Hybrid}_{Q}\)，由<strong>引理</strong>：若算法满足 IND-CPA 安全，则对 <spanclass="math inline"="">\(\forall i \in \{1, \dots, Q\}\)，有 <spanclass="math display"="">\[\left| \Pr(\mathrm{output} = 1 \mid\mathrm{Hybrid}_{i-1}) - \Pr(\mathrm{output} = 1 \mid\mathrm{Hybrid}_{i}) \right| = \mathrm{negl}(\lambda)\]</spanclass="math></spanclass="math></spanclass="math></spanclass="math></p></li><li><p>累加相邻场景的差距：由三角不等式，最终有 <spanclass="math display"="">\[\begin{aligned}\mathrm{Adv} =&amp; \left| \Pr(\mathrm{output} = 1 \mid b = 0) -\Pr(\mathrm{output} = 1 \mid b = 1) \right| \\=&amp;\left| \Pr(\mathrm{output} = 1 \mid \mathrm{Hybrid}_{0}) -\Pr(\mathrm{output} = 1 \mid \mathrm{Hybrid}_{Q}) \right| \\=&amp;\left| \sum_{i=1}^{Q} \Pr(\mathrm{output} = 1 \mid\mathrm{Hybrid}_{i-1}) - \Pr(\mathrm{output} = 1 \mid\mathrm{Hybrid}_{i}) \right| \\\leq&amp; \sum_{i=1}^{Q} \left| \Pr(\mathrm{output} = 1 \mid\mathrm{Hybrid}_{i-1}) - \Pr(\mathrm{output} = 1 \mid\mathrm{Hybrid}_{i}) \right| \\=&amp; Q(\lambda) \cdot \mathrm{negl}(\lambda)  \\=&amp; \mathrm{negl}(\lambda)\end{aligned}\]</spanclass="math></p><p>即 Game 0 与 Game 1 的差距是可忽略的，算法满足 IND-mCPA安全性。</p></li></ol></spanclass="math></spanclass="math></spanclass="math></li><li><strong>引理证明</strong>：采用反证法，由区分 <spanclass="math inline"="">\(\mathrm{Hybrid}_{i-1}\) 与 <spanclass="math inline"="">\(\mathrm{Hybrid}_{i}\) 的敌手 <spanclass="math inline"="">\(\mathcal{A}\) 来构造攻破 IND-CPA安全性的敌手 <span class="math inline">\(\mathcal{B}\)</span>。<ul><li><span class="math inline">\(\mathrm{Hybrid}_{i-1}\)</span> 与 <spanclass="math inline"="">\(\mathrm{Hybrid}_{i}\) 的差别只在于第 <spanclass="math inline"="">\(i\) 个挑战密文，与 IND-CPA刻画的安全性十分接近。</spanclass="math></spanclass="math></li><li>假设存在一个概率多项式时间敌手 <spanclass="math inline"="">\(\mathcal{A}\)，以不可忽略的概率区分 <spanclass="math inline"="">\(\mathrm{Hybrid}_{i-1}\) 与 <spanclass="math inline"="">\(\mathrm{Hybrid}_{i}\)，即 <spanclass="math display"="">\[\mathrm{Adv}_\mathcal{A} = \left|\Pr(\mathrm{output}_\mathcal{A} = 1 \mid \mathrm{Hybrid}_{i-1}) -\Pr(\mathrm{output}_\mathcal{A} = 1 \mid \mathrm{Hybrid}_{i}) \right| =\text{non-negl}(\lambda)\]</spanclass="math></spanclass="math></spanclass="math></spanclass="math></li><li>构造针对 IND-CPA 安全性的敌手 <spanclass="math inline"="">\(\mathcal{B}\)：<ul><li><span class="math inline">\(\mathcal{B}\)</span> 将 IND-CPA 实验中的<span class="math inline">\(PK\)</span> 交给 <spanclass="math inline"="">\(\mathcal{A}\)<ul><li><span class="math inline">\(\mathcal{B}\)</span> 接收 <spanclass="math inline"="">\(\mathcal{A}\) 的前 <spanclass="math inline"="">\(i-1\) 对明文 <spanclass="math inline"="">\((M_{0}^{(j)}, M_{1}^{(j)})\)，修改为 <spanclass="math inline"="">\((M_{1}^{(j)}, M_{1}^{(j)})\) 进行 IND-CPA实验，相当于固定加密 <spanclass="math inline"="">\(M_{1}^{(j)}\)，将密文交给 <spanclass="math inline"="">\(\mathcal{A}\)</spanclass="math></spanclass="math></spanclass="math></spanclass="math></spanclass="math></spanclass="math></li><li><span class="math inline">\(\mathcal{B}\)</span> 接收 <spanclass="math inline"="">\(\mathcal{A}\) 的第 <spanclass="math inline"="">\(i\) 对明文 <spanclass="math inline"="">\((M_{0}^{(i)}, M_{1}^{(i)})\)，将其作为IND-CPA 实验的挑战明文，接收挑战密文 <spanclass="math inline"="">\(C^{*(i)}\) 交给 <spanclass="math inline"="">\(\mathcal{A}\)</spanclass="math></spanclass="math></spanclass="math></spanclass="math></spanclass="math></li><li><span class="math inline">\(\mathcal{B}\)</span> 接收 <spanclass="math inline"="">\(\mathcal{A}\) 的后 <spanclass="math inline"="">\(Q-i\) 对明文 <spanclass="math inline"="">\((M_{0}^{(j)}, M_{1}^{(j)})\)，同理，加密<span class="math inline">\(M_{0}^{(j)}\)</span> 交给 <spanclass="math inline"="">\(\mathcal{A}\)</spanclass="math></spanclass="math></spanclass="math></spanclass="math></li></ul></spanclass="math></li><li>则 <span class="math inline">\(\mathcal{B}\)</span> 的输出 <spanclass="math inline"="">\(\mathrm{output}_{\mathcal{B}} = \begin{cases} 0&amp; \mathrm{output}_{\mathcal{A}}=0 \\ 1 &amp;\mathrm{output}_{\mathcal{A}}=1 \end{cases}\)</spanclass="math></li><li><span class="math inline">\(\mathcal{B}\)</span> 的优势： <spanclass="math display"="">\[\begin{aligned}  \mathrm{Adv}_\mathcal{B} = &amp;\left|\Pr(\mathrm{output}_{\mathcal{B}} = b) - \frac{1}{2} \right| \\  =&amp; \frac{1}{2} \left| \Pr(\mathrm{output}_{\mathcal{B}} = 1 \midb=0) - \Pr(\mathrm{output}_{\mathcal{B}} = 1 \mid b=1) \right| \\  =&amp; \frac{1}{2} \left| \Pr(\mathrm{output}_{\mathcal{A}} = 1 \mid\mathrm{Hybrid}_{i-1}) - \Pr(\mathrm{output}_{\mathcal{A}} = 1 \mid\mathrm{Hybrid}_{i}) \right| \\  =&amp; \frac{1}{2} \cdot \text{non-negl}(\lambda)=\text{non-negl}(\lambda)  \end{aligned}\]</spanclass="math></li></ul></spanclass="math></li><li>则 <span class="math inline">\(\mathcal{B}\)</span>能以不可忽略的优势打破 IND-CPA 安全性，与假设矛盾，因此引理成立。</li></ul></spanclass="math></spanclass="math></spanclass="math></li></ul>
+          <ul><li><strong>必要性易证</strong>（<spanclass="math inline"="">\(\impliedby\)）：IND-CPA 是 IND-mCPA <spanclass="math inline"="">\(Q=1\) 的特殊情况</spanclass="math></spanclass="math></li><li><strong>充分性证明</strong>（<spanclass="math inline"="">\(\implies\)）：采用混合论证（HybridArguments）与三角不等式，核心思路是在全加密 <spanclass="math inline"="">\(M_0^{(j)}\) 和全加密 <spanclass="math inline"="">\(M_1^{(j)}\)两个极端场景之间，插入一系列混合场景（Hybrid），证明相邻混合场景的不可区分性，最终推导出两个极端场景的不可区分性。<ol type="1"><li><p><strong>定义两个极端游戏</strong>（Game）：设敌手发起 <spanclass="math inline"="">\(Q=\mathrm{poly}(\lambda)\)次挑战，定义两个基础游戏：</spanclass="math></p><ul><li><strong>Game 0</strong> (<spanclass="math inline"="">\(b=0\))：对所有 <spanclass="math inline"="">\(j=1,\ldots,Q\)，加密 <spanclass="math inline"="">\(M_{0}^{(j)}\)，即 <spanclass="math inline"="">\(C^{*(j)} \leftarrow \mathrm{Enc}(PK,M_{0}^{(j)})\)</spanclass="math></spanclass="math></spanclass="math></spanclass="math></li><li><strong>Game 1</strong> (<spanclass="math inline"="">\(b=1\))：对所有 <spanclass="math inline"="">\(j=1,\ldots,Q\)，加密 <spanclass="math inline"="">\(M_{1}^{(j)}\)，即 <spanclass="math inline"="">\(C^{*(j)} \leftarrow \mathrm{Enc}(PK,M_{1}^{(j)})\)</spanclass="math></spanclass="math></spanclass="math></spanclass="math></li></ul></li><li><p><strong>定义混合游戏</strong>（Hybrid Game）：在 Game 0 和 Game 1之间插入 <span class="math inline">\(Q+1\)</span> 个混合游戏 <spanclass="math inline"="">\(\mathrm{Hybrid}_{i}\)，其中 <spanclass="math inline"="">\(i=0,\ldots,Q\)，<spanclass="math inline"="">\(\mathrm{Hybrid}_{i}\) 定义为对前 <spanclass="math inline"="">\(i\) 个挑战加密 <spanclass="math inline"="">\(M_{1}^{(j)}\)，对后 <spanclass="math inline"="">\(Q-i\) 个挑战加密 <spanclass="math inline"="">\(M_{0}^{(j)}\)，即 <spanclass="math display"="">\[\mathrm{Hybrid}_{i} : C^{*(j)} \leftarrow \begin{cases} \mathrm{Enc}(PK,M_{1}^{(j)}) &amp; j \leq i \\ \mathrm{Enc}(PK, M_{0}^{(j)}) &amp; j&gt; i \end{cases}\]</spanclass="math></spanclass="math></spanclass="math></spanclass="math></spanclass="math></spanclass="math></spanclass="math></spanclass="math></p></li><li><p><strong>分析混合游戏</strong>：易知 Game 0 等价于 <spanclass="math inline"="">\(\mathrm{Hybrid}_{0}\)，Game 1 等价于 <spanclass="math inline"="">\(\mathrm{Hybrid}_{Q}\)，由<strong>引理</strong>：若算法满足 IND-CPA 安全，则对 <spanclass="math inline"="">\(\forall i \in \{1, \dots, Q\}\)，有 <spanclass="math display"="">\[\left| \Pr(\mathrm{output} = 1 \mid \mathrm{Hybrid}_{i-1}) -\Pr(\mathrm{output} = 1 \mid \mathrm{Hybrid}_{i}) \right| =\mathrm{negl}(\lambda)\]</spanclass="math></spanclass="math></spanclass="math></spanclass="math></p></li><li><p>累加相邻场景的差距：由三角不等式，最终有 <spanclass="math display"="">\[\begin{aligned}\mathrm{Adv} =&amp; \left| \Pr(\mathrm{output} = 1 \mid b = 0) -\Pr(\mathrm{output} = 1 \mid b = 1) \right| \\=&amp;\left| \Pr(\mathrm{output} = 1 \mid \mathrm{Hybrid}_{0}) -\Pr(\mathrm{output} = 1 \mid \mathrm{Hybrid}_{Q}) \right| \\=&amp;\left| \sum_{i=1}^{Q} \Pr(\mathrm{output} = 1 \mid\mathrm{Hybrid}_{i-1}) - \Pr(\mathrm{output} = 1 \mid\mathrm{Hybrid}_{i}) \right| \\\leq&amp; \sum_{i=1}^{Q} \left| \Pr(\mathrm{output} = 1 \mid\mathrm{Hybrid}_{i-1}) - \Pr(\mathrm{output} = 1 \mid\mathrm{Hybrid}_{i}) \right| \\=&amp; Q(\lambda) \cdot \mathrm{negl}(\lambda)  \\=&amp; \mathrm{negl}(\lambda)\end{aligned}\]</spanclass="math></p><p>即 Game 0 与 Game 1 的差距是可忽略的，算法满足 IND-mCPA安全性。</p></li></ol></spanclass="math></spanclass="math></spanclass="math></li><li><strong>引理证明</strong>：采用反证法，由区分 <spanclass="math inline"="">\(\mathrm{Hybrid}_{i-1}\) 与 <spanclass="math inline"="">\(\mathrm{Hybrid}_{i}\) 的敌手 <spanclass="math inline"="">\(\mathcal{A}\) 来构造攻破 IND-CPA安全性的敌手 <span class="math inline">\(\mathcal{B}\)</span>。<ul><li><span class="math inline">\(\mathrm{Hybrid}_{i-1}\)</span> 与 <spanclass="math inline"="">\(\mathrm{Hybrid}_{i}\) 的差别只在于第 <spanclass="math inline"="">\(i\) 个挑战密文，与 IND-CPA刻画的安全性十分接近。</spanclass="math></spanclass="math></li><li>假设存在一个概率多项式时间敌手 <spanclass="math inline"="">\(\mathcal{A}\)，以不可忽略的概率区分 <spanclass="math inline"="">\(\mathrm{Hybrid}_{i-1}\) 与 <spanclass="math inline"="">\(\mathrm{Hybrid}_{i}\)，即 <spanclass="math display"="">\[  \mathrm{Adv}_\mathcal{A} = \left| \Pr(\mathrm{output}_\mathcal{A} = 1\mid \mathrm{Hybrid}_{i-1}) - \Pr(\mathrm{output}_\mathcal{A} = 1 \mid\mathrm{Hybrid}_{i}) \right| = \text{non-negl}(\lambda)  \]</spanclass="math></spanclass="math></spanclass="math></spanclass="math></li><li>构造针对 IND-CPA 安全性的敌手 <spanclass="math inline"="">\(\mathcal{B}\)：<ul><li><span class="math inline">\(\mathcal{B}\)</span> 将 IND-CPA 实验中的<span class="math inline">\(PK\)</span> 交给 <spanclass="math inline"="">\(\mathcal{A}\)<ul><li><span class="math inline">\(\mathcal{B}\)</span> 接收 <spanclass="math inline"="">\(\mathcal{A}\) 的前 <spanclass="math inline"="">\(i-1\) 对明文 <spanclass="math inline"="">\((M_{0}^{(j)}, M_{1}^{(j)})\)，修改为 <spanclass="math inline"="">\((M_{1}^{(j)}, M_{1}^{(j)})\) 进行 IND-CPA实验，相当于固定加密 <spanclass="math inline"="">\(M_{1}^{(j)}\)，将密文交给 <spanclass="math inline"="">\(\mathcal{A}\)</spanclass="math></spanclass="math></spanclass="math></spanclass="math></spanclass="math></spanclass="math></li><li><span class="math inline">\(\mathcal{B}\)</span> 接收 <spanclass="math inline"="">\(\mathcal{A}\) 的第 <spanclass="math inline"="">\(i\) 对明文 <spanclass="math inline"="">\((M_{0}^{(i)}, M_{1}^{(i)})\)，将其作为IND-CPA 实验的挑战明文，接收挑战密文 <spanclass="math inline"="">\(C^{*(i)}\) 交给 <spanclass="math inline"="">\(\mathcal{A}\)</spanclass="math></spanclass="math></spanclass="math></spanclass="math></spanclass="math></li><li><span class="math inline">\(\mathcal{B}\)</span> 接收 <spanclass="math inline"="">\(\mathcal{A}\) 的后 <spanclass="math inline"="">\(Q-i\) 对明文 <spanclass="math inline"="">\((M_{0}^{(j)}, M_{1}^{(j)})\)，同理，加密<span class="math inline">\(M_{0}^{(j)}\)</span> 交给 <spanclass="math inline"="">\(\mathcal{A}\)</spanclass="math></spanclass="math></spanclass="math></spanclass="math></li></ul></spanclass="math></li><li>则 <span class="math inline">\(\mathcal{B}\)</span> 的输出 <spanclass="math inline"="">\(\mathrm{output}_{\mathcal{B}} = \begin{cases} 0&amp; \mathrm{output}_{\mathcal{A}}=0 \\ 1 &amp;\mathrm{output}_{\mathcal{A}}=1 \end{cases}\)</spanclass="math></li><li><span class="math inline">\(\mathcal{B}\)</span> 的优势： <spanclass="math display"="">\[  \begin{aligned}  \mathrm{Adv}_\mathcal{B} = &amp;\left|\Pr(\mathrm{output}_{\mathcal{B}} = b) - \frac{1}{2} \right| \\  =&amp; \frac{1}{2} \left| \Pr(\mathrm{output}_{\mathcal{B}} = 1 \midb=0) - \Pr(\mathrm{output}_{\mathcal{B}} = 1 \mid b=1) \right| \\  =&amp; \frac{1}{2} \left| \Pr(\mathrm{output}_{\mathcal{A}} = 1 \mid\mathrm{Hybrid}_{i-1}) - \Pr(\mathrm{output}_{\mathcal{A}} = 1 \mid\mathrm{Hybrid}_{i}) \right| \\  =&amp; \frac{1}{2} \cdot \text{non-negl}(\lambda)=\text{non-negl}(\lambda)  \end{aligned}  \]</spanclass="math></li></ul></spanclass="math></li><li>则 <span class="math inline">\(\mathcal{B}\)</span>能以不可忽略的优势打破 IND-CPA 安全性，与假设矛盾，因此引理成立。</li></ul></spanclass="math></spanclass="math></spanclass="math></li></ul>
         </div>
       </div>
     </div><p></p></li>
@@ -1312,9 +1331,10 @@ CCA）安全模型： <img src="image-4.webp" srcset="/Blog/img/loading/loading3
 <li><strong>IND 安全目标</strong>：敌手无法区分密文 <span class="math inline">\(C^{*}\)</span> 加密的是 <span class="math inline">\(M_{0}\)</span> 还是 <span class="math inline">\(M_{1}\)</span>（即如果 <span class="math inline">\(\mathrm{output} = b\)</span>，则攻破该目标）</li>
 <li><strong>公钥加密算法的 IND-CCA
 安全性定义</strong>：任意概率多项式时间敌手在 CCA 安全模型中攻破 IND
-安全目标的优势是可忽略的，即 <span class="math display">\[\mathrm{Adv} =
-\left| \Pr(\mathrm{output} = b) - \frac{1}{2} \right| =
-\mathrm{negl}(\lambda)\]</span></li>
+安全目标的优势是可忽略的，即 <span class="math display">\[
+  \mathrm{Adv} = \left| \Pr(\mathrm{output} = b) - \frac{1}{2} \right| =
+\mathrm{negl}(\lambda)
+  \]</span></li>
 </ul>
 <h3 id="elgamal-加密算法">ElGamal 加密算法</h3>
 <h4 id="群的基本知识">群的基本知识</h4>
@@ -1400,9 +1420,10 @@ Diffie-Hellman, DDH）：<span class="math inline">\(G\)</span>
 z_\beta)\)</span></li>
 <li>输出：<span class="math inline">\(\beta\)</span></li>
 <li>DDH 问题的困难性：任意 PPT 敌手在 DDH 安全模型中攻破 DDH
-安全目标的优势是可忽略的，即 <span class="math display">\[\mathrm{Adv} =
-\left| \Pr(\mathrm{output} = \beta) - \frac{1}{2} \right| =
-\mathrm{negl}(\lambda)\]</span></li>
+安全目标的优势是可忽略的，即 <span class="math display">\[
+  \mathrm{Adv} = \left| \Pr(\mathrm{output} = \beta) - \frac{1}{2}
+\right| = \mathrm{negl}(\lambda)
+  \]</span></li>
 </ul></li>
 <li><strong>定理</strong>：<strong>DDH 问题困难</strong> <span class="math inline">\(\implies\)</span> <strong>CDH 问题困难</strong>
 <span class="math inline">\(\implies\)</span> <strong>DLOG
@@ -1447,7 +1468,7 @@ g^s\)</span></li>
       </div>
       <div class="fold-collapse collapse" id="collapse-bd5428be">
         <div class="fold-content">
-          <ul><li><strong>充分性证明</strong>（<spanclass="math inline"="">\(\implies\)）：反证法（安全性归约）<ul><li>假设结论错误：ElGamal 算法不是 IND-CPA安全的，即存在一个概率多项式时间敌手 <spanclass="math inline"="">\(\mathcal{A}\)，以不可忽略的概率在 ElGamal算法 CPA 安全模型中攻破 IND 安全目标，即 <spanclass="math display"="">\[\mathrm{Adv}_\mathcal{A} = \left|\Pr(\mathrm{output}_\mathcal{A} = b) - \frac{1}{2} \right| =\text{non-negl}(\lambda)\]</spanclass="math></spanclass="math></li><li>证明前提错误：构造一个概率多项式时间敌手 <spanclass="math inline"="">\(\mathcal{B}\)，在 DDH 安全模型中攻破 DDH安全目标。<ul><li><span class="math inline">\(\mathcal{B}\)</span> 的输入：<spanclass="math inline"="">\((G, p, g, g^x, g^y, z_\beta)\)</spanclass="math></li><li>调用子敌手：<span class="math inline">\(\mathcal{B}\)</span> 将<span class="math inline">\(PK = (G, p, g, h=g^x)\)</span> 交给 <spanclass="math inline"="">\(\mathcal{A}\)，<spanclass="math inline"="">\(\mathcal{A}\) 输入两个消息 <spanclass="math inline"="">\(M_0, M_1 \in G\)，<spanclass="math inline"="">\(\mathcal{B}\) 将挑战密文设置为 <spanclass="math inline"="">\(C^{*} = (g^y, z_\beta \cdot M_b)\) 交给<span class="math inline">\(\mathcal{A}\)</span>，则<ul><li><p><span class="math inline">\(\beta = 0\)</span> 时：<spanclass="math inline"="">\(C^{*} = (g^y, M_b \cdot g^{xy})\)，与ElGamal 加密 <span class="math inline">\(M_b\)</span> 的密文分布相同，则<span class="math display">\[\left|\Pr(\mathrm{output}_\mathcal{A}=b\mid\beta=0) - \frac{1}{2}\right| = \left| \Pr(\mathrm{output}_\mathcal{A} =b) - \frac{1}{2} \right| = \text{non-negl}(\lambda)\]</span></spanclass="math></p><p>也即 <span class="math inline">\(\Pr(\mathrm{output}_\mathcal{A}=b\mid \beta=0) = \frac{1}{2} \pm\text{non-negl}(\lambda)\)</span></p></li><li><p><span class="math inline">\(\beta = 1\)</span> 时：<spanclass="math inline"="">\(C^{*} = (g^y, M_b \cdot g^{z})\)，由于<span class="math inline">\(z \leftarrow \mathbb{Z}_p\)</span>均匀分布，<span class="math inline">\(M_b \cdot g^{z}\)</span>也均匀分布在 <span class="math inline">\(G\)</span>中，则密文不包含任何关于 <span class="math inline">\(b\)</span>的信息，<span class="math inline">\(\Pr(\mathrm{output}_\mathcal{A}=b\mid \beta=1) = \frac{1}{2}\)</span></spanclass="math></p></li></ul></spanclass="math></spanclass="math></spanclass="math></spanclass="math></spanclass="math></li><li><span class="math inline">\(\mathcal{B}\)</span> 的输出：<spanclass="math inline"="">\(\mathrm{output}_\mathcal{B} = \begin{cases} 0&amp; \mathrm{output}_\mathcal{A} = b \\ 1 &amp;\mathrm{output}_\mathcal{A} \neq b \end{cases}\)</spanclass="math></li><li><span class="math inline">\(\mathcal{B}\)</span> 的优势： <spanclass="math display"="">\[\begin{aligned}  \mathrm{Adv}_\mathcal{B} =&amp; \left| \Pr(\mathrm{output}_\mathcal{B}= \beta) - \frac{1}{2} \right| \\  =&amp; \frac{1}{2} \left| \Pr(\mathrm{output}_\mathcal{B} = 0 \mid\beta = 0) - \Pr(\mathrm{output}_\mathcal{B} = 0 \mid \beta = 1) \right|\\  =&amp; \frac{1}{2} \left| \Pr(\mathrm{output}_\mathcal{A} = b \mid\beta = 0) - \Pr(\mathrm{output}_\mathcal{A} = b \mid \beta = 1) \right|\\  =&amp; \frac{1}{2} \left| \left( \frac{1}{2} \pm\text{non-negl}(\lambda) \right) - \frac{1}{2} \right| \\  =&amp; \frac{1}{2} \cdot \text{non-negl}(\lambda) =\text{non-negl}(\lambda)  \end{aligned}\]</spanclass="math></li><li>则 <span class="math inline">\(\mathcal{B}\)</span>能以不可忽略的优势打破 DDH 安全性，与假设矛盾，因此 ElGamal 算法满足IND-CPA 安全性。</li></ul></spanclass="math></li></ul></spanclass="math></li><li><strong>必要性证明</strong>（<spanclass="math inline"="">\(\impliedby\)）：反证法（安全性归约）<ul><li>假设结论错误：DDH 问题不困难，即存在一个概率多项式时间敌手 <spanclass="math inline"="">\(\mathcal{B}\)，以不可忽略的概率在 DDH安全模型中攻破 DDH 安全目标，即 <spanclass="math display"="">\[\mathrm{Adv}_\mathcal{B} = \left|\Pr(\mathrm{output}_\mathcal{B} = \beta) - \frac{1}{2} \right| =\text{non-negl}(\lambda)\]</spanclass="math></spanclass="math></li><li>证明前提错误：构造一个概率多项式时间敌手 <spanclass="math inline"="">\(\mathcal{A}\)，在 ElGamal 算法 CPA安全模型中攻破 IND 安全目标。<ul><li><span class="math inline">\(\mathcal{A}\)</span> 的输入：<spanclass="math inline"="">\(PK = (G, p, g, h=g^s)\) 和 <spanclass="math inline"="">\(C^* = (C_1, C_2) = (g^r, M_b\cdoth^r)\)</spanclass="math></spanclass="math></li><li>调用子敌手：<span class="math inline">\(\mathcal{A}\)</span> 将<span class="math inline">\((G, p, g, g^s, g^r, C_2/M_0)\)</span> 交给<span class="math inline">\(\mathcal{B}\)</span>，<ul><li><span class="math inline">\(b = 0\)</span> 时：<spanclass="math inline"="">\(C_2 = M_0 \cdot g^{sr}\)，则 <spanclass="math inline"="">\(C_2/M_0 = g^{sr}\)，与 DDH 问题中取 <spanclass="math inline"="">\(\beta = 0\) 等价</spanclass="math></spanclass="math></spanclass="math></li><li><span class="math inline">\(b = 1\)</span> 时：<spanclass="math inline"="">\(C_2 = M_1 \cdot g^{sr}\)，则 <spanclass="math inline"="">\(C_2/M_0 = M_1/M_0 \cdot g^{sr}\)，由于<span class="math inline">\(M_0, M_1\)</span> 均匀分布在 <spanclass="math inline"="">\(G\) 中，则 <spanclass="math inline"="">\(C_2/M_0\) 也均匀分布在 <spanclass="math inline"="">\(G\) 中，与 DDH 问题中取 <spanclass="math inline"="">\(\beta = 1\) 等价</spanclass="math></spanclass="math></spanclass="math></spanclass="math></spanclass="math></spanclass="math></li></ul></li><li><span class="math inline">\(\mathcal{A}\)</span> 的输出：<spanclass="math inline"="">\(\mathrm{output}_\mathcal{A} = \begin{cases} 0&amp; \mathrm{output}_\mathcal{B} = 0 \\ 1 &amp;\mathrm{output}_\mathcal{B} = 1 \end{cases}\)</spanclass="math></li><li><span class="math inline">\(\mathcal{A}\)</span> 的优势： <spanclass="math display"="">\[\begin{aligned}  \mathrm{Adv}_\mathcal{A} =&amp; \left| \Pr(\mathrm{output}_\mathcal{A}= b) - \frac{1}{2} \right| \\  =&amp; \frac{1}{2} \left| \Pr(\mathrm{output}_\mathcal{A} = 0 \mid b =0) - \Pr(\mathrm{output}_\mathcal{A} = 0 \mid b = 1) \right| \\  =&amp; \frac{1}{2} \left| \Pr(\mathrm{output}_\mathcal{B} = 0 \mid b =0) - \Pr(\mathrm{output}_\mathcal{B} = 0 \mid b = 1) \right| \\  =&amp; \frac{1}{2} \left| \Pr(\mathrm{output}_\mathcal{B} = 0 \mid\beta = 0) - \Pr(\mathrm{output}_\mathcal{B} = 0 \mid \beta = 1) \right|\\  =&amp; \mathrm{Adv}_\mathcal{B} = \text{non-negl}(\lambda)  \end{aligned}\]</spanclass="math></li><li>则 <span class="math inline">\(\mathcal{A}\)</span>能以不可忽略的优势打破 ElGamal 算法的 IND-CPA 安全性，与假设矛盾，因此DDH 问题困难。</li></ul></spanclass="math></li></ul></spanclass="math></li></ul>
+          <ul><li><strong>充分性证明</strong>（<spanclass="math inline"="">\(\implies\)）：反证法（安全性归约）<ul><li>假设结论错误：ElGamal 算法不是 IND-CPA安全的，即存在一个概率多项式时间敌手 <spanclass="math inline"="">\(\mathcal{A}\)，以不可忽略的概率在 ElGamal算法 CPA 安全模型中攻破 IND 安全目标，即 <span class="math display">\[  \mathrm{Adv}_\mathcal{A} = \left| \Pr(\mathrm{output}_\mathcal{A} = b)- \frac{1}{2} \right| = \text{non-negl}(\lambda)  \]</span></spanclass="math></li><li>证明前提错误：构造一个概率多项式时间敌手 <spanclass="math inline"="">\(\mathcal{B}\)，在 DDH 安全模型中攻破 DDH安全目标。<ul><li><span class="math inline">\(\mathcal{B}\)</span> 的输入：<spanclass="math inline"="">\((G, p, g, g^x, g^y, z_\beta)\)</spanclass="math></li><li>调用子敌手：<span class="math inline">\(\mathcal{B}\)</span> 将<span class="math inline">\(PK = (G, p, g, h=g^x)\)</span> 交给 <spanclass="math inline"="">\(\mathcal{A}\)，<spanclass="math inline"="">\(\mathcal{A}\) 输入两个消息 <spanclass="math inline"="">\(M_0, M_1 \in G\)，<spanclass="math inline"="">\(\mathcal{B}\) 将挑战密文设置为 <spanclass="math inline"="">\(C^{*} = (g^y, z_\beta \cdot M_b)\) 交给<span class="math inline">\(\mathcal{A}\)</span>，则<ul><li><p><span class="math inline">\(\beta = 0\)</span> 时：<spanclass="math inline"="">\(C^{*} = (g^y, M_b \cdot g^{xy})\)，与ElGamal 加密 <span class="math inline">\(M_b\)</span> 的密文分布相同，则<span class="math display">\[  \left|\Pr(\mathrm{output}_\mathcal{A}=b\mid \beta=0) -\frac{1}{2}\right| = \left| \Pr(\mathrm{output}_\mathcal{A} = b) -\frac{1}{2} \right| = \text{non-negl}(\lambda)  \]</span></spanclass="math></p><p>也即 <span class="math inline">\(\Pr(\mathrm{output}_\mathcal{A}=b\mid \beta=0) = \frac{1}{2} \pm\text{non-negl}(\lambda)\)</span></p></li><li><p><span class="math inline">\(\beta = 1\)</span> 时：<spanclass="math inline"="">\(C^{*} = (g^y, M_b \cdot g^{z})\)，由于<span class="math inline">\(z \leftarrow \mathbb{Z}_p\)</span>均匀分布，<span class="math inline">\(M_b \cdot g^{z}\)</span>也均匀分布在 <span class="math inline">\(G\)</span>中，则密文不包含任何关于 <span class="math inline">\(b\)</span>的信息，<span class="math inline">\(\Pr(\mathrm{output}_\mathcal{A}=b\mid \beta=1) = \frac{1}{2}\)</span></spanclass="math></p></li></ul></spanclass="math></spanclass="math></spanclass="math></spanclass="math></spanclass="math></li><li><span class="math inline">\(\mathcal{B}\)</span> 的输出：<spanclass="math inline"="">\(\mathrm{output}_\mathcal{B} = \begin{cases} 0&amp; \mathrm{output}_\mathcal{A} = b \\ 1 &amp;\mathrm{output}_\mathcal{A} \neq b \end{cases}\)</spanclass="math></li><li><span class="math inline">\(\mathcal{B}\)</span> 的优势： <spanclass="math display"="">\[  \begin{aligned}  \mathrm{Adv}_\mathcal{B} =&amp; \left| \Pr(\mathrm{output}_\mathcal{B}= \beta) - \frac{1}{2} \right| \\  =&amp; \frac{1}{2} \left| \Pr(\mathrm{output}_\mathcal{B} = 0 \mid\beta = 0) - \Pr(\mathrm{output}_\mathcal{B} = 0 \mid \beta = 1) \right|\\  =&amp; \frac{1}{2} \left| \Pr(\mathrm{output}_\mathcal{A} = b \mid\beta = 0) - \Pr(\mathrm{output}_\mathcal{A} = b \mid \beta = 1) \right|\\  =&amp; \frac{1}{2} \left| \left( \frac{1}{2} \pm\text{non-negl}(\lambda) \right) - \frac{1}{2} \right| \\  =&amp; \frac{1}{2} \cdot \text{non-negl}(\lambda) =\text{non-negl}(\lambda)  \end{aligned}  \]</spanclass="math></li><li>则 <span class="math inline">\(\mathcal{B}\)</span>能以不可忽略的优势打破 DDH 安全性，与假设矛盾，因此 ElGamal 算法满足IND-CPA 安全性。</li></ul></spanclass="math></li></ul></spanclass="math></li><li><strong>必要性证明</strong>（<spanclass="math inline"="">\(\impliedby\)）：反证法（安全性归约）<ul><li>假设结论错误：DDH 问题不困难，即存在一个概率多项式时间敌手 <spanclass="math inline"="">\(\mathcal{B}\)，以不可忽略的概率在 DDH安全模型中攻破 DDH 安全目标，即 <span class="math display">\[  \mathrm{Adv}_\mathcal{B} = \left| \Pr(\mathrm{output}_\mathcal{B} =\beta) - \frac{1}{2} \right| = \text{non-negl}(\lambda)  \]</span></spanclass="math></li><li>证明前提错误：构造一个概率多项式时间敌手 <spanclass="math inline"="">\(\mathcal{A}\)，在 ElGamal 算法 CPA安全模型中攻破 IND 安全目标。<ul><li><span class="math inline">\(\mathcal{A}\)</span> 的输入：<spanclass="math inline"="">\(PK = (G, p, g, h=g^s)\) 和 <spanclass="math inline"="">\(C^* = (C_1, C_2) = (g^r, M_b\cdoth^r)\)</spanclass="math></spanclass="math></li><li>调用子敌手：<span class="math inline">\(\mathcal{A}\)</span> 将<span class="math inline">\((G, p, g, g^s, g^r, C_2/M_0)\)</span> 交给<span class="math inline">\(\mathcal{B}\)</span>，<ul><li><span class="math inline">\(b = 0\)</span> 时：<spanclass="math inline"="">\(C_2 = M_0 \cdot g^{sr}\)，则 <spanclass="math inline"="">\(C_2/M_0 = g^{sr}\)，与 DDH 问题中取 <spanclass="math inline"="">\(\beta = 0\) 等价</spanclass="math></spanclass="math></spanclass="math></li><li><span class="math inline">\(b = 1\)</span> 时：<spanclass="math inline"="">\(C_2 = M_1 \cdot g^{sr}\)，则 <spanclass="math inline"="">\(C_2/M_0 = M_1/M_0 \cdot g^{sr}\)，由于<span class="math inline">\(M_0, M_1\)</span> 均匀分布在 <spanclass="math inline"="">\(G\) 中，则 <spanclass="math inline"="">\(C_2/M_0\) 也均匀分布在 <spanclass="math inline"="">\(G\) 中，与 DDH 问题中取 <spanclass="math inline"="">\(\beta = 1\) 等价</spanclass="math></spanclass="math></spanclass="math></spanclass="math></spanclass="math></spanclass="math></li></ul></li><li><span class="math inline">\(\mathcal{A}\)</span> 的输出：<spanclass="math inline"="">\(\mathrm{output}_\mathcal{A} = \begin{cases} 0&amp; \mathrm{output}_\mathcal{B} = 0 \\ 1 &amp;\mathrm{output}_\mathcal{B} = 1 \end{cases}\)</spanclass="math></li><li><span class="math inline">\(\mathcal{A}\)</span> 的优势： <spanclass="math display"="">\[  \begin{aligned}  \mathrm{Adv}_\mathcal{A} =&amp; \left| \Pr(\mathrm{output}_\mathcal{A}= b) - \frac{1}{2} \right| \\  =&amp; \frac{1}{2} \left| \Pr(\mathrm{output}_\mathcal{A} = 0 \mid b =0) - \Pr(\mathrm{output}_\mathcal{A} = 0 \mid b = 1) \right| \\  =&amp; \frac{1}{2} \left| \Pr(\mathrm{output}_\mathcal{B} = 0 \mid b =0) - \Pr(\mathrm{output}_\mathcal{B} = 0 \mid b = 1) \right| \\  =&amp; \frac{1}{2} \left| \Pr(\mathrm{output}_\mathcal{B} = 0 \mid\beta = 0) - \Pr(\mathrm{output}_\mathcal{B} = 0 \mid \beta = 1) \right|\\  =&amp; \mathrm{Adv}_\mathcal{B} = \text{non-negl}(\lambda)  \end{aligned}  \]</spanclass="math></li><li>则 <span class="math inline">\(\mathcal{A}\)</span>能以不可忽略的优势打破 ElGamal 算法的 IND-CPA 安全性，与假设矛盾，因此DDH 问题困难。</li></ul></spanclass="math></li></ul></spanclass="math></li></ul>
         </div>
       </div>
     </div><p></p></li>
@@ -1509,7 +1530,9 @@ Schnorr 签名算法</h2>
 <li><strong>正确性要求</strong>（Correctness）：对任意 <span class="math inline">\((PK, SK) \leftarrow
 \mathrm{Gen}(1^\lambda)\)</span>、任意 <span class="math inline">\(M \in
 \mathbb{M}\)</span>、任意 <span class="math inline">\(\sigma \leftarrow
-\mathrm{Sign}(SK, M)\)</span>，均有 <span class="math display">\[\mathrm{Verify}(PK, M, \sigma) = 1\]</span></li>
+\mathrm{Sign}(SK, M)\)</span>，均有 <span class="math display">\[
+  \mathrm{Verify}(PK, M, \sigma) = 1
+  \]</span></li>
 </ul>
 <h4 id="数字签名算法的-euf-cma-安全性">数字签名算法的 EUF-CMA
 安全性</h4>
@@ -1532,13 +1555,15 @@ Unforgeability, EUF）── 敌手无法为一个 <strong>未查询过的新消
 1\)</span>，则攻破该目标）</li>
 <li><strong>数字签名算法的 EUF-CMA 安全性定义</strong>:
 任意概率多项式时间敌手在 CMA 安全模型中攻破 EUF 安全目标的
-<strong>优势</strong> 是可忽略的，即 <span class="math display">\[\mathrm{Adv}_{\mathrm{EUF-CMA}} = \Pr\left[
+<strong>优势</strong> 是可忽略的，即 <span class="math display">\[
+  \mathrm{Adv}_{\mathrm{EUF-CMA}} = \Pr\left[
   \mathrm{output} = (M^*, \sigma^*) \left|
   \begin{array}{l}
   (1)\ M^* \notin \{ M_i \} \\
   (2)\ \mathrm{Verify}(\mathrm{PK}, M^*, \sigma^*) = 1
   \end{array}
-  \right.\right] = \mathrm{negl}(\lambda)\]</span></li>
+  \right.\right] = \mathrm{negl}(\lambda)
+  \]</span></li>
 </ul>
 <h4 id="数字签名算法的-seuf-cma-安全性">数字签名算法的 sEUF-CMA
 安全性</h4>
@@ -1554,21 +1579,25 @@ Unforgeability, sEUF）── 敌手不仅无法为一个
 1\)</span>，则攻破该目标）</li>
 <li><strong>数字签名算法的 sEUF-CMA 安全性定义</strong>:
 任意概率多项式时间敌手在 CMA 安全模型中攻破 sEUF 安全目标的
-<strong>优势</strong> 是可忽略的，即 <span class="math display">\[\mathrm{Adv}_{\mathrm{sEUF-CMA}} = \Pr\left[
+<strong>优势</strong> 是可忽略的，即 <span class="math display">\[
+  \mathrm{Adv}_{\mathrm{sEUF-CMA}} = \Pr\left[
   \mathrm{output} = (M^*, \sigma^*) \left|
   \begin{array}{l}
   (1)\ (M^*, \sigma^*) \notin \{ (M_i, \sigma_i) \} \\
   (2)\ \mathrm{Verify}(\mathrm{PK}, M^*, \sigma^*) = 1
   \end{array}
-  \right.\right] = \mathrm{negl}(\lambda)\]</span></li>
+  \right.\right] = \mathrm{negl}(\lambda)
+  \]</span></li>
 </ul>
 <h4 id="euf-cma-与-seuf-cma-安全性之间的关系">EUF-CMA 与 sEUF-CMA
 安全性之间的关系</h4>
 <ul>
-<li><strong>一般情况</strong>：sEUF-CMA 安全 <span class="math inline">\(\impliedby\)</span> EUF-CMA 安全 <span class="math display">\[\mathrm{Adv}_{\mathrm{sEUF-CMA}} \leq
-\mathrm{Adv}_{\mathrm{EUF-CMA}}\]</span></li>
-<li><strong>若满足唯一性要求</strong>：sEUF-CMA 安全 <span class="math inline">\(\iff\)</span> EUF-CMA 安全 <span class="math display">\[\mathrm{Adv}_{\mathrm{sEUF-CMA}} =
-\mathrm{Adv}_{\mathrm{EUF-CMA}}\]</span>
+<li><strong>一般情况</strong>：sEUF-CMA 安全 <span class="math inline">\(\impliedby\)</span> EUF-CMA 安全 <span class="math display">\[
+  \mathrm{Adv}_{\mathrm{sEUF-CMA}} \leq \mathrm{Adv}_{\mathrm{EUF-CMA}}
+  \]</span></li>
+<li><strong>若满足唯一性要求</strong>：sEUF-CMA 安全 <span class="math inline">\(\iff\)</span> EUF-CMA 安全 <span class="math display">\[
+  \mathrm{Adv}_{\mathrm{sEUF-CMA}} = \mathrm{Adv}_{\mathrm{EUF-CMA}}
+  \]</span>
 <ul>
 <li><strong>唯一性要求</strong>（uniqueness）：<span class="math inline">\(\forall (PK,SK) \leftarrow
 \mathrm{Gen}(1^\lambda), \forall M \in \mathbb{M}\)</span>，存在唯一的
@@ -1598,10 +1627,12 @@ z_i)\)</span></li>
 z^*\)</span>，则攻破该目标）</li>
 <li><strong>身份证明协议的 UI-PA
 安全性定义</strong>：任意概率多项式时间敌手在 P A 安全模型中攻破 UI
-安全目标的 <strong>优势</strong> 是可忽略的，即 <span class="math display">\[\mathrm{Adv}_{\mathrm{UI-PA}} = \Pr\left(
+安全目标的 <strong>优势</strong> 是可忽略的，即 <span class="math display">\[
+  \mathrm{Adv}_{\mathrm{UI-PA}} = \Pr\left(
   \mathrm{output} = z^* \left|
   V(PK, e^*, R^*) = z^*
-  \right.\right) = \mathrm{negl}(\lambda)\]</span></li>
+  \right.\right) = \mathrm{negl}(\lambda)
+  \]</span></li>
 </ul>
 <h3 id="fiat-shamir-变换">Fiat-Shamir 变换</h3>
 <ul>
@@ -1696,9 +1727,11 @@ R\)</span>，相等输出 <span class="math inline">\(1\)</span>，否则输出
 <li><p><strong>断言1</strong>：如果在数字签名的 EUF-CMA
 安全模型下，存在攻击者 <span class="math inline">\(\mathcal{A}\)</span>
 以不可忽略的概率攻破 Schnorr 签名。设 <span class="math inline">\(\mathcal{A}\)</span> 的输出为 <span class="math inline">\((M^{*}, \sigma^{*}=(R^{*}, z^{*}))\)</span>，即
-<span class="math display">\[\mathrm{Adv}_{\mathcal{A}}=\Pr\left(\mathrm{output}_{\mathcal{A}}=(M^{*},
+<span class="math display">\[
+  \mathrm{Adv}_{\mathcal{A}}=\Pr\left(\mathrm{output}_{\mathcal{A}}=(M^{*},
 \sigma^{*})\left| h^{\mathrm{H}(R^{*}, M^{*})} \cdot
-R^{*}=g^{z^{*}}\right.\right)=\text{non-negl}(\lambda)\]</span></p>
+R^{*}=g^{z^{*}}\right.\right)=\text{non-negl}(\lambda)
+  \]</span></p>
 <p>则 <span class="math inline">\(\mathcal{A}\)</span>
 以不可忽略的概率查询过 <span class="math inline">\((R^{*},
 M^{*})\)</span> 的 Hash 值。</p>
@@ -1709,7 +1742,7 @@ M^{*})\)</span> 的 Hash 值。</p>
       </div>
       <div class="fold-collapse collapse" id="collapse-904708b8">
         <div class="fold-content">
-          <ul><li><p><strong>证明</strong>：反证法，假设 <spanclass="math inline"="">\(\mathcal{A}\) 没有查询过 <spanclass="math inline"="">\((R^{*}, M^{*})\) 的 Hash 值，则在 <spanclass="math inline"="">\(\mathrm{H}\) 为 RO 假设下，<spanclass="math inline"="">\(\mathrm{H}(R^{*}, M^{*})\) 对 <spanclass="math inline"="">\(\mathcal{A}\) 是 <spanclass="math inline"="">\(\mathbb{Z}_{p}\) 中均匀随机的元素，因此<span class="math inline">\(h^{\mathrm{H}(R^{*}, M^{*})}\)</span> 对<span class="math inline">\(\mathcal{A}\)</span> 是 <spanclass="math inline"="">\(G\) 中均匀随机的元素。则 <spanclass="math inline"="">\(\mathcal{A}\) 猜对 <spanclass="math inline"="">\(z^{*} \in \mathbb{Z}_{p}\) 满足 <spanclass="math display"="">\[h^{\mathrm{H}(R^{*}, M^{*})}=g^{z^{*}} \cdot(R^{*})^{-1}\]</spanclass="math></spanclass="math></spanclass="math></spanclass="math></spanclass="math></spanclass="math></spanclass="math></spanclass="math></spanclass="math></spanclass="math></p><p>的概率为 <spanclass="math inline"="">\(\frac{1}{|G|}=\frac{1}{p}=negl(\lambda)\)，与假设矛盾。</spanclass="math></p></li></ul>
+          <ul><li><p><strong>证明</strong>：反证法，假设 <spanclass="math inline"="">\(\mathcal{A}\) 没有查询过 <spanclass="math inline"="">\((R^{*}, M^{*})\) 的 Hash 值，则在 <spanclass="math inline"="">\(\mathrm{H}\) 为 RO 假设下，<spanclass="math inline"="">\(\mathrm{H}(R^{*}, M^{*})\) 对 <spanclass="math inline"="">\(\mathcal{A}\) 是 <spanclass="math inline"="">\(\mathbb{Z}_{p}\) 中均匀随机的元素，因此<span class="math inline">\(h^{\mathrm{H}(R^{*}, M^{*})}\)</span> 对<span class="math inline">\(\mathcal{A}\)</span> 是 <spanclass="math inline"="">\(G\) 中均匀随机的元素。则 <spanclass="math inline"="">\(\mathcal{A}\) 猜对 <spanclass="math inline"="">\(z^{*} \in \mathbb{Z}_{p}\) 满足 <spanclass="math display"="">\[  h^{\mathrm{H}(R^{*}, M^{*})}=g^{z^{*}} \cdot (R^{*})^{-1}  \]</spanclass="math></spanclass="math></spanclass="math></spanclass="math></spanclass="math></spanclass="math></spanclass="math></spanclass="math></spanclass="math></spanclass="math></p><p>的概率为 <spanclass="math inline"="">\(\frac{1}{|G|}=\frac{1}{p}=negl(\lambda)\)，与假设矛盾。</spanclass="math></p></li></ul>
         </div>
       </div>
     </div><p></p></li>
@@ -1728,7 +1761,7 @@ EUF-CMA 安全的</strong></p>
       </div>
       <div class="fold-collapse collapse" id="collapse-3702ac70">
         <div class="fold-content">
-          <ul><li><strong>证明</strong>：使用反证法（安全性规约） <imgsrc="image-10.webp"><ul><li><strong>假设结论错误</strong>：Schnorr 签名算法不是 EUF-CMA安全的，即存在 PPT 敌手 <span class="math inline">\(\mathcal{A}\)</span>以不可忽略的概率攻破 Schnorr 签名算法的 EUF-CMA 安全性。<ul><li>即 <span class="math inline">\(\mathcal{A}\)</span>通过若干次签名查询后，可以输出一个未查询过的消息 <spanclass="math inline"="">\(M^{*}\) 以及一个有效签名 <spanclass="math inline"="">\(\sigma^{*}=(R^{*},z^{*})\)，以不可忽略的概率满足 <spanclass="math inline"="">\(h^{\mathrm{H}(R^{*}, M^{*})} \cdotR^{*}=g^{z^{*}}\)</spanclass="math></spanclass="math></spanclass="math></li></ul></li><li><strong>证明前提错误</strong>：构造一个 PPT 敌手 <spanclass="math inline"="">\(\mathcal{B}\)，在 UI-PA 安全模型下攻破Schnorr 身份证明协议。<ul><li><strong><span class="math inline">\(\mathcal{B}\)</span>的策略</strong>：<ul><li><span class="math inline">\(\mathcal{B}\)</span> 将公钥 <spanclass="math inline"="">\(PK\) 作为输入提供给 <spanclass="math inline"="">\(\mathcal{A}\)；设 <spanclass="math inline"="">\(\mathcal{A}\) 进行的哈希查询次数为 <spanclass="math inline"="">\(Q(\lambda)\)，则 <spanclass="math inline"="">\(\mathcal{B}\) 随机选择 <spanclass="math inline"="">\(j \in [1, Q(\lambda)]\) 赌 <spanclass="math inline"="">\(\mathcal{A}\) 最终输出的消息 <spanclass="math inline"="">\(M^{*}=M_j\)</spanclass="math></spanclass="math></spanclass="math></spanclass="math></spanclass="math></spanclass="math></spanclass="math></spanclass="math></li><li>当 <span class="math inline">\(\mathcal{A}\)</span> 使用 <spanclass="math inline"="">\(M_i\) 进行第 <spanclass="math inline"="">\(i\) 次 <strong>签名查询</strong> 时：<spanclass="math inline"="">\(\mathcal{B}\) 由于本身不具备私钥 <spanclass="math inline"="">\(SK\)，无法生成合法的签名，因此向挑战者<span class="math inline">\(E_{id}\)</span> 发起查询，拿到一组合法记录<span class="math inline">\((R_i, e_i, z_i)\)</span>，并将 <spanclass="math inline"="">\(\sigma_i=(R_i, z_i)\) 返回给 <spanclass="math inline"="">\(\mathcal{A}\)，并自身记录 <spanclass="math inline"="">\(\mathrm{H}(R_i, M_i) = e_i\)<ul><li>此时若 <span class="math inline">\(\mathcal{A}\)</span>要对签名查询进行验证，计算时需要 <spanclass="math inline"="">\(\mathrm{H}(R_i, M_i)\)，只能向 <spanclass="math inline"="">\(\mathcal{B}\)查询哈希结果，必然能通过检验</spanclass="math></spanclass="math></li></ul></spanclass="math></spanclass="math></spanclass="math></spanclass="math></spanclass="math></spanclass="math></spanclass="math></li><li>当 <span class="math inline">\(\mathcal{A}\)</span> 使用 <spanclass="math inline"="">\((R_k, M_k)\) 进行第 <spanclass="math inline"="">\(k\) 次 <strong>哈希查询</strong> 时：<ul><li>若 <span class="math inline">\(k=j\)</span> 且 <spanclass="math inline"="">\(M_j \notin \{M_i\}\)，即 <spanclass="math inline"="">\(\mathcal{A}\) 的第 <spanclass="math inline"="">\(j\) 次哈希查询的消息 <spanclass="math inline"="">\(M_j\) 没有在之前的签名查询中出现过，则<span class="math inline">\(\mathcal{B}\)</span> 向 <spanclass="math inline"="">\(E_{id}\) 输入 <spanclass="math inline"="">\(R_j\) 并把返回的 <spanclass="math inline"="">\(e_j\) 当作自己的哈希输出，并记录 <spanclass="math inline"="">\(\mathrm{H}(R_j, M_j) = e_j\)</spanclass="math></spanclass="math></spanclass="math></spanclass="math></spanclass="math></spanclass="math></spanclass="math></spanclass="math></li><li>若 <span class="math inline">\(k=j\)</span> 且 <spanclass="math inline"="">\(M_j \in \{M_i\}\)，则重新选择 <spanclass="math inline"="">\(j \in [1, Q(\lambda)]\)，直到满足 <spanclass="math inline"="">\(M_j \notin \{M_i\}\)</spanclass="math></spanclass="math></spanclass="math></li><li>若 <span class="math inline">\(k \in [1, Q(\lambda)] \setminus\{j\}\)</span>，<span class="math inline">\(\mathcal{B}\)</span>查询是否有 <span class="math inline">\(\mathrm{H}(R_k, M_k)\)</span>的记录：<ul><li>若有则直接返回</li><li>若没有则随机选择 <span class="math inline">\(e \leftarrow\mathbb{Z}_p\)</span> 返回并记录 <spanclass="math inline"="">\(\mathrm{H}(R_k, M_k) = e\)</spanclass="math></li></ul></li></ul></spanclass="math></spanclass="math></li><li>最终当 <span class="math inline">\(\mathcal{A}\)</span> 输出 <spanclass="math inline"="">\((M^{*}, \sigma^{*}=(R^{*}, z^{*}))\) 时，若<span class="math inline">\(M^{*}=M_j\)</span>，则 <spanclass="math inline"="">\(\mathcal{B}\) 输出 <spanclass="math inline"="">\(z^{*}\) 作为自己的输出，否则视为失败。</spanclass="math></spanclass="math></spanclass="math></li></ul></li><li><strong><span class="math inline">\(\mathcal{B}\)</span>的优势</strong>： <span class="math display">\[\begin{aligned}  \mathrm{Adv}_{\mathcal{B}} &amp;\geq \Pr\left[  \begin{array}{l}  (1)\ \mathcal{A} \text{ 成功攻破 Schnorr 签名算法的 EUF-CMA 安全性} \\  (2)\ \mathcal{A} \text{ 查询过 } (R^{*}, M^{*}) \text{ 的 Hash 值} \\  (3)\ \mathcal{B} \text{ 赌对了 } j \text{(即 } M^{*}=M_j \text{)}  \end{array}  \right] \\  &amp;\geq \text{non-negl}(\lambda) \cdot \text{non-negl}(\lambda)\cdot \frac{1}{Q(\lambda)} \\  &amp;= \text{non-negl}(\lambda)  \end{aligned}\]</span></li><li>因此，<span class="math inline">\(\mathcal{B}\)</span>以不可忽略的概率攻破 Schnorr 身份证明协议的 UI-PA安全性，与前提矛盾。</li></ul></spanclass="math></li></ul></imgsrc="image-10.webp"></li></ul>
+          <ul><li><strong>证明</strong>：使用反证法（安全性规约） <imgsrc="image-10.webp"><ul><li><strong>假设结论错误</strong>：Schnorr 签名算法不是 EUF-CMA安全的，即存在 PPT 敌手 <span class="math inline">\(\mathcal{A}\)</span>以不可忽略的概率攻破 Schnorr 签名算法的 EUF-CMA 安全性。<ul><li>即 <span class="math inline">\(\mathcal{A}\)</span>通过若干次签名查询后，可以输出一个未查询过的消息 <spanclass="math inline"="">\(M^{*}\) 以及一个有效签名 <spanclass="math inline"="">\(\sigma^{*}=(R^{*},z^{*})\)，以不可忽略的概率满足 <spanclass="math inline"="">\(h^{\mathrm{H}(R^{*}, M^{*})} \cdotR^{*}=g^{z^{*}}\)</spanclass="math></spanclass="math></spanclass="math></li></ul></li><li><strong>证明前提错误</strong>：构造一个 PPT 敌手 <spanclass="math inline"="">\(\mathcal{B}\)，在 UI-PA 安全模型下攻破Schnorr 身份证明协议。<ul><li><strong><span class="math inline">\(\mathcal{B}\)</span>的策略</strong>：<ul><li><span class="math inline">\(\mathcal{B}\)</span> 将公钥 <spanclass="math inline"="">\(PK\) 作为输入提供给 <spanclass="math inline"="">\(\mathcal{A}\)；设 <spanclass="math inline"="">\(\mathcal{A}\) 进行的哈希查询次数为 <spanclass="math inline"="">\(Q(\lambda)\)，则 <spanclass="math inline"="">\(\mathcal{B}\) 随机选择 <spanclass="math inline"="">\(j \in [1, Q(\lambda)]\) 赌 <spanclass="math inline"="">\(\mathcal{A}\) 最终输出的消息 <spanclass="math inline"="">\(M^{*}=M_j\)</spanclass="math></spanclass="math></spanclass="math></spanclass="math></spanclass="math></spanclass="math></spanclass="math></spanclass="math></li><li>当 <span class="math inline">\(\mathcal{A}\)</span> 使用 <spanclass="math inline"="">\(M_i\) 进行第 <spanclass="math inline"="">\(i\) 次 <strong>签名查询</strong> 时：<spanclass="math inline"="">\(\mathcal{B}\) 由于本身不具备私钥 <spanclass="math inline"="">\(SK\)，无法生成合法的签名，因此向挑战者<span class="math inline">\(E_{id}\)</span> 发起查询，拿到一组合法记录<span class="math inline">\((R_i, e_i, z_i)\)</span>，并将 <spanclass="math inline"="">\(\sigma_i=(R_i, z_i)\) 返回给 <spanclass="math inline"="">\(\mathcal{A}\)，并自身记录 <spanclass="math inline"="">\(\mathrm{H}(R_i, M_i) = e_i\)<ul><li>此时若 <span class="math inline">\(\mathcal{A}\)</span>要对签名查询进行验证，计算时需要 <spanclass="math inline"="">\(\mathrm{H}(R_i, M_i)\)，只能向 <spanclass="math inline"="">\(\mathcal{B}\)查询哈希结果，必然能通过检验</spanclass="math></spanclass="math></li></ul></spanclass="math></spanclass="math></spanclass="math></spanclass="math></spanclass="math></spanclass="math></spanclass="math></li><li>当 <span class="math inline">\(\mathcal{A}\)</span> 使用 <spanclass="math inline"="">\((R_k, M_k)\) 进行第 <spanclass="math inline"="">\(k\) 次 <strong>哈希查询</strong> 时：<ul><li>若 <span class="math inline">\(k=j\)</span> 且 <spanclass="math inline"="">\(M_j \notin \{M_i\}\)，即 <spanclass="math inline"="">\(\mathcal{A}\) 的第 <spanclass="math inline"="">\(j\) 次哈希查询的消息 <spanclass="math inline"="">\(M_j\) 没有在之前的签名查询中出现过，则<span class="math inline">\(\mathcal{B}\)</span> 向 <spanclass="math inline"="">\(E_{id}\) 输入 <spanclass="math inline"="">\(R_j\) 并把返回的 <spanclass="math inline"="">\(e_j\) 当作自己的哈希输出，并记录 <spanclass="math inline"="">\(\mathrm{H}(R_j, M_j) = e_j\)</spanclass="math></spanclass="math></spanclass="math></spanclass="math></spanclass="math></spanclass="math></spanclass="math></spanclass="math></li><li>若 <span class="math inline">\(k=j\)</span> 且 <spanclass="math inline"="">\(M_j \in \{M_i\}\)，则重新选择 <spanclass="math inline"="">\(j \in [1, Q(\lambda)]\)，直到满足 <spanclass="math inline"="">\(M_j \notin \{M_i\}\)</spanclass="math></spanclass="math></spanclass="math></li><li>若 <span class="math inline">\(k \in [1, Q(\lambda)] \setminus\{j\}\)</span>，<span class="math inline">\(\mathcal{B}\)</span>查询是否有 <span class="math inline">\(\mathrm{H}(R_k, M_k)\)</span>的记录：<ul><li>若有则直接返回</li><li>若没有则随机选择 <span class="math inline">\(e \leftarrow\mathbb{Z}_p\)</span> 返回并记录 <spanclass="math inline"="">\(\mathrm{H}(R_k, M_k) = e\)</spanclass="math></li></ul></li></ul></spanclass="math></spanclass="math></li><li>最终当 <span class="math inline">\(\mathcal{A}\)</span> 输出 <spanclass="math inline"="">\((M^{*}, \sigma^{*}=(R^{*}, z^{*}))\) 时，若<span class="math inline">\(M^{*}=M_j\)</span>，则 <spanclass="math inline"="">\(\mathcal{B}\) 输出 <spanclass="math inline"="">\(z^{*}\) 作为自己的输出，否则视为失败。</spanclass="math></spanclass="math></spanclass="math></li></ul></li><li><strong><span class="math inline">\(\mathcal{B}\)</span>的优势</strong>： <span class="math display">\[  \begin{aligned}  \mathrm{Adv}_{\mathcal{B}} &amp;\geq \Pr\left[  \begin{array}{l}  (1)\ \mathcal{A} \text{ 成功攻破 Schnorr 签名算法的 EUF-CMA 安全性} \\  (2)\ \mathcal{A} \text{ 查询过 } (R^{*}, M^{*}) \text{ 的 Hash 值} \\  (3)\ \mathcal{B} \text{ 赌对了 } j \text{(即 } M^{*}=M_j \text{)}  \end{array}  \right] \\  &amp;\geq \text{non-negl}(\lambda) \cdot \text{non-negl}(\lambda)\cdot \frac{1}{Q(\lambda)} \\  &amp;= \text{non-negl}(\lambda)  \end{aligned}  \]</span></li><li>因此，<span class="math inline">\(\mathcal{B}\)</span>以不可忽略的概率攻破 Schnorr 身份证明协议的 UI-PA安全性，与前提矛盾。</li></ul></spanclass="math></li></ul></imgsrc="image-10.webp"></li></ul>
         </div>
       </div>
     </div><p></p></li>
@@ -1745,17 +1778,19 @@ UI-PA 安全的</strong></p>
       </div>
       <div class="fold-collapse collapse" id="collapse-288a1b67">
         <div class="fold-content">
-          <ul><li><strong>证明</strong>：安全性归约，由攻破 UI-PA 安全性的敌手 <spanclass="math inline"="">\(\mathcal{A}\) 来构造解决 DL 问题的敌手<span class="math inline">\(\mathcal{B}\)</span>。 <imgsrc="image-11.webp"><ul><li><strong>假设结论错误</strong>：Schnorr 身份证明协议不是 UI-PA安全的，即存在 PPT 敌手 <span class="math inline">\(\mathcal{A}\)</span>以不可忽略的概率攻破 Schnorr 身份证明协议的 UI-PA 安全性，即 <spanclass="math display"="">\[\mathrm{Adv}_{\mathcal{A}} = \Pr\left(  \mathrm{output} = (R^{*}, e^{*}, z^{*}) \left|  h^{e^{*}} \cdot R^{*}=g^{z^{*}}  \right.\right) = \text{non-negl}(\lambda)\]</spanclass="math></li><li><strong>证明前提错误</strong>：构造一个 PPT 敌手 <spanclass="math inline"="">\(\mathcal{B}\) 解决 DL 问题。<ul><li><strong><span class="math inline">\(\mathcal{B}\)</span>的策略</strong>：<strong>Rewind 技术</strong><ul><li><p><span class="math inline">\(\mathcal{B}\)</span> 将 DL 问题的输入<span class="math inline">\(PK=(G, p, g, h)\)</span> 作为 Schnorr身份证明协议的公钥提供给 <spanclass="math inline"="">\(\mathcal{A}\)</spanclass="math></p></li><li><p>对于 <span class="math inline">\(\mathcal{A}\)</span>的每一次协议运行查询，<span class="math inline">\(\mathcal{B}\)</span>随机选取 <span class="math inline">\(e_i, z_i \leftarrow\mathbb{Z}_p\)</span>，计算 <span class="math inline">\(R_i =g^{z_i}/h^{e_i}\)</span>，为 <spanclass="math inline"="">\(\mathcal{A}\) 提供完美模拟的合法三元组<span class="math inline">\((R_i, e_i, z_i)\)</span></spanclass="math></p></li><li><p><strong>第一次调用</strong>：<spanclass="math inline"="">\(\mathcal{B}\) 调用 <spanclass="math inline"="">\(\mathcal{A}\) 直到 <spanclass="math inline"="">\(\mathcal{A}\) 输出 <spanclass="math inline"="">\(R^*\) 时，<spanclass="math inline"="">\(\mathcal{B}\) 均匀随机选择 <spanclass="math inline"="">\(e_1^* \leftarrow \mathbb{Z}_p\)作为挑战发送给 <span class="math inline">\(\mathcal{A}\)</span>，并收到<span class="math inline">\(\mathcal{A}\)</span> 的应答输出 <spanclass="math inline"="">\(z_1^*\)</spanclass="math></spanclass="math></spanclass="math></spanclass="math></spanclass="math></spanclass="math></spanclass="math></p></li><li><p><strong>第二次调用</strong>：<spanclass="math inline"="">\(\mathcal{B}\) 再次调用 <spanclass="math inline"="">\(\mathcal{A}\)，所有使用的随机数（包括 <spanclass="math inline"="">\(\mathcal{A}\) 内部的随机数和 <spanclass="math inline"="">\(\mathcal{B}\)模拟查询的随机数）均与第一次调用 <strong>完全相同</strong>。因此 <spanclass="math inline"="">\(\mathcal{A}\) 会再次输出同样的 <spanclass="math inline"="">\(R^*\)。此时 <spanclass="math inline"="">\(\mathcal{B}\) 使用 <strong>不同</strong>的随机数均匀选择一个新的挑战 <span class="math inline">\(e_2^*\leftarrow \mathbb{Z}_p\)</span> 发送给 <spanclass="math inline"="">\(\mathcal{A}\)，并收到 <spanclass="math inline"="">\(\mathcal{A}\) 的新应答输出 <spanclass="math inline"="">\(z_2^*\)</spanclass="math></spanclass="math></spanclass="math></spanclass="math></spanclass="math></spanclass="math></spanclass="math></spanclass="math></spanclass="math></spanclass="math></p></li><li><p><strong>解 DL</strong>：如果两次调用 <spanclass="math inline"="">\(\mathcal{A}\) 都成功伪造，则有： <spanclass="math display"="">\[\begin{cases}  R^* \cdot h^{e_1^*} = g^{z_1^*} \\  R^* \cdot h^{e_2^*} = g^{z_2^*}  \end{cases}\]</spanclass="math></spanclass="math></p><p>若 <span class="math inline">\(e_1^* \neqe_2^*\)</span>，两式相除消去 <span class="math inline">\(R^*\)</span>可得 <span class="math inline">\(h^{e_1^* - e_2^*} = g^{z_1^* -z_2^*}\)</span>。代入 <span class="math inline">\(h =g^s\)</span>，即可解出 DL 问题的解： <span class="math display">\[s\equiv (e_1^* - e_2^*)^{-1}(z_1^* - z_2^*) \pmod p\]</span></p></li></ul></li><li><strong><span class="math inline">\(\mathcal{B}\)</span>的优势</strong>：<ul><li>用变量 <span class="math inline">\(\omega\)</span> 代表 <spanclass="math inline"="">\(\mathcal{B}\) 除了返回挑战 <spanclass="math inline"="">\(e^*\) 之外所使用的所有随机数集合（即决定<span class="math inline">\(\mathcal{A}\)</span> 输出 <spanclass="math inline"="">\(R^*\) 的所有前置上下文）</spanclass="math></spanclass="math></spanclass="math></li><li>定义指示函数 <span class="math inline">\(\mathrm{V}(\omega, e^*) =1\)</span> 当且仅当 <span class="math inline">\(\mathcal{A}\)</span>在随机数 <span class="math inline">\(\omega\)</span> 和挑战 <spanclass="math inline"="">\(e^*\) 下成功返回正确的 <spanclass="math inline"="">\(z^*\)（即 <span class="math inline">\(R^*\cdot h^{e^*} = g^{z^*}\)</span>）</spanclass="math></spanclass="math></li><li>则 <span class="math inline">\(\mathcal{B}\)</span> 成功解决 DL问题的概率（即两次都成功且挑战值不同的概率）为： <spanclass="math display"="">\[\begin{aligned}  \mathrm{Adv}_{\mathcal{B}} &amp;= \Pr_{\omega, e_1^*,e_2^*}[\mathrm{V}(\omega, e_1^*) = 1 \land \mathrm{V}(\omega, e_2^*) = 1\land e_1^* \neq e_2^*] \\  &amp;= \Pr_{\omega, e_1^*, e_2^*}[\mathrm{V}(\omega, e_1^*) = 1 \land\mathrm{V}(\omega, e_2^*) = 1] - \Pr_{\omega, e_1^*,e_2^*}[\mathrm{V}(\omega, e_1^*) = 1 \land \mathrm{V}(\omega, e_2^*) = 1\land e_1^* = e_2^*] \\  &amp;\ge \Pr_{\omega, e_1^*, e_2^*}[\mathrm{V}(\omega, e_1^*) = 1\land \mathrm{V}(\omega, e_2^*) = 1] - \Pr[e_1^* = e_2^*] \\  &amp;\ge \Pr_{\omega, e_1^*, e_2^*}[\mathrm{V}(\omega, e_1^*) = 1\land \mathrm{V}(\omega, e_2^*) = 1] - 1/p \\  &amp;= \sum_{W\in\Omega_\omega} \Pr[\omega=W] \cdot \Pr_{e_1^*,e_2^*}[\mathrm{V}(W, e_1^*) = 1 \land \mathrm{V}(W, e_2^*) = 1] - 1/p \\  &amp;= \sum_{W\in\Omega_\omega} \Pr[\omega=W] \cdot\Pr_{e_1^*}[\mathrm{V}(W, e_1^*) = 1] \cdot \Pr_{e_2^*}[\mathrm{V}(W,e_2^*) = 1] - 1/p \\  &amp;= \sum_{W\in\Omega_\omega} \Pr[\omega=W] \cdot\Pr_{e^*}[\mathrm{V}(W, e^*) = 1]^2 - 1/p \\  &amp;\ge \left(\sum_{W\in\Omega_\omega} \Pr[\omega=W] \cdot\Pr_{e^*}[\mathrm{V}(W, e^*) = 1]\right)^2 - 1/p \\  &amp;= \Pr_{\omega, e^*}[\mathrm{V}(\omega, e^*) = 1]^2 - 1/p \\  &amp;= \mathrm{Adv}_{\mathcal{A}}^2 - 1/p \\  &amp;\ge \text{non-negl}(\lambda)^2 - \text{negl}(\lambda) \\  &amp;= \text{non-negl}(\lambda)  \end{aligned}\]</spanclass="math></li></ul></li><li>因此，<span class="math inline">\(\mathcal{B}\)</span>以不可忽略的概率成功解决 DL 问题，与 DL 问题困难的假设矛盾。得证！</li></ul></spanclass="math></li></ul></imgsrc="image-11.webp"></spanclass="math></li></ul>
+          <ul><li><strong>证明</strong>：安全性归约，由攻破 UI-PA 安全性的敌手 <spanclass="math inline"="">\(\mathcal{A}\) 来构造解决 DL 问题的敌手<span class="math inline">\(\mathcal{B}\)</span>。 <imgsrc="image-11.webp"><ul><li><strong>假设结论错误</strong>：Schnorr 身份证明协议不是 UI-PA安全的，即存在 PPT 敌手 <span class="math inline">\(\mathcal{A}\)</span>以不可忽略的概率攻破 Schnorr 身份证明协议的 UI-PA 安全性，即 <spanclass="math display"="">\[  \mathrm{Adv}_{\mathcal{A}} = \Pr\left(  \mathrm{output} = (R^{*}, e^{*}, z^{*}) \left|  h^{e^{*}} \cdot R^{*}=g^{z^{*}}  \right.\right) = \text{non-negl}(\lambda)  \]</spanclass="math></li><li><strong>证明前提错误</strong>：构造一个 PPT 敌手 <spanclass="math inline"="">\(\mathcal{B}\) 解决 DL 问题。<ul><li><strong><span class="math inline">\(\mathcal{B}\)</span>的策略</strong>：<strong>Rewind 技术</strong><ul><li><p><span class="math inline">\(\mathcal{B}\)</span> 将 DL 问题的输入<span class="math inline">\(PK=(G, p, g, h)\)</span> 作为 Schnorr身份证明协议的公钥提供给 <spanclass="math inline"="">\(\mathcal{A}\)</spanclass="math></p></li><li><p>对于 <span class="math inline">\(\mathcal{A}\)</span>的每一次协议运行查询，<span class="math inline">\(\mathcal{B}\)</span>随机选取 <span class="math inline">\(e_i, z_i \leftarrow\mathbb{Z}_p\)</span>，计算 <span class="math inline">\(R_i =g^{z_i}/h^{e_i}\)</span>，为 <spanclass="math inline"="">\(\mathcal{A}\) 提供完美模拟的合法三元组<span class="math inline">\((R_i, e_i, z_i)\)</span></spanclass="math></p></li><li><p><strong>第一次调用</strong>：<spanclass="math inline"="">\(\mathcal{B}\) 调用 <spanclass="math inline"="">\(\mathcal{A}\) 直到 <spanclass="math inline"="">\(\mathcal{A}\) 输出 <spanclass="math inline"="">\(R^*\) 时，<spanclass="math inline"="">\(\mathcal{B}\) 均匀随机选择 <spanclass="math inline"="">\(e_1^* \leftarrow \mathbb{Z}_p\)作为挑战发送给 <span class="math inline">\(\mathcal{A}\)</span>，并收到<span class="math inline">\(\mathcal{A}\)</span> 的应答输出 <spanclass="math inline"="">\(z_1^*\)</spanclass="math></spanclass="math></spanclass="math></spanclass="math></spanclass="math></spanclass="math></spanclass="math></p></li><li><p><strong>第二次调用</strong>：<spanclass="math inline"="">\(\mathcal{B}\) 再次调用 <spanclass="math inline"="">\(\mathcal{A}\)，所有使用的随机数（包括 <spanclass="math inline"="">\(\mathcal{A}\) 内部的随机数和 <spanclass="math inline"="">\(\mathcal{B}\)模拟查询的随机数）均与第一次调用 <strong>完全相同</strong>。因此 <spanclass="math inline"="">\(\mathcal{A}\) 会再次输出同样的 <spanclass="math inline"="">\(R^*\)。此时 <spanclass="math inline"="">\(\mathcal{B}\) 使用 <strong>不同</strong>的随机数均匀选择一个新的挑战 <span class="math inline">\(e_2^*\leftarrow \mathbb{Z}_p\)</span> 发送给 <spanclass="math inline"="">\(\mathcal{A}\)，并收到 <spanclass="math inline"="">\(\mathcal{A}\) 的新应答输出 <spanclass="math inline"="">\(z_2^*\)</spanclass="math></spanclass="math></spanclass="math></spanclass="math></spanclass="math></spanclass="math></spanclass="math></spanclass="math></spanclass="math></spanclass="math></p></li><li><p><strong>解 DL</strong>：如果两次调用 <spanclass="math inline"="">\(\mathcal{A}\) 都成功伪造，则有： <spanclass="math display"="">\[  \begin{cases}  R^* \cdot h^{e_1^*} = g^{z_1^*} \\  R^* \cdot h^{e_2^*} = g^{z_2^*}  \end{cases}  \]</spanclass="math></spanclass="math></p><p>若 <span class="math inline">\(e_1^* \neqe_2^*\)</span>，两式相除消去 <span class="math inline">\(R^*\)</span>可得 <span class="math inline">\(h^{e_1^* - e_2^*} = g^{z_1^* -z_2^*}\)</span>。代入 <span class="math inline">\(h =g^s\)</span>，即可解出 DL 问题的解： <span class="math display">\[      s \equiv (e_1^* - e_2^*)^{-1}(z_1^* - z_2^*) \pmod p      \]</span></p></li></ul></li><li><strong><span class="math inline">\(\mathcal{B}\)</span>的优势</strong>：<ul><li>用变量 <span class="math inline">\(\omega\)</span> 代表 <spanclass="math inline"="">\(\mathcal{B}\) 除了返回挑战 <spanclass="math inline"="">\(e^*\) 之外所使用的所有随机数集合（即决定<span class="math inline">\(\mathcal{A}\)</span> 输出 <spanclass="math inline"="">\(R^*\) 的所有前置上下文）</spanclass="math></spanclass="math></spanclass="math></li><li>定义指示函数 <span class="math inline">\(\mathrm{V}(\omega, e^*) =1\)</span> 当且仅当 <span class="math inline">\(\mathcal{A}\)</span>在随机数 <span class="math inline">\(\omega\)</span> 和挑战 <spanclass="math inline"="">\(e^*\) 下成功返回正确的 <spanclass="math inline"="">\(z^*\)（即 <span class="math inline">\(R^*\cdot h^{e^*} = g^{z^*}\)</span>）</spanclass="math></spanclass="math></li><li>则 <span class="math inline">\(\mathcal{B}\)</span> 成功解决 DL问题的概率（即两次都成功且挑战值不同的概率）为： <spanclass="math display"="">\[  \begin{aligned}  \mathrm{Adv}_{\mathcal{B}} &amp;= \Pr_{\omega, e_1^*,e_2^*}[\mathrm{V}(\omega, e_1^*) = 1 \land \mathrm{V}(\omega, e_2^*) = 1\land e_1^* \neq e_2^*] \\  &amp;= \Pr_{\omega, e_1^*, e_2^*}[\mathrm{V}(\omega, e_1^*) = 1 \land\mathrm{V}(\omega, e_2^*) = 1] - \Pr_{\omega, e_1^*,e_2^*}[\mathrm{V}(\omega, e_1^*) = 1 \land \mathrm{V}(\omega, e_2^*) = 1\land e_1^* = e_2^*] \\  &amp;\ge \Pr_{\omega, e_1^*, e_2^*}[\mathrm{V}(\omega, e_1^*) = 1\land \mathrm{V}(\omega, e_2^*) = 1] - \Pr[e_1^* = e_2^*] \\  &amp;\ge \Pr_{\omega, e_1^*, e_2^*}[\mathrm{V}(\omega, e_1^*) = 1\land \mathrm{V}(\omega, e_2^*) = 1] - 1/p \\  &amp;= \sum_{W\in\Omega_\omega} \Pr[\omega=W] \cdot \Pr_{e_1^*,e_2^*}[\mathrm{V}(W, e_1^*) = 1 \land \mathrm{V}(W, e_2^*) = 1] - 1/p \\  &amp;= \sum_{W\in\Omega_\omega} \Pr[\omega=W] \cdot\Pr_{e_1^*}[\mathrm{V}(W, e_1^*) = 1] \cdot \Pr_{e_2^*}[\mathrm{V}(W,e_2^*) = 1] - 1/p \\  &amp;= \sum_{W\in\Omega_\omega} \Pr[\omega=W] \cdot\Pr_{e^*}[\mathrm{V}(W, e^*) = 1]^2 - 1/p \\  &amp;\ge \left(\sum_{W\in\Omega_\omega} \Pr[\omega=W] \cdot\Pr_{e^*}[\mathrm{V}(W, e^*) = 1]\right)^2 - 1/p \\  &amp;= \Pr_{\omega, e^*}[\mathrm{V}(\omega, e^*) = 1]^2 - 1/p \\  &amp;= \mathrm{Adv}_{\mathcal{A}}^2 - 1/p \\  &amp;\ge \text{non-negl}(\lambda)^2 - \text{negl}(\lambda) \\  &amp;= \text{non-negl}(\lambda)  \end{aligned}  \]</spanclass="math></li></ul></li><li>因此，<span class="math inline">\(\mathcal{B}\)</span>以不可忽略的概率成功解决 DL 问题，与 DL 问题困难的假设矛盾。得证！</li></ul></spanclass="math></li></ul></imgsrc="image-11.webp"></spanclass="math></li></ul>
         </div>
       </div>
     </div><p></p></li>
 </ul>
 <h5 id="定理">定理</h5>
-<p><span class="math display">\[\begin{aligned}
+<p><span class="math display">\[
+\begin{aligned}
 &amp;\text{DL 问题困难} + \mathrm{H} \text{ 为 RO} \\
 \implies &amp;\text{Schnorr 身份证明协议是 UI-PA 安全的} \\
 \implies &amp;\text{Schnorr 签名算法是 EUF-CMA 安全的}
-\end{aligned}\]</span></p>
+\end{aligned}
+\]</span></p>
 <h3 id="dsa-身份证明协议与签名算法">DSA 身份证明协议与签名算法</h3>
 <h4 id="dsa-身份证明协议">DSA 身份证明协议</h4>
 <ul>
@@ -1808,12 +1843,14 @@ d'\)</span>，相等输出 <span class="math inline">\(1\)</span>，否则输出
 </ol></li>
 </ul>
 <h4 id="安全性分析-1">安全性分析</h4>
-<p><span class="math display">\[\begin{aligned}
+<p><span class="math display">\[
+\begin{aligned}
 &amp;\text{DL 问题困难} + \mathrm{H}, \mathrm{F} \text{ 为 RO} \\
 \implies &amp;\text{DSA 身份证明协议是 UI-PA 安全的} + \mathrm{H},
 \mathrm{F} \text{ 为 RO} \\
 \implies &amp;\text{DSA 签名算法是 EUF-CMA 安全的}
-\end{aligned}\]</span></p>
+\end{aligned}
+\]</span></p>
 <h4 id="dsa-与-ecdsa-签名算法的应用">DSA 与 ECDSA 签名算法的应用</h4>
 <ul>
 <li>DSA 为上述算法在大整数循环群 <span class="math inline">\(G=\mathbb{Z}_N^*\)</span> 的 <span class="math inline">\(p\)</span> 阶子群上的具体实现，其中 <span class="math inline">\(\mathrm{F}: G \to \mathbb{Z}_p\)</span> 定义为
@@ -1833,15 +1870,17 @@ ECDSA
 <h4 id="射影平面与仿射平面">射影平面与仿射平面</h4>
 <ul>
 <li>域 <span class="math inline">\(K\)</span> 上的
-<strong>射影平面</strong> <span class="math inline">\(\mathbb{P}^2(K)\)</span>： <span class="math display">\[\mathbb{P}^2(K)=\{(X:Y:Z):X,Y,Z\in
-K\}\backslash\{(0:0:0)\}\]</span>
+<strong>射影平面</strong> <span class="math inline">\(\mathbb{P}^2(K)\)</span>： <span class="math display">\[
+  \mathbb{P}^2(K)=\{(X:Y:Z):X,Y,Z\in K\}\backslash\{(0:0:0)\}
+  \]</span>
 <ul>
 <li>定义等价关系：<span class="math inline">\((X:Y:Z)=(kX:kY:kZ),k\in
 K^*\)</span></li>
 </ul></li>
 <li>域 <span class="math inline">\(K\)</span> 上 <span class="math inline">\(\mathbb{P}^2(K)\)</span> 的
-<strong>仿射平面</strong> <span class="math inline">\(\mathbb{A}^2(K)\)</span>： <span class="math display">\[\mathbb{P}^2(K) \leftrightarrow \mathbb{A}^2(K) =
-\{(x,y):x,y\in K\}\]</span>
+<strong>仿射平面</strong> <span class="math inline">\(\mathbb{A}^2(K)\)</span>： <span class="math display">\[
+  \mathbb{P}^2(K) \leftrightarrow \mathbb{A}^2(K) = \{(x,y):x,y\in K\}
+  \]</span>
 <ul>
 <li>坐标变换：
 <ul>
@@ -1864,8 +1903,9 @@ f(x,y,1)\)</span>，将齐次的射影方程转化为非齐次的仿射方程。
 <h4 id="代数曲线">代数曲线</h4>
 <ul>
 <li><p><strong>代数曲线</strong>：令 <span class="math inline">\(C\)</span> 为由 <strong>齐次多项式方程</strong>
-<span class="math inline">\(f(X,Y,Z)=0\)</span> 为定义的曲线。若 <span class="math inline">\(f(X,Y,Z)\)</span> 的系数属于域 <span class="math inline">\(K\)</span>，称 <span class="math inline">\(C\)</span> 为定义在 <span class="math inline">\(K\)</span> 上的代数曲线。集合 <span class="math display">\[C(K)=\left\{(x:y:z)\in
-\mathbb{P}^2(K):f(x,y,z)=0\right\}\]</span></p>
+<span class="math inline">\(f(X,Y,Z)=0\)</span> 为定义的曲线。若 <span class="math inline">\(f(X,Y,Z)\)</span> 的系数属于域 <span class="math inline">\(K\)</span>，称 <span class="math inline">\(C\)</span> 为定义在 <span class="math inline">\(K\)</span> 上的代数曲线。集合 <span class="math display">\[
+  C(K)=\left\{(x:y:z)\in \mathbb{P}^2(K):f(x,y,z)=0\right\}
+  \]</span></p>
 <p>称为曲线 <span class="math inline">\(C\)</span> 的有理点集。</p></li>
 <li><p><strong>奇异点与非奇异点</strong>：令 <span class="math inline">\(P\in C(K)\)</span>，如果 <span class="math inline">\(\left(\frac{\partial f}{\partial
 x}(P),\frac{\partial f}{\partial y}(P),\frac{\partial f}{\partial
@@ -1873,19 +1913,24 @@ z}(P)\right)=(0,0,0)\)</span>，则称 <span class="math inline">\(P\)</span> �
 <ul>
 <li>判断是否奇异点需要先将方程齐次化。</li>
 </ul></li>
-<li><p><strong>切线方程</strong>：若 <span class="math inline">\(P\)</span> 为 <span class="math inline">\(C\)</span> 上的非奇异点，则 <span class="math inline">\(C\)</span> 上过 <span class="math inline">\(P\)</span> 的切线方程为 <span class="math display">\[L:\frac{\partial f}{\partial
-x}(P)X+\frac{\partial f}{\partial y}(P)Y+\frac{\partial f}{\partial
-z}(P)Z=0.\]</span></p></li>
+<li><p><strong>切线方程</strong>：若 <span class="math inline">\(P\)</span> 为 <span class="math inline">\(C\)</span> 上的非奇异点，则 <span class="math inline">\(C\)</span> 上过 <span class="math inline">\(P\)</span> 的切线方程为 <span class="math display">\[
+  L:\frac{\partial f}{\partial x}(P)X+\frac{\partial f}{\partial
+y}(P)Y+\frac{\partial f}{\partial z}(P)Z=0.
+  \]</span></p></li>
 <li><p><strong>光滑曲线</strong>：若 <span class="math inline">\(C\)</span> 上所有点均为非奇异点，称 <span class="math inline">\(C\)</span> 为光滑曲线。</p></li>
-<li><p><strong>有理映射</strong>：设齐次方程 <span class="math inline">\(F_1(X;Y;Z)=0\)</span> 和 <span class="math inline">\(F_2(X;Y;Z)=0\)</span> 定义的代数曲线分别为 <span class="math inline">\(C_1\)</span> 和 <span class="math inline">\(C_2\)</span>。若存在映射 <span class="math display">\[\begin{aligned}
+<li><p><strong>有理映射</strong>：设齐次方程 <span class="math inline">\(F_1(X;Y;Z)=0\)</span> 和 <span class="math inline">\(F_2(X;Y;Z)=0\)</span> 定义的代数曲线分别为 <span class="math inline">\(C_1\)</span> 和 <span class="math inline">\(C_2\)</span>。若存在映射 <span class="math display">\[
+  \begin{aligned}
   \phi: &amp;C_1\longrightarrow C_2 \\
   &amp;(x:y:z)\longmapsto (f_1(x,y,z):f_2(x,y,z):f_3(x,y,z))
-  \end{aligned}\]</span> 其中 <span class="math inline">\(f_i=\frac{p_i(X,Y,Z)}{q_i(X,Y,Z)}\)</span>，且
+  \end{aligned}
+  \]</span> 其中 <span class="math inline">\(f_i=\frac{p_i(X,Y,Z)}{q_i(X,Y,Z)}\)</span>，且
 <span class="math inline">\(p_i, q_i\)</span> 均为齐次多项式，则称 <span class="math inline">\(\phi\)</span> 是一个有理映射。</p></li>
-<li><p><strong>双有理等价</strong>：设齐次方程 <span class="math inline">\(F_1(X;Y;Z)=0\)</span> 和 <span class="math inline">\(F_2(X;Y;Z)=0\)</span> 定义的代数曲线分别为 <span class="math inline">\(C_1\)</span> 和 <span class="math inline">\(C_2\)</span>。若存在有理映射 <span class="math display">\[\begin{aligned}
+<li><p><strong>双有理等价</strong>：设齐次方程 <span class="math inline">\(F_1(X;Y;Z)=0\)</span> 和 <span class="math inline">\(F_2(X;Y;Z)=0\)</span> 定义的代数曲线分别为 <span class="math inline">\(C_1\)</span> 和 <span class="math inline">\(C_2\)</span>。若存在有理映射 <span class="math display">\[
+  \begin{aligned}
   \phi&amp;=(f_1,f_2,f_3):C_1\to C_2 \\
   \psi&amp;=(g_1,g_2,g_3):C_2\to C_1
-  \end{aligned}\]</span></p>
+  \end{aligned}
+  \]</span></p>
 <p>使得 <span class="math inline">\(\phi\circ\psi=\mathrm{id}_{C_1}\)</span>，则称
 <span class="math inline">\(C_1\)</span> 和 <span class="math inline">\(C_2\)</span> 为双有理等价。</p></li>
 <li><p><strong>Bezout 定理</strong>：设齐次方程 <span class="math inline">\(F_1(X;Y;Z)=0\)</span> 和 <span class="math inline">\(F_2(X;Y;Z)=0\)</span> 次数分别为 <span class="math inline">\(d_1\)</span> 和 <span class="math inline">\(d_2\)</span>。则 <span class="math inline">\(F_1(X;Y;Z)=0\)</span> 和 <span class="math inline">\(F_2(X;Y;Z)=0\)</span> 相交点的个数为 <span class="math inline">\(d_1d_2\)</span>（重点按重数计算）。</p></li>
@@ -1903,8 +1948,10 @@ K\}\backslash\{(0:0:0)\} \leftarrow\)</span> 射影平面坐标系
 <ul>
 <li><strong>无</strong> 平行线公理：射影平面中两条平行线相交，交点为
 <strong>无穷远点</strong></li>
-<li><span class="math inline">\(L_1:aX+bY=c_1Z\)</span>；<span class="math inline">\(L_2:aX+bY=c_2Z\)</span>；则 <span class="math display">\[L_1\cap L_2=\begin{cases}(1:-\frac{a}{b}:0),
-&amp; b\neq0 \\ (0:1:0), &amp; b=0\end{cases}\]</span>
+<li><span class="math inline">\(L_1:aX+bY=c_1Z\)</span>；<span class="math inline">\(L_2:aX+bY=c_2Z\)</span>；则 <span class="math display">\[
+  L_1\cap L_2=\begin{cases}(1:-\frac{a}{b}:0), &amp; b\neq0 \\ (0:1:0),
+&amp; b=0\end{cases}
+  \]</span>
 <ul>
 <li><span class="math inline">\((0:1:0)\)</span> 为任意垂直于 <span class="math inline">\(X\)</span> 轴的直线在无穷远处的交点。</li>
 </ul></li>
@@ -1918,31 +1965,38 @@ K\}\backslash\{(0:0:0)\} \leftarrow\)</span> 射影平面坐标系
 的代数曲线，并且存在定义在 <span class="math inline">\(K\)</span>
 上的点。</p></li>
 <li><p><strong>性质</strong>：域 <span class="math inline">\(K\)</span>
-上的椭圆曲线是满足以下 Weierstrass 方程并具有无穷远点 <span class="math inline">\((0:1:0)\)</span> 的光滑代数曲线： <span class="math display">\[\begin{aligned}
+上的椭圆曲线是满足以下 Weierstrass 方程并具有无穷远点 <span class="math inline">\((0:1:0)\)</span> 的光滑代数曲线： <span class="math display">\[
+  \begin{aligned}
   &amp; Y^2Z+a_1XYZ+a_3YZ^2=X^3+a_2X^2Z+a_4XZ^2+a_6Z^3 \\
   &amp; y^2+a_1xy+a_3y=x^3+a_2x^2+a_4x+a_6(仿射形式)
-  \end{aligned}\]</span></p>
+  \end{aligned}
+  \]</span></p>
 <p>其中 <span class="math inline">\(a_1,a_2,a_3,a_4,a_6\in K\)</span>
 满足某些明确的代数条件。</p>
 <ul>
 <li><strong>无穷远点</strong>：每条直线与椭圆曲线在无穷远处的交点。</li>
 <li>特别地，当 <span class="math inline">\(F\)</span> 的特征不为 2、3
-时，椭圆曲线的 Weierstrass 方程双有理等价于： <span class="math display">\[y^2=x^3+ax+b, \quad 4a^3+27b^2\neq0\]</span></li>
-<li>变换过程： <span class="math display">\[\begin{aligned}
+时，椭圆曲线的 Weierstrass 方程双有理等价于： <span class="math display">\[
+  y^2=x^3+ax+b, \quad 4a^3+27b^2\neq0
+  \]</span></li>
+<li>变换过程： <span class="math display">\[
+  \begin{aligned}
   &amp; E:y^2+a_1xy+a_3y=x^3+a_2x^2+a_4x+a_6 \\
   \xrightarrow{x'=x,\quad y'=y+\frac{a_1x+a_3}{2}} &amp;
 E':y'^2=x'^3+a_2'x'^2+a_4'x'+a_6' \\
   \xrightarrow{x''=x'+\frac{a_2'}{3},\quad
 y''=y'} &amp;
 E'':y''^2=x''^3+ax''+b
-  \end{aligned}\]</span></li>
+  \end{aligned}
+  \]</span></li>
 </ul></li>
 </ul>
 <h4 id="椭圆曲线的有理点集">椭圆曲线的有理点集</h4>
 <ul>
 <li><strong>椭圆曲线的有理点集</strong>：设 <span class="math inline">\(E/\mathbb{F}:y^2+a_1xy+a_3y=x^3+a_2x^2+a_4x+a_6\)</span>，则
-<span class="math inline">\(E(F)\)</span> 的有理点集为 <span class="math display">\[E(F)=\{(u,v)\in F^2 |
-v^2+a_1uv+a_3v=u^3+a_2u^2+a_4u+a_6\} \cup \{O\}\]</span></li>
+<span class="math inline">\(E(F)\)</span> 的有理点集为 <span class="math display">\[
+  E(F)=\{(u,v)\in F^2 | v^2+a_1uv+a_3v=u^3+a_2u^2+a_4u+a_6\} \cup \{O\}
+  \]</span></li>
 <li>椭圆曲线密码一般定义在有限域上：<span class="math inline">\(K=\mathbb{Z}_p\)</span>、<span class="math inline">\(K=GF(2^n)\)</span></li>
 <li>计算有理点的步骤：
 <ol type="1">
@@ -1994,13 +2048,17 @@ Q\)</span></li>
 <li><span class="math inline">\(P\neq Q\)</span>，<span class="math inline">\(\lambda=\frac{y_2-y_1}{x_2-x_1}\)</span>，<span class="math inline">\(\mu=y_1-\lambda x_1\)</span></li>
 <li><span class="math inline">\(P=Q\)</span>（计算切线），<span class="math inline">\(\lambda=\frac{3x_1^2+2a_2x_1+a_4-a_1y_1}{2y_1+a_1x_1+a_3}\)</span>，<span class="math inline">\(\mu=y_1-\lambda x_1\)</span></li>
 </ul></li>
-<li><p>将直线方程与椭圆曲线方程联立解得 <span class="math inline">\(S=(x_3, y_3)\)</span> <span class="math display">\[x^3+a_2x^2+a_4x+a_6-(\lambda x+\mu
-)^2-a_1x(\lambda x+\mu )-a_3(\lambda x+\mu )=(x-x_1)(x-x_2)(x-x_3) =
-0\]</span></p>
-<p>解得 <span class="math display">\[(x_3,y_3)=(\lambda^2+a_1\lambda
--a_2-x_2-x_1, -\lambda x_3-\mu -a_1x_3-a_3)\]</span></p>
-<p>特别地，当椭圆曲线方程为 <span class="math inline">\(y^2=x^3+ax+b\)</span> 时， <span class="math display">\[(x_3,y_3)=(\lambda^2 -x_2-x_1, \lambda(x_1
--x_3)-y_1)\]</span></p></li>
+<li><p>将直线方程与椭圆曲线方程联立解得 <span class="math inline">\(S=(x_3, y_3)\)</span> <span class="math display">\[
+x^3+a_2x^2+a_4x+a_6-(\lambda x+\mu )^2-a_1x(\lambda x+\mu )-a_3(\lambda
+x+\mu )=(x-x_1)(x-x_2)(x-x_3) = 0
+\]</span></p>
+<p>解得 <span class="math display">\[
+(x_3,y_3)=(\lambda^2+a_1\lambda -a_2-x_2-x_1, -\lambda x_3-\mu
+-a_1x_3-a_3)
+\]</span></p>
+<p>特别地，当椭圆曲线方程为 <span class="math inline">\(y^2=x^3+ax+b\)</span> 时， <span class="math display">\[
+(x_3,y_3)=(\lambda^2 -x_2-x_1, \lambda(x_1 -x_3)-y_1)
+\]</span></p></li>
 </ol></li>
 </ul>
 <h4 id="有限域上的椭圆曲线">有限域上的椭圆曲线</h4>
@@ -2008,8 +2066,9 @@ Q\)</span></li>
 <li><p><strong>点的个数</strong></p>
 <ul>
 <li><strong>估计</strong>（Hasse-Weil bound）：Hasse 关于有限域 <span class="math inline">\(\mathbb{F}_q\)</span> 上椭圆曲线点的个数估计：
-<span class="math display">\[q+1-2\sqrt{q} \leq \#
-E\left(\mathbb{F}_{q}\right) \leq q+1+2\sqrt{q}\]</span></li>
+<span class="math display">\[
+  q+1-2\sqrt{q} \leq \# E\left(\mathbb{F}_{q}\right) \leq q+1+2\sqrt{q}
+  \]</span></li>
 <li><strong>计算</strong>：求有限域 <span class="math inline">\(\mathbb{F}_q\)</span> 上椭圆曲线群元素个数的
 SEA（Schoof Elkies Atkin）算法复杂度为 <span class="math inline">\(O\left(log^6 q\right)\)</span></li>
 </ul></li>
@@ -2018,8 +2077,9 @@ SEA（Schoof Elkies Atkin）算法复杂度为 <span class="math inline">\(O\lef
 上的一个点，若存在最小的正整数 <span class="math inline">\(n\)</span>，使得 <span class="math inline">\(nP=O\)</span>，则称 <span class="math inline">\(n\)</span> 是 <span class="math inline">\(P\)</span> 的阶数，或称 <span class="math inline">\(P\)</span> 为 <span class="math inline">\(n\)</span> 阶扭点（torsion）。一般取 <span class="math inline">\(n\)</span> 为大素数 <span class="math inline">\(r\)</span>。</p></li>
 <li><p><strong>椭圆曲线密码体制基本运算</strong>：多倍点运算，即标量乘（Scalar
 Multiplication），对 <span class="math inline">\(m\in
-\mathbb{Z}_N\)</span> 计算 <span class="math display">\[mP =
-\underbrace{P+P+\cdots+P}_{m\text{ 次}}\]</span></p>
+\mathbb{Z}_N\)</span> 计算 <span class="math display">\[
+  mP = \underbrace{P+P+\cdots+P}_{m\text{ 次}}
+  \]</span></p>
 <p>计算复杂度为 <span class="math inline">\(O(log m)\)</span>。</p></li>
 <li><p><strong>椭圆曲线离散对数问题</strong>（ECDLP）：在椭圆曲线上考虑方程
 <span class="math inline">\(Q=kP\)</span>，<span class="math inline">\(k&lt;r\)</span>，则由 <span class="math inline">\(k\)</span> 和 <span class="math inline">\(P\)</span> 易求 <span class="math inline">\(Q\)</span>，但由 <span class="math inline">\(P\)</span>、<span class="math inline">\(Q\)</span>
@@ -2029,10 +2089,12 @@ Multiplication），对 <span class="math inline">\(m\in
 <h4 id="双线性对">双线性对</h4>
 <ul>
 <li><p><strong>双线性对</strong>（Bilinear map）：设 <span class="math inline">\(E_1\)</span>、<span class="math inline">\(E_2\)</span> 为有限域 <span class="math inline">\(F_q\)</span> 的两条椭圆曲线，且 <span class="math inline">\(G_1 \leq E_1(F_q),G_2 \leq E_2(F_q),G_T \leq
-F_q^*\)</span>，则 <strong>双线性映射</strong> <span class="math display">\[\begin{aligned}
+F_q^*\)</span>，则 <strong>双线性映射</strong> <span class="math display">\[
+  \begin{aligned}
   e: &amp;G_1 \times G_2 \rightarrow G_T \\
   &amp;(P, Q) \mapsto e(P, Q)
-  \end{aligned}\]</span></p>
+  \end{aligned}
+  \]</span></p>
 <p>满足对 <span class="math inline">\(\forall P_1,P_2,P\in G_1, \forall
 Q_1,Q_2,Q\in G_2, \forall a, b\in \mathbb{Z}\)</span>，有：</p>
 <ol type="1">
@@ -2187,7 +2249,9 @@ IBE）：一种公钥加密算法，可信方生成一对主密钥，根据用�
 id\)</span>，<span class="math inline">\(\forall SK_{id}\leftarrow
 \mathrm{Derive}(SK,id)\)</span>，<span class="math inline">\(\forall
 M\in\mathbb{M}\)</span>，<span class="math inline">\(\forall C\leftarrow
-\mathrm{Enc}(PK,id,M)\)</span>，一定有 <span class="math display">\[\mathrm{Dec}(SK_{id},C)=M\]</span></li>
+\mathrm{Enc}(PK,id,M)\)</span>，一定有 <span class="math display">\[
+  \mathrm{Dec}(SK_{id},C)=M
+  \]</span></li>
 </ul>
 <h4 id="基于身份加密算法的-ind-id-cpa-安全性">基于身份加密算法的
 IND-ID-CPA 安全性</h4>
@@ -2211,8 +2275,10 @@ Chosen-Plaintext Attacks, ID-CPA）安全模型： <img src="image-16.webp" srcs
 敌手无法区分密文 <span class="math inline">\(C^{*}\)</span> 加密的是
 <span class="math inline">\(M_{0}\)</span> 还是 <span class="math inline">\(M_{1}\)</span>（即如果 <span class="math inline">\(\mathrm{output} = b\)</span>，则攻破该目标）</li>
 <li><strong>IND-ID-CPA 安全性定义</strong>：任意 PPT 敌手在 ID-CPA
-安全模型中攻破 IND 安全目标的优势是可忽略的，即 <span class="math display">\[\mathrm{Adv} = \left|\Pr(\mathrm{output} = b) -
-\frac{1}{2}\right| = \mathrm{negl}(\lambda)\]</span></li>
+安全模型中攻破 IND 安全目标的优势是可忽略的，即 <span class="math display">\[
+  \mathrm{Adv} = \left|\Pr(\mathrm{output} = b) - \frac{1}{2}\right| =
+\mathrm{negl}(\lambda)
+  \]</span></li>
 </ul>
 <h3 id="boneh-franklin-基于身份的加密算法">Boneh-Franklin
 基于身份的加密算法</h3>
@@ -2251,13 +2317,15 @@ G_T\)</span>，均匀选取 <span class="math inline">\(\beta\leftarrow\{0,1\}\)
 <li>输出：<span class="math inline">\(\mathrm{output}\)</span></li>
 </ol></li>
 <li><strong>判定性 BDDH 问题困难</strong>：任意 PPT
-敌手的优势是可忽略的，即 <span class="math display">\[\begin{aligned}
+敌手的优势是可忽略的，即 <span class="math display">\[
+  \begin{aligned}
   \mathrm{Adv} &amp;= \left|\Pr(\mathrm{output}=\beta) -
 \frac{1}{2}\right| \\
   &amp;= \frac{1}{2} \left|\Pr(\mathrm{output}=0 \mid \beta=0) -
 \Pr(\mathrm{output}=0 \mid \beta=1)\right| \\
   &amp;= \mathrm{negl}(\lambda)
-  \end{aligned}\]</span></li>
+  \end{aligned}
+  \]</span></li>
 </ul>
 <h4 id="bf-基于身份加密算法椭圆曲线对称配对群">BF
 基于身份加密算法（椭圆曲线对称配对群）</h4>
@@ -2309,7 +2377,7 @@ IND-ID-CPA 安全</strong>
       </div>
       <div class="fold-collapse collapse" id="collapse-8d2c5e9f">
         <div class="fold-content">
-          <ul><li><strong>证明</strong>：安全性规约<ul><li><strong>假设结论错误</strong>：BF 加密算法不是 IND-ID-CPA安全的，即存在一个概率多项式时间敌手 <spanclass="math inline"="">\(\mathcal{A}\)，以不可忽略的概率在 BF加密算法 ID-CPA 安全模型中攻破 IND 安全目标，即 <spanclass="math display"="">\[\mathrm{Adv}_\mathcal{A} = \left|\Pr(\mathrm{output}_\mathcal{A} = \beta) - \frac{1}{2} \right| =\text{non-negl}(\lambda)\]</spanclass="math></spanclass="math></li><li><strong>证明前提错误</strong>：构造一个概率多项式时间敌手 <spanclass="math inline"="">\(\mathcal{B}\)，在 BDDH 安全模型中攻破 BDDH安全目标。<ul><li><span class="math inline">\(\mathcal{B}\)</span> 的输入：<spanclass="math inline"="">\(PG = (G, G_T, N, P, g_T, e), xP, yP, zP,T_\beta\)，其中 <span class="math inline">\(x,y,z \leftarrow\mathbb{Z}_N\)</span>，<span class="math inline">\(T_0 =(g_T)^{xyz}\)</span>，<span class="math inline">\(T_1 \leftarrowG_T\)</span>，<span class="math inline">\(\beta \leftarrow\{0,1\}\)</span></spanclass="math></li><li><span class="math inline">\(\mathcal{B}\)</span> 的策略：<ul><li><span class="math inline">\(\mathcal{B}\)</span> 将 <spanclass="math inline"="">\(PK = (PG, Q = xP)\) 发送给 <spanclass="math inline"="">\(\mathcal{A}\)，并模拟 <spanclass="math inline"="">\(\mathcal{A}\) 的环境；设 <spanclass="math inline"="">\(\mathcal{A}\) 进行的哈希查询次数为 <spanclass="math inline"="">\(Q_H(\lambda)\)，加密查询次数为 <spanclass="math inline"="">\(Q_E(\lambda)\)，则 <spanclass="math inline"="">\(\mathcal{B}\) 随机选择 <spanclass="math inline"="">\(j \in [1, Q_H(\lambda)]\) 赌 <spanclass="math inline"="">\(\mathcal{A}\) 最终输出的消息 <spanclass="math inline"="">\(M^{*} = M_j\)。</spanclass="math></spanclass="math></spanclass="math></spanclass="math></spanclass="math></spanclass="math></spanclass="math></spanclass="math></spanclass="math></spanclass="math></li><li>当 <span class="math inline">\(\mathcal{A}\)</span> 使用 <spanclass="math inline"="">\(id_i\) 进行第 <spanclass="math inline"="">\(i\) 次 <strong>派生私钥查询</strong>时：<span class="math inline">\(\mathcal{B}\)</span> 假设自己的私钥为<span class="math inline">\(SK = xP\)</span>，计算 <spanclass="math inline"="">\(SK_{id_i} = x\mathrm{H}(id_i) = xPh_{id_i} =h_{id_i}Q\) 返回给 <spanclass="math inline"="">\(\mathcal{A}\)，并自身记录 <spanclass="math inline"="">\(\mathrm{H}(id_i) = h_{id_i}P\)。<ul><li>此时若 <span class="math inline">\(\mathcal{A}\)</span>要对派生私钥查询进行验证，计算时需要 <spanclass="math inline"="">\(\mathrm{H}(id_i)\)，只能向 <spanclass="math inline"="">\(\mathcal{B}\)查询哈希结果，必然能通过检验</spanclass="math></spanclass="math></li></ul></spanclass="math></spanclass="math></spanclass="math></spanclass="math></spanclass="math></li><li>当 <span class="math inline">\(\mathcal{A}\)</span> 使用 <spanclass="math inline"="">\(id_i\) 进行第 <spanclass="math inline"="">\(k\) 次 <strong>哈希查询</strong> 时：<ul><li>若 <span class="math inline">\(k = j\)</span> 且 <spanclass="math inline"="">\(id_j \notin \{id_i\}\)，即 <spanclass="math inline"="">\(\mathcal{A}\) 的第 <spanclass="math inline"="">\(j\) 次哈希查询的身份 <spanclass="math inline"="">\(id_j\) 没有在之前的派生私钥查询中出现过，则<span class="math inline">\(\mathcal{B}\)</span> 将 <spanclass="math inline"="">\(\mathrm{H}(id_j) = zP\)作为自己的哈希输出，并记录 <span class="math inline">\(\mathrm{H}(id_j)= zP\)</span>。</spanclass="math></spanclass="math></spanclass="math></spanclass="math></spanclass="math></li><li>若 <span class="math inline">\(k = j\)</span> 且 <spanclass="math inline"="">\(id_j \in \{id_i\}\)，则重新选择 <spanclass="math inline"="">\(j\in [1, Q_H(\lambda)]\)，直到满足 <spanclass="math inline"="">\(id_j \notin \{id_i\}\)。</spanclass="math></spanclass="math></spanclass="math></li><li>若 <span class="math inline">\(k \neq j\)</span>，则 <spanclass="math inline"="">\(\mathcal{B}\) 查询是否有 <spanclass="math inline"="">\(\mathrm{H}(id_k)\) 的记录：<ul><li>若有则直接返回</li><li>若没有则均匀选取 <span class="math inline">\(h_{id_k} \leftarrow\mathbb{Z}_N\)</span> 返回并记录 <spanclass="math inline"="">\(\mathrm{H}(id_k) = h_{id_k}P\)。</spanclass="math></li></ul></spanclass="math></spanclass="math></li></ul></spanclass="math></spanclass="math></li><li>最终当 <span class="math inline">\(\mathcal{A}\)</span> 输出挑战<span class="math inline">\((id^*, M_0, M_1)\)</span> 时，若 <spanclass="math inline"="">\(id^* = id_j\)，则 <spanclass="math inline"="">\(\mathcal{B}\) 将 <spanclass="math inline"="">\(C_1 = yP, C_2 = T_\beta M_\beta\)作为挑战密文返回给 <span class="math inline">\(\mathcal{A}\)</span>：<ul><li>若 <span class="math inline">\(\beta = 1\)</span>，则 <spanclass="math inline"="">\(C_2 = T_1 M_1\) 是一个随机元素，<spanclass="math inline"="">\(\mathcal{A}\) 无法区分 <spanclass="math inline"="">\(M_0\) 和 <spanclass="math inline"="">\(M_1\)，只能随机猜测 <spanclass="math inline"="">\(\beta\) 的值，因此 <spanclass="math inline"="">\(\Pr(\mathrm{output}_\mathcal{A} = \beta) =\frac{1}{2}\)。</spanclass="math></spanclass="math></spanclass="math></spanclass="math></spanclass="math></spanclass="math></li><li>若 <span class="math inline">\(\beta = 0\)</span>，则 <spanclass="math inline"="">\(C_2 = T_0 M_0 = g_T^{xyz} M_0 = e(P, P)^{xyz} M_0= e(xP, yP)^{z} M_0 = e(Q, yP)^{z} M_0 = e(Q, \mathrm{H}(id^*))^{z}M_0\) 是一个合法的挑战密文，<spanclass="math inline"="">\(\mathcal{A}\) 可以以不可忽视概率正确区分<span class="math inline">\(M_0\)</span> 和 <spanclass="math inline"="">\(M_1\)，因此 <spanclass="math inline"="">\(\Pr(\mathrm{output}_\mathcal{A} = \beta) =\text{non-negl}(\lambda)\)。</spanclass="math></spanclass="math></spanclass="math></spanclass="math></li></ul></spanclass="math></spanclass="math></spanclass="math></li></ul></li><li><span class="math inline">\(\mathcal{B}\)</span> 的输出： <spanclass="math display"="">\[\mathrm{output}_\mathcal{B} = \begin{cases}  0 &amp; \mathrm{output}_\mathcal{A} = 0 \\  1 &amp; \mathrm{output}_\mathcal{A} = 1  \end{cases}\]</spanclass="math></li><li><span class="math inline">\(\mathcal{B}\)</span> 的优势： <spanclass="math display"="">\[\begin{aligned}      \mathrm{Adv}_{\mathcal{B}} &amp;\geq \Pr\left[      \begin{array}{l}      (1)\ \mathcal{A} \text{ 成功攻破 IND-ID-CPA 安全目标} \\      (2)\ \mathcal{A} \text{ 查询过 } id_j \text{ 的 Hash 值} \\      (3)\ \mathcal{B} \text{ 赌对了 } j \text{(即 } id^* = id_j\text{)}      \end{array}      \right] \\      &amp;\geq \text{non-negl}(\lambda) \cdot \text{non-negl}(\lambda)\cdot \frac{1}{Q(\lambda)} \\      &amp;= \text{non-negl}(\lambda)      \end{aligned}\]</spanclass="math></li></ul></spanclass="math></li></ul></li></ul>
+          <ul><li><strong>证明</strong>：安全性规约<ul><li><strong>假设结论错误</strong>：BF 加密算法不是 IND-ID-CPA安全的，即存在一个概率多项式时间敌手 <spanclass="math inline"="">\(\mathcal{A}\)，以不可忽略的概率在 BF加密算法 ID-CPA 安全模型中攻破 IND 安全目标，即 <spanclass="math display"="">\[  \mathrm{Adv}_\mathcal{A} = \left| \Pr(\mathrm{output}_\mathcal{A} =\beta) - \frac{1}{2} \right| = \text{non-negl}(\lambda)  \]</spanclass="math></spanclass="math></li><li><strong>证明前提错误</strong>：构造一个概率多项式时间敌手 <spanclass="math inline"="">\(\mathcal{B}\)，在 BDDH 安全模型中攻破 BDDH安全目标。<ul><li><span class="math inline">\(\mathcal{B}\)</span> 的输入：<spanclass="math inline"="">\(PG = (G, G_T, N, P, g_T, e), xP, yP, zP,T_\beta\)，其中 <span class="math inline">\(x,y,z \leftarrow\mathbb{Z}_N\)</span>，<span class="math inline">\(T_0 =(g_T)^{xyz}\)</span>，<span class="math inline">\(T_1 \leftarrowG_T\)</span>，<span class="math inline">\(\beta \leftarrow\{0,1\}\)</span></spanclass="math></li><li><span class="math inline">\(\mathcal{B}\)</span> 的策略：<ul><li><span class="math inline">\(\mathcal{B}\)</span> 将 <spanclass="math inline"="">\(PK = (PG, Q = xP)\) 发送给 <spanclass="math inline"="">\(\mathcal{A}\)，并模拟 <spanclass="math inline"="">\(\mathcal{A}\) 的环境；设 <spanclass="math inline"="">\(\mathcal{A}\) 进行的哈希查询次数为 <spanclass="math inline"="">\(Q_H(\lambda)\)，加密查询次数为 <spanclass="math inline"="">\(Q_E(\lambda)\)，则 <spanclass="math inline"="">\(\mathcal{B}\) 随机选择 <spanclass="math inline"="">\(j \in [1, Q_H(\lambda)]\) 赌 <spanclass="math inline"="">\(\mathcal{A}\) 最终输出的消息 <spanclass="math inline"="">\(M^{*} = M_j\)。</spanclass="math></spanclass="math></spanclass="math></spanclass="math></spanclass="math></spanclass="math></spanclass="math></spanclass="math></spanclass="math></spanclass="math></li><li>当 <span class="math inline">\(\mathcal{A}\)</span> 使用 <spanclass="math inline"="">\(id_i\) 进行第 <spanclass="math inline"="">\(i\) 次 <strong>派生私钥查询</strong>时：<span class="math inline">\(\mathcal{B}\)</span> 假设自己的私钥为<span class="math inline">\(SK = xP\)</span>，计算 <spanclass="math inline"="">\(SK_{id_i} = x\mathrm{H}(id_i) = xPh_{id_i} =h_{id_i}Q\) 返回给 <spanclass="math inline"="">\(\mathcal{A}\)，并自身记录 <spanclass="math inline"="">\(\mathrm{H}(id_i) = h_{id_i}P\)。<ul><li>此时若 <span class="math inline">\(\mathcal{A}\)</span>要对派生私钥查询进行验证，计算时需要 <spanclass="math inline"="">\(\mathrm{H}(id_i)\)，只能向 <spanclass="math inline"="">\(\mathcal{B}\)查询哈希结果，必然能通过检验</spanclass="math></spanclass="math></li></ul></spanclass="math></spanclass="math></spanclass="math></spanclass="math></spanclass="math></li><li>当 <span class="math inline">\(\mathcal{A}\)</span> 使用 <spanclass="math inline"="">\(id_i\) 进行第 <spanclass="math inline"="">\(k\) 次 <strong>哈希查询</strong> 时：<ul><li>若 <span class="math inline">\(k = j\)</span> 且 <spanclass="math inline"="">\(id_j \notin \{id_i\}\)，即 <spanclass="math inline"="">\(\mathcal{A}\) 的第 <spanclass="math inline"="">\(j\) 次哈希查询的身份 <spanclass="math inline"="">\(id_j\) 没有在之前的派生私钥查询中出现过，则<span class="math inline">\(\mathcal{B}\)</span> 将 <spanclass="math inline"="">\(\mathrm{H}(id_j) = zP\)作为自己的哈希输出，并记录 <span class="math inline">\(\mathrm{H}(id_j)= zP\)</span>。</spanclass="math></spanclass="math></spanclass="math></spanclass="math></spanclass="math></li><li>若 <span class="math inline">\(k = j\)</span> 且 <spanclass="math inline"="">\(id_j \in \{id_i\}\)，则重新选择 <spanclass="math inline"="">\(j\in [1, Q_H(\lambda)]\)，直到满足 <spanclass="math inline"="">\(id_j \notin \{id_i\}\)。</spanclass="math></spanclass="math></spanclass="math></li><li>若 <span class="math inline">\(k \neq j\)</span>，则 <spanclass="math inline"="">\(\mathcal{B}\) 查询是否有 <spanclass="math inline"="">\(\mathrm{H}(id_k)\) 的记录：<ul><li>若有则直接返回</li><li>若没有则均匀选取 <span class="math inline">\(h_{id_k} \leftarrow\mathbb{Z}_N\)</span> 返回并记录 <spanclass="math inline"="">\(\mathrm{H}(id_k) = h_{id_k}P\)。</spanclass="math></li></ul></spanclass="math></spanclass="math></li></ul></spanclass="math></spanclass="math></li><li>最终当 <span class="math inline">\(\mathcal{A}\)</span> 输出挑战<span class="math inline">\((id^*, M_0, M_1)\)</span> 时，若 <spanclass="math inline"="">\(id^* = id_j\)，则 <spanclass="math inline"="">\(\mathcal{B}\) 将 <spanclass="math inline"="">\(C_1 = yP, C_2 = T_\beta M_\beta\)作为挑战密文返回给 <span class="math inline">\(\mathcal{A}\)</span>：<ul><li>若 <span class="math inline">\(\beta = 1\)</span>，则 <spanclass="math inline"="">\(C_2 = T_1 M_1\) 是一个随机元素，<spanclass="math inline"="">\(\mathcal{A}\) 无法区分 <spanclass="math inline"="">\(M_0\) 和 <spanclass="math inline"="">\(M_1\)，只能随机猜测 <spanclass="math inline"="">\(\beta\) 的值，因此 <spanclass="math inline"="">\(\Pr(\mathrm{output}_\mathcal{A} = \beta) =\frac{1}{2}\)。</spanclass="math></spanclass="math></spanclass="math></spanclass="math></spanclass="math></spanclass="math></li><li>若 <span class="math inline">\(\beta = 0\)</span>，则 <spanclass="math inline"="">\(C_2 = T_0 M_0 = g_T^{xyz} M_0 = e(P, P)^{xyz} M_0= e(xP, yP)^{z} M_0 = e(Q, yP)^{z} M_0 = e(Q, \mathrm{H}(id^*))^{z}M_0\) 是一个合法的挑战密文，<spanclass="math inline"="">\(\mathcal{A}\) 可以以不可忽视概率正确区分<span class="math inline">\(M_0\)</span> 和 <spanclass="math inline"="">\(M_1\)，因此 <spanclass="math inline"="">\(\Pr(\mathrm{output}_\mathcal{A} = \beta) =\text{non-negl}(\lambda)\)。</spanclass="math></spanclass="math></spanclass="math></spanclass="math></li></ul></spanclass="math></spanclass="math></spanclass="math></li></ul></li><li><span class="math inline">\(\mathcal{B}\)</span> 的输出： <spanclass="math display"="">\[  \mathrm{output}_\mathcal{B} = \begin{cases}  0 &amp; \mathrm{output}_\mathcal{A} = 0 \\  1 &amp; \mathrm{output}_\mathcal{A} = 1  \end{cases}  \]</spanclass="math></li><li><span class="math inline">\(\mathcal{B}\)</span> 的优势： <spanclass="math display"="">\[  \begin{aligned}      \mathrm{Adv}_{\mathcal{B}} &amp;\geq \Pr\left[      \begin{array}{l}      (1)\ \mathcal{A} \text{ 成功攻破 IND-ID-CPA 安全目标} \\      (2)\ \mathcal{A} \text{ 查询过 } id_j \text{ 的 Hash 值} \\      (3)\ \mathcal{B} \text{ 赌对了 } j \text{(即 } id^* = id_j\text{)}      \end{array}      \right] \\      &amp;\geq \text{non-negl}(\lambda) \cdot \text{non-negl}(\lambda)\cdot \frac{1}{Q(\lambda)} \\      &amp;= \text{non-negl}(\lambda)      \end{aligned}  \]</spanclass="math></li></ul></spanclass="math></li></ul></li></ul>
         </div>
       </div>
     </div></li>
@@ -2342,9 +2410,11 @@ IND-ID-CPA 安全</strong>
 <li><p>示例：<span class="math inline">\(\mathbb{Z}^{m}\)</span>、<span class="math inline">\((q\mathbb{Z})^{m}\)</span> 是格，但 <span class="math inline">\(\mathbb{Q}^{m}\)</span>，<span class="math inline">\(2\mathbb{Z}+ 1\)</span> 以及 <span class="math inline">\(\mathbb{Z}+\mathbb{Z}\sqrt{2}\)</span>
 都不是格。</p></li>
 <li><p><strong>格基</strong>：设 <span class="math inline">\(\mathcal{L}\)</span> 是 <span class="math inline">\(\mathbb{R}^{m}\)</span> 中的格，则存在 <span class="math inline">\(\mathbb{R}\)</span>-线性无关的向量 <span class="math inline">\(\mathbf{b}_{1}, \mathbf{b}_{2}, \cdots,
-\mathbf{b}_{n} \in \mathbb{R}^{m}\)</span>，使得 <span class="math display">\[\mathcal{L}=\left\{z_{1} \mathbf{b}_{1}+z_{2}
+\mathbf{b}_{n} \in \mathbb{R}^{m}\)</span>，使得 <span class="math display">\[
+  \mathcal{L}=\left\{z_{1} \mathbf{b}_{1}+z_{2}
 \mathbf{b}_{2}+\cdots+z_{n} \mathbf{b}_{n} \mid z_{i} \in
-\mathbb{Z}\right\}\]</span></p>
+\mathbb{Z}\right\}
+  \]</span></p>
 <ul>
 <li><strong>维数</strong>：<span class="math inline">\(m\)</span></li>
 <li><strong>秩</strong>：<span class="math inline">\(n\)</span></li>
@@ -2367,66 +2437,81 @@ IND-ID-CPA 安全</strong>
 <li><p><strong>基本平行多面体</strong>（Fundamental
 parallelepipeds）：设 <span class="math inline">\(\mathcal{L}\)</span>
 为满秩格，则格 <span class="math inline">\(\mathcal{L}\)</span>
-的基本平行多面体定义为 <span class="math display">\[\mathcal{F}(B):=
-\mathbb{R}^{m}/\mathcal{L} = \{ \sum _{i=1}^{m}x_{i}\mathbf{b}_{i} \mid
-x_{i}\in [0,1)\}\]</span></p>
+的基本平行多面体定义为 <span class="math display">\[
+  \mathcal{F}(B):= \mathbb{R}^{m}/\mathcal{L} = \{ \sum
+_{i=1}^{m}x_{i}\mathbf{b}_{i} \mid x_{i}\in [0,1)\}
+  \]</span></p>
 <ul>
-<li><span class="math inline">\(\mathcal{F}(B)\)</span> 的体积为 <span class="math display">\[\mathrm{vol}(\mathcal {F}(B))=|\det M(B)|,\quad
+<li><span class="math inline">\(\mathcal{F}(B)\)</span> 的体积为 <span class="math display">\[
+  \mathrm{vol}(\mathcal {F}(B))=|\det M(B)|,\quad
 M(B)=\begin{pmatrix}\mathbf{b}_{1} &amp; \mathbf{b}_{2} &amp; \cdots
-&amp; \mathbf{b}_{m}\end{pmatrix}\]</span></li>
+&amp; \mathbf{b}_{m}\end{pmatrix}
+  \]</span></li>
 </ul></li>
 <li><p><strong>定理</strong>：</p>
 <ol type="1">
 <li>设 <span class="math inline">\(\mathbf{b}_{1}, \mathbf{b}_{2},
 \cdots, \mathbf{b}_{m} \in \mathcal{L}\)</span> 且整线性无关，则 <span class="math inline">\(B=\{\mathbf{b}_{1}, \mathbf{b}_{2}, \cdots,
-\mathbf{b}_{m}\}\)</span> 为格基当且仅当 <span class="math display">\[\mathcal{F}(B) \cap \mathcal{L}=\{(0, \cdots,
-0)\}\]</span></li>
+\mathbf{b}_{m}\}\)</span> 为格基当且仅当 <span class="math display">\[
+\mathcal{F}(B) \cap \mathcal{L}=\{(0, \cdots, 0)\}
+\]</span></li>
 <li>设 <span class="math inline">\(B=\{\mathbf{b}_{1}, \mathbf{b}_{2},
 \cdots, \mathbf{b}_{m}\}\)</span> 和 <span class="math inline">\(B'=\{\mathbf{b}_{1}', \mathbf{b}_{2}',
-\cdots, \mathbf{b}_{m}'\}\)</span> 为两组格基，则 <span class="math display">\[\mathrm{vol}(\mathcal{F}(B))=\mathrm{vol}\left(\mathcal{F}\left(B'\right)\right)\]</span></li>
+\cdots, \mathbf{b}_{m}'\}\)</span> 为两组格基，则 <span class="math display">\[
+\mathrm{vol}(\mathcal{F}(B))=\mathrm{vol}\left(\mathcal{F}\left(B'\right)\right)
+\]</span></li>
 <li>设 <span class="math inline">\(B=\{\mathbf{b}_{1}, \mathbf{b}_{2},
-\cdots, \mathbf{b}_{m}\}\)</span> 为格基，定义 <span class="math inline">\(\mathcal{L}\)</span> 的行列式为 <span class="math display">\[\det(\mathcal{L}):=\mathrm{Vol}(\mathcal{F}(B))=|\det(B)|\]</span></li>
+\cdots, \mathbf{b}_{m}\}\)</span> 为格基，定义 <span class="math inline">\(\mathcal{L}\)</span> 的行列式为 <span class="math display">\[
+\det(\mathcal{L}):=\mathrm{Vol}(\mathcal{F}(B))=|\det(B)|
+\]</span></li>
 </ol></li>
 </ul>
 <h4 id="格上定义的问题">格上定义的问题</h4>
 <ul>
-<li><strong>格的最小距离</strong>：设 <span class="math inline">\(\mathcal{L}\)</span> 是 <span class="math inline">\(\mathbb{R}^{m}\)</span> 中的格，则 <span class="math inline">\(\mathcal{L}\)</span> 的最小距离定义为 <span class="math display">\[\lambda_{1}(\mathcal{L})=\min\{\| \mathbf{v}\| :
-\mathbf{v} \in \mathcal{L} \setminus\{0\}\}=\min\{\|
-\mathbf{x}-\mathbf{y}\| : \mathbf{x} \neq \mathbf{y} \in
-\mathcal{L}\}\]</span></li>
-<li><strong>Minkowski’s first theorem</strong>：设 <span class="math inline">\(\mathcal{L}\)</span> 为秩是 <span class="math inline">\(m\)</span> 的格，则 <span class="math display">\[\lambda_{1}(\mathcal{L}) \leq \sqrt{m}(\det
-\mathcal{L})^{1/m}\]</span>
+<li><strong>格的最小距离</strong>：设 <span class="math inline">\(\mathcal{L}\)</span> 是 <span class="math inline">\(\mathbb{R}^{m}\)</span> 中的格，则 <span class="math inline">\(\mathcal{L}\)</span> 的最小距离定义为 <span class="math display">\[
+  \lambda_{1}(\mathcal{L})=\min\{\| \mathbf{v}\| : \mathbf{v} \in
+\mathcal{L} \setminus\{0\}\}=\min\{\| \mathbf{x}-\mathbf{y}\| :
+\mathbf{x} \neq \mathbf{y} \in \mathcal{L}\}
+  \]</span></li>
+<li><strong>Minkowski’s first theorem</strong>：设 <span class="math inline">\(\mathcal{L}\)</span> 为秩是 <span class="math inline">\(m\)</span> 的格，则 <span class="math display">\[
+  \lambda_{1}(\mathcal{L}) \leq \sqrt{m}(\det \mathcal{L})^{1/m}
+  \]</span>
 <ul>
 <li>示例：<span class="math inline">\(\mathbf{b}_{1}=(0,2^{-100})\)</span>，<span class="math inline">\(\mathbf{b}_{2}=(2^{100}, 0)\)</span> 那么 <span class="math inline">\(\lambda_{1}(\mathcal{L}(\mathbf{b}_{1},
 \mathbf{b}_{2}))=2^{-100} \ll \sqrt{2}\)</span>。</li>
 </ul></li>
 <li><strong>最短向量问题</strong> <span class="math inline">\((SVP)\)</span>：给定格 <span class="math inline">\(\mathcal{L}\)</span> 的任意格基 <span class="math inline">\(B\)</span>，找到 <span class="math inline">\(\mathbf{v} \in \mathcal{L}\setminus\{0\}\)</span>
-使得 <span class="math display">\[\| \mathbf{v}\|
-=\lambda_{1}(\mathcal{L})\]</span></li>
+使得 <span class="math display">\[
+  \| \mathbf{v}\| =\lambda_{1}(\mathcal{L})
+  \]</span></li>
 <li><strong>最近向量问题</strong> <span class="math inline">\((CVP)\)</span>：给定格 <span class="math inline">\(\mathcal{L}\)</span> 的任意格基 <span class="math inline">\(B\)</span>，以及 <span class="math inline">\(t \in
 \mathbb{R}^{m}\)</span>，找到 <span class="math inline">\(\mathbf{v} \in
-\mathcal{L}\)</span> 使得 <span class="math display">\[\forall
-\mathbf{y} \in \mathcal{L}, \| \mathbf{v}-\mathbf{t}\| \leq \|
-\mathbf{y}-\mathbf{t}\|\]</span></li>
+\mathcal{L}\)</span> 使得 <span class="math display">\[
+  \forall \mathbf{y} \in \mathcal{L}, \| \mathbf{v}-\mathbf{t}\| \leq \|
+\mathbf{y}-\mathbf{t}\|
+  \]</span></li>
 <li><strong>近似最短向量问题</strong> <span class="math inline">\((SVP_{\gamma})\)</span>：给定格 <span class="math inline">\(\mathcal{L}\)</span> 的任意格基 <span class="math inline">\(B\)</span>，找到 <span class="math inline">\(\mathbf{v} \in \mathcal{L}\setminus\{0\}\)</span>
-使得 <span class="math display">\[\| \mathbf{v}\| ≤\gamma(m) \cdot
-\lambda_{1}(\mathcal{L})\]</span></li>
+使得 <span class="math display">\[
+  \| \mathbf{v}\| ≤\gamma(m) \cdot \lambda_{1}(\mathcal{L})
+  \]</span></li>
 <li><strong>近似最近向量问题</strong> <span class="math inline">\((CVP_{\gamma})\)</span>：给定格 <span class="math inline">\(\mathcal{L}\)</span> 的任意格基 <span class="math inline">\(B\)</span>，以及 <span class="math inline">\(t \in
 \mathbb{R}^{m}\)</span>，找到 <span class="math inline">\(\mathbf{v} \in
-\mathcal{L}\)</span> 使得 <span class="math display">\[\forall
-\mathbf{y} \in \mathcal{L}, \| \mathbf{v}-\mathbf{t}\| \leq \gamma(m)
-\cdot\| \mathbf{y}-\mathbf{t}\|\]</span></li>
+\mathcal{L}\)</span> 使得 <span class="math display">\[
+  \forall \mathbf{y} \in \mathcal{L}, \| \mathbf{v}-\mathbf{t}\| \leq
+\gamma(m) \cdot\| \mathbf{y}-\mathbf{t}\|
+  \]</span></li>
 <li><strong>判定性近似最短向量问题</strong> <span class="math inline">\((GapSVP_{\gamma})\)</span>：假设 <span class="math inline">\(\mathcal{L}\)</span> 是满足 <span class="math inline">\(\lambda_{1}(\mathcal{L})\leq1\)</span> 或 <span class="math inline">\(\lambda_{1}(\mathcal{L})&gt;\gamma(n)\)</span>
 的格，给定格 <span class="math inline">\(\mathcal{L}\)</span> 的任意格基
 <span class="math inline">\(B\)</span>，判断 <span class="math inline">\(\mathcal{L}\)</span> 属于哪种情况。</li>
-<li><strong>近似最短独立向量问题</strong> <span class="math inline">\((SIVP_{\gamma})\)</span>：给定格 <span class="math inline">\(\mathcal{L}\)</span> 的任意格基 <span class="math inline">\(B\)</span>，找到 <span class="math inline">\(n\)</span> 个线性无关向量 <span class="math inline">\(s_{i}\in \mathcal{L}\)</span>，使得 <span class="math display">\[\|s_{i}\|\leq\gamma(n)\cdot\lambda_{n}(\mathcal{L})\]</span>
-其中 <span class="math inline">\(\lambda_{n}(\mathcal{L})\)</span> 表示
-<span class="math inline">\(\mathcal{L}\)</span> 的第 <span class="math inline">\(n\)</span> 小距离。</li>
+<li><strong>近似最短独立向量问题</strong> <span class="math inline">\((SIVP_{\gamma})\)</span>：给定格 <span class="math inline">\(\mathcal{L}\)</span> 的任意格基 <span class="math inline">\(B\)</span>，找到 <span class="math inline">\(n\)</span> 个线性无关向量 <span class="math inline">\(s_{i}\in \mathcal{L}\)</span>，使得 <span class="math display">\[
+  \|s_{i}\|\leq\gamma(n)\cdot\lambda_{n}(\mathcal{L})
+  \]</span> 其中 <span class="math inline">\(\lambda_{n}(\mathcal{L})\)</span> 表示 <span class="math inline">\(\mathcal{L}\)</span> 的第 <span class="math inline">\(n\)</span> 小距离。</li>
 <li><strong>有界距离解码问题</strong> <span class="math inline">\((BDD_{\delta})\)</span>：给定格 <span class="math inline">\(\mathcal{L}\)</span> 的任意格基 <span class="math inline">\(B\)</span>，以及 <span class="math inline">\(\mathbf{t} \in \mathbb{R}^{m}\)</span>，满足 <span class="math inline">\(\mathrm{dist}(\mathcal{L}, \mathbf{t})
 \leq\delta&lt;\frac{\lambda_{1}(\mathcal{L})}{2}\)</span>，找到唯一的格向量
 <span class="math inline">\(\mathbf{w} \in \mathcal{L}\)</span>，使得
-<span class="math display">\[\| \mathbf{w}-\mathbf{t}\| _{2} \leq
-\delta\]</span>
+<span class="math display">\[
+  \| \mathbf{w}-\mathbf{t}\| _{2} \leq \delta
+  \]</span>
 <ul>
 <li><span class="math inline">\(BDD_{\delta} \subset
 CVP_{\delta}\)</span></li>
@@ -2455,9 +2540,10 @@ B_{\chi}]^{m}\)</span>，计算 <span class="math inline">\(\mathbf{z}:=\mathbf{
 \mathbf{z})\)</span></li>
 <li><strong>输出</strong>：<span class="math inline">\(\mathbf{s}\)</span></li>
 <li><strong>计算性 LWE 问题困难</strong>：任意 PPT
-敌手的优势是可忽略的，即 <span class="math display">\[\mathrm{Adv} =
-\left|\Pr(\mathrm{output}=\mathbf{s}) - \frac{1}{q^{n}}\right| =
-\mathrm{negl}(\lambda)\]</span></li>
+敌手的优势是可忽略的，即 <span class="math display">\[
+  \mathrm{Adv} = \left|\Pr(\mathrm{output}=\mathbf{s}) -
+\frac{1}{q^{n}}\right| = \mathrm{negl}(\lambda)
+  \]</span></li>
 <li>直觉：定义格 <span class="math inline">\(\mathcal{L}(\mathbf{A})=\{\mathbf{x} \in
 \mathbb{Z}^{m} \mid \mathbf{x}=\mathbf{A}^{T} \mathbf{s} \pmod q,
 \mathbf{s} \in \mathbb{Z}_{q}^{n}\}\)</span>，则 <span class="math inline">\(\mathbf{z}\)</span> 是 <span class="math inline">\(\mathcal{L}(\mathbf{A})\)</span>
@@ -2477,9 +2563,10 @@ B_{\chi}]^{m}\)</span>，计算 <span class="math inline">\(\mathbf{z}_{0}:=\mat
 \mathbf{z}_{\beta})\)</span></li>
 <li><strong>输出</strong>：<span class="math inline">\(\beta\)</span></li>
 <li><strong>判定性 LWE 问题困难</strong>：任意 PPT
-敌手的优势是可忽略的，即 <span class="math display">\[\mathrm{Adv} =
-\left|\Pr(\mathrm{output}=\beta) - \frac{1}{2}\right| =
-\mathrm{negl}(\lambda)\]</span></li>
+敌手的优势是可忽略的，即 <span class="math display">\[
+  \mathrm{Adv} = \left|\Pr(\mathrm{output}=\beta) - \frac{1}{2}\right| =
+\mathrm{negl}(\lambda)
+  \]</span></li>
 <li><img src="image-17.webp" srcset="/Blog/img/loading/loading3.gif" lazyload></li>
 </ul></li>
 <li><p><strong>定理（Regev05）</strong>：<strong>DLWE 问题困难</strong>
@@ -2492,7 +2579,7 @@ B_{\chi}]^{m}\)</span>，计算 <span class="math inline">\(\mathbf{z}_{0}:=\mat
       </div>
       <div class="fold-collapse collapse" id="collapse-7b1c0ee2">
         <div class="fold-content">
-          <ul><li><strong>充分性证明</strong> <spanclass="math inline"="">\(\implies\)：假设存在 PPT 敌手 <spanclass="math inline"="">\(\mathcal{A}\) 能够以不可忽略的优势攻破 CLWE问题，构造 PPT 敌手 <span class="math inline">\(\mathcal{B}\)</span>来攻破判定性 LWE 问题：<ul><li><span class="math inline">\(\mathcal{B}\)</span> 的输入：<spanclass="math inline"="">\((\mathbf{A}, \mathbf{z}_{\beta})\)</spanclass="math></li><li>调用子敌手：将 <span class="math inline">\((\mathbf{A},\mathbf{z}_{\beta})\)</span> 作为输入传递给 <spanclass="math inline"="">\(\mathcal{A}\)<ul><li>当 <span class="math inline">\(\beta=0\)</span> 时，<spanclass="math inline"="">\(\mathbf{z}_{0}=\mathbf{A}^{\top}\mathbf{s}+\mathbf{e}\) 满足 LWE 问题形式，<spanclass="math inline"="">\(\mathcal{A}\) 以不可忽略的优势输出 <spanclass="math inline"="">\(\mathbf{s}\)。</spanclass="math></spanclass="math></spanclass="math></li><li>当 <span class="math inline">\(\beta=1\)</span> 时，<spanclass="math inline"="">\(\mathbf{z}_{1}\leftarrow\mathbb{Z}_{q}^{m}\) 是均匀分布的。考虑若 <spanclass="math inline"="">\(\mathcal{A}\) 仍可以输出有效的 <spanclass="math inline"="">\(\mathbf{s}\)，则 <spanclass="math inline"="">\(\exists \mathbf{s}' \in\mathbb{Z}_{q}^{n}\) 使得 <spanclass="math inline"="">\(\mathbf{z}_{1} - \mathbf{A}^{\top} \mathbf{s}'\in [-B_{\chi}, B_{\chi}]^{m}\)，计算这个概率： <spanclass="math display"="">\[\begin{aligned}  P &amp;= \frac{\#\{\mathbf{z}_{1} \in \mathbb{Z}_{q}^{m} \mid\mathbf{z}_{1} - \mathbf{A}^{\top} \mathbf{s}' \in [-B_{\chi},B_{\chi}]^{m}\}}{\mathbb{Z}_{q}^{m}} \\  &amp;\leq \frac{q^n\cdot (2B_{\chi}+1)^{m}}{q^{m}} &lt; \frac{q^n\cdot(q/m)^{m}}{q^{m}} \\  &amp;= \frac{q^n}{m^m} \leq \frac{2^{n \cdot \log q}}{2^{m\cdot \logm}} \\  &amp;\leq \frac{2^{\frac{m}{2}}}{2^{m\cdot \log m}} =2^{-\frac{m}{2}\cdot \log m} = \mathrm{negl}(\lambda)  \end{aligned}\] 因此 <spanclass="math inline"="">\(\mathcal{A}\) 输出有效的 <spanclass="math inline"="">\(\mathbf{s}\) 的概率是可忽略的。</spanclass="math></spanclass="math></spanclass="math></spanclass="math></spanclass="math></spanclass="math></spanclass="math></spanclass="math></li></ul></spanclass="math></li><li><span class="math inline">\(\mathcal{B}\)</span> 的输出：假设 <spanclass="math inline"="">\(\mathrm{output}_\mathcal{B} =\mathbf{s}'\) <spanclass="math display"="">\[\mathrm{output}_\mathcal{B} = \begin{cases}  0 &amp; \mathcal{A} \text{ 输出有效的 } \mathbf{s} \\  1 &amp; \text{otherwise}  \end{cases}\]</spanclass="math></spanclass="math></li><li><span class="math inline">\(\mathcal{B}\)</span> 的优势 <spanclass="math display"="">\[\begin{aligned}  \mathrm{Adv}_\mathcal{B} &amp;=\left|\Pr(\mathrm{output}_\mathcal{B}=\beta) - \frac{1}{2}\right| \\  &amp;= \frac{1}{2} \cdot \left|\Pr(\mathrm{output}_\mathcal{B}=0 \mid\beta=0) - \Pr(\mathrm{output}_\mathcal{B}=0 \mid \beta=1)\right| \\  &amp;= \frac{1}{2} \cdot\left|\text{non-negl}(\lambda)-\mathrm{negl}(\lambda) \right| \\  &amp;= \text{non-negl}(\lambda)  \end{aligned}\]</spanclass="math></li><li>因此 <span class="math inline">\(\mathcal{B}\)</span>以不可忽略的优势攻破判定性 LWE 问题，与假设矛盾。</li></ul></spanclass="math></spanclass="math></li><li><strong>必要性证明</strong> <spanclass="math inline"="">\(\impliedby\)：假设存在 PPT 敌手 <spanclass="math inline"="">\(\mathcal{B}\) 能够以不可忽略的优势攻破 DLWE问题，构造 PPT 敌手 <span class="math inline">\(\mathcal{A}\)</span>来攻破计算性 LWE 问题。<ul><li><span class="math inline">\(\mathcal{A}\)</span> 的输入：<spanclass="math inline"="">\((\mathbf{A}, \mathbf{z})\)，其中 <spanclass="math inline"="">\(\mathbf{A} \leftarrow \mathbb{Z}_q^{n \timesm}\)，<span class="math inline">\(\mathbf{z} =\mathbf{A}^\top\mathbf{s} + \mathbf{e} \in \mathbb{Z}_q^m\)</span>。</spanclass="math></spanclass="math></li><li>考虑要求解的 <span class="math inline">\(\mathbf{s} = (s_1, s_2,\ldots, s_n)^\top\)</span>，<spanclass="math inline"="">\(\mathcal{A}\) 逐一求解每个分量 <spanclass="math inline"="">\(s_i\)：<ul><li>猜测分量 <spanclass="math inline"="">\(s_i=k\in\{0,1,\ldots,q-1\}\)，构造新的矩阵<span class="math inline">\(\mathbf{A}'\)</span> 和向量 <spanclass="math inline"="">\(\mathbf{z}'\)：<ol type="1"><li>均匀随机选取一个向量 <span class="math inline">\(\mathbf{v}\leftarrow \mathbb{Z}_q^m\)</span>。</li><li>构造 <span class="math inline">\(\mathbf{A}' = \mathbf{A} +\mathbf{e}_i \mathbf{v}^\top\)</span>，其中 <spanclass="math inline"="">\(\mathbf{e}_i = \{0, \ldots, 0, 1, 0, \ldots,0\}\) 是第 <span class="math inline">\(i\)</span>个标准基向量。</spanclass="math></li><li>构造 <span class="math inline">\(\mathbf{z}' = \mathbf{z} + k\cdot \mathbf{v}\)</span>。</li><li>则有 <span class="math display">\[\begin{aligned}\mathbf{z}' - \mathbf{A}'^\top \mathbf{s} &amp;= (\mathbf{z} + k\cdot \mathbf{v}) - (\mathbf{A} + \mathbf{e}_i \mathbf{v}^\top)^\top\mathbf{s} \\&amp;= \mathbf{z} + k \cdot \mathbf{v} - \mathbf{A}^\top \mathbf{s} -s_i\cdot \mathbf{v}  \\&amp;= \mathbf{e} + (k - s_i) \cdot \mathbf{v}\end{aligned}\]</span></li></ol></spanclass="math></spanclass="math></li><li>将 <span class="math inline">\((\mathbf{A}',\mathbf{z}')\)</span> 作为输入传递给 <spanclass="math inline"="">\(\mathcal{B}\)：<ul><li>若猜测正确，即 <span class="math inline">\(k = s_i\)</span>，则<span class="math inline">\(\mathbf{z}' - \mathbf{A}'^\top\mathbf{s} = \mathbf{e}\)</span> 满足 LWE 问题形式，<spanclass="math inline"="">\(\mathcal{B}\) 以不可忽略的优势输出 <spanclass="math inline"="">\(0\)。</spanclass="math></spanclass="math></li><li>若猜测错误，则 <span class="math inline">\(\mathbf{z}'' =\mathbf{z}' - (k - s_i) \cdot \mathbf{v}\)</span> 是 <spanclass="math inline"="">\(\mathbb{Z}_q^m\) 上均匀分布的，<spanclass="math inline"="">\(\mathcal{B}\) 以不可忽略的优势输出 <spanclass="math inline"="">\(1\)。</spanclass="math></spanclass="math></spanclass="math></li></ul></spanclass="math></li></ul></spanclass="math></spanclass="math></li><li>因此，只要遍历 <spanclass="math inline"="">\(s_i=k\in\{0,1,\ldots,q-1\}\)，就可以以不可忽略的优势正确求解<span class="math inline">\(s_i\)</span>；再对所有 <spanclass="math inline"="">\(i \in \{1,2,\ldots,n\}\)重复上述过程，即可以不可忽略的优势求解 <spanclass="math inline"="">\(\mathbf{s}\)。</spanclass="math></spanclass="math></spanclass="math></li><li><span class="math inline">\(\mathcal{A}\)</span>的复杂度：上述过程需要 <span class="math inline">\(n \cdot q\)</span>次调用 <span class="math inline">\(\mathcal{B}\)</span>，由 <spanclass="math inline"="">\(q=\mathrm{poly}(n)\) 以及 <spanclass="math inline"="">\(\mathcal{B}\) 的 PPT 性质可知 <spanclass="math inline"="">\(\mathcal{A}\) 也是 PPT 算法。因此 <spanclass="math inline"="">\(\mathcal{A}\) 以不可忽略的优势攻破计算性LWE 问题，与假设矛盾。</spanclass="math></spanclass="math></spanclass="math></spanclass="math></li></ul></spanclass="math></spanclass="math></li></ul>
+          <ul><li><strong>充分性证明</strong> <spanclass="math inline"="">\(\implies\)：假设存在 PPT 敌手 <spanclass="math inline"="">\(\mathcal{A}\) 能够以不可忽略的优势攻破 CLWE问题，构造 PPT 敌手 <span class="math inline">\(\mathcal{B}\)</span>来攻破判定性 LWE 问题：<ul><li><span class="math inline">\(\mathcal{B}\)</span> 的输入：<spanclass="math inline"="">\((\mathbf{A}, \mathbf{z}_{\beta})\)</spanclass="math></li><li>调用子敌手：将 <span class="math inline">\((\mathbf{A},\mathbf{z}_{\beta})\)</span> 作为输入传递给 <spanclass="math inline"="">\(\mathcal{A}\)<ul><li>当 <span class="math inline">\(\beta=0\)</span> 时，<spanclass="math inline"="">\(\mathbf{z}_{0}=\mathbf{A}^{\top}\mathbf{s}+\mathbf{e}\) 满足 LWE 问题形式，<spanclass="math inline"="">\(\mathcal{A}\) 以不可忽略的优势输出 <spanclass="math inline"="">\(\mathbf{s}\)。</spanclass="math></spanclass="math></spanclass="math></li><li>当 <span class="math inline">\(\beta=1\)</span> 时，<spanclass="math inline"="">\(\mathbf{z}_{1}\leftarrow\mathbb{Z}_{q}^{m}\) 是均匀分布的。考虑若 <spanclass="math inline"="">\(\mathcal{A}\) 仍可以输出有效的 <spanclass="math inline"="">\(\mathbf{s}\)，则 <spanclass="math inline"="">\(\exists \mathbf{s}' \in\mathbb{Z}_{q}^{n}\) 使得 <spanclass="math inline"="">\(\mathbf{z}_{1} - \mathbf{A}^{\top} \mathbf{s}'\in [-B_{\chi}, B_{\chi}]^{m}\)，计算这个概率： <spanclass="math display"="">\[  \begin{aligned}  P &amp;= \frac{\#\{\mathbf{z}_{1} \in \mathbb{Z}_{q}^{m} \mid\mathbf{z}_{1} - \mathbf{A}^{\top} \mathbf{s}' \in [-B_{\chi},B_{\chi}]^{m}\}}{\mathbb{Z}_{q}^{m}} \\  &amp;\leq \frac{q^n\cdot (2B_{\chi}+1)^{m}}{q^{m}} &lt; \frac{q^n\cdot(q/m)^{m}}{q^{m}} \\  &amp;= \frac{q^n}{m^m} \leq \frac{2^{n \cdot \log q}}{2^{m\cdot \logm}} \\  &amp;\leq \frac{2^{\frac{m}{2}}}{2^{m\cdot \log m}} =2^{-\frac{m}{2}\cdot \log m} = \mathrm{negl}(\lambda)  \end{aligned}  \] 因此 <span class="math inline">\(\mathcal{A}\)</span>输出有效的 <span class="math inline">\(\mathbf{s}\)</span>的概率是可忽略的。</spanclass="math></spanclass="math></spanclass="math></spanclass="math></spanclass="math></spanclass="math></li></ul></spanclass="math></li><li><span class="math inline">\(\mathcal{B}\)</span> 的输出：假设 <spanclass="math inline"="">\(\mathrm{output}_\mathcal{B} =\mathbf{s}'\) <span class="math display">\[  \mathrm{output}_\mathcal{B} = \begin{cases}  0 &amp; \mathcal{A} \text{ 输出有效的 } \mathbf{s} \\  1 &amp; \text{otherwise}  \end{cases}  \]</span></spanclass="math></li><li><span class="math inline">\(\mathcal{B}\)</span> 的优势 <spanclass="math display"="">\[  \begin{aligned}  \mathrm{Adv}_\mathcal{B} &amp;=\left|\Pr(\mathrm{output}_\mathcal{B}=\beta) - \frac{1}{2}\right| \\  &amp;= \frac{1}{2} \cdot \left|\Pr(\mathrm{output}_\mathcal{B}=0 \mid\beta=0) - \Pr(\mathrm{output}_\mathcal{B}=0 \mid \beta=1)\right| \\  &amp;= \frac{1}{2} \cdot\left|\text{non-negl}(\lambda)-\mathrm{negl}(\lambda) \right| \\  &amp;= \text{non-negl}(\lambda)  \end{aligned}  \]</spanclass="math></li><li>因此 <span class="math inline">\(\mathcal{B}\)</span>以不可忽略的优势攻破判定性 LWE 问题，与假设矛盾。</li></ul></spanclass="math></spanclass="math></li><li><strong>必要性证明</strong> <spanclass="math inline"="">\(\impliedby\)：假设存在 PPT 敌手 <spanclass="math inline"="">\(\mathcal{B}\) 能够以不可忽略的优势攻破 DLWE问题，构造 PPT 敌手 <span class="math inline">\(\mathcal{A}\)</span>来攻破计算性 LWE 问题。<ul><li><span class="math inline">\(\mathcal{A}\)</span> 的输入：<spanclass="math inline"="">\((\mathbf{A}, \mathbf{z})\)，其中 <spanclass="math inline"="">\(\mathbf{A} \leftarrow \mathbb{Z}_q^{n \timesm}\)，<span class="math inline">\(\mathbf{z} =\mathbf{A}^\top\mathbf{s} + \mathbf{e} \in \mathbb{Z}_q^m\)</span>。</spanclass="math></spanclass="math></li><li>考虑要求解的 <span class="math inline">\(\mathbf{s} = (s_1, s_2,\ldots, s_n)^\top\)</span>，<spanclass="math inline"="">\(\mathcal{A}\) 逐一求解每个分量 <spanclass="math inline"="">\(s_i\)：<ul><li>猜测分量 <spanclass="math inline"="">\(s_i=k\in\{0,1,\ldots,q-1\}\)，构造新的矩阵<span class="math inline">\(\mathbf{A}'\)</span> 和向量 <spanclass="math inline"="">\(\mathbf{z}'\)：<ol type="1"><li>均匀随机选取一个向量 <span class="math inline">\(\mathbf{v}\leftarrow \mathbb{Z}_q^m\)</span>。</li><li>构造 <span class="math inline">\(\mathbf{A}' = \mathbf{A} +\mathbf{e}_i \mathbf{v}^\top\)</span>，其中 <spanclass="math inline"="">\(\mathbf{e}_i = \{0, \ldots, 0, 1, 0, \ldots,0\}\) 是第 <span class="math inline">\(i\)</span>个标准基向量。</spanclass="math></li><li>构造 <span class="math inline">\(\mathbf{z}' = \mathbf{z} + k\cdot \mathbf{v}\)</span>。</li><li>则有 <span class="math display">\[\begin{aligned}\mathbf{z}' - \mathbf{A}'^\top \mathbf{s} &amp;= (\mathbf{z} + k\cdot \mathbf{v}) - (\mathbf{A} + \mathbf{e}_i \mathbf{v}^\top)^\top\mathbf{s} \\&amp;= \mathbf{z} + k \cdot \mathbf{v} - \mathbf{A}^\top \mathbf{s} -s_i\cdot \mathbf{v}  \\&amp;= \mathbf{e} + (k - s_i) \cdot \mathbf{v}\end{aligned}\]</span></li></ol></spanclass="math></spanclass="math></li><li>将 <span class="math inline">\((\mathbf{A}',\mathbf{z}')\)</span> 作为输入传递给 <spanclass="math inline"="">\(\mathcal{B}\)：<ul><li>若猜测正确，即 <span class="math inline">\(k = s_i\)</span>，则<span class="math inline">\(\mathbf{z}' - \mathbf{A}'^\top\mathbf{s} = \mathbf{e}\)</span> 满足 LWE 问题形式，<spanclass="math inline"="">\(\mathcal{B}\) 以不可忽略的优势输出 <spanclass="math inline"="">\(0\)。</spanclass="math></spanclass="math></li><li>若猜测错误，则 <span class="math inline">\(\mathbf{z}'' =\mathbf{z}' - (k - s_i) \cdot \mathbf{v}\)</span> 是 <spanclass="math inline"="">\(\mathbb{Z}_q^m\) 上均匀分布的，<spanclass="math inline"="">\(\mathcal{B}\) 以不可忽略的优势输出 <spanclass="math inline"="">\(1\)。</spanclass="math></spanclass="math></spanclass="math></li></ul></spanclass="math></li></ul></spanclass="math></spanclass="math></li><li>因此，只要遍历 <spanclass="math inline"="">\(s_i=k\in\{0,1,\ldots,q-1\}\)，就可以以不可忽略的优势正确求解<span class="math inline">\(s_i\)</span>；再对所有 <spanclass="math inline"="">\(i \in \{1,2,\ldots,n\}\)重复上述过程，即可以不可忽略的优势求解 <spanclass="math inline"="">\(\mathbf{s}\)。</spanclass="math></spanclass="math></spanclass="math></li><li><span class="math inline">\(\mathcal{A}\)</span>的复杂度：上述过程需要 <span class="math inline">\(n \cdot q\)</span>次调用 <span class="math inline">\(\mathcal{B}\)</span>，由 <spanclass="math inline"="">\(q=\mathrm{poly}(n)\) 以及 <spanclass="math inline"="">\(\mathcal{B}\) 的 PPT 性质可知 <spanclass="math inline"="">\(\mathcal{A}\) 也是 PPT 算法。因此 <spanclass="math inline"="">\(\mathcal{A}\) 以不可忽略的优势攻破计算性LWE 问题，与假设矛盾。</spanclass="math></spanclass="math></spanclass="math></spanclass="math></li></ul></spanclass="math></spanclass="math></li></ul>
         </div>
       </div>
     </div><p></p></li>
@@ -2541,14 +2628,16 @@ PK=(\mathbf{A},\mathbf{h})=(\mathbf{A},\mathbf{A}^{\top}\mathbf{s}+\mathbf{e})\)
 C=(\mathbf{c}_{1},c_{2})=(\mathbf{A}\mathbf{r},\mathbf{r}^{\top}\mathbf{h}+M\cdot\lfloor
 q/2\rceil)\)</span>，其中 <span class="math inline">\(\mathbf{r}\leftarrow\{0,1\}^{m}\)</span>：
 <ul>
-<li>解密时，有 <span class="math display">\[\begin{aligned}
+<li>解密时，有 <span class="math display">\[
+  \begin{aligned}
   d &amp;=\mathbf{c}_{2}-\mathbf{c}_{1}^{\top}\mathbf{s} \\
   &amp;=\mathbf{r}^{\top}\mathbf{h}+M\cdot\lfloor
 q/2\rceil-(\mathbf{A}\mathbf{r})^{\top}\mathbf{s}
 \\&amp;=\mathbf{r}^{\top}(\mathbf{A}^{\top}\mathbf{s}+\mathbf{e})+M\cdot\lfloor
 q/2\rceil-(\mathbf{A}\mathbf{r})^{\top}\mathbf{s} \\
   &amp;=\mathbf{r}^{\top}\mathbf{e}+M\cdot\lfloor q/2\rceil
-  \end{aligned}\]</span></li>
+  \end{aligned}
+  \]</span></li>
 <li>由于 <span class="math inline">\(\mathbf{e}\leftarrow[-B_{\chi},B_{\chi}]^{m}\)</span>，<span class="math inline">\(\mathbf{r}\leftarrow\{0,1\}^{m}\)</span>，因此
 <span class="math inline">\(\mathbf{r}^{\top}\mathbf{e}\in[-mB_{\chi},mB_{\chi}]\subseteq(-q/4,q/4)\)</span>
 <ul>
@@ -2608,7 +2697,9 @@ i\in\{1,\cdots,\ell\}\)</span>：如果 <span class="math inline">\(d_{i}\approx
 IND-CPA 安全的</strong></p>
 <ul>
 <li><strong>思路</strong>：正向证明，给定任意 PPT 敌手 <span class="math inline">\(\mathcal{A}\)</span>，证明其攻破 IND-CPA
-安全性的优势是可忽略的 <span class="math display">\[\mathrm{Adv}_{\mathcal{A}}=\left|\Pr(\mathrm{output}=b)-\frac{1}{2}\right|=\mathrm{negl}(\lambda)\]</span></li>
+安全性的优势是可忽略的 <span class="math display">\[
+  \mathrm{Adv}_{\mathcal{A}}=\left|\Pr(\mathrm{output}=b)-\frac{1}{2}\right|=\mathrm{negl}(\lambda)
+  \]</span></li>
 </ul>
 <p>
     </p><div class="fold">
@@ -2617,15 +2708,16 @@ IND-CPA 安全的</strong></p>
       </div>
       <div class="fold-collapse collapse" id="collapse-78701afa">
         <div class="fold-content">
-          <ul><li><strong>证明</strong>：采用混合论证（HybridArguments）与三角不等式。 <img src="image-20.webp" srcset="/Blog/img/loading/loading3.gif" lazyload><ul><li><strong>定义混合游戏</strong>：<ul><li><strong>Game 0</strong>：IND-CPA 安全模型<ol type="1"><li><span class="math inline">\(\mathrm{Gen}:\mathbf{A}\leftarrow\mathbb{Z}_{q}^{n\times m}\)</span>，<spanclass="math inline"="">\(\mathbf{s}\leftarrow\mathbb{Z}_{q}^{n}\)，<spanclass="math inline"="">\(\mathbf{e}\leftarrow[-B_{\chi},B_{\chi}]^{m}\)，<spanclass="math inline"="">\(\mathbf{h}:=\mathbf{A}^\top\mathbf{s}+\mathbf{e}\)，输出 <spanclass="math inline"="">\(PK=(\mathbf{A},\mathbf{h})\)</spanclass="math></spanclass="math></spanclass="math></spanclass="math></li><li><span class="math inline">\(\mathrm{Enc}(PK,M_b):\mathbf{r}\leftarrow\{0,1\}^m\)</span>，<spanclass="math inline"="">\(\mathbf{c}_1:=\mathbf{A}\mathbf{r}\)，<spanclass="math inline"="">\(c_2:=\mathbf{r}^\top\mathbf{h}+M_b\cdot\lfloorq/2\rceil\)，输出 <spanclass="math inline"="">\(C^*=(\mathbf{c}_1,c_2)\)</spanclass="math></spanclass="math></spanclass="math></li></ol></li><li><strong>Game 1</strong>：<span class="math inline">\(PK\)</span>中的 <span class="math inline">\(h\leftarrow\mathbb{Z}_{q}^{m}\)</span><ol type="1"><li><span class="math inline">\(\mathrm{Gen}':\mathbf{A}\leftarrow\mathbb{Z}_{q}^{n\times m}\)</span>，<spanclass="math inline"="">\(\mathbf{h}\leftarrow\mathbb{Z}_{q}^{m}\)，输出<spanclass="math inline"="">\(PK=(\mathbf{A},\mathbf{h})\leftarrow\mathbb{Z}_{q}^{n\timesm}\times\mathbb{Z}_{q}^{m}\)</spanclass="math></spanclass="math></li><li>其余算法与 Game 0 一致</li></ol></li><li><strong>Game 2</strong>：<spanclass="math inline"="">\(C^*\leftarrow\mathbb{Z}_{q}^{n}\times\mathbb{Z}_{q}\)<ol type="1"><li><span class="math inline">\(\mathrm{Enc}'(PK,M_b):\mathbf{c}_1\leftarrow\mathbb{Z}_{q}^{n}\)</span>，<spanclass="math inline"="">\(c_2\leftarrow\mathbb{Z}_{q}\)，<spanclass="math inline"="">\(C^*=(\mathbf{c}_1,c_2)\leftarrow\mathbb{Z}_{q}^{n}\times\mathbb{Z}_{q}\)</spanclass="math></spanclass="math></li><li>其余算法与 Game 1 一致</li></ol></spanclass="math></li></ul></li><li><strong>混合游戏性质</strong>：<ol type="1"><li>Game 0 与 Game 1 的区别只在于 <spanclass="math inline"="">\(PK\) 中的 <spanclass="math inline"="">\(\mathbf{h}\) 的生成：<ul><li>Game 0 中 <spanclass="math inline"="">\(\mathbf{h}=\mathbf{A}^{\top}\mathbf{s}+\mathbf{e}\)</spanclass="math></li><li>Game 1 中 <spanclass="math inline"="">\(\mathbf{h}\leftarrow\mathbb{Z}_{q}^{m}\)</spanclass="math></li></ul></spanclass="math></spanclass="math></li><li>由 <strong>引理1</strong>：<spanclass="math inline"="">\((\mathbf{A},\mathbf{A}^{\top}\mathbf{s}+\mathbf{e})\)与 <spanclass="math inline"="">\((\mathbf{A},\mathbf{u}\leftarrow\mathbb{Z}_{q}^{m})\)不可区分，即 Game 0 与 Game 1 不可区分，即 <spanclass="math display"="">\[|\Pr(\mathrm{output}=b\mid \text{Game 0}) -\Pr(\mathrm{output}=b\mid \text{Game 1})| =\mathrm{negl}(\lambda)\]</spanclass="math></spanclass="math></spanclass="math></li><li>Game 1 与 Game 2 的区别只在于密文 <spanclass="math inline"="">\(C^{*}=(\mathbf{c}_{1},c_{2})\) 的生成：<ul><li>Game 1 中 <spanclass="math inline"="">\((\mathbf{c}_{1},c_{2})=(\mathbf{A}\mathbf{r},\mathbf{r}^{\top}\mathbf{h}+M_b\cdot\lfloorq/2\rceil)\)</spanclass="math></li><li>Game 2 中 <spanclass="math inline"="">\((\mathbf{c}_1,c_2)\leftarrow\mathbb{Z}_{q}^{n}\times\mathbb{Z}_{q}\)</spanclass="math></li></ul></spanclass="math></li><li>由 <strong>引理2（剩余哈希引理）推论</strong>：<spanclass="math inline"="">\(\begin{pmatrix}\begin{pmatrix}\mathbf{A} \\\mathbf{h}^\top \end{pmatrix},\begin{pmatrix}\mathbf{Ar} \\\mathbf{h}^\top\mathbf{r} \end{pmatrix} \end{pmatrix}\) 与 <spanclass="math inline"="">\(\begin{pmatrix}\begin{pmatrix}\mathbf{A} \\\mathbf{h}^\top \end{pmatrix},\begin{pmatrix}\mathbf{u}_1 \\\mathbf{u}_2 \end{pmatrix} \end{pmatrix}\) 不可区分，即 Game 1 与Game 2 不可区分，即 <spanclass="math display"="">\[|\Pr(\mathrm{output}=b\mid \text{Game 1}) -\Pr(\mathrm{output}=b\mid \text{Game 2})| =\mathrm{negl}(\lambda)\]</spanclass="math></spanclass="math></spanclass="math></li><li>Game 2 中，<spanclass="math inline"="">\(C^{*}=(\mathbf{c}_{1},c_{2})\) 中已经不含<span class="math inline">\(b\)</span> 的信息，因此 <spanclass="math display"="">\[\Pr(\mathrm{output}=b\mid \text{Game2})=\frac{1}{2}\]</spanclass="math></spanclass="math></li></ol></li><li><strong>由三角不等式</strong>： <spanclass="math display"="">\[\begin{aligned}  \mathrm{Adv}_{A} =&amp; \left| \Pr(\mathrm{output}=b\mid \text{Game0}) - \frac{1}{2} \right| \\  \leq&amp; \left| \Pr(\mathrm{output}=b\mid \text{Game 0}) -\Pr(\mathrm{output}=b\mid \text{Game 1}) \right|+ \\  &amp; \left| \Pr(\mathrm{output}=b\mid \text{Game 1}) -\Pr(\mathrm{output}=b\mid \text{Game 2}) \right|+ \\  &amp; \left| \Pr(\mathrm{output}=b\mid \text{Game 2}) - \frac{1}{2}\right| \\  =&amp; \mathrm{negl}(\lambda) + \mathrm{negl}(\lambda) + 0 \\  =&amp; \mathrm{negl}(\lambda)  \end{aligned}\]</spanclass="math></li><li>因此 <spanclass="math inline"="">\(\mathrm{Adv}_{A}=\mathrm{negl}(\lambda)\)，得证IND-CPA 安全性。</spanclass="math></li></ul></li></ul>
+          <ul><li><strong>证明</strong>：采用混合论证（HybridArguments）与三角不等式。 <img src="image-20.webp" srcset="/Blog/img/loading/loading3.gif" lazyload><ul><li><strong>定义混合游戏</strong>：<ul><li><strong>Game 0</strong>：IND-CPA 安全模型<ol type="1"><li><span class="math inline">\(\mathrm{Gen}:\mathbf{A}\leftarrow\mathbb{Z}_{q}^{n\times m}\)</span>，<spanclass="math inline"="">\(\mathbf{s}\leftarrow\mathbb{Z}_{q}^{n}\)，<spanclass="math inline"="">\(\mathbf{e}\leftarrow[-B_{\chi},B_{\chi}]^{m}\)，<spanclass="math inline"="">\(\mathbf{h}:=\mathbf{A}^\top\mathbf{s}+\mathbf{e}\)，输出 <spanclass="math inline"="">\(PK=(\mathbf{A},\mathbf{h})\)</spanclass="math></spanclass="math></spanclass="math></spanclass="math></li><li><span class="math inline">\(\mathrm{Enc}(PK,M_b):\mathbf{r}\leftarrow\{0,1\}^m\)</span>，<spanclass="math inline"="">\(\mathbf{c}_1:=\mathbf{A}\mathbf{r}\)，<spanclass="math inline"="">\(c_2:=\mathbf{r}^\top\mathbf{h}+M_b\cdot\lfloorq/2\rceil\)，输出 <spanclass="math inline"="">\(C^*=(\mathbf{c}_1,c_2)\)</spanclass="math></spanclass="math></spanclass="math></li></ol></li><li><strong>Game 1</strong>：<span class="math inline">\(PK\)</span>中的 <span class="math inline">\(h\leftarrow\mathbb{Z}_{q}^{m}\)</span><ol type="1"><li><span class="math inline">\(\mathrm{Gen}':\mathbf{A}\leftarrow\mathbb{Z}_{q}^{n\times m}\)</span>，<spanclass="math inline"="">\(\mathbf{h}\leftarrow\mathbb{Z}_{q}^{m}\)，输出<spanclass="math inline"="">\(PK=(\mathbf{A},\mathbf{h})\leftarrow\mathbb{Z}_{q}^{n\timesm}\times\mathbb{Z}_{q}^{m}\)</spanclass="math></spanclass="math></li><li>其余算法与 Game 0 一致</li></ol></li><li><strong>Game 2</strong>：<spanclass="math inline"="">\(C^*\leftarrow\mathbb{Z}_{q}^{n}\times\mathbb{Z}_{q}\)<ol type="1"><li><span class="math inline">\(\mathrm{Enc}'(PK,M_b):\mathbf{c}_1\leftarrow\mathbb{Z}_{q}^{n}\)</span>，<spanclass="math inline"="">\(c_2\leftarrow\mathbb{Z}_{q}\)，<spanclass="math inline"="">\(C^*=(\mathbf{c}_1,c_2)\leftarrow\mathbb{Z}_{q}^{n}\times\mathbb{Z}_{q}\)</spanclass="math></spanclass="math></li><li>其余算法与 Game 1 一致</li></ol></spanclass="math></li></ul></li><li><strong>混合游戏性质</strong>：<ol type="1"><li>Game 0 与 Game 1 的区别只在于 <spanclass="math inline"="">\(PK\) 中的 <spanclass="math inline"="">\(\mathbf{h}\) 的生成：<ul><li>Game 0 中 <spanclass="math inline"="">\(\mathbf{h}=\mathbf{A}^{\top}\mathbf{s}+\mathbf{e}\)</spanclass="math></li><li>Game 1 中 <spanclass="math inline"="">\(\mathbf{h}\leftarrow\mathbb{Z}_{q}^{m}\)</spanclass="math></li></ul></spanclass="math></spanclass="math></li><li>由 <strong>引理1</strong>：<spanclass="math inline"="">\((\mathbf{A},\mathbf{A}^{\top}\mathbf{s}+\mathbf{e})\)与 <spanclass="math inline"="">\((\mathbf{A},\mathbf{u}\leftarrow\mathbb{Z}_{q}^{m})\)不可区分，即 Game 0 与 Game 1 不可区分，即 <span class="math display">\[|\Pr(\mathrm{output}=b\mid \text{Game 0}) - \Pr(\mathrm{output}=b\mid\text{Game 1})| = \mathrm{negl}(\lambda)\]</span></spanclass="math></spanclass="math></li><li>Game 1 与 Game 2 的区别只在于密文 <spanclass="math inline"="">\(C^{*}=(\mathbf{c}_{1},c_{2})\) 的生成：<ul><li>Game 1 中 <spanclass="math inline"="">\((\mathbf{c}_{1},c_{2})=(\mathbf{A}\mathbf{r},\mathbf{r}^{\top}\mathbf{h}+M_b\cdot\lfloorq/2\rceil)\)</spanclass="math></li><li>Game 2 中 <spanclass="math inline"="">\((\mathbf{c}_1,c_2)\leftarrow\mathbb{Z}_{q}^{n}\times\mathbb{Z}_{q}\)</spanclass="math></li></ul></spanclass="math></li><li>由 <strong>引理2（剩余哈希引理）推论</strong>：<spanclass="math inline"="">\(\begin{pmatrix}\begin{pmatrix}\mathbf{A} \\\mathbf{h}^\top \end{pmatrix},\begin{pmatrix}\mathbf{Ar} \\\mathbf{h}^\top\mathbf{r} \end{pmatrix} \end{pmatrix}\) 与 <spanclass="math inline"="">\(\begin{pmatrix}\begin{pmatrix}\mathbf{A} \\\mathbf{h}^\top \end{pmatrix},\begin{pmatrix}\mathbf{u}_1 \\\mathbf{u}_2 \end{pmatrix} \end{pmatrix}\) 不可区分，即 Game 1 与Game 2 不可区分，即 <span class="math display">\[|\Pr(\mathrm{output}=b\mid \text{Game 1}) - \Pr(\mathrm{output}=b\mid\text{Game 2})| = \mathrm{negl}(\lambda)\]</span></spanclass="math></spanclass="math></li><li>Game 2 中，<spanclass="math inline"="">\(C^{*}=(\mathbf{c}_{1},c_{2})\) 中已经不含<span class="math inline">\(b\)</span> 的信息，因此 <spanclass="math display"="">\[\Pr(\mathrm{output}=b\mid \text{Game 2})=\frac{1}{2}\]</spanclass="math></spanclass="math></li></ol></li><li><strong>由三角不等式</strong>： <span class="math display">\[  \begin{aligned}  \mathrm{Adv}_{A} =&amp; \left| \Pr(\mathrm{output}=b\mid \text{Game0}) - \frac{1}{2} \right| \\  \leq&amp; \left| \Pr(\mathrm{output}=b\mid \text{Game 0}) -\Pr(\mathrm{output}=b\mid \text{Game 1}) \right|+ \\  &amp; \left| \Pr(\mathrm{output}=b\mid \text{Game 1}) -\Pr(\mathrm{output}=b\mid \text{Game 2}) \right|+ \\  &amp; \left| \Pr(\mathrm{output}=b\mid \text{Game 2}) - \frac{1}{2}\right| \\  =&amp; \mathrm{negl}(\lambda) + \mathrm{negl}(\lambda) + 0 \\  =&amp; \mathrm{negl}(\lambda)  \end{aligned}  \]</span></li><li>因此 <spanclass="math inline"="">\(\mathrm{Adv}_{A}=\mathrm{negl}(\lambda)\)，得证IND-CPA 安全性。</spanclass="math></li></ul></li></ul>
         </div>
       </div>
     </div><p></p></li>
 <li><p><strong>引理 1</strong>：<strong>判定性 LWE 问题困难</strong>
 <span class="math inline">\(\implies\)</span> Game 0 与 Game 1
-不可区分，即 <span class="math display">\[|\Pr(\mathrm{output}=b\mid
-\text{Game 0}) - \Pr(\mathrm{output}=b\mid \text{Game 1})| =
-\mathrm{negl}(\lambda)\]</span></p>
+不可区分，即 <span class="math display">\[
+  |\Pr(\mathrm{output}=b\mid \text{Game 0}) - \Pr(\mathrm{output}=b\mid
+\text{Game 1})| = \mathrm{negl}(\lambda)
+  \]</span></p>
 <ul>
 <li>证明思路：采用反证法（安全性归约），由区分 Game 0 与 Game 1 的敌手
 <span class="math inline">\(\mathcal{A}\)</span> 来构造解决判定性 LWE
@@ -2634,18 +2726,22 @@ IND-CPA 安全的</strong></p>
 <li><p><strong>引理 2</strong>：</p>
 <ul>
 <li><p><strong>剩余哈希引理</strong>（Leftover Hash Lemma）: 当 <span class="math inline">\(q\)</span> 为素数且 <span class="math inline">\(m\geq n\log q+2\log(1/\epsilon)\)</span>
-时，任意敌手区分下面两个分布的优势为可忽略的 <span class="math display">\[(\mathbf{H},\mathbf{Hr})\approx_s(\mathbf{H},\mathbf{u})\]</span></p>
+时，任意敌手区分下面两个分布的优势为可忽略的 <span class="math display">\[
+  (\mathbf{H},\mathbf{Hr})\approx_s(\mathbf{H},\mathbf{u})
+  \]</span></p>
 <p>其中 <span class="math inline">\(\mathbf{H}\leftarrow\mathbb{Z}_{q}^{n\times
 m}\)</span>，<span class="math inline">\(\mathbf{r}\leftarrow\{0,1\}^{m}\)</span>，<span class="math inline">\(\mathbf{u}\leftarrow\mathbb{Z}_{q}^{n}\)</span>。</p></li>
 <li><p><strong>推论</strong>：当 <span class="math inline">\(q\)</span>
 为素数且 <span class="math inline">\(m\geq2n\cdot\log q\)</span>
-时，任意敌手区分下面两个分布的优势为可忽略的 <span class="math display">\[\begin{pmatrix}\begin{pmatrix}\mathbf{A} \\
-\mathbf{h}^\top \end{pmatrix},\begin{pmatrix}\mathbf{Ar} \\
-\mathbf{h}^\top\mathbf{r} \end{pmatrix} \end{pmatrix}
+时，任意敌手区分下面两个分布的优势为可忽略的 <span class="math display">\[
+  \begin{pmatrix}\begin{pmatrix}\mathbf{A} \\ \mathbf{h}^\top
+\end{pmatrix},\begin{pmatrix}\mathbf{Ar} \\ \mathbf{h}^\top\mathbf{r}
+\end{pmatrix} \end{pmatrix}
   \approx_s
   \begin{pmatrix}\begin{pmatrix}\mathbf{A} \\ \mathbf{h}^\top
 \end{pmatrix},\begin{pmatrix}\mathbf{u}_1 \\ \mathbf{u}_2 \end{pmatrix}
-\end{pmatrix}\]</span></p>
+\end{pmatrix}
+  \]</span></p>
 <p>其中 <span class="math inline">\(\mathbf{A}\leftarrow\mathbb{Z}_{q}^{n\times
 m}\)</span>，<span class="math inline">\(\mathbf{h}\leftarrow\mathbb{Z}_{q}^{m}\)</span>，<span class="math inline">\(\mathbf{r}\leftarrow\{0,1\}^{m}\)</span>，<span class="math inline">\(\mathbf{u}_{1}\leftarrow\mathbb{Z}_{q}^{n}\)</span>，<span class="math inline">\(\mathbf{u}_{2}\leftarrow\mathbb{Z}_{q}\)</span>。</p></li>
 </ul></li>
@@ -2688,8 +2784,9 @@ m}\)</span>。</p>
 <li><span class="math inline">\(\mathbf{x}\in[-B_{s},B_{s}]^{m}\)</span>（Short）</li>
 </ol></li>
 <li><strong>SIS 问题困难</strong>：任意 PPT 敌手的优势是可忽略的，即
-<span class="math display">\[\Pr(\text{find such } \mathbf{x}) =
-\mathrm{negl}(\lambda)\]</span></li>
+<span class="math display">\[
+  \Pr(\text{find such } \mathbf{x}) = \mathrm{negl}(\lambda)
+  \]</span></li>
 <li>观察:
 <ol type="1">
 <li>如果没有对于 <span class="math inline">\(\mathbf{x}\)</span>
@@ -2711,7 +2808,7 @@ B_{\chi}\cdot B_{s}&lt;q/4\)</span>，则 <strong>判定性 LWE 问题 <span cla
       </div>
       <div class="fold-collapse collapse" id="collapse-645b6aae">
         <div class="fold-content">
-          <ul><li><strong>证明</strong>：由解决 SIS 问题的敌手 <spanclass="math inline"="">\(\mathcal{A}\) 来构造解决判定性 LWE问题的敌手 <span class="math inline">\(\mathcal{B}\)</span>。<ul><li>若存在 PPT 敌手 <span class="math inline">\(\mathcal{A}\)</span>能够以不可忽略的优势解决 SIS 问题 <spanclass="math inline"="">\((n,m,q,B_{s})\)，则输入 <spanclass="math inline"="">\(\mathbf{A}\)，<spanclass="math inline"="">\(\mathcal{A}\) 以不可忽略的优势输出 <spanclass="math inline"="">\(\mathbf{x}\in[-B_{s},B_{s}]^{m}\) 满足<spanclass="math inline"="">\(\mathbf{Ax}=\mathbf{0}\in\mathbb{Z}_{q}^{n}\)。</spanclass="math></spanclass="math></spanclass="math></spanclass="math></spanclass="math></li><li>此时考虑 <span class="math inline">\(\mathbf{z}_\beta^\top \cdot\mathbf{x}\)</span>：<ul><li>当 <span class="math inline">\(\beta=0\)</span> 时，<spanclass="math inline"="">\(\mathbf{z}_{0}=\mathbf{A}^{\top}\mathbf{s}+\mathbf{e}\)，因此<span class="math display">\[\begin{aligned}  \mathbf{z}_{0}^{\top}\cdot\mathbf{x}&amp;=\mathbf{s}^{\top}\mathbf{A}\mathbf{x}+\mathbf{e}^{\top}\mathbf{x}=\mathbf{e}^{\top}\mathbf{x}=\sum_{i=1}^{m}e_i x_i \\  &amp;\in[-mB_{\chi}B_{s},mB_{\chi}B_{s}] \subseteq(-q/4,q/4)  \end{aligned}\]</span></spanclass="math></li><li>当 <span class="math inline">\(\beta=1\)</span> 时，<spanclass="math inline"="">\(\mathbf{z}_{1}\leftarrow\mathbb{Z}_{q}^{m}\)，因此<span class="math inline">\(\mathbf{z}_{1}^{\top}\cdot\mathbf{x}\)</span> 在 <spanclass="math inline"="">\(\mathbb{Z}_{q}\) 上均匀分布，则 <spanclass="math inline"="">\(\mathbf{z}_{1}^{\top}\cdot \mathbf{x}\in(-q/4,q/4)\) 的概率为 <spanclass="math inline"="">\(1/2\)。</spanclass="math></spanclass="math></spanclass="math></spanclass="math></li></ul></li><li><span class="math inline">\(\mathcal{B}\)</span> 的输出： <spanclass="math display"="">\[\mathrm{output}_\mathcal{B} = \begin{cases}  0 &amp; \mathbf{z}^\top\cdot \mathbf{x}\in(0,\frac{q}{4})\cup(\frac{3q}{4},q) \\  1 &amp; \text{otherwise}  \end{cases}\]</spanclass="math></li><li><span class="math inline">\(\mathcal{B}\)</span> 的优势 <spanclass="math display"="">\[\begin{aligned}  \mathrm{Adv}_\mathcal{B} &amp;=\left|\Pr(\mathrm{output}_\mathcal{B}=\beta) - \frac{1}{2}\right| \\  &amp;= \frac{1}{2} \cdot \left|\Pr(\mathrm{output}_\mathcal{B}=0 \mid\beta=0) - \Pr(\mathrm{output}_\mathcal{B}=0 \mid \beta=1)\right| \\  &amp;= \frac{1}{2} \cdot \left|\left(\mathrm{Adv}_\mathcal{A} +\frac{1}{2}(1 - \mathrm{Adv}_\mathcal{A}) \right) - \frac{1}{2} \right|\\  &amp;= \frac{1}{4} \cdot \mathrm{Adv}_\mathcal{A} =\text{non-negl}(\lambda)  \end{aligned}\]</spanclass="math></li><li>因此 <span class="math inline">\(\mathcal{B}\)</span>以不可忽略的优势攻破判定性 LWE 问题，与假设矛盾。</li></ul></spanclass="math></li></ul>
+          <ul><li><strong>证明</strong>：由解决 SIS 问题的敌手 <spanclass="math inline"="">\(\mathcal{A}\) 来构造解决判定性 LWE问题的敌手 <span class="math inline">\(\mathcal{B}\)</span>。<ul><li>若存在 PPT 敌手 <span class="math inline">\(\mathcal{A}\)</span>能够以不可忽略的优势解决 SIS 问题 <spanclass="math inline"="">\((n,m,q,B_{s})\)，则输入 <spanclass="math inline"="">\(\mathbf{A}\)，<spanclass="math inline"="">\(\mathcal{A}\) 以不可忽略的优势输出 <spanclass="math inline"="">\(\mathbf{x}\in[-B_{s},B_{s}]^{m}\) 满足<spanclass="math inline"="">\(\mathbf{Ax}=\mathbf{0}\in\mathbb{Z}_{q}^{n}\)。</spanclass="math></spanclass="math></spanclass="math></spanclass="math></spanclass="math></li><li>此时考虑 <span class="math inline">\(\mathbf{z}_\beta^\top \cdot\mathbf{x}\)</span>：<ul><li>当 <span class="math inline">\(\beta=0\)</span> 时，<spanclass="math inline"="">\(\mathbf{z}_{0}=\mathbf{A}^{\top}\mathbf{s}+\mathbf{e}\)，因此<span class="math display">\[  \begin{aligned}  \mathbf{z}_{0}^{\top}\cdot\mathbf{x}&amp;=\mathbf{s}^{\top}\mathbf{A}\mathbf{x}+\mathbf{e}^{\top}\mathbf{x}=\mathbf{e}^{\top}\mathbf{x}=\sum_{i=1}^{m}e_i x_i \\  &amp;\in[-mB_{\chi}B_{s},mB_{\chi}B_{s}] \subseteq(-q/4,q/4)  \end{aligned}  \]</span></spanclass="math></li><li>当 <span class="math inline">\(\beta=1\)</span> 时，<spanclass="math inline"="">\(\mathbf{z}_{1}\leftarrow\mathbb{Z}_{q}^{m}\)，因此<span class="math inline">\(\mathbf{z}_{1}^{\top}\cdot\mathbf{x}\)</span> 在 <spanclass="math inline"="">\(\mathbb{Z}_{q}\) 上均匀分布，则 <spanclass="math inline"="">\(\mathbf{z}_{1}^{\top}\cdot \mathbf{x}\in(-q/4,q/4)\) 的概率为 <spanclass="math inline"="">\(1/2\)。</spanclass="math></spanclass="math></spanclass="math></spanclass="math></li></ul></li><li><span class="math inline">\(\mathcal{B}\)</span> 的输出： <spanclass="math display"="">\[  \mathrm{output}_\mathcal{B} = \begin{cases}  0 &amp; \mathbf{z}^\top\cdot \mathbf{x}\in(0,\frac{q}{4})\cup(\frac{3q}{4},q) \\  1 &amp; \text{otherwise}  \end{cases}  \]</spanclass="math></li><li><span class="math inline">\(\mathcal{B}\)</span> 的优势 <spanclass="math display"="">\[  \begin{aligned}  \mathrm{Adv}_\mathcal{B} &amp;=\left|\Pr(\mathrm{output}_\mathcal{B}=\beta) - \frac{1}{2}\right| \\  &amp;= \frac{1}{2} \cdot \left|\Pr(\mathrm{output}_\mathcal{B}=0 \mid\beta=0) - \Pr(\mathrm{output}_\mathcal{B}=0 \mid \beta=1)\right| \\  &amp;= \frac{1}{2} \cdot \left|\left(\mathrm{Adv}_\mathcal{A} +\frac{1}{2}(1 - \mathrm{Adv}_\mathcal{A}) \right) - \frac{1}{2} \right|\\  &amp;= \frac{1}{4} \cdot \mathrm{Adv}_\mathcal{A} =\text{non-negl}(\lambda)  \end{aligned}  \]</spanclass="math></li><li>因此 <span class="math inline">\(\mathcal{B}\)</span>以不可忽略的优势攻破判定性 LWE 问题，与假设矛盾。</li></ul></spanclass="math></li></ul>
         </div>
       </div>
     </div><p></p></li>
@@ -2726,11 +2823,12 @@ PSF（Preimage Sampleable Function）</h4>
 <li>矩阵 <span class="math inline">\(\mathbf{A}\)</span> 在 <span class="math inline">\(\mathbb{Z}_{q}^{n\times m}\)</span>
 上均匀分布，<span class="math inline">\(td\)</span>
 为陷门信息（trapdoor）</li>
-<li>定义函数 <span class="math display">\[\begin{aligned}
+<li>定义函数 <span class="math display">\[
+  \begin{aligned}
   f_{A}:\mathbb{Z}_{q}^{m}&amp;\to\mathbb{Z}_{q}^{n} \\
   \mathbf{x} &amp;\mapsto \mathbf{Ax}
-  \end{aligned}\]</span> 则给出 <span class="math inline">\(x\)</span>
-计算 <span class="math inline">\(f_{A}(x)\)</span> 是高效的；给出 <span class="math inline">\(y\)</span> 和陷门信息 <span class="math inline">\(td\)</span> 计算 <span class="math inline">\(x\)</span> 满足 <span class="math inline">\(f_{A}(x)=y\)</span> 是高效的；但给出 <span class="math inline">\(y\)</span> 没有陷门信息 <span class="math inline">\(td\)</span> 计算 <span class="math inline">\(x\)</span> 满足 <span class="math inline">\(f_{A}(x)=y\)</span> 是困难的。</li>
+  \end{aligned}
+  \]</span> 则给出 <span class="math inline">\(x\)</span> 计算 <span class="math inline">\(f_{A}(x)\)</span> 是高效的；给出 <span class="math inline">\(y\)</span> 和陷门信息 <span class="math inline">\(td\)</span> 计算 <span class="math inline">\(x\)</span> 满足 <span class="math inline">\(f_{A}(x)=y\)</span> 是高效的；但给出 <span class="math inline">\(y\)</span> 没有陷门信息 <span class="math inline">\(td\)</span> 计算 <span class="math inline">\(x\)</span> 满足 <span class="math inline">\(f_{A}(x)=y\)</span> 是困难的。</li>
 </ul></li>
 <li><strong>正向采样算法</strong>：<span class="math inline">\((\mathbf{x}\in\mathbb{Z}_{q}^{m},\mathbf{y}\in\mathbb{Z}_{q}^{n})\leftarrow
 \mathrm{SampleTuple}(\mathbf{A})\)</span>
@@ -2794,29 +2892,33 @@ x_{k-1} \quad (x_i \in \{0, 1\})\)</span>，定义提取函数：<span class="ma
 \mathbf{g} \cdot \langle x \rangle _{BE}\)</span></p></li>
 <li><p>通过张量积将 <span class="math inline">\(\mathbf{g}\)</span>
 扩展为 <span class="math inline">\(n \times nk\)</span> 维的对角块矩阵：
-<span class="math display">\[\mathbf{G} := \mathbf{I}_n \otimes
-\mathbf{g} = \begin{pmatrix} \mathbf{g} &amp; \mathbf{0} &amp; \dots
-&amp; \mathbf{0} \\
+<span class="math display">\[
+\mathbf{G} := \mathbf{I}_n \otimes \mathbf{g} = \begin{pmatrix}
+\mathbf{g} &amp; \mathbf{0} &amp; \dots &amp; \mathbf{0} \\
 \mathbf{0} &amp; \mathbf{g} &amp; \dots &amp; \mathbf{0} \\
 \vdots &amp; \vdots &amp; \ddots &amp; \vdots \\
 \mathbf{0} &amp; \mathbf{0} &amp; \dots &amp; \mathbf{g}
-\end{pmatrix}_{n \times nk}\]</span></p></li>
+\end{pmatrix}_{n \times nk}
+\]</span></p></li>
 <li><p>构造针对 <span class="math inline">\(\mathbf{g}\)</span>
-的一维陷门 <span class="math inline">\(\mathbf{T}_g\)</span>： <span class="math display">\[\mathbf{T}_g = \begin{pmatrix}
+的一维陷门 <span class="math inline">\(\mathbf{T}_g\)</span>： <span class="math display">\[
+\mathbf{T}_g = \begin{pmatrix}
 2 &amp; 0 &amp; 0 &amp; \dots &amp; 0 \\
 -1 &amp; 2 &amp; 0 &amp; \dots &amp; 0 \\
 0 &amp; -1 &amp; 2 &amp; \dots &amp; 0 \\
 \vdots &amp; \vdots &amp; \vdots &amp; \ddots &amp; \vdots \\
 0 &amp; 0 &amp; 0 &amp; \dots &amp; 2 \\
-\end{pmatrix}_{k \times k}\]</span></p>
+\end{pmatrix}_{k \times k}
+\]</span></p>
 <p>易证 <span class="math inline">\(\mathbf{g} \cdot \mathbf{T}_g =
 \mathbf{0} \pmod q\)</span></p></li>
-<li><p>扩展到全维，得到针对 <span class="math inline">\(\mathbf{G}\)</span> 的陷门 <span class="math inline">\(\mathbf{T}_G\)</span>： <span class="math display">\[\mathbf{T}_G := \mathbf{I}_n \otimes \mathbf{T}_g
-= \begin{pmatrix}
+<li><p>扩展到全维，得到针对 <span class="math inline">\(\mathbf{G}\)</span> 的陷门 <span class="math inline">\(\mathbf{T}_G\)</span>： <span class="math display">\[
+\mathbf{T}_G := \mathbf{I}_n \otimes \mathbf{T}_g = \begin{pmatrix}
 \mathbf{T}_g &amp; &amp; \\
 &amp; \ddots &amp; \\
 &amp; &amp; \mathbf{T}_g
-\end{pmatrix}_{nk \times nk}\]</span></p>
+\end{pmatrix}_{nk \times nk}
+\]</span></p>
 <ul>
 <li><span class="math inline">\(\mathbf{G} \cdot \mathbf{T}_G =
 \mathbf{0} \pmod q\)</span> 显然成立</li>
@@ -2832,23 +2934,26 @@ x_{k-1} \quad (x_i \in \{0, 1\})\)</span>，定义提取函数：<span class="ma
 <li>定义：给定任意目标向量 <span class="math inline">\(\mathbf{y} \in
 \mathbb{Z}_q^n\)</span>，求解 <span class="math inline">\(\mathbf{x} \in
 \{0, 1\}^{nk}\)</span> 使得 <span class="math inline">\(\mathbf{G} \cdot
-\mathbf{x} = \mathbf{y} \pmod q\)</span>，即 <span class="math display">\[\mathbf{x} = \mathbf{G}^{-1}(\mathbf{y})\]</span>
+\mathbf{x} = \mathbf{y} \pmod q\)</span>，即 <span class="math display">\[
+  \mathbf{x} = \mathbf{G}^{-1}(\mathbf{y})
+  \]</span>
 <ul>
 <li>实际上解决了一个特定于 <span class="math inline">\(\mathbf{G}\)</span> 的 SIS 问题。</li>
 </ul></li>
 <li><strong>计算方法</strong>：将向量 <span class="math inline">\(\mathbf{y} = (y_1, y_2, \dots, y_n)^\top\)</span>
 的每一个元素分别进行二进制拆分，得到 <span class="math inline">\(\langle
-y_i \rangle _{BE~n\times 1}\)</span>，然后将它们竖着拼接起来： <span class="math display">\[\mathbf{x} := \mathbf{G}^{-1}(\mathbf{y}) =
-\begin{pmatrix}
+y_i \rangle _{BE~n\times 1}\)</span>，然后将它们竖着拼接起来： <span class="math display">\[
+  \mathbf{x} := \mathbf{G}^{-1}(\mathbf{y}) = \begin{pmatrix}
   \langle y_1 \rangle _{BE} \\
   \langle y_2 \rangle _{BE} \\
   \vdots \\
   \langle y_n \rangle _{BE}
-  \end{pmatrix}_{nk \times 1} \in \{0, 1\}^{nk}\]</span></li>
+  \end{pmatrix}_{nk \times 1} \in \{0, 1\}^{nk}
+  \]</span></li>
 <li><strong>正确性验证</strong>：因为 <span class="math inline">\(\mathbf{G} = I_n \otimes
 \mathbf{g}\)</span>，并且根据前面的定义有 <span class="math inline">\(\mathbf{g} \cdot \langle y_i \rangle _{BE} =
-y_i\)</span>，所以： <span class="math display">\[\mathbf{G} \cdot
-\mathbf{x} = \begin{pmatrix}
+y_i\)</span>，所以： <span class="math display">\[
+  \mathbf{G} \cdot \mathbf{x} = \begin{pmatrix}
   \mathbf{g} &amp; \mathbf{0} &amp; \dots &amp; \mathbf{0} \\
   \mathbf{0} &amp; \mathbf{g} &amp; \dots &amp; \mathbf{0} \\
   \vdots &amp; \vdots &amp; \ddots &amp; \vdots \\
@@ -2865,7 +2970,8 @@ y_2 \rangle _{BE} \\
   \mathbf{g} \cdot \langle y_n \rangle _{BE}
   \end{pmatrix} = \begin{pmatrix}
   y_1 \\ y_2 \\ \vdots \\ y_n
-  \end{pmatrix} = \mathbf{y}\]</span></li>
+  \end{pmatrix} = \mathbf{y}
+  \]</span></li>
 </ul>
 <h5 id="生成随机公钥及其陷门">生成随机公钥及其陷门</h5>
 <ol type="1">
@@ -2883,23 +2989,26 @@ y_2 \rangle _{BE} \\
 </ul></li>
 </ul></li>
 <li><p><strong>利用私钥提取 <span class="math inline">\(G\)</span></strong>：拥有私钥 <span class="math inline">\(\mathbf{R}\)</span>
-的人，可以通过右乘一个特殊矩阵提取出 <span class="math inline">\(\mathbf{G}\)</span>： <span class="math display">\[\mathbf{A} \cdot \begin{pmatrix} -\mathbf{R} \\
-\mathbf{I} \end{pmatrix}
+的人，可以通过右乘一个特殊矩阵提取出 <span class="math inline">\(\mathbf{G}\)</span>： <span class="math display">\[
+\mathbf{A} \cdot \begin{pmatrix} -\mathbf{R} \\ \mathbf{I} \end{pmatrix}
 = \begin{pmatrix} \mathbf{B} \quad \mathbf{BR}+\mathbf{G} \end{pmatrix}
 \cdot \begin{pmatrix} -\mathbf{R} \\ \mathbf{I} \end{pmatrix}
 = -\mathbf{BR} + (\mathbf{BR}+\mathbf{G})
-= \mathbf{G}\]</span></p></li>
-<li><p><strong>构造随机公钥陷门 <span class="math inline">\(\mathbf{T}_A\)</span></strong>：利用私钥 <span class="math inline">\(\mathbf{R}\)</span>、公开的工具陷门 <span class="math inline">\(\mathbf{T}_G\)</span>、以及操作函数 <span class="math inline">\(\mathbf{G}^{-1}\)</span>，构造如下的分块矩阵 <span class="math inline">\(\mathbf{T}_A\)</span>： <span class="math display">\[\mathbf{T}_A := \begin{pmatrix} \mathbf{I} &amp;
--\mathbf{R} \\ \mathbf{0} &amp; \mathbf{I} \end{pmatrix}\cdot
-\begin{pmatrix} \mathbf{I} &amp; \mathbf{0} \\
--\mathbf{G}^{-1}(\mathbf{B}) &amp; \mathbf{T}_G \end{pmatrix}
+= \mathbf{G}
+\]</span></p></li>
+<li><p><strong>构造随机公钥陷门 <span class="math inline">\(\mathbf{T}_A\)</span></strong>：利用私钥 <span class="math inline">\(\mathbf{R}\)</span>、公开的工具陷门 <span class="math inline">\(\mathbf{T}_G\)</span>、以及操作函数 <span class="math inline">\(\mathbf{G}^{-1}\)</span>，构造如下的分块矩阵 <span class="math inline">\(\mathbf{T}_A\)</span>： <span class="math display">\[
+\mathbf{T}_A := \begin{pmatrix} \mathbf{I} &amp; -\mathbf{R} \\
+\mathbf{0} &amp; \mathbf{I} \end{pmatrix}\cdot \begin{pmatrix}
+\mathbf{I} &amp; \mathbf{0} \\ -\mathbf{G}^{-1}(\mathbf{B}) &amp;
+\mathbf{T}_G \end{pmatrix}
 = \begin{pmatrix} \mathbf{I} + \mathbf{R} \cdot
 \mathbf{G}^{-1}(\mathbf{B}) &amp; -\mathbf{R} \cdot \mathbf{T}_G \\
--\mathbf{G}^{-1}(\mathbf{B}) &amp; \mathbf{T}_G
-\end{pmatrix}\]</span></p>
+-\mathbf{G}^{-1}(\mathbf{B}) &amp; \mathbf{T}_G \end{pmatrix}
+\]</span></p>
 <ul>
 <li>满足 <span class="math inline">\(\mathbf{A} \cdot \mathbf{T}_A =
-\mathbf{0}\)</span>： <span class="math display">\[\begin{aligned}
+\mathbf{0}\)</span>： <span class="math display">\[
+  \begin{aligned}
   \mathbf{A} \cdot \mathbf{T}_A
   &amp;= \begin{pmatrix} \mathbf{B} &amp; \mathbf{BR}+\mathbf{G}
 \end{pmatrix} \cdot \begin{pmatrix} \mathbf{I} + \mathbf{R}
@@ -2910,7 +3019,8 @@ y_2 \rangle _{BE} \\
 \mathbf{G}\mathbf{T}_G \end{pmatrix} \\
   &amp;= \begin{pmatrix} \mathbf{0} &amp; \mathbf{0} \end{pmatrix} \\
   &amp;= \mathbf{0}
-  \end{aligned}\]</span></li>
+  \end{aligned}
+  \]</span></li>
 <li><span class="math inline">\(\mathbf{T}_A\)</span> 的四个分块：单位阵
 <span class="math inline">\(\mathbf{I}\)</span>、私钥 <span class="math inline">\(\mathbf{R} \in \{0,1\}^{m^* \times
 nk}\)</span>、拆分矩阵 <span class="math inline">\(\mathbf{G}^{-1}(\mathbf{B}) \in \{0,1\}^{nk \times
@@ -2967,7 +3077,7 @@ EUF-CMA 安全</strong></p>
       </div>
       <div class="fold-collapse collapse" id="collapse-3e23f244">
         <div class="fold-content">
-          <ul><li><strong>证明</strong>：安全性规约，由攻破 EUF-CMA 安全性的敌手 <spanclass="math inline"="">\(\mathcal{A}\) 来构造解决 SIS 问题的敌手<span class="math inline">\(\mathcal{B}\)</span>。 <imgsrc="image-21.webp"><ul><li><strong><span class="math inline">\(\mathcal{B}\)</span>的输入</strong>：<spanclass="math inline"="">\(\mathbf{A}\in\mathbb{Z}_{q}^{n\timesm}\)</spanclass="math></li><li><strong><span class="math inline">\(\mathcal{B}\)</span>的策略</strong>：<ul><li><span class="math inline">\(\mathcal{B}\)</span> 将公钥 <spanclass="math inline"="">\(PK=\mathbf{A}\) 作为输入提供给 <spanclass="math inline"="">\(\mathcal{A}\)</spanclass="math></spanclass="math></li><li><span class="math inline">\(\mathcal{B}\)</span> 维护一个哈希查询表<span class="math inline">\(\mathcal{T}\)</span> 记录 <spanclass="math inline"="">\(\mathrm{H}(M)\) 与 <spanclass="math inline"="">\(\sigma\) 的对应关系</spanclass="math></spanclass="math></li><li>当 <span class="math inline">\(\mathcal{A}\)</span> 使用 <spanclass="math inline"="">\(M_i\) 进行 <strong>签名查询</strong>时：<span class="math inline">\(\mathcal{B}\)</span> 首先检查 <spanclass="math inline"="">\(\mathcal{T}\) 中是否存在 <spanclass="math inline"="">\(M_i\) 的记录<ul><li>若存在，<span class="math inline">\(\mathcal{B}\)</span> 将记录的<span class="math inline">\(\sigma_i\)</span> 返回给 <spanclass="math inline"="">\(\mathcal{A}\)</spanclass="math></li><li>否则，<span class="math inline">\(\mathcal{B}\)</span>随机生成一个签名 <span class="math inline">\(\sigma_i\)</span> 返回给<span class="math inline">\(\mathcal{A}\)</span>，同时记录 <spanclass="math inline"="">\(\mathrm{H}(M_i) = \mathbf{A}\sigma_i\) 到<span class="math inline">\(\mathcal{T}\)</span> 中</spanclass="math></li></ul></spanclass="math></spanclass="math></spanclass="math></li><li>当 <span class="math inline">\(\mathcal{A}\)</span> 使用 <spanclass="math inline"="">\(M_j\) 进行 <strong>哈希查询</strong>时：<span class="math inline">\(\mathcal{B}\)</span> 首先检查 <spanclass="math inline"="">\(\mathcal{T}\) 中是否存在 <spanclass="math inline"="">\(M_j\) 的记录<ul><li>若存在，<span class="math inline">\(\mathcal{B}\)</span> 将记录的<span class="math inline">\(\mathrm{H}(M_j)\)</span> 返回给 <spanclass="math inline"="">\(\mathcal{A}\)</spanclass="math></li><li>否则，<span class="math inline">\(\mathcal{B}\)</span>随机生成一个签名 <span class="math inline">\(\sigma_j\)</span>，计算<span class="math inline">\(\mathrm{H}(M_j) =\mathbf{A}\sigma_j\)</span> 并将 <spanclass="math inline"="">\(\mathrm{H}(M_j)\) 返回给 <spanclass="math inline"="">\(\mathcal{A}\)，同时记录 <spanclass="math inline"="">\(\mathrm{H}(M_j) = \mathbf{A}\sigma_j\) 到<span class="math inline">\(\mathcal{T}\)</span> 中</spanclass="math></spanclass="math></spanclass="math></li></ul></spanclass="math></spanclass="math></spanclass="math></li><li><span class="math inline">\(\mathcal{A}\)</span>最终以不可忽略优势输出一对有效的消息签名对 <spanclass="math inline"="">\((M^*,\sigma^*)\)，则 <spanclass="math inline"="">\(\mathcal{A}\) 以不可忽略概率查询过 <spanclass="math inline"="">\(\mathrm{H}(M^*)\)，因此 <spanclass="math inline"="">\(\mathcal{B}\) 已经记录了 <spanclass="math inline"="">\(\mathrm{H}(M^*)\) 与某个签名 <spanclass="math inline"="">\(\sigma\) 的对应关系<ul><li>若 <span class="math inline">\(\sigma^* =\sigma\)</span>，则失败</li><li>若 <span class="math inline">\(\sigma^* \neq \sigma\)</span>，则有<span class="math display">\[\begin{cases}  \mathbf{A}(\sigma^* - \sigma) = \mathrm{H}(M^*) - \mathrm{H}(M^*) =\mathbf{0} \\  \|\sigma^* - \sigma\| \leq \|\sigma^*\| + \|\sigma\| \leq 2B = B_s\implies  \sigma^* - \sigma \in [-B_s,B_s]^{m}  \end{cases}\]</span> 因此 <span class="math inline">\(\sigma^* -\sigma\)</span> 是 <span class="math inline">\(\mathbf{A}\)</span>的一个非零的短整数解。可以证明当 <span class="math inline">\(m \gg n\log q\)</span> 时，<span class="math inline">\(\sigma^* \neq\sigma\)</span> 的概率为不可忽略的。</li></ul></spanclass="math></spanclass="math></spanclass="math></spanclass="math></spanclass="math></spanclass="math></li></ul></li><li><strong><span class="math inline">\(\mathcal{B}\)</span>的输出</strong>：<span class="math inline">\(\mathbf{x} = \sigma^* -\sigma\)</span></li><li><strong><span class="math inline">\(\mathcal{B}\)</span>的优势</strong>： <span class="math display">\[\begin{aligned}  \mathrm{Adv}_{\mathcal{B}} &amp;\geq \Pr\left[  \begin{array}{l}  (1)\ \mathcal{A} \text{ 成功攻破 GPV 签名算法的 EUF-CMA 安全性} \\  (2)\ \mathcal{A} \text{ 查询过 } M^{*} \text{ 的 Hash 值} \\  (3)\ \sigma^{*} \neq \sigma  \end{array}  \right] \\  &amp;= \text{non-negl}(\lambda)  \end{aligned}\]</span></li></ul></imgsrc="image-21.webp"></spanclass="math></li></ul>
+          <ul><li><strong>证明</strong>：安全性规约，由攻破 EUF-CMA 安全性的敌手 <spanclass="math inline"="">\(\mathcal{A}\) 来构造解决 SIS 问题的敌手<span class="math inline">\(\mathcal{B}\)</span>。 <imgsrc="image-21.webp"><ul><li><strong><span class="math inline">\(\mathcal{B}\)</span>的输入</strong>：<spanclass="math inline"="">\(\mathbf{A}\in\mathbb{Z}_{q}^{n\timesm}\)</spanclass="math></li><li><strong><span class="math inline">\(\mathcal{B}\)</span>的策略</strong>：<ul><li><span class="math inline">\(\mathcal{B}\)</span> 将公钥 <spanclass="math inline"="">\(PK=\mathbf{A}\) 作为输入提供给 <spanclass="math inline"="">\(\mathcal{A}\)</spanclass="math></spanclass="math></li><li><span class="math inline">\(\mathcal{B}\)</span> 维护一个哈希查询表<span class="math inline">\(\mathcal{T}\)</span> 记录 <spanclass="math inline"="">\(\mathrm{H}(M)\) 与 <spanclass="math inline"="">\(\sigma\) 的对应关系</spanclass="math></spanclass="math></li><li>当 <span class="math inline">\(\mathcal{A}\)</span> 使用 <spanclass="math inline"="">\(M_i\) 进行 <strong>签名查询</strong>时：<span class="math inline">\(\mathcal{B}\)</span> 首先检查 <spanclass="math inline"="">\(\mathcal{T}\) 中是否存在 <spanclass="math inline"="">\(M_i\) 的记录<ul><li>若存在，<span class="math inline">\(\mathcal{B}\)</span> 将记录的<span class="math inline">\(\sigma_i\)</span> 返回给 <spanclass="math inline"="">\(\mathcal{A}\)</spanclass="math></li><li>否则，<span class="math inline">\(\mathcal{B}\)</span>随机生成一个签名 <span class="math inline">\(\sigma_i\)</span> 返回给<span class="math inline">\(\mathcal{A}\)</span>，同时记录 <spanclass="math inline"="">\(\mathrm{H}(M_i) = \mathbf{A}\sigma_i\) 到<span class="math inline">\(\mathcal{T}\)</span> 中</spanclass="math></li></ul></spanclass="math></spanclass="math></spanclass="math></li><li>当 <span class="math inline">\(\mathcal{A}\)</span> 使用 <spanclass="math inline"="">\(M_j\) 进行 <strong>哈希查询</strong>时：<span class="math inline">\(\mathcal{B}\)</span> 首先检查 <spanclass="math inline"="">\(\mathcal{T}\) 中是否存在 <spanclass="math inline"="">\(M_j\) 的记录<ul><li>若存在，<span class="math inline">\(\mathcal{B}\)</span> 将记录的<span class="math inline">\(\mathrm{H}(M_j)\)</span> 返回给 <spanclass="math inline"="">\(\mathcal{A}\)</spanclass="math></li><li>否则，<span class="math inline">\(\mathcal{B}\)</span>随机生成一个签名 <span class="math inline">\(\sigma_j\)</span>，计算<span class="math inline">\(\mathrm{H}(M_j) =\mathbf{A}\sigma_j\)</span> 并将 <spanclass="math inline"="">\(\mathrm{H}(M_j)\) 返回给 <spanclass="math inline"="">\(\mathcal{A}\)，同时记录 <spanclass="math inline"="">\(\mathrm{H}(M_j) = \mathbf{A}\sigma_j\) 到<span class="math inline">\(\mathcal{T}\)</span> 中</spanclass="math></spanclass="math></spanclass="math></li></ul></spanclass="math></spanclass="math></spanclass="math></li><li><span class="math inline">\(\mathcal{A}\)</span>最终以不可忽略优势输出一对有效的消息签名对 <spanclass="math inline"="">\((M^*,\sigma^*)\)，则 <spanclass="math inline"="">\(\mathcal{A}\) 以不可忽略概率查询过 <spanclass="math inline"="">\(\mathrm{H}(M^*)\)，因此 <spanclass="math inline"="">\(\mathcal{B}\) 已经记录了 <spanclass="math inline"="">\(\mathrm{H}(M^*)\) 与某个签名 <spanclass="math inline"="">\(\sigma\) 的对应关系<ul><li>若 <span class="math inline">\(\sigma^* =\sigma\)</span>，则失败</li><li>若 <span class="math inline">\(\sigma^* \neq \sigma\)</span>，则有<span class="math display">\[  \begin{cases}  \mathbf{A}(\sigma^* - \sigma) = \mathrm{H}(M^*) - \mathrm{H}(M^*) =\mathbf{0} \\  \|\sigma^* - \sigma\| \leq \|\sigma^*\| + \|\sigma\| \leq 2B = B_s\implies  \sigma^* - \sigma \in [-B_s,B_s]^{m}  \end{cases}  \]</span> 因此 <span class="math inline">\(\sigma^* - \sigma\)</span>是 <span class="math inline">\(\mathbf{A}\)</span>的一个非零的短整数解。可以证明当 <span class="math inline">\(m \gg n\log q\)</span> 时，<span class="math inline">\(\sigma^* \neq\sigma\)</span> 的概率为不可忽略的。</li></ul></spanclass="math></spanclass="math></spanclass="math></spanclass="math></spanclass="math></spanclass="math></li></ul></li><li><strong><span class="math inline">\(\mathcal{B}\)</span>的输出</strong>：<span class="math inline">\(\mathbf{x} = \sigma^* -\sigma\)</span></li><li><strong><span class="math inline">\(\mathcal{B}\)</span>的优势</strong>： <span class="math display">\[  \begin{aligned}  \mathrm{Adv}_{\mathcal{B}} &amp;\geq \Pr\left[  \begin{array}{l}  (1)\ \mathcal{A} \text{ 成功攻破 GPV 签名算法的 EUF-CMA 安全性} \\  (2)\ \mathcal{A} \text{ 查询过 } M^{*} \text{ 的 Hash 值} \\  (3)\ \sigma^{*} \neq \sigma  \end{array}  \right] \\  &amp;= \text{non-negl}(\lambda)  \end{aligned}  \]</span></li></ul></imgsrc="image-21.webp"></spanclass="math></li></ul>
         </div>
       </div>
     </div><p></p></li>
@@ -3060,13 +3170,15 @@ F\)</span>，有 <span class="math inline">\(a \cdot(b+c)=a \cdot b+a
 <li><strong>素域</strong>（<span class="math inline">\(p\)</span>
 为素数）：<span class="math inline">\(F_{p}=\{0,\cdots,p-1\}\)</span>，运算为模 <span class="math inline">\(p\)</span> 的加法/乘法，例如 <span class="math inline">\(F_{2}=\{0,1\}\)</span>；</li>
 <li><strong>扩域</strong>（<span class="math inline">\(F_{p}\)</span>
-为基域）：设 <span class="math inline">\(f(x)\)</span> 为 <span class="math inline">\(F_{p}\)</span> 上的首一不可约多项式，次数为 <span class="math inline">\(\ell\)</span>，则 <span class="math display">\[\begin{aligned}
+为基域）：设 <span class="math inline">\(f(x)\)</span> 为 <span class="math inline">\(F_{p}\)</span> 上的首一不可约多项式，次数为 <span class="math inline">\(\ell\)</span>，则 <span class="math display">\[
+  \begin{aligned}
   F_{p^{\ell}}&amp;=F_{p}[x]/(f(x)) \\
   &amp;=\left\{a(x) \pmod{f(x)} \mid a(x) \in F_{p}[x]\right\} \\
   &amp;=\left\{a(x) \in F_{p}[x]:\deg(a)&lt;\ell\right\} \\
   &amp;=\left\{a_{0}+a_{1} x+\cdots+a_{\ell-1} x^{\ell-1}: a_{i} \in
 F_{p} \right\}
-  \end{aligned}\]</span>
+  \end{aligned}
+  \]</span>
 <ul>
 <li>运算：
 <ul>
@@ -3089,10 +3201,12 @@ F_{p}^{\ell}\)</span></li>
 </ul>
 <h4 id="有限域上的向量空间">有限域上的向量空间</h4>
 <ul>
-<li><p><strong>有限域上的向量空间</strong>：设 <span class="math inline">\(F_{q}\)</span> 为 <span class="math inline">\(q\)</span> 阶有限域，阿贝尔群 <span class="math inline">\(V\)</span> 被称为 <span class="math inline">\(F_{q}\)</span> 上的向量空间，若存在 <span class="math inline">\(F_{q}\)</span> 在 <span class="math inline">\(V\)</span> 上的数乘运算 <span class="math display">\[\begin{aligned}
+<li><p><strong>有限域上的向量空间</strong>：设 <span class="math inline">\(F_{q}\)</span> 为 <span class="math inline">\(q\)</span> 阶有限域，阿贝尔群 <span class="math inline">\(V\)</span> 被称为 <span class="math inline">\(F_{q}\)</span> 上的向量空间，若存在 <span class="math inline">\(F_{q}\)</span> 在 <span class="math inline">\(V\)</span> 上的数乘运算 <span class="math display">\[
+  \begin{aligned}
   F_{q} \times V &amp;\to V \\
   (\lambda, x) &amp;\mapsto \lambda x
-  \end{aligned}\]</span> 满足以下公理：</p>
+  \end{aligned}
+  \]</span> 满足以下公理：</p>
 <ol type="1">
 <li>对所有 <span class="math inline">\(\lambda \in F_{q}\)</span> 和
 <span class="math inline">\(x,y \in V\)</span>，有 <span class="math inline">\(\lambda(x+y)=\lambda x+\lambda y\)</span>；</li>
@@ -3103,9 +3217,11 @@ F_{p}^{\ell}\)</span></li>
 <li>对所有 <span class="math inline">\(x \in V\)</span>，有 <span class="math inline">\(1x=x\)</span>。</li>
 </ol></li>
 <li><p><strong>线性张成</strong>：设 <span class="math inline">\(\mathcal{V}\)</span> 为 <span class="math inline">\(F_{q}\)</span> 上的向量空间，<span class="math inline">\(S=\{\mathbf{v}_{1},\cdots,\mathbf{v}_{k}\}\)</span>
-为 <span class="math inline">\(\mathcal{V}\)</span> 的子集，<span class="math inline">\(S\)</span> 的线性张成定义为 <span class="math display">\[\langle S\rangle
+为 <span class="math inline">\(\mathcal{V}\)</span> 的子集，<span class="math inline">\(S\)</span> 的线性张成定义为 <span class="math display">\[
+  \langle S\rangle
 _{q}=\{\lambda_{1}\mathbf{v}_{1}+\cdots+\lambda_{k}\mathbf{v}_{k}:\lambda_{i}\in
-F_{q}\}\]</span></p>
+F_{q}\}
+  \]</span></p>
 <p>特别地，<span class="math inline">\(\langle\emptyset\rangle
 _{q}:=\{0\}\)</span>。则 <span class="math inline">\(\langle S\rangle
 _{q}\)</span> 是 <span class="math inline">\(\mathcal{V}\)</span>
@@ -3131,10 +3247,12 @@ _{q}\)</span> 是 <span class="math inline">\(\mathcal{V}\)</span>
 <li><p><strong>线性码的表示与生成矩阵</strong>：设 <span class="math inline">\(\mathbf{G} \in F_{q}^{k \times n}\)</span>
 的行向量 <span class="math inline">\(\mathbf{g}_{1},\cdots,\mathbf{g}_{k}\)</span> 构成
 <span class="math inline">\(\mathcal{C}^{\perp}\)</span> 的一组基，则
-<span class="math inline">\(\mathcal{C}\)</span> 可表示为 <span class="math display">\[\mathcal{C}=\left\{\mathbf{c} \in F_{q}^{n}:
+<span class="math inline">\(\mathcal{C}\)</span> 可表示为 <span class="math display">\[
+  \mathcal{C}=\left\{\mathbf{c} \in F_{q}^{n}:
 \mathbf{c}=\mathbf{G}^{\top} m, m \in F_{q}^{k}\right\},\quad
 \mathbf{G}=\begin{pmatrix} \mathbf{g}_{1} \\ \vdots \\ \mathbf{g}_{k}
-\end{pmatrix}_{k \times n}\]</span></p>
+\end{pmatrix}_{k \times n}
+  \]</span></p>
 <p>反之，任意秩为 <span class="math inline">\(k\)</span> 的矩阵 <span class="math inline">\(\mathbf{G} \in F_{q}^{k\times n}\)</span>
 都定义了一个 <span class="math inline">\([n, k]_{q}\)</span> 码，称
 <span class="math inline">\(\mathbf{G}\)</span> 为 <span class="math inline">\(\mathcal{C}\)</span> 的生成矩阵。</p></li>
@@ -3142,13 +3260,15 @@ _{q}\)</span> 是 <span class="math inline">\(\mathcal{V}\)</span>
 <h4 id="线性码的对偶码与校验矩阵">线性码的对偶码与校验矩阵</h4>
 <ul>
 <li><p><strong>内积</strong>：设 <span class="math inline">\(\mathbf{x}=(x_{1},\cdots,x_{n})\)</span> 和 <span class="math inline">\(\mathbf{y}=(y_{1},\cdots,y_{n})\)</span> 是 <span class="math inline">\(F_{q}^{n}\)</span>
-中的两个向量，则它们的内积定义为 <span class="math display">\[\langle
-\mathbf{x}, \mathbf{y}\rangle :=x_{1} y_{1}+\cdots+x_{n} y_{n} =
-\sum_{i=1}^{n} x_{i} y_{i}\]</span></p></li>
+中的两个向量，则它们的内积定义为 <span class="math display">\[
+  \langle \mathbf{x}, \mathbf{y}\rangle :=x_{1} y_{1}+\cdots+x_{n} y_{n}
+= \sum_{i=1}^{n} x_{i} y_{i}
+  \]</span></p></li>
 <li><p><strong>对偶码</strong>：设 <span class="math inline">\(\mathbf{g}_{1},\cdots,\mathbf{g}_{k}\)</span> 是
 <span class="math inline">\(\mathcal{C} \subseteq F_{q}^{n}\)</span>
 的一组基，则 <span class="math inline">\(\mathcal{C}\)</span>
-的对偶码定义为 <span class="math display">\[\begin{aligned}
+的对偶码定义为 <span class="math display">\[
+  \begin{aligned}
   \mathcal{C}^{\perp}:=&amp;\{ \mathbf{c}^{*}\in F_{q}^{n} \mid \forall
 \mathbf{c}\in \mathcal{C}, \langle \mathbf{c},\mathbf{c}^{*}\rangle =0\}
 \\
@@ -3156,7 +3276,8 @@ _{q}\)</span> 是 <span class="math inline">\(\mathcal{V}\)</span>
 \mathbf{c}^{*}, \mathbf{g}_{i}\rangle =0\} \\
   =&amp;\{\mathbf{c}^{*} \in F_{q}^{n} \mid \mathbf{c}^{*}
 \mathbf{G}^{\top}=0\}
-  \end{aligned}\]</span></p>
+  \end{aligned}
+  \]</span></p>
 <ul>
 <li><strong>性质</strong>：由于 <span class="math inline">\(\dim(\mathcal{C}^{\perp})=n-\dim(\mathcal{C})\)</span>，因此
 <span class="math inline">\([n, k]_{q}\)</span> 码 <span class="math inline">\(\mathcal{C}\)</span> 的对偶码 <span class="math inline">\(\mathcal{C}^{\perp}\)</span> 是 <span class="math inline">\([n, n-k]_{q}\)</span> 码，且满足 <span class="math inline">\((\mathcal{C}^{\perp})^{\perp}=\mathcal{C}\)</span>。</li>
@@ -3168,10 +3289,11 @@ _{q}\)</span> 是 <span class="math inline">\(\mathcal{V}\)</span>
 的行向量 <span class="math inline">\(\mathbf{h}_{1},\cdots,\mathbf{h}_{n-k}\)</span>
 构成 <span class="math inline">\(\mathcal{C}^{\perp}\)</span>
 的一组基，则 <span class="math inline">\(\mathbf{H}\mathbf{G}^{\top}=0\)</span>，线性码
-<span class="math inline">\(\mathcal{C}\)</span> 可表示为 <span class="math display">\[\mathcal{C}=\left\{\mathbf{c} \in F_{q}^{n}:
-\mathbf{H} \mathbf{c}=0\right\},\quad \mathbf{H}=\begin{pmatrix}
-\mathbf{h}_{1} \\ \vdots \\ \mathbf{h}_{n-k} \end{pmatrix}_{(n-k) \times
-n}\]</span></p>
+<span class="math inline">\(\mathcal{C}\)</span> 可表示为 <span class="math display">\[
+  \mathcal{C}=\left\{\mathbf{c} \in F_{q}^{n}: \mathbf{H}
+\mathbf{c}=0\right\},\quad \mathbf{H}=\begin{pmatrix} \mathbf{h}_{1} \\
+\vdots \\ \mathbf{h}_{n-k} \end{pmatrix}_{(n-k) \times n}
+  \]</span></p>
 <p>反之，任意秩为 <span class="math inline">\(n-k\)</span> 的矩阵 <span class="math inline">\(\mathbf{H} \in F_{q}^{(n-k) \times n}\)</span>
 都定义了一个 <span class="math inline">\([n, k]_{q}\)</span> 码，称
 <span class="math inline">\(\mathbf{H}\)</span> 为 <span class="math inline">\(\mathcal{C}\)</span> 的校验矩阵。</p></li>
@@ -3179,18 +3301,22 @@ n}\]</span></p>
 <h4 id="汉明度量">汉明度量</h4>
 <ul>
 <li><strong>汉明重量</strong>：对于 <span class="math inline">\(\mathbf{x}=(x_{1},\cdots,x_{n}) \in
-F_{q}^{n}\)</span>，其汉明重量定义为非零分量的个数，即 <span class="math display">\[\mathrm{wt}_{H}(\mathbf{x}):=\# \{ x_{i}\neq 0
-\mid 1\leq i\leq n\}\]</span></li>
-<li><strong>汉明距离</strong>：两个向量 <span class="math inline">\(\mathbf{x}\)</span> 和 <span class="math inline">\(\mathbf{y}\)</span> 之间的汉明距离定义为 <span class="math display">\[d(\mathbf{x},
-\mathbf{y}):=\mathrm{wt}_{H}(\mathbf{x}-\mathbf{y})\]</span>
+F_{q}^{n}\)</span>，其汉明重量定义为非零分量的个数，即 <span class="math display">\[
+  \mathrm{wt}_{H}(\mathbf{x}):=\# \{ x_{i}\neq 0 \mid 1\leq i\leq n\}
+  \]</span></li>
+<li><strong>汉明距离</strong>：两个向量 <span class="math inline">\(\mathbf{x}\)</span> 和 <span class="math inline">\(\mathbf{y}\)</span> 之间的汉明距离定义为 <span class="math display">\[
+  d(\mathbf{x}, \mathbf{y}):=\mathrm{wt}_{H}(\mathbf{x}-\mathbf{y})
+  \]</span>
 <ul>
 <li><strong>注</strong>：汉明度量是一种仅能取 <span class="math inline">\(n+1\)</span> 个值 <span class="math inline">\((0,1,\cdots,n)\)</span>
 的度量，且与欧几里得度量不同，它不区分“大”和“小”的分量。例如在 <span class="math inline">\(F_{11}^{3}\)</span> 中，<span class="math inline">\(\mathrm{wt}_{H}(5, 3, 0) = \mathrm{wt}_{H}(1, 0,
 1) = 2\)</span>。</li>
 </ul></li>
 <li><strong>极小汉明距离</strong>：线性码 <span class="math inline">\(\mathcal{C}\)</span>
-的极小汉明距离定义为非零码字的最小汉明重量，即 <span class="math display">\[d_{min}(\mathcal{C}):=\min\left\{\mathrm{wt}_{H}(\mathbf{c}):
-\mathbf{c} \in \mathcal{C} \backslash\{0\}\right\}.\]</span>
+的极小汉明距离定义为非零码字的最小汉明重量，即 <span class="math display">\[
+  d_{min}(\mathcal{C}):=\min\left\{\mathrm{wt}_{H}(\mathbf{c}):
+\mathbf{c} \in \mathcal{C} \backslash\{0\}\right\}.
+  \]</span>
 <ul>
 <li><strong>定理</strong>:
 <ol type="1">
@@ -3238,21 +3364,25 @@ Code）</h3>
 由 <span class="math inline">\(r \times(2^{r}-1)\)</span>
 的校验矩阵构造，其第 <span class="math inline">\(i\)</span> 列是 <span class="math inline">\(1 \leq i \leq 2^{r}-1\)</span>
 的二进制表示，该码的维数为 <span class="math inline">\(2^{r}-1-r\)</span>，极小汉明距离为 <span class="math inline">\(r\)</span>。</p></li>
-<li><p><strong>示例</strong>：取码长 <span class="math inline">\(n=7\)</span>、码维数 <span class="math inline">\(k=4\)</span> 的汉明码（<span class="math inline">\(r=3\)</span>），其生成矩阵为 <span class="math display">\[\mathbf{G}=\begin{pmatrix}
+<li><p><strong>示例</strong>：取码长 <span class="math inline">\(n=7\)</span>、码维数 <span class="math inline">\(k=4\)</span> 的汉明码（<span class="math inline">\(r=3\)</span>），其生成矩阵为 <span class="math display">\[
+  \mathbf{G}=\begin{pmatrix}
   1 &amp; 0 &amp; 0 &amp; 0 &amp; 1 &amp; 1 &amp; 0 \\
   0 &amp; 1 &amp; 0 &amp; 0 &amp; 1 &amp; 0 &amp; 1 \\
   0 &amp; 0 &amp; 1 &amp; 0 &amp; 0 &amp; 1 &amp; 1 \\
   0 &amp; 0 &amp; 0 &amp; 1 &amp; 1 &amp; 1 &amp; 1
-  \end{pmatrix}\]</span></p>
+  \end{pmatrix}
+  \]</span></p>
 <p>则 <span class="math inline">\(\mathbf{c}^{\top}=\begin{pmatrix} 1
 &amp; 0 &amp; 0 &amp; 1 \end{pmatrix} \cdot \mathbf{G}=\begin{pmatrix} 1
 &amp; 0 &amp; 0 &amp; 1 &amp; 1 &amp; 1 &amp; 1 \end{pmatrix}\)</span>
 是该码的一个码字。</p>
-<p>其校验矩阵为 <span class="math display">\[\mathbf{H}=\begin{pmatrix}
+<p>其校验矩阵为 <span class="math display">\[
+  \mathbf{H}=\begin{pmatrix}
   1 &amp; 1 &amp; 0 &amp; 1 &amp; 1 &amp; 0 &amp; 0 \\
   1 &amp; 0 &amp; 1 &amp; 1 &amp; 0 &amp; 1 &amp; 0 \\
   0 &amp; 1 &amp; 1 &amp; 1 &amp; 0 &amp; 0 &amp; 1
-  \end{pmatrix}\]</span></p>
+  \end{pmatrix}
+  \]</span></p>
 <p>满足 <span class="math inline">\(\mathbf{H}\mathbf{c}=\mathbf{0}\)</span>，且满足
 <span class="math inline">\(\mathbf{G}=\begin{pmatrix} \mathbf{I} &amp;
 \mathbf{Q} \end{pmatrix}\)</span>、<span class="math inline">\(\mathbf{H}=\begin{pmatrix} \mathbf{Q}^{T} &amp;
@@ -3260,9 +3390,10 @@ Code）</h3>
 </ul>
 <h5 id="reed-solomon-码">Reed-Solomon 码</h5>
 <ul>
-<li><p><strong>广义 Reed-Solomon 码</strong>（GRS）：设 <span class="math inline">\(\mathbf{z} \in(F_{q}^{*})^{n}\)</span>，<span class="math inline">\(\{\alpha_{1},\cdots,\alpha_{n}\}\)</span> 为 <span class="math inline">\(F_{q}\)</span> 中 <span class="math inline">\(n\)</span> 个两两不同的元素，<span class="math inline">\(k \leq n\)</span>，广义 Reed-Solomon 码 <span class="math inline">\(\mathcal{C}_{GRS}(n, k)\)</span> 定义为 <span class="math display">\[\mathcal{C}_{GRS}(n, k)=\{(z_{1} f(\alpha_{1}),
-\cdots, z_{n} f(\alpha_{n})) \mid f \in
-F_{q}[x],\deg(f)&lt;k\}\]</span></p>
+<li><p><strong>广义 Reed-Solomon 码</strong>（GRS）：设 <span class="math inline">\(\mathbf{z} \in(F_{q}^{*})^{n}\)</span>，<span class="math inline">\(\{\alpha_{1},\cdots,\alpha_{n}\}\)</span> 为 <span class="math inline">\(F_{q}\)</span> 中 <span class="math inline">\(n\)</span> 个两两不同的元素，<span class="math inline">\(k \leq n\)</span>，广义 Reed-Solomon 码 <span class="math inline">\(\mathcal{C}_{GRS}(n, k)\)</span> 定义为 <span class="math display">\[
+  \mathcal{C}_{GRS}(n, k)=\{(z_{1} f(\alpha_{1}), \cdots, z_{n}
+f(\alpha_{n})) \mid f \in F_{q}[x],\deg(f)&lt;k\}
+  \]</span></p>
 <ul>
 <li><span class="math inline">\(\mathcal{C}_{GRS}(n,k)\)</span> 是 <span class="math inline">\([n, k]_{q}\)</span> 码。
 <ul>
@@ -3281,7 +3412,8 @@ f(\alpha_{n}))\)</span> 也是一个 <span class="math inline">\(k\)</span>
 <li>码维数：<span class="math inline">\(k\)</span></li>
 <li>极小汉明距离：<span class="math inline">\(d = n-k+1\)</span></li>
 </ul></li>
-<li><strong>生成矩阵</strong>： <span class="math display">\[\begin{aligned}
+<li><strong>生成矩阵</strong>： <span class="math display">\[
+  \begin{aligned}
   \mathbf{G} &amp;=\begin{pmatrix}
   z_{1} &amp; z_{2} &amp; \cdots &amp; z_{n} \\
   z_{1} \alpha_{1} &amp; z_{2} \alpha_{2} &amp; \cdots &amp; z_{n}
@@ -3297,8 +3429,10 @@ z_{n} \alpha_{n}^{k-1}
   \alpha_{1}^{k-1} &amp; \alpha_{2}^{k-1} &amp; \cdots &amp;
 \alpha_{n}^{k-1}
   \end{pmatrix} \cdot \operatorname{diag}(z_{1}, z_{2}, \cdots, z_{n})
-  \end{aligned}\]</span></li>
-<li><strong>校验矩阵</strong>： <span class="math display">\[\begin{aligned}
+  \end{aligned}
+  \]</span></li>
+<li><strong>校验矩阵</strong>： <span class="math display">\[
+  \begin{aligned}
   \mathbf{H} &amp;=\begin{pmatrix}
   z_{1}' &amp; z_{2}' &amp; \cdots &amp; z_{n}' \\
   z_{1}' \alpha_{1} &amp; z_{2}' \alpha_{2} &amp; \cdots &amp;
@@ -3315,7 +3449,8 @@ z_{n}' \alpha_{n} \\
 \alpha_{n}^{n-k-1}
   \end{pmatrix} \cdot \operatorname{diag}(z_{1}', z_{2}',
 \cdots, z_{n}')
-  \end{aligned}\]</span></li>
+  \end{aligned}
+  \]</span></li>
 <li><strong>对偶码</strong>：<span class="math inline">\(\mathcal{C}_{GRS}^{\perp}(n, k)\)</span> 仍是 GRS
 码，其对应的 <span class="math inline">\(z_{i}'=\frac{1}{z_{i}
 \prod_{j
@@ -3329,27 +3464,31 @@ O(k(n-k))\)</span>；若对 <span class="math inline">\(n\)</span> 和 <span cla
 <h5 id="goppa-码">Goppa 码</h5>
 <ul>
 <li><strong>子域子码</strong>（Subfield Subcode）：给定定义在扩域 <span class="math inline">\(F_{q^m}\)</span> 上的线性码 <span class="math inline">\(\mathcal{C}[n,k,d]_{q^m}\)</span>，其相对于基域
-<span class="math inline">\(F_q\)</span> 的子域子码定义为： <span class="math display">\[\mathcal{C}'[n, k' \geq n - m(n - k),
-d' \geq d] = \mathcal{C} \cap F_q^n\]</span>
+<span class="math inline">\(F_q\)</span> 的子域子码定义为： <span class="math display">\[
+  \mathcal{C}'[n, k' \geq n - m(n - k), d' \geq d] =
+\mathcal{C} \cap F_q^n
+  \]</span>
 <ul>
 <li>核心优势：常用于基于码的密码学，可隐藏原码 <span class="math inline">\(\mathcal{C}\)</span> 的代数结构，提升安全性。</li>
 </ul></li>
 <li><strong>Goppa 码</strong>：<span class="math inline">\(\alpha_i \in
 F_{q^m}\)</span> 为两两不同的元素，<span class="math inline">\(g(x) \in
 F_{q^m}[x]\)</span> 为 <span class="math inline">\(r\)</span>
-次多项式，且对所有 <span class="math inline">\(i\)</span> 满足 <span class="math inline">\(g(\alpha_i) \neq 0\)</span>，则定义 Goppa 码 <span class="math inline">\(\mathcal{C}_\mathbf{G}\)</span> 是 GRS 码在 <span class="math inline">\(F_q\)</span> 上的子域子码 <span class="math display">\[\mathcal{C}_\mathbf{G} = \left\{ (c_0, c_1,
-\dots, c_{n-1}) \in F_q^n ~\middle|~ \sum_{i=0}^{n-1} \frac{c_i}{x -
-\alpha_i} \equiv 0 \pmod{g(x)} \right\}\]</span></li>
-<li><strong>校验矩阵</strong>： <span class="math display">\[\mathbf{H}
-= \begin{pmatrix}
+次多项式，且对所有 <span class="math inline">\(i\)</span> 满足 <span class="math inline">\(g(\alpha_i) \neq 0\)</span>，则定义 Goppa 码 <span class="math inline">\(\mathcal{C}_\mathbf{G}\)</span> 是 GRS 码在 <span class="math inline">\(F_q\)</span> 上的子域子码 <span class="math display">\[
+  \mathcal{C}_\mathbf{G} = \left\{ (c_0, c_1, \dots, c_{n-1}) \in F_q^n
+~\middle|~ \sum_{i=0}^{n-1} \frac{c_i}{x - \alpha_i} \equiv 0
+\pmod{g(x)} \right\}
+  \]</span></li>
+<li><strong>校验矩阵</strong>： <span class="math display">\[
+  \mathbf{H} = \begin{pmatrix}
   1 &amp; 1 &amp; \dots &amp; 1 \\
   \alpha_0 &amp; \alpha_1 &amp; \dots &amp; \alpha_{n-1} \\
   \vdots &amp; \vdots &amp; \ddots &amp; \vdots \\
   \alpha_0^{r-1} &amp; \alpha_1^{r-1} &amp; \dots &amp;
 \alpha_{n-1}^{r-1}
   \end{pmatrix} \cdot \operatorname{diag}\left(\frac{1}{g(\alpha_0)},
-\frac{1}{g(\alpha_1)}, \dots,
-\frac{1}{g(\alpha_{n-1})}\right)\]</span></li>
+\frac{1}{g(\alpha_1)}, \dots, \frac{1}{g(\alpha_{n-1})}\right)
+  \]</span></li>
 <li><strong>性质</strong>
 <ol type="1">
 <li>继承大最小距离：继承了 RS 码的高最小距离，具备优秀的纠错能力</li>
@@ -3480,13 +3619,15 @@ f(\alpha_{n}))=\mathbf{c}\)</span></li>
 <li><strong>算法步骤</strong>：
 <ol type="1">
 <li>设 <strong>错误定位多项式</strong> <span class="math inline">\(e(x)=\prod_{e_{i} \neq
-0}(x-\alpha_{i})\)</span>，则有 <span class="math display">\[r_{i}e(\alpha_{i})=e(\alpha_{i})f(\alpha_{i}),
-\quad i=1,2, \ldots, n\]</span></li>
+0}(x-\alpha_{i})\)</span>，则有 <span class="math display">\[
+r_{i}e(\alpha_{i})=e(\alpha_{i})f(\alpha_{i}), \quad i=1,2, \ldots, n
+\]</span></li>
 <li>设 <span class="math inline">\(E(x)=\sum_{i=0}^{t} u_{i}
 x^{i}\)</span>，<span class="math inline">\(Q(x)=\sum_{i=0}^{t+k-1}
-v_{i} x^{i}\)</span>，则下面的线性方程组是可解的 <span class="math display">\[r_{i}
-E\left(\alpha_{i}\right)=Q\left(\alpha_{i}\right), \quad i=1,2, \ldots,
-n\]</span></li>
+v_{i} x^{i}\)</span>，则下面的线性方程组是可解的 <span class="math display">\[
+r_{i} E\left(\alpha_{i}\right)=Q\left(\alpha_{i}\right), \quad i=1,2,
+\ldots, n
+\]</span></li>
 <li>输出 <span class="math inline">\(f(x)=Q(x) / E(x)\)</span></li>
 </ol></li>
 <li><strong>译码复杂度</strong>：<span class="math inline">\(O(n^{3})\)</span></li>
@@ -3504,8 +3645,10 @@ Codes）</h3>
 <span class="math inline">\(\mathcal{C} = \{\mathbf{c} \in F_q^n \mid
 \mathbf{H}\mathbf{c} = 0\}\)</span>。</li>
 </ol></li>
-<li><strong>引理</strong>：设 <span class="math inline">\(\mathbf{H}\)</span> 在 <span class="math inline">\(F_q^{r \times n}\)</span> 中均匀随机分布，则 <span class="math display">\[\Pr{}_{\mathbf{H}}(\mathrm{rank}(\mathbf{H}) &lt;
-r) = \frac{1}{q^{n-r}}\]</span>
+<li><strong>引理</strong>：设 <span class="math inline">\(\mathbf{H}\)</span> 在 <span class="math inline">\(F_q^{r \times n}\)</span> 中均匀随机分布，则 <span class="math display">\[
+  \Pr{}_{\mathbf{H}}(\mathrm{rank}(\mathbf{H}) &lt; r) =
+\frac{1}{q^{n-r}}
+  \]</span>
 <ul>
 <li>G 模型随机选取 <span class="math inline">\(\mathbf{G} \in F_q^{k
 \times n}\)</span> ，以 <span class="math inline">\(1-O(q^{-(n-k)})\)</span> 的概率生成维数为 <span class="math inline">\(k\)</span> 的码。</li>
@@ -3516,25 +3659,31 @@ r) = \frac{1}{q^{n-r}}\]</span>
 </ul>
 <h4 id="gilbert-varshamov-界">Gilbert-Varshamov 界</h4>
 <ul>
-<li><p><strong>定义</strong>：设 <span class="math inline">\(V_q^n(t)\)</span> 为 <span class="math inline">\(F_q^n\)</span> 中重量 <span class="math inline">\(\mathrm{wt}_H \le t\)</span> 的向量个数，即 <span class="math display">\[V_q^n(t) = \sum_{i=0}^t \binom{n}{i} (q-1)^i \le
-\binom{n}{t} q^t\]</span></p></li>
+<li><p><strong>定义</strong>：设 <span class="math inline">\(V_q^n(t)\)</span> 为 <span class="math inline">\(F_q^n\)</span> 中重量 <span class="math inline">\(\mathrm{wt}_H \le t\)</span> 的向量个数，即 <span class="math display">\[
+  V_q^n(t) = \sum_{i=0}^t \binom{n}{i} (q-1)^i \le \binom{n}{t} q^t
+  \]</span></p></li>
 <li><p><strong>GV 界</strong>：设 <span class="math inline">\(q\)</span>
-为素数幂，<span class="math inline">\(n, d\)</span> 为正整数。设 <span class="math inline">\(A(d, n, q)\)</span> 为 <span class="math inline">\(F_q^n\)</span> 中最小距离至少为 <span class="math inline">\(d\)</span> 的任意码的最大容量，则 <span class="math display">\[\begin{aligned}
+为素数幂，<span class="math inline">\(n, d\)</span> 为正整数。设 <span class="math inline">\(A(d, n, q)\)</span> 为 <span class="math inline">\(F_q^n\)</span> 中最小距离至少为 <span class="math inline">\(d\)</span> 的任意码的最大容量，则 <span class="math display">\[
+  \begin{aligned}
   A(d, n, q) &amp;= \#\{\mathcal{C} \subseteq F_q^n \mid
 d_{\min}(\mathcal{C}) \ge d\} \\
   &amp;\ge \frac{q^n}{V_q^n(d-1)}
-  \end{aligned}\]</span></p></li>
+  \end{aligned}
+  \]</span></p></li>
 <li><p><strong>渐近 GV 界</strong>：对任意素数幂 <span class="math inline">\(q\)</span> 与 <span class="math inline">\(\delta
 \in [0, 1-\frac{1}{q}]\)</span>，存在一个无限的码族 <span class="math inline">\(\mathfrak{C} =
 \{\mathcal{C}_n\}_{n=1}^\infty\)</span>，其码的相对最小距离 <span class="math inline">\(\frac{d_{\min}(\mathcal{C})}{n} \ge
-\delta\)</span>，相对码率 <span class="math display">\[R_\delta =
-\lim_{n \to \infty} \frac{\log_q A(\delta n, n, q)}{n} \ge 1 -
-H_q(\delta)\]</span></p>
-<p>其中 <span class="math inline">\(q\)</span> 元熵函数 <span class="math inline">\(H_q(x)\)</span> 为 <span class="math display">\[H_q(x) = x \log_q(q-1) - x \log_q x - (1-x)
-\log_q(1-x)\]</span></p>
-<p>且有 <span class="math display">\[\lim_{n \to \infty} \frac{\log_q
-V_q^n(\lfloor xn \rfloor)}{n} = H_q(x),\quad V_q^n(\lfloor xn \rfloor)
-\leq q^{nH_q(x)}\]</span></p></li>
+\delta\)</span>，相对码率 <span class="math display">\[
+  R_\delta = \lim_{n \to \infty} \frac{\log_q A(\delta n, n, q)}{n} \ge
+1 - H_q(\delta)
+  \]</span></p>
+<p>其中 <span class="math inline">\(q\)</span> 元熵函数 <span class="math inline">\(H_q(x)\)</span> 为 <span class="math display">\[
+  H_q(x) = x \log_q(q-1) - x \log_q x - (1-x) \log_q(1-x)
+  \]</span></p>
+<p>且有 <span class="math display">\[
+  \lim_{n \to \infty} \frac{\log_q V_q^n(\lfloor xn \rfloor)}{n} =
+H_q(x),\quad V_q^n(\lfloor xn \rfloor) \leq q^{nH_q(x)}
+  \]</span></p></li>
 <li><p><span class="math inline">\(H_q(x)\)</span> 性质：</p>
 <ol type="1">
 <li><span class="math inline">\(H_q(0) = H_q(1) = 0\)</span>，<span class="math inline">\(H_q(x)\)</span> 在 <span class="math inline">\([0,
@@ -3559,12 +3708,14 @@ H_q(x) = 0\)</span>，<span class="math inline">\(\lim_{x \to
     </div><p></p></li>
 <li><p><strong>渐近好码</strong>：若码族 <span class="math inline">\(\mathfrak{C} =
 \{\mathcal{C}_n\}_{n=1}^\infty\)</span> 满足下列条件时，称其为渐近好码：
-<span class="math display">\[\begin{cases}
+<span class="math display">\[
+  \begin{cases}
   R(\mathfrak{C}) = \lim_{n \to \infty} R(\mathcal{C}_n) &gt; 0 \quad
 (R(\mathcal{C}_n) := \frac{k}{n}) \\
   \delta(\mathfrak{C}) = \lim_{n \to \infty} \delta(\mathcal{C}_n) &gt;
 0 \quad (\delta(\mathcal{C}_n) := \frac{d_{\min}(\mathcal{C}_n)}{n})
-  \end{cases}\]</span></p>
+  \end{cases}
+  \]</span></p>
 <ul>
 <li>随机线性码是渐近好码</li>
 <li>汉明码不是渐近好码</li>
@@ -3579,9 +3730,10 @@ n}\)</span>，伴随式 <span class="math inline">\(\mathbf{s} \in
 F_q^{n-k}\)</span>，错误向量重量上限 <span class="math inline">\(t\)</span>，求 <span class="math inline">\(\mathbf{e} \in F_q^n\)</span>，使得 <span class="math inline">\(\mathbf{H}\mathbf{e} = \mathbf{s}\)</span> 且
 <span class="math inline">\(\mathrm{wt}_H(\mathbf{e}) \le t\)</span>。
 <ul>
-<li><strong>解的数量</strong>： <span class="math display">\[\#\{\mathbf{e} \in F_q^n \mid
-\mathbf{H}\mathbf{e} = \mathbf{s}, \mathrm{wt}_H(\mathbf{e}) \le t\} =
-\frac{V_q^n(t)}{q^{n-k}}\]</span></li>
+<li><strong>解的数量</strong>： <span class="math display">\[
+  \#\{\mathbf{e} \in F_q^n \mid \mathbf{H}\mathbf{e} = \mathbf{s},
+\mathrm{wt}_H(\mathbf{e}) \le t\} = \frac{V_q^n(t)}{q^{n-k}}
+  \]</span></li>
 </ul>
 
     <div class="fold">
@@ -3590,7 +3742,7 @@ F_q^{n-k}\)</span>，错误向量重量上限 <span class="math inline">\(t\)</s
       </div>
       <div class="fold-collapse collapse" id="collapse-302bfed6">
         <div class="fold-content">
-          <ul><li>定义 <span class="math inline">\(I_x =\begin{cases} 1 &amp;\mathbf{H}\mathbf{x}=\mathbf{s} \\ 0 &amp; \text{else}\end{cases}\)</span>，则 <span class="math inline">\(\Pr(I_x = 1) =\frac{1}{q^{n-k}}\)</span>，令 <span class="math inline">\(|X| =\#\{\mathbf{x} \in F_q^n \mid \mathbf{H}\mathbf{x} = \mathbf{s},\mathrm{wt}_H(\mathbf{x}) \le t\}\)</span>，则 <spanclass="math display"="">\[E[|X|] = E[\sum_{x\in F_q^n\atop \mathrm{wt}(x)\le t} I_x] = \sum_{x\in F_q^n\atop \mathrm{wt}(x) \le t} E[I_x] =\sum_{x\in F_q^n\atop \mathrm{wt}(x) \le t} \frac{1}{q^{n-k}} =\frac{V_q^n(t)}{q^{n-k}}\]</spanclass="math></li></ul>
+          <ul><li>定义 <span class="math inline">\(I_x =\begin{cases} 1 &amp;\mathbf{H}\mathbf{x}=\mathbf{s} \\ 0 &amp; \text{else}\end{cases}\)</span>，则 <span class="math inline">\(\Pr(I_x = 1) =\frac{1}{q^{n-k}}\)</span>，令 <span class="math inline">\(|X| =\#\{\mathbf{x} \in F_q^n \mid \mathbf{H}\mathbf{x} = \mathbf{s},\mathrm{wt}_H(\mathbf{x}) \le t\}\)</span>，则 <spanclass="math display"="">\[  E[|X|] = E[\sum_{x\in F_q^n\atop \mathrm{wt}(x) \le t} I_x] =\sum_{x\in F_q^n\atop \mathrm{wt}(x) \le t} E[I_x] = \sum_{x\inF_q^n\atop \mathrm{wt}(x) \le t} \frac{1}{q^{n-k}} =\frac{V_q^n(t)}{q^{n-k}}  \]</spanclass="math></li></ul>
         </div>
       </div>
     </div></li>
@@ -3685,9 +3837,11 @@ F_{q^m}^k\)</span>。</li>
 \mathbf{G}_{pub}^\top \mathbf{m}_0\)</span>，若 <span class="math inline">\(\mathrm{wt}(\mathbf{c}')=t\)</span> 输出 <span class="math inline">\(b'=0\)</span>，否则输出 <span class="math inline">\(b'=1\)</span>。</li>
 </ol></li>
 <li><p><strong>随机填充可实现 IND-CPA 安全</strong>：从 <span class="math inline">\(F_{q^m}^{k_1}\)</span> 均匀选 <span class="math inline">\(\mathbf{r}\)</span>，消息 <span class="math inline">\(\mathbf{m} \in F_{q^m}^{k_2}\)</span>，满足 <span class="math inline">\(k_1 + k_2 = k\)</span>。令 <span class="math inline">\(\mathbf{m}' = \begin{pmatrix} \mathbf{r} \\
-\mathbf{m} \end{pmatrix} \in F_{q^m}^k\)</span>，密文为： <span class="math display">\[\mathbf{c} = \mathbf{G}_{pub}^\top
-\mathbf{m}' + \mathbf{e} = \mathbf{G}_{pub}^\top \begin{pmatrix}
-\mathbf{r} \\ \mathbf{m} \end{pmatrix} + \mathbf{e}\]</span></p>
+\mathbf{m} \end{pmatrix} \in F_{q^m}^k\)</span>，密文为： <span class="math display">\[
+  \mathbf{c} = \mathbf{G}_{pub}^\top \mathbf{m}' + \mathbf{e} =
+\mathbf{G}_{pub}^\top \begin{pmatrix} \mathbf{r} \\ \mathbf{m}
+\end{pmatrix} + \mathbf{e}
+  \]</span></p>
 <p>在随机码有界最小距离译码困难、<span class="math inline">\(\mathbf{G}_{pub}\)</span>
 与随机矩阵不可区分的假设下，填充版 McEliece 可证明 IND-CPA
 安全。</p></li>
@@ -3879,8 +4033,9 @@ IOPs）结合 Fiat-Shamir 变换转化为 NIZK 的。</li>
 <li><strong>通用零知识证明</strong>（General-Purpose ZKP）：
 <ul>
 <li><strong>特点</strong>：支持任意 NP 关系 <span class="math inline">\(R\)</span>，关系通常使用算术电路（Arithmetic
-circuit）描述。 <span class="math display">\[R_C=\{(x,w):
-C(x,w)=1\}\]</span>
+circuit）描述。 <span class="math display">\[
+  R_C=\{(x,w): C(x,w)=1\}
+  \]</span>
 <ul>
 <li>算术电路是有向无环图，内部节点为加法或乘法操作，定义了一个多元多项式及其求值方法。</li>
 </ul></li>
@@ -3889,11 +4044,13 @@ C(x,w)=1\}\]</span>
 </ul></li>
 <li><strong>专用零知识证明 (Specialized ZKP)</strong>：
 <ul>
-<li><strong>特点</strong>：为特定类型的 NP 关系设计。 <span class="math display">\[\begin{aligned}
+<li><strong>特点</strong>：为特定类型的 NP 关系设计。 <span class="math display">\[
+  \begin{aligned}
   R_{DL} &amp;= \{(X, w): X = w \cdot G\} \\
   R_{SIS} &amp;= \{(x, w): x = A w \mod q, \|w\| \leq \beta\} \\
   R_{Lookup} &amp;= \{(x, w): w \text{ is a subset of } x\}
-  \end{aligned}\]</span></li>
+  \end{aligned}
+  \]</span></li>
 <li><strong>优点</strong>：对于指定的特殊关系，证明和验证极为高效。适用于正确加密证明、分布式密钥生成、数字签名等。</li>
 <li><strong>缺点</strong>：若要支持复杂的声明，需要与通用 ZKP
 进行小心谨慎的集成。</li>
@@ -3981,9 +4138,10 @@ O_\lambda(\log|C|)\)</span>。</li>
 <li>近期进展代表：Groth’16（依赖可信设置）、Plonk、Bulletproofs、STARK（透明设置且抗量子）</li>
 </ul>
 <h2 id="snark-的构造">SNARK 的构造</h2>
-<p>现代高效 SNARK （如 STARK）的通用构造框架为： <span class="math display">\[\text{多项式承诺方案(PCS)} +
-\text{多项式交互式预言机证明(PIOP)} \xrightarrow{\text{Fiat-Shamir}}
-\text{SNARK}\]</span></p>
+<p>现代高效 SNARK （如 STARK）的通用构造框架为： <span class="math display">\[
+\text{多项式承诺方案(PCS)} + \text{多项式交互式预言机证明(PIOP)}
+\xrightarrow{\text{Fiat-Shamir}} \text{SNARK}
+\]</span></p>
 <h3 id="交互式预言机证明iop-piop">交互式预言机证明（IOP &amp;
 PIOP）</h3>
 <ul>
@@ -4333,7 +4491,7 @@ codes）：
     <div class="hitokoto">
         <i class="fas fa-quote-left"></i>
         <a target="_blank" rel="noopener" href="https://developer.hitokoto.cn/" id="hitokoto_text"><span id="hitokoto">且以群词 注解我这座荒山</span></a>
-        <script src="/Blog/js/Hitokoto.js" defer></script>
+        <script src="/js/Hitokoto.js" defer></script>
     </div>
     <div class="data">
         <span class="total-word-container">
@@ -4363,11 +4521,11 @@ codes）：
     <div class="duration">
         <i class="fas fa-calendar"></i>
         <span id="duration-container">人生缓缓&nbsp;自有答案</span>
-        <script src="/Blog/js/Duration.js"></script>
+        <script src="/js/Duration.js"></script>
     </div>
 </div>
 
-<link href="/Blog/css/Footer.css" type="text/css" rel="stylesheet"/>
+<link href="/css/Footer.css" type="text/css" rel="stylesheet"/>
 <script>
     document.querySelectorAll("[id^='busuanzi_value_']").forEach(element => {
         element.id = element.id.replace("busuanzi_value_", "vercount_value_");
@@ -4583,7 +4741,7 @@ codes）：
 
 
   <script type="text/javascript">
-  document.getElementById("g-total-word-id").innerHTML = "742k";
+  document.getElementById("g-total-word-id").innerHTML = "728k";
   document.getElementById('g-total-posts-id').textContent ="86";
 </script>
 

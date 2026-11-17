@@ -28,7 +28,7 @@
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://youyeyejie.github.io/Blog/img/cover/nis3364.webp">
 <meta property="article:published_time" content="2025-12-27T11:44:35.000Z">
-<meta property="article:modified_time" content="2026-11-17T10:00:08.874Z">
+<meta property="article:modified_time" content="2026-11-17T12:30:35.854Z">
 <meta property="article:author" content="youyeyejie">
 <meta property="article:tag" content="SJTU">
 <meta property="article:tag" content="计网">
@@ -89,7 +89,7 @@
   <script id="fluid-configs">
     var Fluid = window.Fluid || {};
     Fluid.ctx = Object.assign({}, Fluid.ctx)
-    var CONFIG = {"hostname":"youyeyejie.github.io","root":"/Blog/","version":"1.9.8","typing":{"enable":true,"typeSpeed":70,"cursorChar":"_","loop":false,"scope":[]},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"left","visible":"hover","icon":""},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"code_language":{"enable":false,"default":"TEXT"},"copy_btn":false,"image_caption":{"enable":true},"image_zoom":{"enable":true,"img_url_replace":["",""]},"toc":{"enable":true,"placement":"right","headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":0},"lazyload":{"enable":true,"loading_img":"/Blog/img/loading/loading3.gif","onlypost":true,"offset_factor":2},"web_analytics":{"enable":false,"follow_dnt":true,"baidu":null,"google":{"measurement_id":null},"tencent":{"sid":null,"cid":null},"leancloud":{"app_id":null,"app_key":null,"server_url":null,"path":"window.location.pathname","ignore_local":false},"umami":{"src":null,"website_id":null,"domains":null,"start_time":"2024-01-01T00:00:00.000Z","token":null,"api_server":null}},"search_path":"/Blog/local-search.xml","include_content_in_search":true};
+    var CONFIG = {"hostname":"youyeyejie.github.io","root":"/Blog/","version":"1.9.8","typing":{"enable":true,"typeSpeed":70,"cursorChar":"_","loop":false,"scope":[]},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"left","visible":"hover","icon":""},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"code_language":{"enable":false,"default":"TEXT"},"copy_btn":false,"image_caption":{"enable":true},"image_zoom":{"enable":true,"img_url_replace":["",""]},"toc":{"enable":true,"placement":"right","headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":0},"lazyload":{"enable":true,"loading_img":"/img/loading/loading3.gif","onlypost":true,"offset_factor":2},"web_analytics":{"enable":false,"follow_dnt":true,"baidu":null,"google":{"measurement_id":null},"tencent":{"sid":null,"cid":null},"leancloud":{"app_id":null,"app_key":null,"server_url":null,"path":"window.location.pathname","ignore_local":false},"umami":{"src":null,"website_id":null,"domains":null,"start_time":"2024-01-01T00:00:00.000Z","token":null,"api_server":null}},"search_path":"/Blog/local-search.xml","include_content_in_search":true};
 
     if (CONFIG.web_analytics.follow_dnt) {
       var dntVal = navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack;
@@ -139,8 +139,8 @@
     </div>
 </div>
 
-<script src="/Blog/js/RainbowLoading.js" type="text/javascript"></script>
-<link href="/Blog/css/RainbowLoading.css" type="text/css" rel="stylesheet"/><div id="rightmenu-wrapper">
+<script src="/js/RainbowLoading.js" type="text/javascript"></script>
+<link href="/css/RainbowLoading.css" type="text/css" rel="stylesheet"/><div id="rightmenu-wrapper">
   <ul class="list-v rightmenu" id="rightmenu-content">
 	    <li class="navigation menuNavigation-Content">
             <a class="nav icon-only fix-cursor-default" aria-label="back" onclick="history.back()"><i class="fa-solid fa-chevron-left"></i></a>
@@ -220,7 +220,7 @@
 		    </a>
 	    </li>
         <li class="menuLoad-Content" style="display: block;">
-		    <a class="vlts-menu fix-cursor-default" target="_self" href="/Blog/categories/">
+		    <a class="vlts-menu fix-cursor-default" target="_self" href="/categories/">
 		        <span>
 			        <i class="iconfont icon-category-fill"></i>
                     &nbsp;博客分类
@@ -228,7 +228,7 @@
 		    </a>
 	    </li>
         <li class="menuLoad-Content" style="display: block;">
-		    <a class="vlts-menu fix-cursor-default" target="_self" href="/Blog/tags/">
+		    <a class="vlts-menu fix-cursor-default" target="_self" href="/tags/">
 		        <span>
 			        <i class="fa-solid fa-tags"></i>
                     &nbsp;文章标签
@@ -282,8 +282,8 @@
 </div>
 
 
-<script src="/Blog/js/RightMenu.js" type="text/javascript"></script>
-<link href="/Blog/css/RightMenu.css" type="text/css" rel="stylesheet"/>
+<script src="/js/RightMenu.js" type="text/javascript"></script>
+<link href="/css/RightMenu.css" type="text/css" rel="stylesheet"/>
 
   <header>
     
@@ -2040,15 +2040,18 @@ Division Multiplexing）</h3>
 <ul>
 <li>每个站分配的码片序列：各不相同，且必须互相
 <strong>正交</strong>（orthogonal）。</li>
-<li>正交向量 <span class="math inline">\(S\)</span> 和 <span class="math inline">\(T\)</span> 的规格化内积（inner product）等于 <span class="math inline">\(0\)</span> <span class="math display">\[S \cdot  T
-\equiv  \frac{1}{m}\sum_{i=1}^{m}{S}_{i}{T}_{i} = 0\]</span></li>
-<li>任何一个码片向量和该码片向量自己的规格化内积都是 <span class="math inline">\(1\)</span> <span class="math display">\[S \cdot S
-= \frac{1}{m}\sum_{i=1}^{m}{S}_{i}{S}_{i}
+<li>正交向量 <span class="math inline">\(S\)</span> 和 <span class="math inline">\(T\)</span> 的规格化内积（inner product）等于 <span class="math inline">\(0\)</span> <span class="math display">\[
+  S \cdot  T \equiv  \frac{1}{m}\sum_{i=1}^{m}{S}_{i}{T}_{i} = 0
+  \]</span></li>
+<li>任何一个码片向量和该码片向量自己的规格化内积都是 <span class="math inline">\(1\)</span> <span class="math display">\[
+  S \cdot S = \frac{1}{m}\sum_{i=1}^{m}{S}_{i}{S}_{i}
   = \frac{1}{m}\sum_{i=1}^{m}{S}_{i}^{2}
   = \frac{1}{m}\sum_{i=1}^{m}{(\pm 1)}^{2}
-  = 1\]</span></li>
-<li>一个码片向量和该码片反码的向量的规格化内积值是 <span class="math inline">\(-1\)</span> <span class="math display">\[S \cdot
-\overline{S} =  - 1\]</span></li>
+  = 1
+  \]</span></li>
+<li>一个码片向量和该码片反码的向量的规格化内积值是 <span class="math inline">\(-1\)</span> <span class="math display">\[
+  S \cdot \overline{S} =  - 1
+  \]</span></li>
 </ul></li>
 </ul></li>
 </ul>
@@ -2357,13 +2360,15 @@ CRC（Cyclic Redundancy Check）</h5>
 <span class="math inline">\(M\)</span> 后面，一起发送出去。</li>
 </ol></li>
 <li><p>示例： <img src="image-49.webp" srcset="/Blog/img/loading/loading3.gif" lazyload alt="示例"></p></li>
-<li><p>广泛使用的除数生成多项式 <span class="math inline">\(P(X)\)</span> <span class="math display">\[\begin{aligned}
+<li><p>广泛使用的除数生成多项式 <span class="math inline">\(P(X)\)</span> <span class="math display">\[
+  \begin{aligned}
   &amp;\mathrm {CRC-16} = X ^ {16} + X ^ {15} + X ^ {2} + 1 \\
   &amp;\mathrm {CRC-CCITT} = X ^ {16} + X ^ {12} + X ^ {5} + 1 \\
   &amp;\mathrm {CRC-32} = X ^ {32} + X ^ {26} + X ^ {23} + X ^ {22} + X
 ^ {16} + X ^ {12} + X ^ {11} + X ^ {10} + X ^ {8} + X ^ {7} + X ^ {5} +
 X ^ {4} + X ^ {2} + X + 1 \\
-  \end{aligned}\]</span></p></li>
+  \end{aligned}
+  \]</span></p></li>
 <li><p>说明：</p>
 <ul>
 <li>仅用循环冗余检验 CRC
@@ -2388,12 +2393,14 @@ X ^ {4} + X ^ {2} + X + 1 \\
 </ul>
 <h5 id="纠错-汉明码hamming-code">纠错-汉明码（Hamming Code）</h5>
 <ul>
-<li>定义：编号为 2 的幂的位作为校验位（只有 1 位是 1） <img src="image-50.webp" srcset="/Blog/img/loading/loading3.gif" lazyload> <span class="math display">\[\begin{aligned}
+<li>定义：编号为 2 的幂的位作为校验位（只有 1 位是 1） <img src="image-50.webp" srcset="/Blog/img/loading/loading3.gif" lazyload> <span class="math display">\[
+  \begin{aligned}
   C1 &amp; = D1 \oplus D2 \oplus D4 \oplus D5 \oplus D7 \\
   C2 &amp; = D1 \oplus D3 \oplus D4 \oplus D6 \oplus D7 \\
   C4 &amp; = D2 \oplus D3 \oplus D4 \oplus D8 \\
   C8 &amp; = D5 \oplus D6 \oplus D7 \oplus D8
-  \end{aligned}\]</span></li>
+  \end{aligned}
+  \]</span></li>
 <li>特点：
 <ul>
 <li><strong>能检测并纠正单个比特差错</strong></li>
@@ -2886,7 +2893,9 @@ exponential backoff）</li>
 </ul></li>
 <li>定义参数 <span class="math inline">\(a\)</span>
 为以太网单程端到端时延 <span class="math inline">\(\tau\)</span>
-与帧的发送时间 <span class="math inline">\(T_{0}\)</span> 之比： <span class="math display">\[a = \tau / T _ {0}\]</span>
+与帧的发送时间 <span class="math inline">\(T_{0}\)</span> 之比： <span class="math display">\[
+  a = \tau / T _ {0}
+  \]</span>
 <ul>
 <li>为提高利用率，以太网的参数 <span class="math inline">\(a\)</span>
 的值应当尽可能小些。
@@ -2896,8 +2905,9 @@ exponential backoff）</li>
 </ul></li>
 </ul></li>
 <li>定义信道利用率的最大值 <span class="math inline">\(S_{\max}\)</span>
-为： <span class="math display">\[S _ {\max } = \frac {T _ {0}}{T _ {0}
-+ \tau} = \frac {1}{1 + a}\]</span>
+为： <span class="math display">\[
+  S _ {\max } = \frac {T _ {0}}{T _ {0} + \tau} = \frac {1}{1 + a}
+  \]</span>
 <ul>
 <li>只有当参数 <span class="math inline">\(a \ll 1\)</span>
 才能得到尽可能高的极限信道利用率。</li>
@@ -7554,8 +7564,10 @@ ACK）允许接收方告诉发送方哪些数据已经正确收到，从而使�
 <li><strong>加权平均往返时间/平滑的往返时间</strong> <span class="math inline">\(RTT_S\)</span>
 <ul>
 <li>定义：往返时间 RTT 的加权平均值，用于估计当前的往返时间。</li>
-<li>使用指数加权移动平均法计算 <span class="math inline">\(RTT_S\)</span>： <span class="math display">\[新的~RTT_{S}=(1-\alpha)\times(旧的~RTT_{S})+\alpha
-\times(新的~RTT~样本)\]</span></li>
+<li>使用指数加权移动平均法计算 <span class="math inline">\(RTT_S\)</span>： <span class="math display">\[
+  新的~RTT_{S}=(1-\alpha)\times(旧的~RTT_{S})+\alpha
+\times(新的~RTT~样本)
+  \]</span></li>
 <li>其中 <span class="math inline">\(0 \leq \alpha &lt;
 1\)</span>，<span class="math inline">\(\alpha\)</span> 越小，<span class="math inline">\(RTT\)</span> 值更新得越慢，越平滑，RFC 6298 推荐
 <span class="math inline">\(\alpha = 1/8\)</span>。</li>
@@ -7564,12 +7576,16 @@ ACK）允许接收方告诉发送方哪些数据已经正确收到，从而使�
 <ul>
 <li>定义：若发送方在 RTO（Retransmission
 Time-Out）内没有收到确认，就重传报文段，应略大于加权平均往返时间 <span class="math inline">\(RTT_{S}\)</span>。</li>
-<li>RFC 6298 建议 <span class="math inline">\(RTO\)</span>： <span class="math display">\[RTO = RTT_{S} + 4 \times RTT_{D}\]</span>
+<li>RFC 6298 建议 <span class="math inline">\(RTO\)</span>： <span class="math display">\[
+  RTO = RTT_{S} + 4 \times RTT_{D}
+  \]</span>
 <ul>
 <li>其中 <span class="math inline">\(RTT_D\)</span> 是 <span class="math inline">\(RTT\)</span> 偏差的加权平均值。</li>
 </ul></li>
-<li>RFC 6298 建议 <span class="math inline">\(RTT_{D}\)</span>： <span class="math display">\[新的~RTT_{D}=(1-\beta)\times(旧的~RTT_{D})+ \beta
-\times |RTT_{S}-新的~RTT~样本|\]</span>
+<li>RFC 6298 建议 <span class="math inline">\(RTT_{D}\)</span>： <span class="math display">\[
+  新的~RTT_{D}=(1-\beta)\times(旧的~RTT_{D})+ \beta \times
+|RTT_{S}-新的~RTT~样本|
+  \]</span>
 <ul>
 <li>其中系数 <span class="math inline">\(\beta &lt;1\)</span> ，推荐值为
 <span class="math inline">\(1/4\)</span>。</li>
@@ -7590,7 +7606,9 @@ Karn
 </ul></li>
 <li>修正的 Karn 算法
 <ul>
-<li>报文段每重传一次，就把 RTO 增大一些： <span class="math display">\[新的~RTO=\gamma\times(旧的~RTO)\]</span>
+<li>报文段每重传一次，就把 RTO 增大一些： <span class="math display">\[
+  新的~RTO=\gamma\times(旧的~RTO)
+  \]</span>
 <ul>
 <li>其中系数 <span class="math inline">\(\gamma\)</span> 的典型值 <span class="math inline">\(= 2\)</span>。</li>
 </ul></li>
@@ -7780,8 +7798,9 @@ MSS）发送出去。（等久了）</li>
 Window），窗口大小
 <strong>动态变化</strong>，取决于网络的拥塞程度。</p></li>
 <li><p>发送窗口的大小不仅取决于接收方的接收窗口，还取决于网络的拥塞窗口。<strong>实际大小</strong>：
-<span class="math display">\[发送窗口~swnd =
-\min(拥塞窗口~cwnd,接收窗口~rwnd)\]</span></p>
+<span class="math display">\[
+  发送窗口~swnd = \min(拥塞窗口~cwnd,接收窗口~rwnd)
+  \]</span></p>
 <ul>
 <li>当 <span class="math inline">\(cwnd &gt; rwnd\)</span>
 时：接收方的接收能力限制发送窗口的最大值。</li>
@@ -7918,7 +7937,9 @@ Retransmission）</h5>
 <li><span class="math inline">\(ssthresh :=
 \max(\frac{cwnd}{2},2)\)</span></li>
 <li><strong>乘法减小</strong> MD（Multiplicative Decrease）拥塞窗口：
-<span class="math display">\[cwnd := ssthresh\]</span></li>
+<span class="math display">\[
+cwnd := ssthresh
+\]</span></li>
 <li><strong>加法增大</strong> AI：执行
 <strong>拥塞避免算法</strong>，使拥塞窗口缓慢地线性增大。</li>
 </ol></li>
@@ -8705,11 +8726,13 @@ TCP 连接。</p>
 <li>建立 TCP 连接的往返时延 <span class="math inline">\(RTT\)</span>（近似为来回的传播时延 <span class="math inline">\(2\tau\)</span>）</li>
 <li>资源数 <span class="math inline">\(n\)</span></li>
 </ul>
-<p><span class="math display">\[\begin{aligned}
+<p><span class="math display">\[
+  \begin{aligned}
   {T_{Single}}_i &amp; \geq 2RTT + {T_{Trans}}_i \\
   T_{Page} &amp; \geq \sum_{i=0}^{n} {T_{Single}}_i \geq 2n \times RTT +
 \sum_{i=0}^{n} {T_{Trans}}_i
-  \end{aligned}\]</span></p>
+  \end{aligned}
+  \]</span></p>
 <p><!-- 
     为什么不计算释放连接的时延？一次四报文挥手耗时 2RTT，一共多耗费 2n RTT
     $$
@@ -8739,12 +8762,14 @@ pipelining）：客户在收到前一个响应之后才能发出下一个请求�
 <ul>
 <li><p>缺点：存在 TCP 连接空闲状态。</p></li>
 <li><p>示意图： <img src="image-295.webp" srcset="/Blog/img/loading/loading3.gif" lazyload></p></li>
-<li><p>访问页面的时间成本： <span class="math display">\[\begin{aligned}
+<li><p>访问页面的时间成本： <span class="math display">\[
+  \begin{aligned}
   {T_{Single}}_i &amp; \geq RTT + {T_{Trans}}_i \\
   T_{Page} &amp; \geq RTT + \sum_{i=0}^{n}({T_{Single}}_i +
 {T_{Blank}}_i) \\
   &amp; \geq (n+1)RTT + \sum_{i=0}^{n}({T_{Trans}}_i + {T_{Blank}}_i)
-  \end{aligned}\]</span></p>
+  \end{aligned}
+  \]</span></p>
 <p><!--
             如果考虑释放，最后结果 +2RTT
             $$
@@ -8762,8 +8787,9 @@ pipelining）：客户在收到响应报文之前就能够接着发送新的请�
 <li><p>优点：大大减少了 TCP 连接的空闲时间，提高了传输效率。</p></li>
 <li><p>示意图： <img src="image-296.webp" srcset="/Blog/img/loading/loading3.gif" lazyload></p></li>
 <li><p>访问页面的时间成本（上图中存在错误，实际需要 3RTT：建立 TCP
-连接、请求 HTML 文档、请求后续资源）： <span class="math display">\[T_{Page} \geq 3RTT + \sum_{i=0}^{n}
-{T_{Trans}}_i\]</span></p>
+连接、请求 HTML 文档、请求后续资源）： <span class="math display">\[
+  T_{Page} \geq 3RTT + \sum_{i=0}^{n} {T_{Trans}}_i
+  \]</span></p>
 <p><!-- 
             如果考虑释放，最后结果 +2RTT
             $$
@@ -8798,8 +8824,9 @@ Push）：允许服务器主动向客户端发送资源，而无需客户端明�
 Control）：通过流量控制机制，防止单个流占用过多带宽，确保公平的资源分配。</li>
 </ul></li>
 <li>访问页面的时间成本（先拿到第一个资源才知道后续资源的位置，可以开始并行）：
-<span class="math display">\[T_{Page} \geq 2RTT + {T_{Trans}}_0 +
-\max_{i=1}^{n} {T_{Trans}}_i\]</span></li>
+<span class="math display">\[
+  T_{Page} \geq 2RTT + {T_{Trans}}_0 + \max_{i=1}^{n} {T_{Trans}}_i
+  \]</span></li>
 </ul>
 <h4 id="http-代理服务器">HTTP 代理服务器</h4>
 <ul>
@@ -10264,8 +10291,9 @@ first），优先把文件块传送给 <strong>传送数据率最高</strong>
 <ul>
 <li>从服务器端考虑，所有主机分发完毕的最短时间 <span class="math inline">\(T_{cs} \geq NF/u_{s}\)</span></li>
 <li>下载速率最慢的主机的下载速率为 <span class="math inline">\(d_{\min}\)</span> ，则 <span class="math inline">\(T_{cs} \geq F/d_{\min}\)</span></li>
-<li>由此可得出所有主机都下载完文件 <span class="math inline">\(F\)</span> 的最少时间是： <span class="math display">\[T_{cs} \geq
-\max(NF/u_{s},F/d_{\min})\]</span></li>
+<li>由此可得出所有主机都下载完文件 <span class="math inline">\(F\)</span> 的最少时间是： <span class="math display">\[
+  T_{cs} \geq \max(NF/u_{s},F/d_{\min})
+  \]</span></li>
 </ul></li>
 <li><strong>P2P</strong> 方式下分发的最短时间分析
 <ul>
@@ -10277,21 +10305,24 @@ F/d_{\min}\)</span></li>
 NF/u_{T}\)</span>，其中上传速率之和 <span class="math inline">\(u_{T} =
 \sum_{i=1}^{N}u_{i} + u_{s}\)</span></li>
 <li>所有主机都下载完文件 <span class="math inline">\(F\)</span>
-的最少时间的下限是： <span class="math display">\[T_{p2p} \geq
-\max(F/u_{s},F/d_{\min},NF/u_{T})\]</span></li>
+的最少时间的下限是： <span class="math display">\[
+  T_{p2p} \geq \max(F/u_{s},F/d_{\min},NF/u_{T})
+  \]</span></li>
 </ul></li>
 <li>时间比较
 <ul>
 <li>设所有的对等方的上传速率都是 <span class="math inline">\(u\)</span>
 ，并且 <span class="math inline">\(F/u = 1~h\)</span>，服务器的上传速率
 <span class="math inline">\(u_{s} = 10u\)</span>。</li>
-<li>当 <span class="math inline">\(N = 30\)</span> 时 <span class="math display">\[\begin{aligned}
+<li>当 <span class="math inline">\(N = 30\)</span> 时 <span class="math display">\[
+  \begin{aligned}
   T_{cs} &amp; \geq \max(\frac{30F}{10u},\frac{F}{d_{\min}}) =
 \max(\frac{3F}{u},\frac{F}{d_{\min}}) \geq 3~h \\
   T_{p2p} &amp; \geq
 \max(\frac{F}{10u},\frac{F}{d_{\min}},\frac{30F}{40u}) =
 \max(\frac{F}{10u},\frac{F}{d_{\min}},\frac{3F}{4u}) \geq 0.75~h
-  \end{aligned}\]</span></li>
+  \end{aligned}
+  \]</span></li>
 </ul></li>
 </ul></li>
 </ul>
@@ -11705,7 +11736,7 @@ Subsystem）。</li>
     <div class="hitokoto">
         <i class="fas fa-quote-left"></i>
         <a target="_blank" rel="noopener" href="https://developer.hitokoto.cn/" id="hitokoto_text"><span id="hitokoto">且以群词 注解我这座荒山</span></a>
-        <script src="/Blog/js/Hitokoto.js" defer></script>
+        <script src="/js/Hitokoto.js" defer></script>
     </div>
     <div class="data">
         <span class="total-word-container">
@@ -11735,11 +11766,11 @@ Subsystem）。</li>
     <div class="duration">
         <i class="fas fa-calendar"></i>
         <span id="duration-container">人生缓缓&nbsp;自有答案</span>
-        <script src="/Blog/js/Duration.js"></script>
+        <script src="/js/Duration.js"></script>
     </div>
 </div>
 
-<link href="/Blog/css/Footer.css" type="text/css" rel="stylesheet"/>
+<link href="/css/Footer.css" type="text/css" rel="stylesheet"/>
 <script>
     document.querySelectorAll("[id^='busuanzi_value_']").forEach(element => {
         element.id = element.id.replace("busuanzi_value_", "vercount_value_");
@@ -11955,7 +11986,7 @@ Subsystem）。</li>
 
 
   <script type="text/javascript">
-  document.getElementById("g-total-word-id").innerHTML = "742k";
+  document.getElementById("g-total-word-id").innerHTML = "728k";
   document.getElementById('g-total-posts-id').textContent ="86";
 </script>
 

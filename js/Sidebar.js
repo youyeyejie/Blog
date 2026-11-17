@@ -1,5 +1,5 @@
 function lastUpdate() {
-    fetch('/Blog/sitemap.xml')
+    fetch('/sitemap.xml')
     .then(response => response.text())
     .then(str => (new window.DOMParser()).parseFromString(str, "text/xml"))
     .then(data => {
@@ -62,7 +62,7 @@ function createSidebar() {
                 <span id="sidebar-site-update"></span>
             </div>
             <div class="sidebar-element">
-                <a href="/Blog/original/clock/" target="_self" id="immersive-clock-link">
+                <a href="/original/clock/" target="_self" id="immersive-clock-link">
                     <span><i class="fa-solid fa-clock"></i> &nbsp;沉浸式时钟</span>
                 </a>
             </div>

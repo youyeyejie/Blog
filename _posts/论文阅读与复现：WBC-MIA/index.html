@@ -34,7 +34,7 @@
 <meta property="og:image" content="https://youyeyejie.github.io/Blog/_posts/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BB%E4%B8%8E%E5%A4%8D%E7%8E%B0%EF%BC%9AWBC-MIA/image-5.webp">
 <meta property="og:image" content="https://youyeyejie.github.io/Blog/_posts/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BB%E4%B8%8E%E5%A4%8D%E7%8E%B0%EF%BC%9AWBC-MIA/image-6.webp">
 <meta property="article:published_time" content="2026-05-20T08:32:07.000Z">
-<meta property="article:modified_time" content="2026-11-17T10:00:08.975Z">
+<meta property="article:modified_time" content="2026-11-17T12:30:35.911Z">
 <meta property="article:author" content="youyeyejie">
 <meta property="article:tag" content="MIA">
 <meta property="article:tag" content="人工智能安全">
@@ -95,7 +95,7 @@
   <script id="fluid-configs">
     var Fluid = window.Fluid || {};
     Fluid.ctx = Object.assign({}, Fluid.ctx)
-    var CONFIG = {"hostname":"youyeyejie.github.io","root":"/Blog/","version":"1.9.8","typing":{"enable":true,"typeSpeed":70,"cursorChar":"_","loop":false,"scope":[]},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"left","visible":"hover","icon":""},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"code_language":{"enable":false,"default":"TEXT"},"copy_btn":false,"image_caption":{"enable":true},"image_zoom":{"enable":true,"img_url_replace":["",""]},"toc":{"enable":true,"placement":"right","headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":0},"lazyload":{"enable":true,"loading_img":"/Blog/img/loading/loading3.gif","onlypost":true,"offset_factor":2},"web_analytics":{"enable":false,"follow_dnt":true,"baidu":null,"google":{"measurement_id":null},"tencent":{"sid":null,"cid":null},"leancloud":{"app_id":null,"app_key":null,"server_url":null,"path":"window.location.pathname","ignore_local":false},"umami":{"src":null,"website_id":null,"domains":null,"start_time":"2024-01-01T00:00:00.000Z","token":null,"api_server":null}},"search_path":"/Blog/local-search.xml","include_content_in_search":true};
+    var CONFIG = {"hostname":"youyeyejie.github.io","root":"/Blog/","version":"1.9.8","typing":{"enable":true,"typeSpeed":70,"cursorChar":"_","loop":false,"scope":[]},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"left","visible":"hover","icon":""},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"code_language":{"enable":false,"default":"TEXT"},"copy_btn":false,"image_caption":{"enable":true},"image_zoom":{"enable":true,"img_url_replace":["",""]},"toc":{"enable":true,"placement":"right","headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":0},"lazyload":{"enable":true,"loading_img":"/img/loading/loading3.gif","onlypost":true,"offset_factor":2},"web_analytics":{"enable":false,"follow_dnt":true,"baidu":null,"google":{"measurement_id":null},"tencent":{"sid":null,"cid":null},"leancloud":{"app_id":null,"app_key":null,"server_url":null,"path":"window.location.pathname","ignore_local":false},"umami":{"src":null,"website_id":null,"domains":null,"start_time":"2024-01-01T00:00:00.000Z","token":null,"api_server":null}},"search_path":"/Blog/local-search.xml","include_content_in_search":true};
 
     if (CONFIG.web_analytics.follow_dnt) {
       var dntVal = navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack;
@@ -145,8 +145,8 @@
     </div>
 </div>
 
-<script src="/Blog/js/RainbowLoading.js" type="text/javascript"></script>
-<link href="/Blog/css/RainbowLoading.css" type="text/css" rel="stylesheet"/><div id="rightmenu-wrapper">
+<script src="/js/RainbowLoading.js" type="text/javascript"></script>
+<link href="/css/RainbowLoading.css" type="text/css" rel="stylesheet"/><div id="rightmenu-wrapper">
   <ul class="list-v rightmenu" id="rightmenu-content">
 	    <li class="navigation menuNavigation-Content">
             <a class="nav icon-only fix-cursor-default" aria-label="back" onclick="history.back()"><i class="fa-solid fa-chevron-left"></i></a>
@@ -226,7 +226,7 @@
 		    </a>
 	    </li>
         <li class="menuLoad-Content" style="display: block;">
-		    <a class="vlts-menu fix-cursor-default" target="_self" href="/Blog/categories/">
+		    <a class="vlts-menu fix-cursor-default" target="_self" href="/categories/">
 		        <span>
 			        <i class="iconfont icon-category-fill"></i>
                     &nbsp;博客分类
@@ -234,7 +234,7 @@
 		    </a>
 	    </li>
         <li class="menuLoad-Content" style="display: block;">
-		    <a class="vlts-menu fix-cursor-default" target="_self" href="/Blog/tags/">
+		    <a class="vlts-menu fix-cursor-default" target="_self" href="/tags/">
 		        <span>
 			        <i class="fa-solid fa-tags"></i>
                     &nbsp;文章标签
@@ -288,8 +288,8 @@
 </div>
 
 
-<script src="/Blog/js/RightMenu.js" type="text/javascript"></script>
-<link href="/Blog/css/RightMenu.css" type="text/css" rel="stylesheet"/>
+<script src="/js/RightMenu.js" type="text/javascript"></script>
+<link href="/css/RightMenu.css" type="text/css" rel="stylesheet"/>
 
   <header>
     
@@ -711,12 +711,13 @@ Events）：模型对训练集的真正记忆信号并不是均匀分布在每�
 方法会失效，论文建立了一个全局损失差异模型。所有 Token
 的全局平均损失差异 <span class="math inline">\(\overline{\Delta}\)</span>
 可以分解为三个部分：</p>
-<p><span class="math display">\[\overline{\Delta}=\frac{1}{n}
-\sum_{j=1}^{n} \Delta_{j}=\underbrace{\mathbb{I}\left[\mathbf{x} \in
-D_{train }\right] \cdot \rho_{\delta}
-\overline{\gamma}}_{\text{membership signal}} + \underbrace{\frac{1}{n}
-\sum_{j=1}^{n} \xi_{j}}_{\text{rare token noise}} +
-\underbrace{\overline{\varepsilon}}_{\text{baseline noise}}\]</span></p>
+<p><span class="math display">\[
+\overline{\Delta}=\frac{1}{n} \sum_{j=1}^{n}
+\Delta_{j}=\underbrace{\mathbb{I}\left[\mathbf{x} \in D_{train }\right]
+\cdot \rho_{\delta} \overline{\gamma}}_{\text{membership signal}} +
+\underbrace{\frac{1}{n} \sum_{j=1}^{n} \xi_{j}}_{\text{rare token
+noise}} + \underbrace{\overline{\varepsilon}}_{\text{baseline noise}}
+\]</span></p>
 <ol type="1">
 <li><strong>第一项 (membership
 signal)</strong>：真正的成员信号，其期望值为 <span class="math inline">\(\rho_{\delta}
@@ -739,19 +740,22 @@ Window)</h3>
 <p>不计算整段文本，而是使用大小为 <span class="math inline">\(w\)</span>
 的滑动窗口遍历长度为 <span class="math inline">\(n\)</span>
 的序列，计算每个窗口 <span class="math inline">\(i\)</span>
-内的局部损失差异总和： <span class="math display">\[S_i(w) =
-\sum_{j=i}^{i+w-1} \Delta = \sum_{j=i}^{i+w-1} \left( \ell^R_j -
-\ell^T_j \right)\]</span></p>
+内的局部损失差异总和： <span class="math display">\[
+S_i(w) = \sum_{j=i}^{i+w-1} \Delta = \sum_{j=i}^{i+w-1} \left( \ell^R_j
+- \ell^T_j \right)
+\]</span></p>
 <p>通过在短窗口内进行聚合，WBC
 能在不破坏局部连续信号的前提下，过滤掉孤立的噪声。</p>
 <h3 id="基于符号的聚合-sign-based-aggregation">基于符号的聚合
 (Sign-based Aggregation)</h3>
 <p>由于损失差异呈现高度污染的长尾混合分布，我们需要把局部窗口的分数聚合成最终的成员分数。这里有两种直观的方法：基于均值的聚合（Mean-based）和基于符号的聚合（Sign-based）。具体定义如下：</p>
-<p><span class="math display">\[\begin{aligned}
+<p><span class="math display">\[
+\begin{aligned}
 T_{mean}&amp;=\frac{1}{n-w+1} \sum_{i=1}^{n-w+1} S_{i}(w) \\
 T_{sign}&amp;=\frac{1}{n-w+1} \sum_{i=1}^{n-w+1}
 \mathbb{I}\left[S_{i}(w)&gt;0\right]
-\end{aligned}\]</span></p>
+\end{aligned}
+\]</span></p>
 <p>WBC
 选择了后者，原因如下：由于损失差异呈现高度污染的长尾混合分布，均值聚合依然会被右尾那巨大的异常值影响；而基于符号的聚合完全抛弃了数值的大小而只看方向。不管某个窗口是因为遇到了极端领域词导致
 Loss 下降了 15.0，还是因为局部记忆导致 Loss 仅仅下降了 0.01，它都只计作
@@ -762,9 +766,10 @@ Loss 下降了 15.0，还是因为局部记忆导致 Loss 仅仅下降了 0.01�
 <p>不同数据集的记忆模式不同，有些是 Token
 级的死记硬背（适合小窗口），有些是段落级的结构记忆（适合大窗口）。因此，论文不再追求某个“难以确定的最优窗口大小”，而是采用一种无需调参的集成方法。为了高效且无冗余地覆盖所有尺度，WBC
 使用了几何级数（Geometric Progression）来决定窗口大小的采样：</p>
-<p><span class="math display">\[w_{k}=\text{round}\left(w_{min }
-\cdot\left(\frac{w_{max }}{w_{min
-}}\right)^{\frac{k-1}{|W|-1}}\right)\]</span></p>
+<p><span class="math display">\[
+w_{k}=\text{round}\left(w_{min } \cdot\left(\frac{w_{max }}{w_{min
+}}\right)^{\frac{k-1}{|W|-1}}\right)
+\]</span></p>
 <p>其中 <span class="math inline">\(k \in \{1, ...,|W|\}\)</span>，<span class="math inline">\(w_{min }\)</span> 和 <span class="math inline">\(w_{max }\)</span> 界定了尺度范围。</p>
 <p>这一设计的精妙之处在于，这种几何间距确保了连续窗口大小之间的比率保持近似恒定，即
 <span class="math inline">\(w_{k+1} / w_{k} \approx(w_{max } / w_{min
@@ -824,16 +829,19 @@ epoch。训练集和参考集分别从 Cosmopedia
 <li><p>第一项改动发生在 <strong>单个窗口长度的得分计算</strong> 上。原始
 WBC 使用的是正差窗口比例，也就是简单的 <span class="math inline">\(k_w/n_w\)</span>，其中 <span class="math inline">\(k_w\)</span> 表示满足 <span class="math inline">\(G_w(k)&gt;0\)</span> 的窗口个数，<span class="math inline">\(n_w\)</span>
 表示总窗口数。我们的增强实现保留这一二项统计框架，但把原始比例替换为
-Wilson 区间上界： <span class="math display">\[\hat{s}_w=\frac{\hat{p}_w+\frac{z^2}{2n_w}+z\sqrt{\frac{\hat{p}_w(1-\hat{p}_w)}{n_w}+\frac{z^2}{4n_w^2}}}{1+\frac{z^2}{n_w}},
-\qquad \hat{p}_w=\frac{k_w}{n_w}.\]</span></p>
+Wilson 区间上界： <span class="math display">\[
+\hat{s}_w=\frac{\hat{p}_w+\frac{z^2}{2n_w}+z\sqrt{\frac{\hat{p}_w(1-\hat{p}_w)}{n_w}+\frac{z^2}{4n_w^2}}}{1+\frac{z^2}{n_w}},
+\qquad \hat{p}_w=\frac{k_w}{n_w}.
+\]</span></p>
 <p>这样做是因为考虑到：当窗口较长时，能够滑动的窗口数量会明显减少，直接使用
 <span class="math inline">\(k_w/n_w\)</span>
 容易在小样本条件下波动过大。Wilson
 形式把有限窗口数带来的不确定性显式纳入打分过程，使不同窗口长度下的分数更加平滑，也有助于减弱偶然波动带来的误判。</p></li>
 <li><p>第二项改动发生在 <strong>多窗口融合</strong> 上。原始 WBC
-通常对各个窗口长度做等权平均；而我们采用 <span class="math display">\[S^{\ast}(x)=\sum_{w\in W}\alpha_w \hat{s}_w,
-\qquad \alpha_w \propto \frac{1}{\sqrt{w}}, \qquad \sum_{w\in
-W}\alpha_w=1.\]</span></p>
+通常对各个窗口长度做等权平均；而我们采用 <span class="math display">\[
+S^{\ast}(x)=\sum_{w\in W}\alpha_w \hat{s}_w, \qquad \alpha_w \propto
+\frac{1}{\sqrt{w}}, \qquad \sum_{w\in W}\alpha_w=1.
+\]</span></p>
 <p>这意味着较短窗口会获得略高一些的权重。这样处理的灵感是来源于作者的另一篇论文
 <a target="_blank" rel="noopener" href="https://arxiv.org/abs/2601.20125">SAMA</a>，其中在汇总不同掩码密度下的得分采用了逆步骤权重，我在这里将其演化为逆窗口长度权重。原因有两点：其一，成员信号往往具有明显的局部性，小到中等尺度的窗口通常更敏感；其二，窗口越长，可用窗口数越少，统计方差也往往更大。基于这两点，用
 <span class="math inline">\(1/\sqrt{w}\)</span>
@@ -1098,7 +1106,7 @@ preprint arXiv:2601.02751</a>, 2026.</li>
     <div class="hitokoto">
         <i class="fas fa-quote-left"></i>
         <a target="_blank" rel="noopener" href="https://developer.hitokoto.cn/" id="hitokoto_text"><span id="hitokoto">且以群词 注解我这座荒山</span></a>
-        <script src="/Blog/js/Hitokoto.js" defer></script>
+        <script src="/js/Hitokoto.js" defer></script>
     </div>
     <div class="data">
         <span class="total-word-container">
@@ -1128,11 +1136,11 @@ preprint arXiv:2601.02751</a>, 2026.</li>
     <div class="duration">
         <i class="fas fa-calendar"></i>
         <span id="duration-container">人生缓缓&nbsp;自有答案</span>
-        <script src="/Blog/js/Duration.js"></script>
+        <script src="/js/Duration.js"></script>
     </div>
 </div>
 
-<link href="/Blog/css/Footer.css" type="text/css" rel="stylesheet"/>
+<link href="/css/Footer.css" type="text/css" rel="stylesheet"/>
 <script>
     document.querySelectorAll("[id^='busuanzi_value_']").forEach(element => {
         element.id = element.id.replace("busuanzi_value_", "vercount_value_");
@@ -1348,7 +1356,7 @@ preprint arXiv:2601.02751</a>, 2026.</li>
 
 
   <script type="text/javascript">
-  document.getElementById("g-total-word-id").innerHTML = "742k";
+  document.getElementById("g-total-word-id").innerHTML = "728k";
   document.getElementById('g-total-posts-id').textContent ="86";
 </script>
 

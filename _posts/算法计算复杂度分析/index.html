@@ -28,7 +28,7 @@
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://youyeyejie.github.io/Blog/img/cover/nis3355.webp">
 <meta property="article:published_time" content="2026-01-11T05:41:02.000Z">
-<meta property="article:modified_time" content="2026-11-17T10:00:08.749Z">
+<meta property="article:modified_time" content="2026-11-17T12:30:35.784Z">
 <meta property="article:author" content="youyeyejie">
 <meta property="article:tag" content="SJTU">
 <meta property="article:tag" content="算法">
@@ -89,7 +89,7 @@
   <script id="fluid-configs">
     var Fluid = window.Fluid || {};
     Fluid.ctx = Object.assign({}, Fluid.ctx)
-    var CONFIG = {"hostname":"youyeyejie.github.io","root":"/Blog/","version":"1.9.8","typing":{"enable":true,"typeSpeed":70,"cursorChar":"_","loop":false,"scope":[]},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"left","visible":"hover","icon":""},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"code_language":{"enable":false,"default":"TEXT"},"copy_btn":false,"image_caption":{"enable":true},"image_zoom":{"enable":true,"img_url_replace":["",""]},"toc":{"enable":true,"placement":"right","headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":0},"lazyload":{"enable":true,"loading_img":"/Blog/img/loading/loading3.gif","onlypost":true,"offset_factor":2},"web_analytics":{"enable":false,"follow_dnt":true,"baidu":null,"google":{"measurement_id":null},"tencent":{"sid":null,"cid":null},"leancloud":{"app_id":null,"app_key":null,"server_url":null,"path":"window.location.pathname","ignore_local":false},"umami":{"src":null,"website_id":null,"domains":null,"start_time":"2024-01-01T00:00:00.000Z","token":null,"api_server":null}},"search_path":"/Blog/local-search.xml","include_content_in_search":true};
+    var CONFIG = {"hostname":"youyeyejie.github.io","root":"/Blog/","version":"1.9.8","typing":{"enable":true,"typeSpeed":70,"cursorChar":"_","loop":false,"scope":[]},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"left","visible":"hover","icon":""},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"code_language":{"enable":false,"default":"TEXT"},"copy_btn":false,"image_caption":{"enable":true},"image_zoom":{"enable":true,"img_url_replace":["",""]},"toc":{"enable":true,"placement":"right","headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":0},"lazyload":{"enable":true,"loading_img":"/img/loading/loading3.gif","onlypost":true,"offset_factor":2},"web_analytics":{"enable":false,"follow_dnt":true,"baidu":null,"google":{"measurement_id":null},"tencent":{"sid":null,"cid":null},"leancloud":{"app_id":null,"app_key":null,"server_url":null,"path":"window.location.pathname","ignore_local":false},"umami":{"src":null,"website_id":null,"domains":null,"start_time":"2024-01-01T00:00:00.000Z","token":null,"api_server":null}},"search_path":"/Blog/local-search.xml","include_content_in_search":true};
 
     if (CONFIG.web_analytics.follow_dnt) {
       var dntVal = navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack;
@@ -139,8 +139,8 @@
     </div>
 </div>
 
-<script src="/Blog/js/RainbowLoading.js" type="text/javascript"></script>
-<link href="/Blog/css/RainbowLoading.css" type="text/css" rel="stylesheet"/><div id="rightmenu-wrapper">
+<script src="/js/RainbowLoading.js" type="text/javascript"></script>
+<link href="/css/RainbowLoading.css" type="text/css" rel="stylesheet"/><div id="rightmenu-wrapper">
   <ul class="list-v rightmenu" id="rightmenu-content">
 	    <li class="navigation menuNavigation-Content">
             <a class="nav icon-only fix-cursor-default" aria-label="back" onclick="history.back()"><i class="fa-solid fa-chevron-left"></i></a>
@@ -220,7 +220,7 @@
 		    </a>
 	    </li>
         <li class="menuLoad-Content" style="display: block;">
-		    <a class="vlts-menu fix-cursor-default" target="_self" href="/Blog/categories/">
+		    <a class="vlts-menu fix-cursor-default" target="_self" href="/categories/">
 		        <span>
 			        <i class="iconfont icon-category-fill"></i>
                     &nbsp;博客分类
@@ -228,7 +228,7 @@
 		    </a>
 	    </li>
         <li class="menuLoad-Content" style="display: block;">
-		    <a class="vlts-menu fix-cursor-default" target="_self" href="/Blog/tags/">
+		    <a class="vlts-menu fix-cursor-default" target="_self" href="/tags/">
 		        <span>
 			        <i class="fa-solid fa-tags"></i>
                     &nbsp;文章标签
@@ -282,8 +282,8 @@
 </div>
 
 
-<script src="/Blog/js/RightMenu.js" type="text/javascript"></script>
-<link href="/Blog/css/RightMenu.css" type="text/css" rel="stylesheet"/>
+<script src="/js/RightMenu.js" type="text/javascript"></script>
+<link href="/css/RightMenu.css" type="text/css" rel="stylesheet"/>
 
   <header>
     
@@ -1153,10 +1153,13 @@ function（描述函数渐近行为的上界）
 <li>a function grows no faster than a certain
 rate（函数的增长速度不超过某个速率）</li>
 </ul></li>
-<li>符号表示: <span class="math display">\[f (n) = O (g
-(n))\]</span></li>
-<li>定义： <span class="math display">\[\exists c &gt; 0, n_0 &gt; 0,
-\forall n \geq n_0,~ 0 \leq f(n) \leq cg(n)\]</span></li>
+<li>符号表示: <span class="math display">\[
+  f (n) = O (g (n))
+  \]</span></li>
+<li>定义： <span class="math display">\[
+  \exists c &gt; 0, n_0 &gt; 0, \forall n \geq n_0,~ 0 \leq f(n) \leq
+cg(n)
+  \]</span></li>
 </ul>
 <h4 id="下界-lower-bound">下界 (Lower Bound)</h4>
 <ul>
@@ -1167,10 +1170,13 @@ function（描述函数渐近行为的下界）
 <li>a function grows at least as fast as a certain
 rate（函数的增长速度至少与某个速率一样快）</li>
 </ul></li>
-<li>符号表示: <span class="math display">\[f(n) = \Omega
-(g(n))\]</span></li>
-<li>定义： <span class="math display">\[\exists c &gt; 0, n_0 &gt; 0,
-\forall n \geq n_{0}, ~0 \leq cg(n) \leq f(n)\]</span></li>
+<li>符号表示: <span class="math display">\[
+  f(n) = \Omega (g(n))
+  \]</span></li>
+<li>定义： <span class="math display">\[
+  \exists c &gt; 0, n_0 &gt; 0, \forall n \geq n_{0}, ~0 \leq cg(n) \leq
+f(n)
+  \]</span></li>
 </ul>
 <h4 id="紧确界-tight-bound">紧确界 (Tight Bound)</h4>
 <ul>
@@ -1181,17 +1187,21 @@ function（描述函数渐近行为的紧确界）
 <li>a function grows precisely at a certain rate on the highest-order
 term（函数在最高阶项上以某个速率精确增长）</li>
 </ul></li>
-<li>符号表示: <span class="math display">\[f(n) = \Theta
-(g(n))\]</span></li>
-<li>定义： <span class="math display">\[\exists c_{1} &gt; 0, c_{2} &gt;
-0, n_0 &gt; 0, \forall n \geq n_{0}, ~0 \leq c_{1}g(n) \leq f(n) \leq
-c_{2}g(n)\]</span></li>
+<li>符号表示: <span class="math display">\[
+  f(n) = \Theta (g(n))
+  \]</span></li>
+<li>定义： <span class="math display">\[
+  \exists c_{1} &gt; 0, c_{2} &gt; 0, n_0 &gt; 0, \forall n \geq n_{0},
+~0 \leq c_{1}g(n) \leq f(n) \leq c_{2}g(n)
+  \]</span></li>
 <li>For any two functions <span class="math inline">\(f(n)\)</span> and
-<span class="math inline">\(g(n)\)</span>, we have <span class="math display">\[f (n) = \Theta (g (n)) \Leftrightarrow
+<span class="math inline">\(g(n)\)</span>, we have <span class="math display">\[
+  f (n) = \Theta (g (n)) \Leftrightarrow
   \begin{cases}
   f (n) = O (g (n))\\
   f (n) = \Omega (g (n))
-  \end{cases}\]</span></li>
+  \end{cases}
+  \]</span></li>
 </ul>
 <h2 id="npc-问题np-complete-problems">NPC 问题（NP-Complete
 Problems）</h2>
@@ -1230,13 +1240,15 @@ algorithm, i.e., <span class="math inline">\(P = NP\)</span>（如果任何
 NPC 问题是多项式时间可解的，那么 NP
 中的每个问题都有一个多项式时间算法，即 P = NP）</li>
 </ul>
-<p><span class="math display">\[\begin{cases}
+<p><span class="math display">\[
+  \begin{cases}
   \exists~p \in \mathrm{NP}, p \notin \mathrm{P} &amp;\Rightarrow
 \forall q \in \mathrm{NPC}, q \notin \mathrm{P} \\
   \exists~q \in \mathrm{NPC}, q \in \mathrm{P} &amp;\Rightarrow \forall
 p \in \mathrm{NP}, p \in \mathrm{P} \quad \Rightarrow \mathrm{P} =
 \mathrm{NP}
-  \end{cases}\]</span></p>
+  \end{cases}
+  \]</span></p>
 <p><img src="image-84.webp" srcset="/Blog/img/loading/loading3.gif" lazyload></p></li>
 <li><p>The relationship most theoretical computer scientists believe:
 <span class="math inline">\(P \neq
@@ -1390,8 +1402,9 @@ VERTEX-COVER
 <li>Given an undirected graph <span class="math inline">\(G = (V,
 E)\)</span>, the complement of <span class="math inline">\(G\)</span> is
 a graph <span class="math inline">\(\bar{G} = (V, \bar{E})\)</span>,
-where（给定无向图 <span class="math inline">\(G = (V, E)\)</span>，<span class="math inline">\(G\)</span> 的补图是图 <span class="math inline">\(\bar{G} = (V, \bar{E})\)</span>，其中） <span class="math display">\[\bar {E} = \{(u, v) \colon u, v \in V, u \neq v,
-(u, v) \notin E \}\]</span> <img src="image-86.webp" srcset="/Blog/img/loading/loading3.gif" lazyload></li>
+where（给定无向图 <span class="math inline">\(G = (V, E)\)</span>，<span class="math inline">\(G\)</span> 的补图是图 <span class="math inline">\(\bar{G} = (V, \bar{E})\)</span>，其中） <span class="math display">\[
+  \bar {E} = \{(u, v) \colon u, v \in V, u \neq v, (u, v) \notin E \}
+  \]</span> <img src="image-86.webp" srcset="/Blog/img/loading/loading3.gif" lazyload></li>
 <li>The graph <span class="math inline">\(G\)</span> contains a clique
 of size <span class="math inline">\(k\)</span> <strong>if and only
 if</strong> the graph <span class="math inline">\(\bar{G}\)</span> has a
@@ -1501,8 +1514,9 @@ q]\)</span> 和 <span class="math inline">\(A[q + 1, r]\)</span> 合并回
 <span class="line"><span>        A[k] = R[j]</span></span>
 <span class="line"><span>        j = j + 1</span></span>
 <span class="line"><span>        k = k + 1</span></span></code></pre></div></div></figure>
-<p><span class="math display">\[T (n) = 2 T\left(\frac{n}{2}\right) +
-\Theta (n)\]</span></p>
+<p><span class="math display">\[
+T (n) = 2 T\left(\frac{n}{2}\right) + \Theta (n)
+\]</span></p>
 <ul>
 <li>示例： <img src="image-3.webp" srcset="/Blog/img/loading/loading3.gif" lazyload></li>
 <li>复杂度分析
@@ -1511,15 +1525,18 @@ q]\)</span> 和 <span class="math inline">\(A[q + 1, r]\)</span> 合并回
 <ul>
 <li>For simplicity, we assume <span class="math inline">\(n =
 2^m\)</span> for some integer <span class="math inline">\(m \geq
-0\)</span> <span class="math display">\[\quad T (n) =
+0\)</span> <span class="math display">\[
+  \quad T (n) =
   \left\{ \begin{array}{c}
   c_{1}, &amp;~n = 1 \\
   2T \left(\frac {n}{2}\right) + c_{2} n, &amp;~n &gt; 1
-  \end{array} \right.\]</span></li>
+  \end{array} \right.
+  \]</span></li>
 </ul></li>
 <li>Recurrence tree: <span class="math inline">\(T(n) = 2
-T\left(\frac{n}{2}\right) + c_{2} n\)</span> <img src="image-4.webp" srcset="/Blog/img/loading/loading3.gif" lazyload alt="Recurrence tree"> <span class="math display">\[T(n) = c_{2} n
-\log n + c_{1} n = \Theta (n \log n)\]</span></li>
+T\left(\frac{n}{2}\right) + c_{2} n\)</span> <img src="image-4.webp" srcset="/Blog/img/loading/loading3.gif" lazyload alt="Recurrence tree"> <span class="math display">\[
+  T(n) = c_{2} n \log n + c_{1} n = \Theta (n \log n)
+  \]</span></li>
 </ul></li>
 </ul>
 <h3 id="复杂度分析方法">复杂度分析方法</h3>
@@ -1572,7 +1589,8 @@ tree（通过对树的每一层的成本求和来计算总成本）</li>
 <li><p><strong>Example 1</strong>: <span class="math inline">\(T(n) =
 3T\left(\frac{n}{4}\right) + \Theta (n^{2})= 3T \left(\frac{n}{4}\right)
 + c_{2} n^{2}\)</span> <img src="image-6.webp" srcset="/Blog/img/loading/loading3.gif" lazyload></p>
-<p><span class="math display">\[\begin{aligned}
+<p><span class="math display">\[
+  \begin{aligned}
   &amp;c_{2} n^{2} + \frac{3}{16} c_{2} n^{2} +
 \left(\frac{3}{16}\right)^{2} c_{2} n^{2} + \dots
 \left(\frac{3}{16}\right)^{\log_{4} n} c_{2} n^{2} \\
@@ -1583,10 +1601,12 @@ n^{2}\\
 n^{2} \\\\
   \therefore &amp;\sum_{i=0}^{\log_{4} n} \left(\frac{3}{16}\right)^{i}
 c_{2} n^{2} + \Theta \big (n^{\log_{4} 3} \big) = O (n^{2})
-  \end{aligned}\]</span></p></li>
+  \end{aligned}
+  \]</span></p></li>
 <li><p><strong>Example 2:</strong> <span class="math inline">\(T(n) = 8
 T\left(\frac{n}{2}\right) + c_{2} n\)</span> <img src="image-7.webp" srcset="/Blog/img/loading/loading3.gif" lazyload></p>
-<p><span class="math display">\[\begin{aligned}
+<p><span class="math display">\[
+  \begin{aligned}
   &amp;c_{2} n + 4 c_{2} n + 4^{2} c_{2} n + \dots 4^{\log_{2} n} c_{2}
 n \\
   =&amp; \sum_{i=0}^{\log_{2} n} 4^{i} c_{2} n \\
@@ -1601,8 +1621,9 @@ n \\
 <h4 id="公式法-the-master-method">公式法 (The master method)</h4>
 <ul>
 <li>Solving algorithmic recurrences of the
-form（解决以下形式的算法递归） <span class="math display">\[T(n) = aT
-\left(\frac{n}{b}\right) + f (n),\quad a &gt; 0, b &gt; 1\]</span>
+form（解决以下形式的算法递归） <span class="math display">\[
+  T(n) = aT \left(\frac{n}{b}\right) + f (n),\quad a &gt; 0, b &gt; 1
+  \]</span>
 <ul>
 <li><span class="math inline">\(f(n)\)</span> is a driving function, the
 costs for dividing and combining（<span class="math inline">\(f(n)\)</span>
@@ -1798,17 +1819,19 @@ in an optimal solution the first piece cut from the rod has length <span class="
 \leq i \leq n\)</span>. Then the revenue <span class="math inline">\(r_n\)</span> is given by（设 <span class="math inline">\(r_n\)</span> 为长度为 <span class="math inline">\(n\)</span>
 的杆的最佳收入。假设在最优解中，从杆上切下的第一块的长度为 <span class="math inline">\(i\)</span> ，其中 <span class="math inline">\(1
 \leq i \leq n\)</span> 。则收入 <span class="math inline">\(r_n\)</span>
-由下式给出） <span class="math display">\[r_n = p_i + r_{n -
-i}\]</span></li>
+由下式给出） <span class="math display">\[
+  r_n = p_i + r_{n - i}
+  \]</span></li>
 <li><span class="math inline">\(r_n = \max \{p_n, r_1 + r_{n-1}, r_2 +
 r_{n-2}, \ldots, r_{\left\lfloor \frac{n}{2} \right\rfloor} +
 r_{\left\lceil \frac{n}{2} \right\rceil}\} = \max \{p_i + r_{n - i} : 1
 \leq i \leq n\}\)</span></li>
-<li>recursive formula for optimal revenue <span class="math inline">\(r_n\)</span> : <span class="math display">\[r_n =
-\left\{ \begin{array}{ll}
+<li>recursive formula for optimal revenue <span class="math inline">\(r_n\)</span> : <span class="math display">\[
+  r_n = \left\{ \begin{array}{ll}
   0 &amp; n = 0 \\
   \max_{1 \leq i \leq n} (p_i + r_{n - i}) &amp; n \geq 1
-  \end{array} \right.\]</span></li>
+  \end{array} \right.
+  \]</span></li>
 </ul>
 <h4 id="递归解法-recursive-solution">递归解法 (recursive solution)</h4>
 <ul>
@@ -1829,8 +1852,9 @@ of monotonically increasing size（如果按单调递增的顺序，则少于 <s
 <ul>
 <li><span class="math inline">\(T(n)\)</span> : The total number of
 calls made to CUT-ROD（<span class="math inline">\(T(n)\)</span> 为对
-CUT-ROD 进行的总调用次数） <span class="math display">\[T(n) = 1 +
-\sum_{j = 0}^{n - 1} T(j) = 2^{n}\]</span></li>
+CUT-ROD 进行的总调用次数） <span class="math display">\[
+  T(n) = 1 + \sum_{j = 0}^{n - 1} T(j) = 2^{n}
+  \]</span></li>
 <li>存在大量重叠子问题 <img src="image-12.webp" srcset="/Blog/img/loading/loading3.gif" lazyload></li>
 </ul>
 <h4 id="动态规划-dynamic-programming-1">动态规划 (dynamic
@@ -1875,7 +1899,9 @@ a rod of length <span class="math inline">\(n\)</span>（确定这些子问题�
 <span class="line"><span>    while n &gt; 0:</span></span>
 <span class="line"><span>        print(s[n]) // first cut location</span></span>
 <span class="line"><span>        n = n - s[n] // remaining length</span></span></code></pre></div></div></figure>
-<p><span class="math display">\[T(n) = \Theta (n^{2})\]</span></p>
+<p><span class="math display">\[
+T(n) = \Theta (n^{2})
+\]</span></p>
 <ul>
 <li>示例：
 <ul>
@@ -1993,12 +2019,13 @@ and <span class="math inline">\(Y\)</span>
 <li>If <span class="math inline">\(x_{m} \neq y_{n}\)</span> and <span class="math inline">\(z_{k} \neq y_{n}\)</span>, then <span class="math inline">\(Z\)</span> is an LCS of <span class="math inline">\(X\)</span> and <span class="math inline">\(Y_{n-1}\)</span></li>
 </ol></li>
 <li>recursive formula of LCS length <span class="math inline">\(c[i,
-j]\)</span> <span class="math display">\[c[i,j] = \left\{
-\begin{array}{ll}
+j]\)</span> <span class="math display">\[
+  c[i,j] = \left\{ \begin{array}{ll}
   0 &amp;  i = 0 ~or~ j = 0 \\
   c[i-1,j-1] + 1 &amp; i, j &gt; 0 ~and~ x_{i} = y_{j}\\
   \max \{c[i,j-1], c[i-1,j] \} &amp; i, j &gt; 0 ~and~ x_{i} \neq
-y_{j}\end{array} \right.\]</span></li>
+y_{j}\end{array} \right.
+  \]</span></li>
 </ul>
 <h4 id="算法伪代码-1">算法伪代码</h4>
 <figure class="shiki"><div class="codeblock"><div class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></div><div class="code"><pre class="shiki one-dark-pro"><code><span class="line"><span>LCS_LENGTH(X, Y, m, n)</span></span>
@@ -2019,7 +2046,9 @@ y_{j}\end{array} \right.\]</span></li>
 <span class="line"><span>                c[i][j] = c[i][j-1]</span></span>
 <span class="line"><span>                b[i][j] = "←"      // left</span></span>
 <span class="line"><span>    return b, c</span></span></code></pre></div></div></figure>
-<p><span class="math display">\[T (m, n) = \Theta (m n)\]</span></p>
+<p><span class="math display">\[
+T (m, n) = \Theta (m n)
+\]</span></p>
 <figure class="shiki"><div class="codeblock"><div class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></div><div class="code"><pre class="shiki one-dark-pro"><code><span class="line"><span>PRINT_LCS(b, X, i, j)</span></span>
 <span class="line"><span>    if i == 0 or j == 0</span></span>
 <span class="line"><span>        return</span></span>
@@ -2030,7 +2059,9 @@ y_{j}\end{array} \right.\]</span></li>
 <span class="line"><span>        PRINT_LCS(b, X, i - 1, j)</span></span>
 <span class="line"><span>    else:</span></span>
 <span class="line"><span>        PRINT_LCS(b, X, i, j - 1)</span></span></code></pre></div></div></figure>
-<p><span class="math display">\[T (m, n) = \Theta (m + n)\]</span></p>
+<p><span class="math display">\[
+T (m, n) = \Theta (m + n)
+\]</span></p>
 <ul>
 <li>示例： <img src="image-14.webp" srcset="/Blog/img/loading/loading3.gif" lazyload></li>
 </ul>
@@ -2059,10 +2090,11 @@ k_{i})\)</span> （每个虚拟键 <span class="math inline">\(d_{i}\)</span>
 </ul></li>
 <li><p>The probabilities satisfy（这些概率满足） <span class="math display">\[\sum_{i=1}^{n} p_{i} + \sum_{i=0}^{n} q_{i} =
 1\]</span></p></li>
-<li><p>The expected cost of a search is <span class="math display">\[\operatorname{E}(\text{search cost in } T) =
-\sum_{i=1}^{n} (\operatorname{depth}_T(k_i) + 1) \times p_i +
-\sum_{i=0}^{n} (\operatorname{depth}_T(d_i) + 1) \times
-q_i\]</span></p></li>
+<li><p>The expected cost of a search is <span class="math display">\[
+  \operatorname{E}(\text{search cost in } T) = \sum_{i=1}^{n}
+(\operatorname{depth}_T(k_i) + 1) \times p_i + \sum_{i=0}^{n}
+(\operatorname{depth}_T(d_i) + 1) \times q_i
+  \]</span></p></li>
 <li><p>示例 <img src="image-16.webp" srcset="/Blog/img/loading/loading3.gif" lazyload alt="非最优解"> <img src="image-17.webp" srcset="/Blog/img/loading/loading3.gif" lazyload alt="最优解"> <img src="image-18.webp" srcset="/Blog/img/loading/loading3.gif" lazyload alt="Cut-and-paste"></p></li>
 </ul>
 <h4 id="最优子结构-2">最优子结构</h4>
@@ -2073,24 +2105,29 @@ cost of searching an optimal binary search tree containing the keys
 的最优二叉搜索树的预期搜索成本）</li>
 <li>Let <span class="math inline">\(w(i, j)\)</span> denote the sum of
 the probabilities between <span class="math inline">\(k_{i}\)</span> and
-<span class="math inline">\(k_{j}\)</span>（令 <span class="math inline">\(w(i, j)\)</span> 表示 <span class="math inline">\(k_{i}\)</span> 到 <span class="math inline">\(k_{j}\)</span> 之间的概率和） <span class="math display">\[w(i, j) = \sum_ {l = i} ^ {j} p _ {l} + \sum_ {l
-= i - 1} ^ {j} q _ {l} = \left\{ \begin{array} {ll}
+<span class="math inline">\(k_{j}\)</span>（令 <span class="math inline">\(w(i, j)\)</span> 表示 <span class="math inline">\(k_{i}\)</span> 到 <span class="math inline">\(k_{j}\)</span> 之间的概率和） <span class="math display">\[
+  w(i, j) = \sum_ {l = i} ^ {j} p _ {l} + \sum_ {l = i - 1} ^ {j} q _
+{l} = \left\{ \begin{array} {ll}
   q _ {i - 1} &amp; j = i - 1 \\
   w(i, j - 1) + p _ {j} + q _ {j} &amp; i \leq j
-  \end{array} \right.\]</span>
+  \end{array} \right.
+  \]</span>
 <ul>
 <li>示例 <img src="image-19.webp" srcset="/Blog/img/loading/loading3.gif" lazyload></li>
 </ul></li>
 <li>Let <span class="math inline">\(k_{r}\)</span> be the root of an
 optimal binary search tree containing the keys <span class="math inline">\(k_{i}, \ldots, k_{j}\)</span>, where <span class="math inline">\(i \leq r \leq j\)</span>（令 <span class="math inline">\(k_{r}\)</span> 为包含键 <span class="math inline">\(k_{i}, \ldots, k_{j}\)</span>
 的最优二叉搜索树的根，其中 <span class="math inline">\(i \leq r \leq
-j\)</span>） <span class="math display">\[e(i, j) = e(i, r - 1) + e(r +
-1, j) + w(i, j)\]</span></li>
-<li>We thus have the following recursive formulation: <span class="math display">\[e(i, j) = \left\{ \begin{array}{ll}
+j\)</span>） <span class="math display">\[
+  e(i, j) = e(i, r - 1) + e(r + 1, j) + w(i, j)
+  \]</span></li>
+<li>We thus have the following recursive formulation: <span class="math display">\[
+  e(i, j) = \left\{ \begin{array}{ll}
   q_{i - 1} &amp; ~j = i - 1 \\
   \min \{e(i, r - 1) + e(r + 1, j) + w(i, j) \colon i \leq r \leq j \}
 &amp; ~i \leq j
-  \end{array} \right.\]</span></li>
+  \end{array} \right.
+  \]</span></li>
 <li>Our goal: compute <span class="math inline">\(e(1, n)\)</span></li>
 </ul>
 <h4 id="算法伪代码-2">算法伪代码</h4>
@@ -2110,7 +2147,9 @@ j\)</span>） <span class="math display">\[e(i, j) = e(i, r - 1) + e(r +
 <span class="line"><span>                    e[i][j] = t</span></span>
 <span class="line"><span>                    root[i][j] = r</span></span>
 <span class="line"><span>    return w, e, root</span></span></code></pre></div></div></figure>
-<p><span class="math display">\[T(n) = \Theta (n^{3})\]</span></p>
+<p><span class="math display">\[
+T(n) = \Theta (n^{3})
+\]</span></p>
 <ul>
 <li>示例 <img src="image-20.webp" srcset="/Blog/img/loading/loading3.gif" lazyload></li>
 <li>根据 <span class="math inline">\(e\)</span> 和 <span class="math inline">\(w\)</span> 表格反推最优二叉搜索树（以上图为例）
@@ -2228,11 +2267,14 @@ require exclusive use of a common
 resource（安排几个需要独占使用公共资源的竞争活动）</p></li>
 <li><p>Each activity <span class="math inline">\(a_i\)</span> has a
 start time <span class="math inline">\(s_i\)</span> and a finish time
-<span class="math inline">\(f_i\)</span> <span class="math display">\[s_{i} &lt; f_{i}\]</span></p></li>
+<span class="math inline">\(f_i\)</span> <span class="math display">\[
+  s_{i} &lt; f_{i}
+  \]</span></p></li>
 <li><p>Activities <span class="math inline">\(a_{i}\)</span> and <span class="math inline">\(a_{j}\)</span> are compatible if the intervals
 <span class="math inline">\([s_{i}, f_{i})\)</span> and <span class="math inline">\([s_{j}, f_{j})\)</span> do not overlap（如果区间
-<span class="math inline">\([s_{i}, f_{i})\)</span> 和 <span class="math inline">\([s_{j}, f_{j})\)</span> 不重叠，则活动 <span class="math inline">\(a_{i}\)</span> 和 <span class="math inline">\(a_{j}\)</span> 是兼容的） <span class="math display">\[s _ {i} \geq f _ {j} ~or~ s _ {j} \geq f _
-{i}\]</span></p></li>
+<span class="math inline">\([s_{i}, f_{i})\)</span> 和 <span class="math inline">\([s_{j}, f_{j})\)</span> 不重叠，则活动 <span class="math inline">\(a_{i}\)</span> 和 <span class="math inline">\(a_{j}\)</span> 是兼容的） <span class="math display">\[
+  s _ {i} \geq f _ {j} ~or~ s _ {j} \geq f _ {i}
+  \]</span></p></li>
 <li><p>Goal: to select a maximum-size subset of mutually compatible
 activities（目标：选择一个最大规模的相互兼容的活动子集）</p></li>
 <li><p>Assume <span class="math inline">\(f_{1} \leq f_{2} \leq \dots
@@ -2307,11 +2349,12 @@ maximum-size set（相应的最大规模集合）</li>
 <li><span class="math inline">\(c[i,j] = \left|A_{ij}\right|\)</span> :
 the number of activities in <span class="math inline">\(A_{ij}\)</span>（ <span class="math inline">\(A_{ij}\)</span> 中的活动数量）</li>
 </ul></li>
-<li>The recurrence: <span class="math display">\[c[i,j] = \left\{
-\begin{array}{ll}
+<li>The recurrence: <span class="math display">\[
+  c[i,j] = \left\{ \begin{array}{ll}
   0 &amp; S_{ij} = \emptyset \\
   \max \{c[i,k] + c[k,j] + 1\colon a_k\in S_{ij}\} &amp; S_{ij}\neq
-\emptyset \end{array} \right.\]</span></li>
+\emptyset \end{array} \right.
+  \]</span></li>
 <li>A bottom-up approach</li>
 </ul>
 <h4 id="greedy-solution">Greedy solution</h4>
@@ -2365,7 +2408,9 @@ increasing finish time（假设输入活动按完成时间单调递增排序）<
 <span class="line"><span>            A = A ∪ {a_m}       // 将活动 a_m 添加到选择的活动集合 A 中</span></span>
 <span class="line"><span>            k = m               // 更新最后选择的活动索引 k 为 m</span></span>
 <span class="line"><span>    return A</span></span></code></pre></div></div></figure>
-<p><span class="math display">\[T(n) = \Theta(n)\]</span></p>
+<p><span class="math display">\[
+T(n) = \Theta(n)
+\]</span></p>
 <ul>
 <li>示例 <img src="image-22.webp" srcset="/Blog/img/loading/loading3.gif" lazyload></li>
 </ul>
@@ -2516,8 +2561,9 @@ etc.)（对于每条边 <span class="math inline">\((u, v) \in E\)</span>,
 E\)</span> that connects all of the vertices and whose total weight
 <span class="math inline">\(w(T)\)</span> is minimized（寻找一个无环子集
 <span class="math inline">\(T \subseteq E\)</span>
-，连接所有顶点且总权重最小） <span class="math display">\[w (T) = \sum_
-{(u, v) \in T} w (u, v)\]</span></li>
+，连接所有顶点且总权重最小） <span class="math display">\[
+  w (T) = \sum_ {(u, v) \in T} w (u, v)
+  \]</span></li>
 <li><span class="math inline">\(T\)</span> is acyclic and connects all
 of the vertices（<span class="math inline">\(T\)</span>
 无环且连接所有顶点）
@@ -2694,14 +2740,18 @@ parent（节点的值小于等于（大于等于）其父节点的值）</li>
 <span class="line"><span>    if largest != i</span></span>
 <span class="line"><span>        exchange A[i] with A[largest]   // 交换当前节点与较大子节点</span></span>
 <span class="line"><span>        MAX-HEAPIFY(A, largest)         // 递归调整子树</span></span></code></pre></div></div></figure>
-<p><span class="math display">\[T(n) = O(\log n)\]</span></p>
+<p><span class="math display">\[
+T(n) = O(\log n)
+\]</span></p>
 <figure class="shiki"><div class="codeblock"><div class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></div><div class="code"><pre class="shiki one-dark-pro"><code><span class="line"><span>MAX-HEAP-EXTRACT-MAX(A)                 // 从堆中提取并返回最大元素</span></span>
 <span class="line"><span>    max = MAX-HEAP-MAXIMUM(A)           // 获取堆中的最大元素</span></span>
 <span class="line"><span>    A[1] = A[A.heap_size]               // 用堆的最后一个元素替换堆顶</span></span>
 <span class="line"><span>    A.heap_size = A.heap_size - 1       // 减小堆的大小</span></span>
 <span class="line"><span>    MAX-HEAPIFY(A, 1)                   // 从堆顶开始调整堆</span></span>
 <span class="line"><span>    return max                          // 返回最大值</span></span></code></pre></div></div></figure>
-<p><span class="math display">\[T(n) = O(\log n)\]</span></p>
+<p><span class="math display">\[
+T(n) = O(\log n)
+\]</span></p>
 <figure class="shiki"><div class="codeblock"><div class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></div><div class="code"><pre class="shiki one-dark-pro"><code><span class="line"><span>MAX-HEAP-INCREASE-KEY(A, x, k)          // 把堆中元素 x 的值增加到 k</span></span>
 <span class="line"><span>    if k &lt; A[x].key</span></span>
 <span class="line"><span>        error "new key is smaller than current key"</span></span>
@@ -2709,12 +2759,16 @@ parent（节点的值小于等于（大于等于）其父节点的值）</li>
 <span class="line"><span>    while x &gt; 1 and A[PARENT(x)].key &lt; A[x].key // 向上调整堆</span></span>
 <span class="line"><span>        exchange A[x] with A[PARENT(x)] // 交换当前节点与其父节点</span></span>
 <span class="line"><span>        x = PARENT(x)                   // 移动到父节点位置</span></span></code></pre></div></div></figure>
-<p><span class="math display">\[T(n) = O(\log n)\]</span></p>
+<p><span class="math display">\[
+T(n) = O(\log n)
+\]</span></p>
 <figure class="shiki"><div class="codeblock"><div class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></div><div class="code"><pre class="shiki one-dark-pro"><code><span class="line"><span>MAX-HEAP-INSERT(A, key)                // 向堆中插入新元素 key</span></span>
 <span class="line"><span>    A.heap_size = A.heap_size + 1       // 增加堆的大小</span></span>
 <span class="line"><span>    A[A.heap_size] = -∞                 // 在堆的末尾插入一个极小值</span></span>
 <span class="line"><span>    MAX-HEAP-INCREASE-KEY(A, A.heap_size, key) // 将新元素的值增加到 key</span></span></code></pre></div></div></figure>
-<p><span class="math display">\[T(n) = O(\log n)\]</span></p>
+<p><span class="math display">\[
+T(n) = O(\log n)
+\]</span></p>
 <p><img src="image-30.webp" srcset="/Blog/img/loading/loading3.gif" lazyload></p>
 <h4 id="时间复杂度">时间复杂度</h4>
 <ul>
@@ -2910,14 +2964,17 @@ mapping edges to real-valued weights（将边映射到实值权重）</li>
 </ul></li>
 <li>The weight <span class="math inline">\(w(p)\)</span> of path <span class="math inline">\(p = \langle v_0, v_1, \dots, v_k \rangle\)</span>
 is the sum of the weights of its constituent
-edges（路径的权重是其组成边的权重之和） <span class="math display">\[w
-(p) = \sum_{1}^{k} w(v_{i - 1}, v_{i})\]</span></li>
+edges（路径的权重是其组成边的权重之和） <span class="math display">\[
+  w (p) = \sum_{1}^{k} w(v_{i - 1}, v_{i})
+  \]</span></li>
 <li>The shortest-path weight from <span class="math inline">\(u\)</span>
-to <span class="math inline">\(v\)</span> is（从 <span class="math inline">\(u\)</span> 到 <span class="math inline">\(v\)</span> 的最短路径权重是） <span class="math display">\[\delta (u, v) = \left\{ \begin{array}{ll}
+to <span class="math inline">\(v\)</span> is（从 <span class="math inline">\(u\)</span> 到 <span class="math inline">\(v\)</span> 的最短路径权重是） <span class="math display">\[
+  \delta (u, v) = \left\{ \begin{array}{ll}
   \min  \{w (p) \colon u \xrightarrow {p} v \} &amp; \exists~p: u
 \xrightarrow {p} v \\
   \infty &amp; \text{otherwise}
-  \end{array} \right.\]</span></li>
+  \end{array} \right.
+  \]</span></li>
 <li>A shortest path from vertex <span class="math inline">\(u\)</span>
 to vertex <span class="math inline">\(v\)</span> is then defined as any
 path <span class="math inline">\(p\)</span> with weight <span class="math inline">\(w(p) = \delta(u, v)\)</span>(从顶点 <span class="math inline">\(u\)</span> 到顶点 <span class="math inline">\(v\)</span> 的最短路径被定义为权重为 <span class="math inline">\(w(p) = \delta(u, v)\)</span> 的任何路径 <span class="math inline">\(p\)</span> )</li>
@@ -2992,8 +3049,9 @@ v)\)</span> consists of testing whether going through vertex <span class="math i
 <h4 id="基本思路">基本思路</h4>
 <ul>
 <li>Assume nonnegative weights on all edges（假设所有边的权重均为非负）
-<span class="math display">\[\forall (u,v) \in E, w(u,v) \geq
-0\]</span></li>
+<span class="math display">\[
+  \forall (u,v) \in E, w(u,v) \geq 0
+  \]</span></li>
 <li>Generalizing breadth-first search (<strong>BFS</strong>) to weighted
 graphs（将 BFS 泛化为加权图）</li>
 <li>The algorithm maintains a set of vertices <span class="math inline">\(S\)</span>, whose final shortest-path weights have
@@ -3059,8 +3117,9 @@ w(x,y) = \delta(s,y)\)</span></li>
 </ul></li>
 </ul>
 <h5 id="边权重均为正的情况">边权重均为正的情况</h5>
-<p><span class="math display">\[\forall (u,v) \in E, w(u,v) &gt;
-0\]</span></p>
+<p><span class="math display">\[
+\forall (u,v) \in E, w(u,v) &gt; 0
+\]</span></p>
 <ul>
 <li>我们需要证明在每次迭代开始时，对于所有 <span class="math inline">\(v\in S\)</span>，都有 <span class="math inline">\(v.d = \delta(s,v)\)</span>（数学归纳法）
 <ul>
@@ -3086,8 +3145,9 @@ w(x,y) = \delta(s,y)\)</span></li>
 </ul></li>
 </ul>
 <h5 id="边权重均为非负的情况">边权重均为非负的情况</h5>
-<p><span class="math display">\[\forall (u,v) \in E, w(u,v) \geq
-0\]</span></p>
+<p><span class="math display">\[
+\forall (u,v) \in E, w(u,v) \geq 0
+\]</span></p>
 <ul>
 <li>We prove that at the start of each iteration <span class="math inline">\(v.d = \delta(s,v)\)</span> for all <span class="math inline">\(v\in
 S\)</span>（我们证明在每次迭代开始时，对于所有 <span class="math inline">\(v\in S\)</span> ，都有 <span class="math inline">\(v.d = \delta(s,v)\)</span> ）
@@ -3217,11 +3277,13 @@ then decompose the path into <span class="math inline">\(i
 shortest path from vertex <span class="math inline">\(i\)</span> to
 vertex <span class="math inline">\(j\)</span> for which all intermediate
 vertices belong to the set <span class="math inline">\(\{1,2,\ldots,k\}\)</span>（从顶点 <span class="math inline">\(i\)</span> 到顶点 <span class="math inline">\(j\)</span>
-的最短路径的权重，其中所有中间顶点属于集合 <span class="math inline">\(\{1,2,\ldots,k\}\)</span> ） <span class="math display">\[d_{ij}^{(k)} = \left\{ \begin{array}{ll}
+的最短路径的权重，其中所有中间顶点属于集合 <span class="math inline">\(\{1,2,\ldots,k\}\)</span> ） <span class="math display">\[
+d_{ij}^{(k)} = \left\{ \begin{array}{ll}
 w_{ij} &amp; k = 0 \\
 \min \{d_{ij}^{(k - 1)},d_{ik}^{(k - 1)} + d_{kj}^{(k - 1)}\} &amp;
 k\geq 1
-\end{array} \right.\]</span></li>
+\end{array} \right.
+\]</span></li>
 <li>Final answer: <span class="math inline">\(D^{(n)} =
 (d_{ij}^{(n)})\)</span></li>
 </ul>
@@ -3237,7 +3299,9 @@ k\geq 1
 <span class="line"><span>            for j = 1 to n</span></span>
 <span class="line"><span>                D_ij^(k) = min{D_ij^(k - 1), D_ik^(k - 1) + D_kj^(k - 1)}</span></span>
 <span class="line"><span>    return D^(n)                        // 返回最终结果</span></span></code></pre></div></div></figure>
-<p><span class="math display">\[T(n) = \Theta (n^3)\]</span></p>
+<p><span class="math display">\[
+T(n) = \Theta (n^3)
+\]</span></p>
 <p><img src="image-41.webp" srcset="/Blog/img/loading/loading3.gif" lazyload></p>
 <h4 id="构造最短路径">构造最短路径</h4>
 <ul>
@@ -3249,14 +3313,18 @@ shortest path from vertex <span class="math inline">\(i\)</span> to
 vertex <span class="math inline">\(j\)</span> for which all intermediate
 vertices belong to the set <span class="math inline">\(\{1,2,\ldots,k\}\)</span>（从顶点 <span class="math inline">\(i\)</span> 到顶点 <span class="math inline">\(j\)</span> 的最短路径上顶点 <span class="math inline">\(j\)</span> 的前驱，其中所有中间顶点属于集合 <span class="math inline">\(\{1,2,\ldots,k\}\)</span> ）</li>
 </ul></li>
-<li><p><span class="math inline">\(k=0\)</span> <span class="math display">\[\pi_{ij}^{(0)} = \left\{ \begin{array}{ll}
+<li><p><span class="math inline">\(k=0\)</span> <span class="math display">\[
+  \pi_{ij}^{(0)} = \left\{ \begin{array}{ll}
   \mathrm{NIL} &amp; i = j~or~w_{ij} = \infty \\
   i &amp; i\neq j~and~w_{ij} &lt; \infty
-  \end{array} \right.\]</span></p></li>
-<li><p>For <span class="math inline">\(k\geq 1\)</span> <span class="math display">\[\pi_{ij}^{(k)} = \left\{ \begin{array}{ll}
+  \end{array} \right.
+  \]</span></p></li>
+<li><p>For <span class="math inline">\(k\geq 1\)</span> <span class="math display">\[
+  \pi_{ij}^{(k)} = \left\{ \begin{array}{ll}
   \pi_{kj}^{(k - 1)} &amp; \text{k~is~an~intermediate~vertex} \\
   \pi_{ij}^{(k - 1)} &amp; \text{k~is~not~an~intermediate~vertex}
-  \end{array} \right.\]</span></p></li>
+  \end{array} \right.
+  \]</span></p></li>
 <li><p>The <strong>modified</strong> Floyd-Warshall algorithm（修改后的
 Floyd-Warshall 算法） </p><figure class="shiki"><div class="codeblock"><div class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br></pre></div><div class="code"><pre class="shiki one-dark-pro"><code><span class="line"><span>FLOYD-WARSHALL-MODIFIED(W, n)          // W 是权重矩阵，n 是顶点数</span></span>
 <span class="line"><span>    let D^(0) = W                      // 初始化 D^(0)</span></span>
@@ -3368,12 +3436,14 @@ sequence of steps executed by the
 processes.（分布式算法的执行由进程执行的一系列步骤表示。）</li>
 <li>Configuration <span class="math inline">\(C\)</span> is a vector of
 individual process states（配置 <span class="math inline">\(C\)</span>
-是各个进程状态的向量） <span class="math display">\[C = \left(S^{1},
-S^{2}, \dots S^{n}\right)\]</span></li>
+是各个进程状态的向量） <span class="math display">\[
+  C = \left(S^{1}, S^{2}, \dots S^{n}\right)
+\]</span></li>
 <li>The execution captures the evolution of the global
-state（执行捕获全局状态的演变） <span class="math display">\[C_0
-\xrightarrow{s_1} C_1 \xrightarrow{s_2} C_2 \xrightarrow{s_3} C_3
-\cdots\]</span>
+state（执行捕获全局状态的演变） <span class="math display">\[
+  C_0 \xrightarrow{s_1} C_1 \xrightarrow{s_2} C_2 \xrightarrow{s_3} C_3
+\cdots
+  \]</span>
 <ul>
 <li><span class="math inline">\(s_k\)</span> is a step taken by some
 process（其中 <span class="math inline">\(s_k\)</span>
@@ -4505,14 +4575,17 @@ executed（活跃性：最终每个请求都会被执行）</li>
 <h3 id="法定人数系统在分布式计算中的应用">法定人数系统在分布式计算中的应用</h3>
 <ul>
 <li>Quorums: a collection of subsets of
-processes（法定人数：一组进程的子集集合） <span class="math display">\[QS = \{Q_{1}, Q_{2}, \cdots \}\quad \forall Q \in
-QS: Q \subseteq \Pi\]</span></li>
+processes（法定人数：一组进程的子集集合） <span class="math display">\[
+  QS = \{Q_{1}, Q_{2}, \cdots \}\quad \forall Q \in QS: Q \subseteq \Pi
+  \]</span></li>
 <li>Each pair of quorums have a non-empty
-intersection（每对法定人数都有一个非空交集） <span class="math display">\[\forall Q_{1}, Q_{2} \in QS: Q_{1} \cap Q_{2}
-\neq \emptyset\]</span></li>
+intersection（每对法定人数都有一个非空交集） <span class="math display">\[
+  \forall Q_{1}, Q_{2} \in QS: Q_{1} \cap Q_{2} \neq \emptyset
+  \]</span></li>
 <li>For simplicity, we only consider <strong>symmetric</strong> case,
-i.e.,（为了简单起见，我们只考虑对称情况，即） <span class="math display">\[\forall Q_{1}, Q_{2} \in QS: | Q_{1} | = | Q_{2}
-|\]</span>
+i.e.,（为了简单起见，我们只考虑对称情况，即） <span class="math display">\[
+  \forall Q_{1}, Q_{2} \in QS: | Q_{1} | = | Q_{2} |
+  \]</span>
 <ul>
 <li>Asymmetric case: Google Megastore*, write-all, read-one</li>
 </ul></li>
@@ -4561,11 +4634,13 @@ process（安全性：任何两个法定人数在一个正确的进程中相交�
 <li>Liveness: <span class="math inline">\(N - f\)</span> processes can
 make progress (quorum size)（活性：<span class="math inline">\(N -
 f\)</span> 进程可以取得进展，即满足法定人数大小）</li>
-<li>Therefore, we have <span class="math display">\[\begin{aligned}
+<li>Therefore, we have <span class="math display">\[
+  \begin{aligned}
   &amp;2(N - f) &gt; N \\
   \therefore~ &amp; N &gt; 2f \\
   \therefore~ &amp; N \geq 2f + 1
-  \end{aligned}\]</span></li>
+  \end{aligned}
+  \]</span></li>
 </ul></li>
 </ul>
 <h2 id="共识-consensus">共识 (Consensus)</h2>
@@ -5732,7 +5807,7 @@ Durability（原子性，一致性，隔离性和持久性）</li>
     <div class="hitokoto">
         <i class="fas fa-quote-left"></i>
         <a target="_blank" rel="noopener" href="https://developer.hitokoto.cn/" id="hitokoto_text"><span id="hitokoto">且以群词 注解我这座荒山</span></a>
-        <script src="/Blog/js/Hitokoto.js" defer></script>
+        <script src="/js/Hitokoto.js" defer></script>
     </div>
     <div class="data">
         <span class="total-word-container">
@@ -5762,11 +5837,11 @@ Durability（原子性，一致性，隔离性和持久性）</li>
     <div class="duration">
         <i class="fas fa-calendar"></i>
         <span id="duration-container">人生缓缓&nbsp;自有答案</span>
-        <script src="/Blog/js/Duration.js"></script>
+        <script src="/js/Duration.js"></script>
     </div>
 </div>
 
-<link href="/Blog/css/Footer.css" type="text/css" rel="stylesheet"/>
+<link href="/css/Footer.css" type="text/css" rel="stylesheet"/>
 <script>
     document.querySelectorAll("[id^='busuanzi_value_']").forEach(element => {
         element.id = element.id.replace("busuanzi_value_", "vercount_value_");
@@ -5982,7 +6057,7 @@ Durability（原子性，一致性，隔离性和持久性）</li>
 
 
   <script type="text/javascript">
-  document.getElementById("g-total-word-id").innerHTML = "742k";
+  document.getElementById("g-total-word-id").innerHTML = "728k";
   document.getElementById('g-total-posts-id').textContent ="86";
 </script>
 

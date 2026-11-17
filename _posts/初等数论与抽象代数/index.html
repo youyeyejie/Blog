@@ -28,7 +28,7 @@
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://youyeyejie.github.io/Blog/img/cover/nis3329.webp">
 <meta property="article:published_time" content="2026-04-16T05:50:03.000Z">
-<meta property="article:modified_time" content="2026-11-17T10:00:08.533Z">
+<meta property="article:modified_time" content="2026-11-17T12:30:35.634Z">
 <meta property="article:author" content="youyeyejie">
 <meta property="article:tag" content="SJTU">
 <meta property="article:tag" content="抽代">
@@ -90,7 +90,7 @@
   <script id="fluid-configs">
     var Fluid = window.Fluid || {};
     Fluid.ctx = Object.assign({}, Fluid.ctx)
-    var CONFIG = {"hostname":"youyeyejie.github.io","root":"/Blog/","version":"1.9.8","typing":{"enable":true,"typeSpeed":70,"cursorChar":"_","loop":false,"scope":[]},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"left","visible":"hover","icon":""},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"code_language":{"enable":false,"default":"TEXT"},"copy_btn":false,"image_caption":{"enable":true},"image_zoom":{"enable":true,"img_url_replace":["",""]},"toc":{"enable":true,"placement":"right","headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":0},"lazyload":{"enable":true,"loading_img":"/Blog/img/loading/loading3.gif","onlypost":true,"offset_factor":2},"web_analytics":{"enable":false,"follow_dnt":true,"baidu":null,"google":{"measurement_id":null},"tencent":{"sid":null,"cid":null},"leancloud":{"app_id":null,"app_key":null,"server_url":null,"path":"window.location.pathname","ignore_local":false},"umami":{"src":null,"website_id":null,"domains":null,"start_time":"2024-01-01T00:00:00.000Z","token":null,"api_server":null}},"search_path":"/Blog/local-search.xml","include_content_in_search":true};
+    var CONFIG = {"hostname":"youyeyejie.github.io","root":"/Blog/","version":"1.9.8","typing":{"enable":true,"typeSpeed":70,"cursorChar":"_","loop":false,"scope":[]},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"left","visible":"hover","icon":""},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"code_language":{"enable":false,"default":"TEXT"},"copy_btn":false,"image_caption":{"enable":true},"image_zoom":{"enable":true,"img_url_replace":["",""]},"toc":{"enable":true,"placement":"right","headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":0},"lazyload":{"enable":true,"loading_img":"/img/loading/loading3.gif","onlypost":true,"offset_factor":2},"web_analytics":{"enable":false,"follow_dnt":true,"baidu":null,"google":{"measurement_id":null},"tencent":{"sid":null,"cid":null},"leancloud":{"app_id":null,"app_key":null,"server_url":null,"path":"window.location.pathname","ignore_local":false},"umami":{"src":null,"website_id":null,"domains":null,"start_time":"2024-01-01T00:00:00.000Z","token":null,"api_server":null}},"search_path":"/Blog/local-search.xml","include_content_in_search":true};
 
     if (CONFIG.web_analytics.follow_dnt) {
       var dntVal = navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack;
@@ -140,8 +140,8 @@
     </div>
 </div>
 
-<script src="/Blog/js/RainbowLoading.js" type="text/javascript"></script>
-<link href="/Blog/css/RainbowLoading.css" type="text/css" rel="stylesheet"/><div id="rightmenu-wrapper">
+<script src="/js/RainbowLoading.js" type="text/javascript"></script>
+<link href="/css/RainbowLoading.css" type="text/css" rel="stylesheet"/><div id="rightmenu-wrapper">
   <ul class="list-v rightmenu" id="rightmenu-content">
 	    <li class="navigation menuNavigation-Content">
             <a class="nav icon-only fix-cursor-default" aria-label="back" onclick="history.back()"><i class="fa-solid fa-chevron-left"></i></a>
@@ -221,7 +221,7 @@
 		    </a>
 	    </li>
         <li class="menuLoad-Content" style="display: block;">
-		    <a class="vlts-menu fix-cursor-default" target="_self" href="/Blog/categories/">
+		    <a class="vlts-menu fix-cursor-default" target="_self" href="/categories/">
 		        <span>
 			        <i class="iconfont icon-category-fill"></i>
                     &nbsp;博客分类
@@ -229,7 +229,7 @@
 		    </a>
 	    </li>
         <li class="menuLoad-Content" style="display: block;">
-		    <a class="vlts-menu fix-cursor-default" target="_self" href="/Blog/tags/">
+		    <a class="vlts-menu fix-cursor-default" target="_self" href="/tags/">
 		        <span>
 			        <i class="fa-solid fa-tags"></i>
                     &nbsp;文章标签
@@ -283,8 +283,8 @@
 </div>
 
 
-<script src="/Blog/js/RightMenu.js" type="text/javascript"></script>
-<link href="/Blog/css/RightMenu.css" type="text/css" rel="stylesheet"/>
+<script src="/js/RightMenu.js" type="text/javascript"></script>
+<link href="/css/RightMenu.css" type="text/css" rel="stylesheet"/>
 
   <header>
     
@@ -485,7 +485,7 @@
         <i class="iconfont icon-chart"></i>
         
           <!-- compatible with older versions-->
-          7.8k 字
+          10k 字
         
       </span>
     
@@ -497,7 +497,7 @@
         
         
           <!-- compatible with older versions-->
-          66 分钟
+          88 分钟
         
       </span>
     
@@ -1144,18 +1144,20 @@ a\)</span></li>
 </ul>
 <h2 id="euclidean-algorithm">Euclidean Algorithm</h2>
 <ul>
-<li><p><strong>Thm 1.9 Euclidean Algorithm</strong>: Give <span class="math inline">\(a,b \in \mathbb{Z},b\ne 0\)</span>, let <span class="math inline">\(r_0=a, r_1=b\)</span>, we can compute <span class="math inline">\(r_2, r_3, \cdots\)</span> by long division: <span class="math display">\[\begin{cases}
+<li><p><strong>Thm 1.9 Euclidean Algorithm</strong>: Give <span class="math inline">\(a,b \in \mathbb{Z},b\ne 0\)</span>, let <span class="math inline">\(r_0=a, r_1=b\)</span>, we can compute <span class="math inline">\(r_2, r_3, \cdots\)</span> by long division: <span class="math display">\[
+  \begin{cases}
   r_0=q_1r_1+r_2, &amp; 0\le r_2&lt;r_1 \\
   r_1=q_2r_2+r_3, &amp; 0\le r_3&lt;r_2 \\
   \cdots \\
   r_{i-1}=q_ir_i+r_{i+1}, &amp; 0\le r_{i+1}&lt;r_i \\
   \cdots \\
   r_{n-1}=q_{n}r_n, &amp; r_{n+1}=0
-  \end{cases}\]</span></p>
+  \end{cases}
+  \]</span></p>
 <p>then <span class="math inline">\(\gcd(r_{i-1},r_i)=\gcd(r_i,
 r_{i+1})\)</span> for all <span class="math inline">\(i=1,2,\cdots,n-1\)</span>. In particular, <span class="math inline">\(\gcd(a,b)=\gcd(r_0,r_1)=\cdots=\gcd(r_{n-1},r_n)=r_n\)</span></p>
 <p></p><div class="note note-secondary">
-            <ul><li>the matrix form of Euclidean Algorithm: <spanclass="math display"="">\[\begin{pmatrix}a \\ b\end{pmatrix}  =\begin{pmatrix}r_0 \\ r_1\end{pmatrix}  =\begin{pmatrix}q_1 &amp; 1 \\ 1 &amp;0\end{pmatrix}\begin{pmatrix}r_1 \\ r_2\end{pmatrix}  =\cdots  =\begin{pmatrix}q_1 &amp; 1 \\ 1 &amp;0\end{pmatrix}\begin{pmatrix}q_2 &amp; 1 \\ 1 &amp;0\end{pmatrix}\cdots\begin{pmatrix}q_n &amp; 1 \\ 1 &amp;0\end{pmatrix}\begin{pmatrix}r_n \\ 0\end{pmatrix}\]</spanclass="math></li></ul>
+            <ul><li>the matrix form of Euclidean Algorithm: <spanclass="math display"="">\[  \begin{pmatrix}a \\ b\end{pmatrix}  =\begin{pmatrix}r_0 \\ r_1\end{pmatrix}  =\begin{pmatrix}q_1 &amp; 1 \\ 1 &amp;0\end{pmatrix}\begin{pmatrix}r_1 \\ r_2\end{pmatrix}  =\cdots  =\begin{pmatrix}q_1 &amp; 1 \\ 1 &amp;0\end{pmatrix}\begin{pmatrix}q_2 &amp; 1 \\ 1 &amp;0\end{pmatrix}\cdots\begin{pmatrix}q_n &amp; 1 \\ 1 &amp;0\end{pmatrix}\begin{pmatrix}r_n \\ 0\end{pmatrix}  \]</spanclass="math></li></ul>
           </div><p></p>
 <p>
     </p><div class="fold">
@@ -1172,14 +1174,16 @@ r_{i+1})\)</span> for all <span class="math inline">\(i=1,2,\cdots,n-1\)</span>.
 <span class="math inline">\(a,b \in \mathbb{Z},b\ne 0\)</span>, let
 <span class="math inline">\(r_0=a, r_1=b, s_0=1, s_1=0, t_0=0,
 t_1=1\)</span>, we can compute <span class="math inline">\(r_2, r_3,
-\cdots\)</span> by long division, and compute <span class="math inline">\(s_i,t_i\)</span> by <span class="math display">\[\begin{cases}
+\cdots\)</span> by long division, and compute <span class="math inline">\(s_i,t_i\)</span> by <span class="math display">\[
+  \begin{cases}
   s_{i+1}=s_{i-1}-q_is_i \\
   t_{i+1}=t_{i-1}-q_it_i
-  \end{cases}\]</span></p>
+  \end{cases}
+  \]</span></p>
 <p>then <span class="math inline">\(r_i=a s_i+b t_i\)</span> for all
 <span class="math inline">\(i\ge 0\)</span>. In particular, <span class="math inline">\(\gcd(a,b)=r_n=a s_n+b t_n\)</span>.</p>
 <p></p><div class="note note-secondary">
-            <ul><li>the matrix form of Extended Euclidean Algorithm: <spanclass="math display"="">\[\begin{pmatrix}s_i &amp; s_{i+1}\\ t_i &amp;t_{i+1}\end{pmatrix}=\begin{pmatrix}s_{i-1} &amp; s_i\\t_{i-1} &amp;t_i\end{pmatrix}\begin{pmatrix} 0 &amp; 1 \\ 1 &amp;-q_i\end{pmatrix},\quad  \begin{pmatrix}s_0 &amp; s_1\\t_0 &amp;t_1\end{pmatrix}=\begin{pmatrix}1 &amp; 0\\0 &amp;1\end{pmatrix}\]</spanclass="math></li></ul>
+            <ul><li>the matrix form of Extended Euclidean Algorithm: <spanclass="math display"="">\[  \begin{pmatrix}s_i &amp; s_{i+1}\\ t_i &amp;t_{i+1}\end{pmatrix}=\begin{pmatrix}s_{i-1} &amp; s_i\\t_{i-1} &amp;t_i\end{pmatrix}\begin{pmatrix} 0 &amp; 1 \\ 1 &amp;-q_i\end{pmatrix},\quad  \begin{pmatrix}s_0 &amp; s_1\\t_0 &amp;t_1\end{pmatrix}=\begin{pmatrix}1 &amp; 0\\0 &amp; 1\end{pmatrix}  \]</spanclass="math></li></ul>
           </div><p></p>
 <p>
     </p><div class="fold">
@@ -1188,7 +1192,7 @@ t_1=1\)</span>, we can compute <span class="math inline">\(r_2, r_3,
       </div>
       <div class="fold-collapse collapse" id="collapse-e690bd0f">
         <div class="fold-content">
-          <p>We can prove by induction that <span class="math inline">\(r_i=as_i+b t_i\)</span> for all <span class="math inline">\(i\ge0\)</span>.</p><ul><li>Base case:<ul><li><span class="math inline">\(i=0\)</span>, <spanclass="math inline"="">\(r_0=a s_0+b t_0=a\cdot 1 + b\cdot0=a\)</spanclass="math></li><li><span class="math inline">\(i=1\)</span>, <spanclass="math inline"="">\(r_1=a s_1+b t_1=a\cdot 0 + b\cdot1=b\)</spanclass="math></li></ul></li><li>Induction step: Assume <span class="math inline">\(r_i=a s_i+bt_i\)</span> and <span class="math inline">\(r_{i-1}=a s_{i-1}+bt_{i-1}\)</span>, then <span class="math display">\[\begin{aligned}  r_{i+1}&amp;=r_{i-1}-q_i r_i \\  &amp;=(a s_{i-1}+b t_{i-1})-q_i (a s_i+b t_i) \\  &amp;=a (s_{i-1}-q_i s_i)+b (t_{i-1}-q_i t_i) \\  &amp;=a s_{i+1}+b t_{i+1}  \end{aligned}\]</span></li></ul>
+          <p>We can prove by induction that <span class="math inline">\(r_i=as_i+b t_i\)</span> for all <span class="math inline">\(i\ge0\)</span>.</p><ul><li>Base case:<ul><li><span class="math inline">\(i=0\)</span>, <spanclass="math inline"="">\(r_0=a s_0+b t_0=a\cdot 1 + b\cdot0=a\)</spanclass="math></li><li><span class="math inline">\(i=1\)</span>, <spanclass="math inline"="">\(r_1=a s_1+b t_1=a\cdot 0 + b\cdot1=b\)</spanclass="math></li></ul></li><li>Induction step: Assume <span class="math inline">\(r_i=a s_i+bt_i\)</span> and <span class="math inline">\(r_{i-1}=a s_{i-1}+bt_{i-1}\)</span>, then <span class="math display">\[  \begin{aligned}  r_{i+1}&amp;=r_{i-1}-q_i r_i \\  &amp;=(a s_{i-1}+b t_{i-1})-q_i (a s_i+b t_i) \\  &amp;=a (s_{i-1}-q_i s_i)+b (t_{i-1}-q_i t_i) \\  &amp;=a s_{i+1}+b t_{i+1}  \end{aligned}  \]</span></li></ul>
         </div>
       </div>
     </div><p></p></li>
@@ -1285,14 +1289,17 @@ a,b\in \mathbb{Z}, p\mid ab \implies p\mid a\)</span> or <span class="math inlin
     </div><p></p></li>
 <li><p><strong>Thm 1.17 Fundamental Theorem of Arithmetic</strong>: Any
 positive integer <span class="math inline">\(n&gt;1\)</span> can be
-uniquely factorized into a product of primes with <span class="math inline">\(p_1\le p_2 \le \cdots \le p_m\)</span> <span class="math display">\[n=p_1\cdot p_2 \cdots p_m\]</span></p>
+uniquely factorized into a product of primes with <span class="math inline">\(p_1\le p_2 \le \cdots \le p_m\)</span> <span class="math display">\[
+  n=p_1\cdot p_2 \cdots p_m
+  \]</span></p>
 <ul>
 <li><strong>Notation</strong>: Let <span class="math inline">\(p\in
 \mathbb{P}\)</span>, <span class="math inline">\(n\in
 \mathbb{Z}^+\)</span>, <span class="math inline">\(v_p(n)\)</span>
 denotes the largest non-negative integer <span class="math inline">\(k\)</span> s.t. <span class="math inline">\(p^k\mid n\)</span>. Then Thm 1.17 can be restated
-as <span class="math display">\[n=\prod_{p\in \mathbb{P}}
-p^{v_p(n)}\]</span></li>
+as <span class="math display">\[
+  n=\prod_{p\in \mathbb{P}} p^{v_p(n)}
+  \]</span></li>
 </ul>
 <p>
     </p><div class="fold">
@@ -1322,7 +1329,7 @@ the form <span class="math inline">\(4n+3\)</span>.</p>
       </div>
       <div class="fold-collapse collapse" id="collapse-21e1cd13">
         <div class="fold-content">
-          <ul><li>Suppose there are only finitely many primes of the form <spanclass="math inline"="">\(4n+3\), denoted by <spanclass="math inline"="">\(\{p_1, p_2, \dots, p_k\}\). Then the otherprimes must be of the form <span class="math inline">\(4n+1\)</span> or<span class="math inline">\(2\)</span>. Consider the number: <spanclass="math display"="">\[N = 4\prod_{i=1}^k p_i - 1\] then we have<span class="math inline">\(N \equiv 3 \pmod{4}\)</span>. Since <spanclass="math inline"="">\(N\) is of the form <spanclass="math inline"="">\(4n+3\), it must be a composite number.</spanclass="math></spanclass="math></spanclass="math></spanclass="math></spanclass="math></li><li>Since <span class="math inline">\(N\)</span> is odd, <spanclass="math inline"="">\(2\nmid N\), suppose <spanclass="math inline"="">\(N\) is a composite number. Thus, any primedivisor of <span class="math inline">\(N\)</span> must be of the form<span class="math inline">\(4n+1\)</span> or <spanclass="math inline"="">\(4n+3\).<ul><li>If all prime divisors of <span class="math inline">\(N\)</span> areof the form <span class="math inline">\(4n+1\)</span>, then <spanclass="math inline"="">\(N \equiv 1 \pmod{4}\) since <spanclass="math inline"="">\(\prod_{i=1}^t (4n_i+1) \equiv 1 \pmod{4}\),contradiction.</spanclass="math></spanclass="math></li><li>Thus, <span class="math inline">\(\exists i\in\{1,2,\dots,k\}\)</span> s.t. <span class="math inline">\(p_i\midN\)</span>, thus <span class="math inline">\(p_i\mid (4\prod_{i=1}^k p_i- N)\)</span>, thus <span class="math inline">\(p_i\mid 1\)</span>,contradiction.</li></ul></spanclass="math></spanclass="math></spanclass="math></li><li>Thus, <span class="math inline">\(N\)</span> is a new prime of theform <span class="math inline">\(4n+3\)</span>, contradiction. Thus,there are infinitely many primes of the form <spanclass="math inline"="">\(4n+3\).</spanclass="math></li></ul>
+          <ul><li>Suppose there are only finitely many primes of the form <spanclass="math inline"="">\(4n+3\), denoted by <spanclass="math inline"="">\(\{p_1, p_2, \dots, p_k\}\). Then the otherprimes must be of the form <span class="math inline">\(4n+1\)</span> or<span class="math inline">\(2\)</span>. Consider the number: <spanclass="math display"="">\[  N = 4\prod_{i=1}^k p_i - 1  \] then we have <span class="math inline">\(N \equiv 3\pmod{4}\)</span>. Since <span class="math inline">\(N\)</span> is ofthe form <span class="math inline">\(4n+3\)</span>, it must be acomposite number.</spanclass="math></spanclass="math></spanclass="math></li><li>Since <span class="math inline">\(N\)</span> is odd, <spanclass="math inline"="">\(2\nmid N\), suppose <spanclass="math inline"="">\(N\) is a composite number. Thus, any primedivisor of <span class="math inline">\(N\)</span> must be of the form<span class="math inline">\(4n+1\)</span> or <spanclass="math inline"="">\(4n+3\).<ul><li>If all prime divisors of <span class="math inline">\(N\)</span> areof the form <span class="math inline">\(4n+1\)</span>, then <spanclass="math inline"="">\(N \equiv 1 \pmod{4}\) since <spanclass="math inline"="">\(\prod_{i=1}^t (4n_i+1) \equiv 1 \pmod{4}\),contradiction.</spanclass="math></spanclass="math></li><li>Thus, <span class="math inline">\(\exists i\in\{1,2,\dots,k\}\)</span> s.t. <span class="math inline">\(p_i\midN\)</span>, thus <span class="math inline">\(p_i\mid (4\prod_{i=1}^k p_i- N)\)</span>, thus <span class="math inline">\(p_i\mid 1\)</span>,contradiction.</li></ul></spanclass="math></spanclass="math></spanclass="math></li><li>Thus, <span class="math inline">\(N\)</span> is a new prime of theform <span class="math inline">\(4n+3\)</span>, contradiction. Thus,there are infinitely many primes of the form <spanclass="math inline"="">\(4n+3\).</spanclass="math></li></ul>
         </div>
       </div>
     </div><p></p></li>
@@ -1335,7 +1342,7 @@ the form <span class="math inline">\(3n+2\)</span>.</p>
       </div>
       <div class="fold-collapse collapse" id="collapse-9d596489">
         <div class="fold-content">
-          <ul><li>Suppose there are only finitely many primes of the form <spanclass="math inline"="">\(3n+2\), denoted by <spanclass="math inline"="">\(\{p_1, p_2, \dots, p_k\}\). Then the otherprimes must be of the form <span class="math inline">\(3n+1\)</span> or<span class="math inline">\(3\)</span>. Consider the number: <spanclass="math display"="">\[N = 3\prod_{i=1}^k p_i - 1\] then we have<span class="math inline">\(N \equiv 2 \pmod{3}\)</span>. Since <spanclass="math inline"="">\(N\) is of the form <spanclass="math inline"="">\(3n+2\), it must be a composite number.</spanclass="math></spanclass="math></spanclass="math></spanclass="math></spanclass="math></li><li>Since <span class="math inline">\(3\nmid N\)</span>, thus any primedivisor of <span class="math inline">\(N\)</span> must be of the form<span class="math inline">\(3n+1\)</span> or <spanclass="math inline"="">\(3n+2\).<ul><li>If all prime divisors of <span class="math inline">\(N\)</span> areof the form <span class="math inline">\(3n+1\)</span>, then <spanclass="math inline"="">\(N \equiv 1 \pmod{3}\) since <spanclass="math inline"="">\(\prod_{i=1}^t (3n_i+1) \equiv 1 \pmod{3}\),contradiction.</spanclass="math></spanclass="math></li><li>Thus, <span class="math inline">\(\exists i\in\{1,2,\dots,k\}\)</span> s.t. <span class="math inline">\(p_i\midN\)</span>, thus <span class="math inline">\(p_i\mid (3\prod_{i=1}^k p_i- N)\)</span>, thus <span class="math inline">\(p_i\mid 1\)</span>,contradiction.</li></ul></spanclass="math></li><li>Thus, <span class="math inline">\(N\)</span> is a new prime of theform <span class="math inline">\(3n+2\)</span>, contradiction. Thus,there are infinitely many primes of the form <spanclass="math inline"="">\(3n+2\).</spanclass="math></li></ul>
+          <ul><li>Suppose there are only finitely many primes of the form <spanclass="math inline"="">\(3n+2\), denoted by <spanclass="math inline"="">\(\{p_1, p_2, \dots, p_k\}\). Then the otherprimes must be of the form <span class="math inline">\(3n+1\)</span> or<span class="math inline">\(3\)</span>. Consider the number: <spanclass="math display"="">\[  N = 3\prod_{i=1}^k p_i - 1  \] then we have <span class="math inline">\(N \equiv 2\pmod{3}\)</span>. Since <span class="math inline">\(N\)</span> is ofthe form <span class="math inline">\(3n+2\)</span>, it must be acomposite number.</spanclass="math></spanclass="math></spanclass="math></li><li>Since <span class="math inline">\(3\nmid N\)</span>, thus any primedivisor of <span class="math inline">\(N\)</span> must be of the form<span class="math inline">\(3n+1\)</span> or <spanclass="math inline"="">\(3n+2\).<ul><li>If all prime divisors of <span class="math inline">\(N\)</span> areof the form <span class="math inline">\(3n+1\)</span>, then <spanclass="math inline"="">\(N \equiv 1 \pmod{3}\) since <spanclass="math inline"="">\(\prod_{i=1}^t (3n_i+1) \equiv 1 \pmod{3}\),contradiction.</spanclass="math></spanclass="math></li><li>Thus, <span class="math inline">\(\exists i\in\{1,2,\dots,k\}\)</span> s.t. <span class="math inline">\(p_i\midN\)</span>, thus <span class="math inline">\(p_i\mid (3\prod_{i=1}^k p_i- N)\)</span>, thus <span class="math inline">\(p_i\mid 1\)</span>,contradiction.</li></ul></spanclass="math></li><li>Thus, <span class="math inline">\(N\)</span> is a new prime of theform <span class="math inline">\(3n+2\)</span>, contradiction. Thus,there are infinitely many primes of the form <spanclass="math inline"="">\(3n+2\).</spanclass="math></li></ul>
         </div>
       </div>
     </div><p></p></li>
@@ -1348,7 +1355,7 @@ the form <span class="math inline">\(4n+1\)</span>.</p>
       </div>
       <div class="fold-collapse collapse" id="collapse-41fda291">
         <div class="fold-content">
-          <ul><li>Suppose there are only finitely many primes of the form <spanclass="math inline"="">\(4n+1\), denoted by <spanclass="math inline"="">\(\{p_1, p_2, \dots, p_k\}\). Consider thenumber: <span class="math display">\[N = \left(2\prod_{i=1}^kp_i\right)^2 + 1 = 4\left(\prod_{i=1}^k p_i\right)^2 + 1\]</span> thenwe have <span class="math inline">\(N \equiv 1 \pmod{4}\)</span>. Since<span class="math inline">\(N\)</span> is of the form <spanclass="math inline"="">\(4n+1\), it must be a composite number.</spanclass="math></spanclass="math></spanclass="math></li><li>Let <span class="math inline">\(p\)</span> be a prime divisor of<span class="math inline">\(N\)</span>, obviously <spanclass="math inline"="">\(p\ne 2\) since <spanclass="math inline"="">\(N\) is odd and <spanclass="math inline"="">\(p\neq p_i\) since <spanclass="math inline"="">\(p_i\nmid N\). Thus, we have <spanclass="math display"="">\[\left(2\prod_{i=1}^k p_i\right)^2 \equiv -1\pmod{p}\] which means <span class="math inline">\(-1\)</span> isa quadratic residue modulo <span class="math inline">\(p\)</span></spanclass="math></spanclass="math></spanclass="math></spanclass="math></spanclass="math></li><li>Thus <spanclass="math inline"="">\(\left(\frac{-1}{p}\right)=(-1)^{\frac{p-1}{2}}=1\),thus <span class="math inline">\(p\equiv 1 \pmod{4}\)</span>, thus <spanclass="math inline"="">\(p\) is a new prime of the form <spanclass="math inline"="">\(4n+1\), contradiction. Thus, there areinfinitely many primes of the form <spanclass="math inline"="">\(4n+1\).</spanclass="math></spanclass="math></spanclass="math></spanclass="math></li></ul>
+          <ul><li>Suppose there are only finitely many primes of the form <spanclass="math inline"="">\(4n+1\), denoted by <spanclass="math inline"="">\(\{p_1, p_2, \dots, p_k\}\). Consider thenumber: <span class="math display">\[  N = \left(2\prod_{i=1}^k p_i\right)^2 + 1 = 4\left(\prod_{i=1}^kp_i\right)^2 + 1  \]</span> then we have <span class="math inline">\(N \equiv 1\pmod{4}\)</span>. Since <span class="math inline">\(N\)</span> is ofthe form <span class="math inline">\(4n+1\)</span>, it must be acomposite number.</spanclass="math></spanclass="math></li><li>Let <span class="math inline">\(p\)</span> be a prime divisor of<span class="math inline">\(N\)</span>, obviously <spanclass="math inline"="">\(p\ne 2\) since <spanclass="math inline"="">\(N\) is odd and <spanclass="math inline"="">\(p\neq p_i\) since <spanclass="math inline"="">\(p_i\nmid N\). Thus, we have <spanclass="math display"="">\[  \left(2\prod_{i=1}^k p_i\right)^2 \equiv -1 \pmod{p}  \] which means <span class="math inline">\(-1\)</span> is aquadratic residue modulo <span class="math inline">\(p\)</span></spanclass="math></spanclass="math></spanclass="math></spanclass="math></spanclass="math></li><li>Thus <spanclass="math inline"="">\(\left(\frac{-1}{p}\right)=(-1)^{\frac{p-1}{2}}=1\),thus <span class="math inline">\(p\equiv 1 \pmod{4}\)</span>, thus <spanclass="math inline"="">\(p\) is a new prime of the form <spanclass="math inline"="">\(4n+1\), contradiction. Thus, there areinfinitely many primes of the form <spanclass="math inline"="">\(4n+1\).</spanclass="math></spanclass="math></spanclass="math></spanclass="math></li></ul>
         </div>
       </div>
     </div><p></p></li>
@@ -1385,11 +1392,13 @@ m\)</span>.</li>
 <h2 id="residue-classes">Residue Classes</h2>
 <ul>
 <li><p><strong>Def 2.3 Residue Class</strong>: Let <span class="math inline">\(r\in \mathbb{Z}\)</span> and <span class="math inline">\(m\in \mathbb{Z}^+\)</span>, the residue class of
-<span class="math inline">\(r\)</span> modulo <span class="math inline">\(m\)</span> is defined to be <span class="math display">\[\begin{aligned}
+<span class="math inline">\(r\)</span> modulo <span class="math inline">\(m\)</span> is defined to be <span class="math display">\[
+  \begin{aligned}
   {[r]}_{m} &amp;=\{x\in \mathbb{Z}: x\equiv r \pmod m\} \\
   &amp;=\{r+im: i\in \mathbb{Z}\} \\
   &amp; = r+m\mathbb{Z}
-  \end{aligned}\]</span></p>
+  \end{aligned}
+  \]</span></p>
 <p>If there is no confusion, we simply denote <span class="math inline">\([r]_m\)</span> by <span class="math inline">\(\bar{r}\)</span> and even <span class="math inline">\(r\)</span>.</p></li>
 <li><p><strong>Thm 2.4 Properties of Residue Classes</strong>:</p>
 <ol type="1">
@@ -1425,18 +1434,22 @@ is called a complete residue system modulo <span class="math inline">\(m\)</span
 the canonical complete residue system modulo <span class="math inline">\(m\)</span>.</li>
 <li>If <span class="math inline">\([r_1]_m,\cdots,[r_m]_m\)</span> is a
 complete residue system modulo <span class="math inline">\(m\)</span>,
-then <span class="math display">\[\begin{aligned}
+then <span class="math display">\[
+  \begin{aligned}
   \mathbb{Z}_m &amp;=\{[r_1]_m,\cdots,[r_m]_m\} \\
   &amp;=\{[0]_m,[1]_m,\cdots,[m-1]_m\} \\
   &amp;=\{\bar{0},\bar{1},\cdots,\overline{m-1}\} \\
   &amp;=\{0,1,\cdots,m-1\}
-  \end{aligned}\]</span></li>
+  \end{aligned}
+  \]</span></li>
 </ul></li>
 <li><p><strong>Def 2.6 Addition and Multiplication</strong>: Define
-addition <span class="math inline">\(+\)</span> and multiplication <span class="math inline">\(\cdot\)</span> on <span class="math inline">\(\mathbb{Z}_m\)</span> as follows: <span class="math inline">\(\forall a,b\in \mathbb{Z}\)</span>, <span class="math display">\[\begin{aligned}
+addition <span class="math inline">\(+\)</span> and multiplication <span class="math inline">\(\cdot\)</span> on <span class="math inline">\(\mathbb{Z}_m\)</span> as follows: <span class="math inline">\(\forall a,b\in \mathbb{Z}\)</span>, <span class="math display">\[
+  \begin{aligned}
   \bar{a}+\bar{b} &amp;=\overline{a+b} \\
   \bar{a}\cdot \bar{b} &amp;=\overline{ab}
-  \end{aligned}\]</span></p>
+  \end{aligned}
+  \]</span></p>
 <ul>
 <li><p><strong>Claim</strong>: <span class="math inline">\(+\)</span>
 and <span class="math inline">\(\cdot\)</span> defined above are
@@ -1501,12 +1514,14 @@ pairwise coprime integers <span class="math inline">\(\geq 2\)</span>,
 (i.e.&nbsp;<span class="math inline">\(\forall i\neq j,
 \gcd(m_i,m_j)=1\)</span>), then <span class="math inline">\(\forall
 a_1,a_2,\cdots,a_r\in \mathbb{Z}\)</span>, the system of congruences
-<span class="math display">\[\begin{cases}
+<span class="math display">\[
+  \begin{cases}
   x\equiv a_1 \pmod {m_1} \\
   x\equiv a_2 \pmod {m_2} \\
   \cdots \\
   x\equiv a_r \pmod {m_r}
-  \end{cases}\]</span></p>
+  \end{cases}
+  \]</span></p>
 <p>has a unique solution modulo <span class="math inline">\(M=\prod_{i=1}^r m_i\)</span>, and the solution
 <span class="math inline">\(x=\sum_{i=1}^r a_i M_i y_i\)</span>, where
 <span class="math inline">\(M_i=\frac{M}{m_i}\)</span> and <span class="math inline">\(y_i\)</span> is the inverse of <span class="math inline">\(M_i\)</span> in <span class="math inline">\(\mathbb{Z}_{m_i}\)</span>.</p>
@@ -1525,8 +1540,10 @@ a_1,a_2,\cdots,a_r\in \mathbb{Z}\)</span>, the system of congruences
 <ol type="1">
 <li><span class="math inline">\(m,n\geq 2, \gcd(m,n)=1 \implies
 \varphi(mn)=\varphi(m)\varphi(n)\)</span></li>
-<li><span class="math inline">\(\forall n\geq 2\)</span>, if <span class="math inline">\(n=\prod_{i=1}^k p_i^{r_i}\)</span> with <span class="math inline">\(r_i\in \mathbb{Z}^+\)</span> and <span class="math inline">\(p_i\)</span> are distinct primes, then <span class="math display">\[\varphi(n)=\prod_{i=1}^k
-p_i^{r_i-1}(p_i-1)=n\prod_{p\mid n}(1-\frac{1}{p})\]</span></li>
+<li><span class="math inline">\(\forall n\geq 2\)</span>, if <span class="math inline">\(n=\prod_{i=1}^k p_i^{r_i}\)</span> with <span class="math inline">\(r_i\in \mathbb{Z}^+\)</span> and <span class="math inline">\(p_i\)</span> are distinct primes, then <span class="math display">\[
+\varphi(n)=\prod_{i=1}^k p_i^{r_i-1}(p_i-1)=n\prod_{p\mid
+n}(1-\frac{1}{p})
+\]</span></li>
 </ol>
 <p>
     </p><div class="fold">
@@ -1535,7 +1552,7 @@ p_i^{r_i-1}(p_i-1)=n\prod_{p\mid n}(1-\frac{1}{p})\]</span></li>
       </div>
       <div class="fold-collapse collapse" id="collapse-270c56bf">
         <div class="fold-content">
-          <ol type="1"><li><p>Claim that <spanclass="math inline"="">\(|\mathbb{Z}_{mn}^*|=|\mathbb{Z}_m^*||\mathbb{Z}_n^*|\).Consider the map <span class="math display">\[\begin{aligned}\pi: \mathbb{Z}_{mn}^* &amp;\to \mathbb{Z}_m^* \times \mathbb{Z}_n^* \\[r]_{mn} &amp;\mapsto ([r]_m, [r]_n)\end{aligned}\]</span></spanclass="math></p><ul><li><span class="math inline">\(\pi\)</span> is well-defined: <spanclass="math inline"="">\([r_1]_{mn}=[r_2]_{mn} \iff mn\mid (r_1-r_2) \iffm\mid (r_1-r_2)\) and <span class="math inline">\(n\mid (r_1-r_2)\iff [r_1]_m=[r_2]_m\)</span> and <spanclass="math inline"="">\([r_1]_n=[r_2]_n\).</spanclass="math></spanclass="math></li><li><span class="math inline">\(\pi\)</span> is injective: <spanclass="math inline"="">\(\forall ([r_1]_m, [r_2]_n)\in \mathbb{Z}_m^*\times \mathbb{Z}_n^*\), by the Chinese Remainder Theorem, then<span class="math inline">\(\exists r\in \mathbb{Z}\)</span> s.t. <spanclass="math inline"="">\(r\equiv r_1 \pmod m\) and <spanclass="math inline"="">\(r\equiv r_2 \pmod n\), thus <spanclass="math inline"="">\(\pi([r]_{mn})=([r]_m, [r]_n)=([r_1]_m,[r_2]_n)\).</spanclass="math></spanclass="math></spanclass="math></spanclass="math></li></ul><p>So, <span class="math inline">\(\pi\)</span> is a bijection, thus<spanclass="math inline"="">\(|\mathbb{Z}_{mn}^*|=|\mathbb{Z}_m^*||\mathbb{Z}_n^*|\),i.e.&nbsp;<spanclass="math inline"="">\(\varphi(mn)=\varphi(m)\varphi(n)\).</spanclass="math></spanclass="math></p></li><li><p>First consider <span class="math inline">\(n=p^r\)</span> where<span class="math inline">\(p\)</span> is a prime and <spanclass="math inline"="">\(r\in \mathbb{Z}^+\), consider <spanclass="math display"="">\[\mathbb{Z}_n \backslash \mathbb{Z}_n^*=\{\overline{0},\overline{1p},\overline{2p},\cdots,\overline{(p^{r-1}-1)p}\}\]</spanclass="math></spanclass="math></p><p>then <span class="math inline">\(|\mathbb{Z}_n \backslash\mathbb{Z}_n^*|=p^{r-1}\)</span>, thus <spanclass="math display"="">\[\varphi(n)=|\mathbb{Z}_n^*|=|\mathbb{Z}_n|-|\mathbb{Z}_n\backslash \mathbb{Z}_n^*|=p^r-p^{r-1}=p^r(1-\frac{1}{p})\]</spanclass="math></p><p>For general <span class="math inline">\(n\)</span>, let <spanclass="math inline"="">\(p_1,p_2,\cdots,p_k\) be the distinct primedivisors of <span class="math inline">\(n\)</span>, then <spanclass="math inline"="">\(n=\prod_{i=1}^k p_i^{r_i}\), thus <spanclass="math display"="">\[\varphi(n)=\prod_{i=1}^k\varphi(p_i^{r_i})=\prod_{i=1}^kp_i^{r_i}(1-\frac{1}{p_i})=n\prod_{p\midn}(1-\frac{1}{p})\]</spanclass="math></spanclass="math></spanclass="math></p></li></ol>
+          <ol type="1"><li><p>Claim that <spanclass="math inline"="">\(|\mathbb{Z}_{mn}^*|=|\mathbb{Z}_m^*||\mathbb{Z}_n^*|\).Consider the map <span class="math display">\[\begin{aligned}\pi: \mathbb{Z}_{mn}^* &amp;\to \mathbb{Z}_m^* \times \mathbb{Z}_n^* \\[r]_{mn} &amp;\mapsto ([r]_m, [r]_n)\end{aligned}\]</span></spanclass="math></p><ul><li><span class="math inline">\(\pi\)</span> is well-defined: <spanclass="math inline"="">\([r_1]_{mn}=[r_2]_{mn} \iff mn\mid (r_1-r_2) \iffm\mid (r_1-r_2)\) and <span class="math inline">\(n\mid (r_1-r_2)\iff [r_1]_m=[r_2]_m\)</span> and <spanclass="math inline"="">\([r_1]_n=[r_2]_n\).</spanclass="math></spanclass="math></li><li><span class="math inline">\(\pi\)</span> is injective: <spanclass="math inline"="">\(\forall ([r_1]_m, [r_2]_n)\in \mathbb{Z}_m^*\times \mathbb{Z}_n^*\), by the Chinese Remainder Theorem, then<span class="math inline">\(\exists r\in \mathbb{Z}\)</span> s.t. <spanclass="math inline"="">\(r\equiv r_1 \pmod m\) and <spanclass="math inline"="">\(r\equiv r_2 \pmod n\), thus <spanclass="math inline"="">\(\pi([r]_{mn})=([r]_m, [r]_n)=([r_1]_m,[r_2]_n)\).</spanclass="math></spanclass="math></spanclass="math></spanclass="math></li></ul><p>So, <span class="math inline">\(\pi\)</span> is a bijection, thus<spanclass="math inline"="">\(|\mathbb{Z}_{mn}^*|=|\mathbb{Z}_m^*||\mathbb{Z}_n^*|\),i.e.&nbsp;<spanclass="math inline"="">\(\varphi(mn)=\varphi(m)\varphi(n)\).</spanclass="math></spanclass="math></p></li><li><p>First consider <span class="math inline">\(n=p^r\)</span> where<span class="math inline">\(p\)</span> is a prime and <spanclass="math inline"="">\(r\in \mathbb{Z}^+\), consider <spanclass="math display"="">\[\mathbb{Z}_n \backslash \mathbb{Z}_n^*=\{\overline{0},\overline{1p},\overline{2p},\cdots,\overline{(p^{r-1}-1)p}\}\]</spanclass="math></spanclass="math></p><p>then <span class="math inline">\(|\mathbb{Z}_n \backslash\mathbb{Z}_n^*|=p^{r-1}\)</span>, thus <span class="math display">\[\varphi(n)=|\mathbb{Z}_n^*|=|\mathbb{Z}_n|-|\mathbb{Z}_n \backslash\mathbb{Z}_n^*|=p^r-p^{r-1}=p^r(1-\frac{1}{p})\]</span></p><p>For general <span class="math inline">\(n\)</span>, let <spanclass="math inline"="">\(p_1,p_2,\cdots,p_k\) be the distinct primedivisors of <span class="math inline">\(n\)</span>, then <spanclass="math inline"="">\(n=\prod_{i=1}^k p_i^{r_i}\), thus <spanclass="math display"="">\[\varphi(n)=\prod_{i=1}^k \varphi(p_i^{r_i})=\prod_{i=1}^kp_i^{r_i}(1-\frac{1}{p_i})=n\prod_{p\mid n}(1-\frac{1}{p})\]</spanclass="math></spanclass="math></spanclass="math></p></li></ol>
         </div>
       </div>
     </div><p></p></li>
@@ -1564,7 +1581,7 @@ prime.</p>
       </div>
       <div class="fold-collapse collapse" id="collapse-57a0d508">
         <div class="fold-content">
-          <p>Let <span class="math inline">\(n=\prod_{i=1}^k p_i^{e_i}\)</span> bethe canonical factorization, consider <spanclass="math display"="">\[\begin{aligned}\sum_{d\mid n} \varphi(d) &amp;=\sum_{0\leq k_i\leq e_i}\varphi(p_1^{k_1}\cdots p_t^{k_t}) \\&amp;=\sum_{0\leq k_i\leq e_i} \varphi(p_1^{k_1})\cdots\varphi(p_t^{k_t}) \\&amp;=\prod_{i=1}^k \sum_{0\leq k_i\leq e_i} \varphi(p_i^{k_i}) \\&amp;=\prod_{i=1}^k\left(\varphi(p_i^0)+\sum_{1\leq k_i\leq e_i}\varphi(p_i^{k_i})\right) \\&amp;=\prod_{i=1}^k\left(1+\sum_{1\leq k_i\leq e_i}p_i^{k_i}-p_i^{k_i-1}\right) \\&amp;=\prod_{i=1}^k p_i^{e_i} \\&amp;=n\end{aligned}\]</spanclass="math></p>
+          <p>Let <span class="math inline">\(n=\prod_{i=1}^k p_i^{e_i}\)</span> bethe canonical factorization, consider <span class="math display">\[\begin{aligned}\sum_{d\mid n} \varphi(d) &amp;=\sum_{0\leq k_i\leq e_i}\varphi(p_1^{k_1}\cdots p_t^{k_t}) \\&amp;=\sum_{0\leq k_i\leq e_i} \varphi(p_1^{k_1})\cdots\varphi(p_t^{k_t}) \\&amp;=\prod_{i=1}^k \sum_{0\leq k_i\leq e_i} \varphi(p_i^{k_i}) \\&amp;=\prod_{i=1}^k\left(\varphi(p_i^0)+\sum_{1\leq k_i\leq e_i}\varphi(p_i^{k_i})\right) \\&amp;=\prod_{i=1}^k\left(1+\sum_{1\leq k_i\leq e_i}p_i^{k_i}-p_i^{k_i-1}\right) \\&amp;=\prod_{i=1}^k p_i^{e_i} \\&amp;=n\end{aligned}\]</span></p>
         </div>
       </div>
     </div><p></p></li>
@@ -1586,7 +1603,9 @@ Primitive roots and discrete logarithm</h1>
         </div>
       </div>
     </div><p></p></li>
-<li><p><strong>Thm 3.2 Little Fermat’s Theorem</strong>: If <span class="math inline">\(p\in \mathbb{P}\)</span>, then <span class="math inline">\(\forall a\in \mathbb{Z}\)</span>, <span class="math display">\[a^p\equiv a \pmod p\]</span></p>
+<li><p><strong>Thm 3.2 Little Fermat’s Theorem</strong>: If <span class="math inline">\(p\in \mathbb{P}\)</span>, then <span class="math inline">\(\forall a\in \mathbb{Z}\)</span>, <span class="math display">\[
+  a^p\equiv a \pmod p
+  \]</span></p>
 <p>
     </p><div class="fold">
       <div class="fold-title fold-info collapsed" data-toggle="collapse" href="#collapse-f48226a7" role="button" aria-expanded="false" aria-controls="collapse-f48226a7">
@@ -1600,7 +1619,9 @@ Primitive roots and discrete logarithm</h1>
     </div><p></p></li>
 <li><p><strong>Def 3.3 Order</strong>: Let <span class="math inline">\(m\geq 2\)</span>, <span class="math inline">\(\bar{a}\in \mathbb{Z}_m^*\)</span>, the order of
 <span class="math inline">\(\bar{a}\)</span> is defined to be the least
-positive integer <span class="math inline">\(k\)</span> satisfying <span class="math display">\[a^k\equiv 1 \pmod m\]</span></p>
+positive integer <span class="math inline">\(k\)</span> satisfying <span class="math display">\[
+  a^k\equiv 1 \pmod m
+  \]</span></p>
 <ul>
 <li><strong>Notation</strong>: Denote the order of <span class="math inline">\(\bar{a}\)</span> by <span class="math inline">\(\mathrm{ord}_m(\bar{a})\)</span>.</li>
 </ul>
@@ -1750,7 +1771,7 @@ modulo <span class="math inline">\(2^k\)</span> for <span class="math inline">\(
       </div>
       <div class="fold-collapse collapse" id="collapse-6ad9f18a">
         <div class="fold-content">
-          <p>Let <span class="math inline">\(g\)</span> be a primitive root modulo<span class="math inline">\(p\)</span>, then <spanclass="math inline"="">\(\mathrm{ord}_p(g)=\varphi(p)=p-1\).</spanclass="math></p><ul><li>For <span class="math inline">\(k=1\)</span>, show in Thm 3.7,done.</li><li>For <span class="math inline">\(k=2\)</span>:<ul><li>If <spanclass="math inline"="">\(\mathrm{ord}_{p^2}(g)=\varphi(p^2)=p(p-1)\),done.</spanclass="math></li><li>If <spanclass="math inline"="">\(\mathrm{ord}_{p^2}(g)&lt;\varphi(p^2)\)<ul><li>Claim that <span class="math inline">\(\mathrm{ord}_{p}(g) \mid\mathrm{ord}_{p^2}(g) \mid \varphi(p^2)\)</span>, so <spanclass="math inline"="">\(p-1 \mid \mathrm{ord}_{p^2}(g) \mid p(p-1)\implies \mathrm{ord}_{p^2}(g)=p-1\):<ul><li>Due to Thm 3.4(1), <spanclass="math inline"="">\(\mathrm{ord}_{p^2}(g)\mid\varphi(p^2)\).</spanclass="math></li><li>Since <span class="math inline">\(g^{\mathrm{ord}_{p^2}(g)}\equiv 1\pmod{p^2} \implies g^{\mathrm{ord}_{p^2}(g)}\equiv 1 \pmod p\)</span>,thus <span class="math inline">\(\mathrm{ord}_p(g)\mid\mathrm{ord}_{p^2}(g)\)</span>.</li></ul></spanclass="math></li><li>Consider <span class="math inline">\(g+p\)</span>, we claim that<span class="math inline">\(\mathrm{ord}_{p^2}(g+p)=p(p-1)\)</span>:<ul><li>Since <span class="math inline">\(g+p\equiv g \pmod p\)</span>, thus<spanclass="math inline"="">\(\mathrm{ord}_p(g+p)=\mathrm{ord}_p(g)=p-1\),thus similarly we have <span class="math inline">\(p-1 \mid\mathrm{ord}_{p^2}(g+p) \mid p(p-1)\)</span></spanclass="math></li><li>Thus we claim that <spanclass="math inline"="">\(\mathrm{ord}_{p^2}(g+p)=p(p-1)\) by <spanclass="math inline"="">\(\mathrm{ord}_{p^2}(g+p) \neq p-1\): <spanclass="math display"="">\[\begin{aligned}  (g+p)^{p-1} &amp;= \sum_{i=0}^{p-1} \binom{p-1}{i} g^i p^{p-1-i} \\  &amp;\equiv g^{p-1} + p(p-1)g^{p-2} \pmod{p^2} \\  &amp;\equiv 1 - p g^{p-2} \pmod{p^2} \\  &amp;\not\equiv 1 \pmod{p^2}  \end{aligned}\]</spanclass="math></spanclass="math></spanclass="math></li><li>So <spanclass="math inline"="">\(\mathrm{ord}_{p^2}(g+p)=p(p-1)\), thus<span class="math inline">\(g+p\)</span> is a primitive root modulo<span class="math inline">\(p^2\)</span>.</spanclass="math></li></ul></li><li>Thus, <span class="math inline">\(g_1=\begin{cases} g &amp;\mathrm{ord}_{p^2}(g)=p(p-1) \\ g+p &amp; \mathrm{ord}_{p^2}(g)=p-1\end{cases}\)</span> is a primitive root modulo <spanclass="math inline"="">\(p^2\).</spanclass="math></li></ul></spanclass="math></li></ul></li><li>For <span class="math inline">\(k\geq 3\)</span>, let <spanclass="math inline"="">\(g_1\) be a primitive root modulo <spanclass="math inline"="">\(p^2\), we claim that <spanclass="math inline"="">\(g_1\) is a primitive root modulo <spanclass="math inline"="">\(p^k\) for all <spanclass="math inline"="">\(k\geq 3\):<ul><li>Since <span class="math inline">\(p(p-1) = \mathrm{ord}_{p^2}(g_1)\mid \mathrm{ord}_{p^k}(g_1) \mid \varphi(p^k)=p^{k-1}(p-1)\)</span>,thus <spanclass="math inline"="">\(\mathrm{ord}_{p^k}(g_1)=p^t(p-1)\) for some<span class="math inline">\(1\leq t\leq k-1\)</span>.</spanclass="math></li><li>Suppose <span class="math inline">\(t \leq k-2\)</span>, then <spanclass="math inline"="">\(g_1^{p^{k-2}(p-1)}\equiv(g_1^{p^t(p-1)})^{p^{k-2-t}}\equiv 1 \pmod{p^k}\).<ul><li>Since <span class="math inline">\(g_1^{p-1} \equiv g^{p-1} \equiv 1\pmod p\)</span>, thus <span class="math inline">\(\exists a \in\mathbb{Z}\)</span> s.t. <span class="math inline">\(g_1^{p-1} = 1 +ap\)</span> and <span class="math inline">\(\gcd(a,p)=1\)</span><ul><li>If <span class="math inline">\(\gcd(a,p)\neq 1\)</span>, then <spanclass="math inline"="">\(p\mid a\), thus <spanclass="math inline"="">\(g_1^{p-1} \equiv 1 \pmod{p^2}\), which is acontradiction since <spanclass="math inline"="">\(\mathrm{ord}_{p^2}(g_1)=p(p-1)\).</spanclass="math></spanclass="math></spanclass="math></li></ul></li><li>Then we have: (Line 3 uses the fact that <spanclass="math inline"="">\(p\) is <strong>odd prime</strong>, so for<span class="math inline">\(i\geq 2\)</span>, <spanclass="math inline"="">\(\binom{p^{k-2}}{i} (ap)^i \equiv 0 \pmod{p^k}\)) <span class="math display">\[\begin{aligned}  g_1^{p^{k-2}(p-1)} &amp;= (1 + ap)^{p^{k-2}} = \sum_{i=0}^{p^{k-2}}\binom{p^{k-2}}{i} (ap)^i \\  &amp;= 1 + p^{k-2} ap + \binom{p^{k-2}}{2} (ap)^2 + \cdots \\  &amp;\equiv 1 + ap^{k-1} \pmod{p^k} \\  &amp;\not\equiv 1 \pmod{p^k}  \end{aligned}\]</span></spanclass="math></spanclass="math></li></ul></spanclass="math></li><li>So causes a contradiction, thus <spanclass="math inline"="">\(t=k-1\), so <spanclass="math inline"="">\(\mathrm{ord}_{p^k}(g_1)=p^{k-1}(p-1)\), so<span class="math inline">\(g_1\)</span> is a primitive root modulo<span class="math inline">\(p^k\)</span> for all <spanclass="math inline"="">\(k\geq 3\).</spanclass="math></spanclass="math></spanclass="math></li></ul></spanclass="math></spanclass="math></spanclass="math></spanclass="math></spanclass="math></li></ul>
+          <p>Let <span class="math inline">\(g\)</span> be a primitive root modulo<span class="math inline">\(p\)</span>, then <spanclass="math inline"="">\(\mathrm{ord}_p(g)=\varphi(p)=p-1\).</spanclass="math></p><ul><li>For <span class="math inline">\(k=1\)</span>, show in Thm 3.7,done.</li><li>For <span class="math inline">\(k=2\)</span>:<ul><li>If <spanclass="math inline"="">\(\mathrm{ord}_{p^2}(g)=\varphi(p^2)=p(p-1)\),done.</spanclass="math></li><li>If <spanclass="math inline"="">\(\mathrm{ord}_{p^2}(g)&lt;\varphi(p^2)\)<ul><li>Claim that <span class="math inline">\(\mathrm{ord}_{p}(g) \mid\mathrm{ord}_{p^2}(g) \mid \varphi(p^2)\)</span>, so <spanclass="math inline"="">\(p-1 \mid \mathrm{ord}_{p^2}(g) \mid p(p-1)\implies \mathrm{ord}_{p^2}(g)=p-1\):<ul><li>Due to Thm 3.4(1), <spanclass="math inline"="">\(\mathrm{ord}_{p^2}(g)\mid\varphi(p^2)\).</spanclass="math></li><li>Since <span class="math inline">\(g^{\mathrm{ord}_{p^2}(g)}\equiv 1\pmod{p^2} \implies g^{\mathrm{ord}_{p^2}(g)}\equiv 1 \pmod p\)</span>,thus <span class="math inline">\(\mathrm{ord}_p(g)\mid\mathrm{ord}_{p^2}(g)\)</span>.</li></ul></spanclass="math></li><li>Consider <span class="math inline">\(g+p\)</span>, we claim that<span class="math inline">\(\mathrm{ord}_{p^2}(g+p)=p(p-1)\)</span>:<ul><li>Since <span class="math inline">\(g+p\equiv g \pmod p\)</span>, thus<spanclass="math inline"="">\(\mathrm{ord}_p(g+p)=\mathrm{ord}_p(g)=p-1\),thus similarly we have <span class="math inline">\(p-1 \mid\mathrm{ord}_{p^2}(g+p) \mid p(p-1)\)</span></spanclass="math></li><li>Thus we claim that <spanclass="math inline"="">\(\mathrm{ord}_{p^2}(g+p)=p(p-1)\) by <spanclass="math inline"="">\(\mathrm{ord}_{p^2}(g+p) \neq p-1\): <spanclass="math display"="">\[  \begin{aligned}  (g+p)^{p-1} &amp;= \sum_{i=0}^{p-1} \binom{p-1}{i} g^i p^{p-1-i} \\  &amp;\equiv g^{p-1} + p(p-1)g^{p-2} \pmod{p^2} \\  &amp;\equiv 1 - p g^{p-2} \pmod{p^2} \\  &amp;\not\equiv 1 \pmod{p^2}  \end{aligned}  \]</spanclass="math></spanclass="math></spanclass="math></li><li>So <spanclass="math inline"="">\(\mathrm{ord}_{p^2}(g+p)=p(p-1)\), thus<span class="math inline">\(g+p\)</span> is a primitive root modulo<span class="math inline">\(p^2\)</span>.</spanclass="math></li></ul></li><li>Thus, <span class="math inline">\(g_1=\begin{cases} g &amp;\mathrm{ord}_{p^2}(g)=p(p-1) \\ g+p &amp; \mathrm{ord}_{p^2}(g)=p-1\end{cases}\)</span> is a primitive root modulo <spanclass="math inline"="">\(p^2\).</spanclass="math></li></ul></spanclass="math></li></ul></li><li>For <span class="math inline">\(k\geq 3\)</span>, let <spanclass="math inline"="">\(g_1\) be a primitive root modulo <spanclass="math inline"="">\(p^2\), we claim that <spanclass="math inline"="">\(g_1\) is a primitive root modulo <spanclass="math inline"="">\(p^k\) for all <spanclass="math inline"="">\(k\geq 3\):<ul><li>Since <span class="math inline">\(p(p-1) = \mathrm{ord}_{p^2}(g_1)\mid \mathrm{ord}_{p^k}(g_1) \mid \varphi(p^k)=p^{k-1}(p-1)\)</span>,thus <spanclass="math inline"="">\(\mathrm{ord}_{p^k}(g_1)=p^t(p-1)\) for some<span class="math inline">\(1\leq t\leq k-1\)</span>.</spanclass="math></li><li>Suppose <span class="math inline">\(t \leq k-2\)</span>, then <spanclass="math inline"="">\(g_1^{p^{k-2}(p-1)}\equiv(g_1^{p^t(p-1)})^{p^{k-2-t}}\equiv 1 \pmod{p^k}\).<ul><li>Since <span class="math inline">\(g_1^{p-1} \equiv g^{p-1} \equiv 1\pmod p\)</span>, thus <span class="math inline">\(\exists a \in\mathbb{Z}\)</span> s.t. <span class="math inline">\(g_1^{p-1} = 1 +ap\)</span> and <span class="math inline">\(\gcd(a,p)=1\)</span><ul><li>If <span class="math inline">\(\gcd(a,p)\neq 1\)</span>, then <spanclass="math inline"="">\(p\mid a\), thus <spanclass="math inline"="">\(g_1^{p-1} \equiv 1 \pmod{p^2}\), which is acontradiction since <spanclass="math inline"="">\(\mathrm{ord}_{p^2}(g_1)=p(p-1)\).</spanclass="math></spanclass="math></spanclass="math></li></ul></li><li>Then we have: (Line 3 uses the fact that <spanclass="math inline"="">\(p\) is <strong>odd prime</strong>, so for<span class="math inline">\(i\geq 2\)</span>, <spanclass="math inline"="">\(\binom{p^{k-2}}{i} (ap)^i \equiv 0 \pmod{p^k}\)) <span class="math display">\[  \begin{aligned}  g_1^{p^{k-2}(p-1)} &amp;= (1 + ap)^{p^{k-2}} = \sum_{i=0}^{p^{k-2}}\binom{p^{k-2}}{i} (ap)^i \\  &amp;= 1 + p^{k-2} ap + \binom{p^{k-2}}{2} (ap)^2 + \cdots \\  &amp;\equiv 1 + ap^{k-1} \pmod{p^k} \\  &amp;\not\equiv 1 \pmod{p^k}  \end{aligned}  \]</span></spanclass="math></spanclass="math></li></ul></spanclass="math></li><li>So causes a contradiction, thus <spanclass="math inline"="">\(t=k-1\), so <spanclass="math inline"="">\(\mathrm{ord}_{p^k}(g_1)=p^{k-1}(p-1)\), so<span class="math inline">\(g_1\)</span> is a primitive root modulo<span class="math inline">\(p^k\)</span> for all <spanclass="math inline"="">\(k\geq 3\).</spanclass="math></spanclass="math></spanclass="math></li></ul></spanclass="math></spanclass="math></spanclass="math></spanclass="math></spanclass="math></li></ul>
         </div>
       </div>
     </div><p></p></li>
@@ -1778,7 +1799,7 @@ prime <span class="math inline">\(p\)</span> and <span class="math inline">\(k\g
       </div>
       <div class="fold-collapse collapse" id="collapse-ea882eb9">
         <div class="fold-content">
-          <ul><li><span class="math inline">\(\implies\)</span>: Assume that <spanclass="math inline"="">\(m\) has the standard factorization <spanclass="math inline"="">\(m=\prod_{i=1}^r p_i^{e_i}\) with <spanclass="math inline"="">\(e_i\geq 1\), then <spanclass="math inline"="">\(\varphi(m) = \prod_{i=1}^rp_i^{e_i-1}(p_i-1)\). Let <span class="math inline">\(g\)</span>be a primitive root modulo <span class="math inline">\(m\)</span>, then<span class="math inline">\(\mathrm{ord}_m(g)=\varphi(m)\)</span><ul><li>Let <span class="math inline">\(t = \mathrm{lcm}(\varphi(p_1^{e_1}),\varphi(p_2^{e_2}), \cdots, \varphi(p_r^{e_r}))\)</span>, thus <spanclass="math inline"="">\(t\leq \varphi(m)\) and <spanclass="math inline"="">\(\varphi(p_i^{e_i})\mid t\) for <spanclass="math inline"="">\(1\leq i\leq r\), so we have <spanclass="math display"="">\[\begin{aligned}  &amp;g^t = g^{k\cdot\varphi(p_i^{e_i})}\equiv 1 \pmod{p_i^{e_i}} \\  \implies &amp;p_i^{e_i}\mid g^t-1 \\  \implies &amp;m = \prod_{i=1}^r p_i^{e_i}\mid g^t-1 \\  \implies &amp;g^t\equiv 1 \pmod m \\  \implies &amp;\mathrm{ord}_m(g)\mid t \\  \implies &amp;\varphi(m)\leq t  \end{aligned}\]</spanclass="math></spanclass="math></spanclass="math></spanclass="math></li><li>So <span class="math inline">\(\varphi(m)=t\)</span>, i.e.&nbsp;<spanclass="math inline"="">\(\mathrm{lcm}(\varphi(p_1^{e_1}),\varphi(p_2^{e_2}), \cdots, \varphi(p_r^{e_r})) = \prod_{i=1}^r\varphi(p_i^{e_i})\), so <spanclass="math inline"="">\(\gcd(\varphi(p_i^{e_i}),\varphi(p_j^{e_j}))=1\) for <span class="math inline">\(1\leqi&lt;j\leq r\)</span>, i.e.&nbsp;<spanclass="math inline"="">\(\gcd(p_i^{e_i-1}(p_i-1),p_j^{e_j-1}(p_j-1))=1\). Thus <span class="math inline">\(m=2^ap^b\)</span> for some <span class="math inline">\(a,b\geq 0\)</span> and<span class="math inline">\(p\in \mathbb{P}\)</span> is odd.<ul><li><strong>Case</strong> 1: <span class="math inline">\(b\geq1\)</span>, then <span class="math inline">\(\gcd(\varphi(2^a),\varphi(p^b))=\gcd(2^{a-1}, p^{b-1}(p-1))=1\)</span>, thus <spanclass="math inline"="">\(a\leq 1\) since <spanclass="math inline"="">\(2\mid p-1\), so <spanclass="math inline"="">\(m=p^b\) or <spanclass="math inline"="">\(2p^b\).</spanclass="math></spanclass="math></spanclass="math></spanclass="math></li><li><strong>Case</strong> 2: <span class="math inline">\(b=0\)</span>,<span class="math inline">\(m=2^a\)</span>, <spanclass="math inline"="">\(\mathrm{ord}_{m}(g)=\varphi(m)=2^{a-1}\),so <span class="math inline">\(g^{2^{a-2}} \not\equiv 1\pmod{2^a}\)</span>. Since <spanclass="math inline"="">\(\gcd(g,2^a)=1\), thus <spanclass="math inline"="">\(g\) is odd. Let <spanclass="math inline"="">\(g=2k+1\) for some <spanclass="math inline"="">\(k\in \mathbb{Z}\), claim that <spanclass="math inline"="">\(a\leq 2\): Suppose <spanclass="math inline"="">\(a\geq 3\), then: <spanclass="math display"="">\[\begin{aligned}  g^{2^{a-2}} &amp;= (2k+1)^{2^{a-2}} = \sum_{i=0}^{2^{a-2}}\binom{2^{a-2}}{i} (2k)^i \\  &amp;= 1 + 2^{a-1} k + \frac{2^{a-2} (2^{a-2}-1) (2k)^2}{2} +\frac{2^{a-2} (2^{a-2}-1) (2^{a-2}-2) (2k)^3}{6} + \cdots \\  &amp;\equiv 1 + 2^{a-1} k + 2^{a-3} (2^{a-2}-1) (2k)^2 \pmod{2^a} \\  &amp;= 1 + 2^{a-1}(k + k^2(2^{a-2}-1)) \pmod{2^a}  \end{aligned}\] Since <span class="math inline">\(a\geq3\)</span>, we have <span class="math inline">\((k+ k^2(2^{a-2}-1)) =k^2\cdot 2^{a-2} - k(k-1)\)</span> is even, thus <spanclass="math inline"="">\(g^{2^{a-2}} \equiv 1 \pmod{2^a}\), which isa contradiction, so <span class="math inline">\(a\leq 2\)</span>.</spanclass="math></spanclass="math></spanclass="math></spanclass="math></spanclass="math></spanclass="math></spanclass="math></spanclass="math></spanclass="math></li></ul></spanclass="math></spanclass="math></spanclass="math></li></ul></spanclass="math></spanclass="math></spanclass="math></spanclass="math></li><li><span class="math inline">\(\impliedby\)</span>:<ul><li><span class="math inline">\(m=2\)</span>: <spanclass="math inline"="">\(g=1\) is a primitive root modulo <spanclass="math inline"="">\(2\).</spanclass="math></spanclass="math></li><li><span class="math inline">\(m=4\)</span>: <spanclass="math inline"="">\(g=3\) is a primitive root modulo <spanclass="math inline"="">\(4\).</spanclass="math></spanclass="math></li><li><span class="math inline">\(m=p^k\)</span> for odd prime <spanclass="math inline"="">\(p\) and <span class="math inline">\(k\geq1\)</span>: Show in Thm 3.9</spanclass="math></li><li><span class="math inline">\(m=2p^k\)</span> for odd prime <spanclass="math inline"="">\(p\) and <span class="math inline">\(k\geq1\)</span>: Show in Thm 3.10</spanclass="math></li></ul></li></ul>
+          <ul><li><span class="math inline">\(\implies\)</span>: Assume that <spanclass="math inline"="">\(m\) has the standard factorization <spanclass="math inline"="">\(m=\prod_{i=1}^r p_i^{e_i}\) with <spanclass="math inline"="">\(e_i\geq 1\), then <spanclass="math inline"="">\(\varphi(m) = \prod_{i=1}^rp_i^{e_i-1}(p_i-1)\). Let <span class="math inline">\(g\)</span>be a primitive root modulo <span class="math inline">\(m\)</span>, then<span class="math inline">\(\mathrm{ord}_m(g)=\varphi(m)\)</span><ul><li>Let <span class="math inline">\(t = \mathrm{lcm}(\varphi(p_1^{e_1}),\varphi(p_2^{e_2}), \cdots, \varphi(p_r^{e_r}))\)</span>, thus <spanclass="math inline"="">\(t\leq \varphi(m)\) and <spanclass="math inline"="">\(\varphi(p_i^{e_i})\mid t\) for <spanclass="math inline"="">\(1\leq i\leq r\), so we have <spanclass="math display"="">\[  \begin{aligned}  &amp;g^t = g^{k\cdot\varphi(p_i^{e_i})}\equiv 1 \pmod{p_i^{e_i}} \\  \implies &amp;p_i^{e_i}\mid g^t-1 \\  \implies &amp;m = \prod_{i=1}^r p_i^{e_i}\mid g^t-1 \\  \implies &amp;g^t\equiv 1 \pmod m \\  \implies &amp;\mathrm{ord}_m(g)\mid t \\  \implies &amp;\varphi(m)\leq t  \end{aligned}  \]</spanclass="math></spanclass="math></spanclass="math></spanclass="math></li><li>So <span class="math inline">\(\varphi(m)=t\)</span>, i.e.&nbsp;<spanclass="math inline"="">\(\mathrm{lcm}(\varphi(p_1^{e_1}),\varphi(p_2^{e_2}), \cdots, \varphi(p_r^{e_r})) = \prod_{i=1}^r\varphi(p_i^{e_i})\), so <spanclass="math inline"="">\(\gcd(\varphi(p_i^{e_i}),\varphi(p_j^{e_j}))=1\) for <span class="math inline">\(1\leqi&lt;j\leq r\)</span>, i.e.&nbsp;<spanclass="math inline"="">\(\gcd(p_i^{e_i-1}(p_i-1),p_j^{e_j-1}(p_j-1))=1\). Thus <span class="math inline">\(m=2^ap^b\)</span> for some <span class="math inline">\(a,b\geq 0\)</span> and<span class="math inline">\(p\in \mathbb{P}\)</span> is odd.<ul><li><strong>Case</strong> 1: <span class="math inline">\(b\geq1\)</span>, then <span class="math inline">\(\gcd(\varphi(2^a),\varphi(p^b))=\gcd(2^{a-1}, p^{b-1}(p-1))=1\)</span>, thus <spanclass="math inline"="">\(a\leq 1\) since <spanclass="math inline"="">\(2\mid p-1\), so <spanclass="math inline"="">\(m=p^b\) or <spanclass="math inline"="">\(2p^b\).</spanclass="math></spanclass="math></spanclass="math></spanclass="math></li><li><strong>Case</strong> 2: <span class="math inline">\(b=0\)</span>,<span class="math inline">\(m=2^a\)</span>, <spanclass="math inline"="">\(\mathrm{ord}_{m}(g)=\varphi(m)=2^{a-1}\),so <span class="math inline">\(g^{2^{a-2}} \not\equiv 1\pmod{2^a}\)</span>. Since <spanclass="math inline"="">\(\gcd(g,2^a)=1\), thus <spanclass="math inline"="">\(g\) is odd. Let <spanclass="math inline"="">\(g=2k+1\) for some <spanclass="math inline"="">\(k\in \mathbb{Z}\), claim that <spanclass="math inline"="">\(a\leq 2\): Suppose <spanclass="math inline"="">\(a\geq 3\), then: <spanclass="math display"="">\[  \begin{aligned}  g^{2^{a-2}} &amp;= (2k+1)^{2^{a-2}} = \sum_{i=0}^{2^{a-2}}\binom{2^{a-2}}{i} (2k)^i \\  &amp;= 1 + 2^{a-1} k + \frac{2^{a-2} (2^{a-2}-1) (2k)^2}{2} +\frac{2^{a-2} (2^{a-2}-1) (2^{a-2}-2) (2k)^3}{6} + \cdots \\  &amp;\equiv 1 + 2^{a-1} k + 2^{a-3} (2^{a-2}-1) (2k)^2 \pmod{2^a} \\  &amp;= 1 + 2^{a-1}(k + k^2(2^{a-2}-1)) \pmod{2^a}  \end{aligned}  \] Since <span class="math inline">\(a\geq 3\)</span>, we have<span class="math inline">\((k+ k^2(2^{a-2}-1)) = k^2\cdot 2^{a-2} -k(k-1)\)</span> is even, thus <span class="math inline">\(g^{2^{a-2}}\equiv 1 \pmod{2^a}\)</span>, which is a contradiction, so <spanclass="math inline"="">\(a\leq 2\).</spanclass="math></spanclass="math></spanclass="math></spanclass="math></spanclass="math></spanclass="math></spanclass="math></spanclass="math></spanclass="math></li></ul></spanclass="math></spanclass="math></spanclass="math></li></ul></spanclass="math></spanclass="math></spanclass="math></spanclass="math></li><li><span class="math inline">\(\impliedby\)</span>:<ul><li><span class="math inline">\(m=2\)</span>: <spanclass="math inline"="">\(g=1\) is a primitive root modulo <spanclass="math inline"="">\(2\).</spanclass="math></spanclass="math></li><li><span class="math inline">\(m=4\)</span>: <spanclass="math inline"="">\(g=3\) is a primitive root modulo <spanclass="math inline"="">\(4\).</spanclass="math></spanclass="math></li><li><span class="math inline">\(m=p^k\)</span> for odd prime <spanclass="math inline"="">\(p\) and <span class="math inline">\(k\geq1\)</span>: Show in Thm 3.9</spanclass="math></li><li><span class="math inline">\(m=2p^k\)</span> for odd prime <spanclass="math inline"="">\(p\) and <span class="math inline">\(k\geq1\)</span>: Show in Thm 3.10</spanclass="math></li></ul></li></ul>
         </div>
       </div>
     </div><p></p></li>
@@ -1814,7 +1835,7 @@ primitive roots modulo <span class="math inline">\(2p^k\)</span>.</li>
       </div>
       <div class="fold-collapse collapse" id="collapse-97e4b7d9">
         <div class="fold-content">
-          <ol type="1"><li><span class="math inline">\(G_1\)</span> is the set of all primitiveroots modulo <span class="math inline">\(p^2\)</span>:<ul><li>If <span class="math inline">\(g_1\)</span> is a primitive rootmodulo <span class="math inline">\(p^2\)</span>, then <spanclass="math inline"="">\(g_1\) is a primitive root modulo <spanclass="math inline"="">\(p\), so <span class="math inline">\(g_1 = g+ ap\)</span> for some <span class="math inline">\(g \in G\)</span> and<span class="math inline">\(a \in \mathbb{Z}_p\)</span>.<ul><li>If <span class="math inline">\(g_1\)</span> is not a primitive rootmodulo <span class="math inline">\(p\)</span>, then <spanclass="math inline"="">\(g_1^d\equiv 1 \pmod p\) for some <spanclass="math inline"="">\(d\mid p-1\) with <spanclass="math inline"="">\(d&lt;p-1\), thus <spanclass="math inline"="">\((g_1^d)^p = (1+kp)^p \equiv 1 \pmod{p^2}\)with <span class="math inline">\(dp &lt; p(p-1)\)</span>, so <spanclass="math inline"="">\(g_1\) is not a primitive root modulo <spanclass="math inline"="">\(p^2\), which is a contradiction.</spanclass="math></spanclass="math></spanclass="math></spanclass="math></spanclass="math></spanclass="math></li></ul></spanclass="math></spanclass="math></li><li>Suppose <span class="math inline">\(g_1=g+ap\)</span> is a primitiveroot modulo <span class="math inline">\(p^2\)</span>, then we have <spanclass="math display"="">\[\begin{aligned}  g_1^{p-1} &amp;= (g+ap)^{p-1} = \sum_{i=0}^{p-1} \binom{p-1}{i} g^i(ap)^{p-1-i} \\  &amp;\equiv g^{p-1} + ap(p-1)g^{p-2} \pmod{p^2} \\  &amp;\equiv g^{p-1} - ap g^{p-2} \pmod{p^2} \\  &amp;\not\equiv 1 \pmod{p^2} \\  \end{aligned}\] Thus <span class="math display">\[apg^{p-1}\not\equiv g^p-g \pmod{p^2}\]</span> Since <spanclass="math inline"="">\(g\) is a primitive root modulo <spanclass="math inline"="">\(p\), thus <spanclass="math inline"="">\(g^{p-1}\equiv 1 \pmod p\), so <spanclass="math inline"="">\(apg^{p-1} \equiv ap(1+kp) \equiv ap\pmod{p^2}\), thus <span class="math display">\[ap \not\equivg^p-g \pmod{p^2} \iff a \not\equiv \frac{g^p-g}{p} \pmod p\]</span> I.e.there is a unique <span class="math inline">\(a\)</span> not satisfyingthe condition, so there are <span class="math inline">\(p-1\)</span>choices for <span class="math inline">\(a\)</span> for each <spanclass="math inline"="">\(g\in G\).</spanclass="math></spanclass="math></spanclass="math></spanclass="math></spanclass="math></spanclass="math></li><li>So <span class="math inline">\(G_1\)</span> has totally <spanclass="math inline"="">\((p-1)\varphi(\varphi(p))\) distinctelements, and they are all primitive roots modulo <spanclass="math inline"="">\(p^2\). <spanclass="math display"="">\[\begin{aligned}  &amp;g+ap\equiv g'+a'p \pmod{p^2}\\  \implies &amp;g+ap\equiv g'+a'p \pmod p \\  \implies &amp;g\equiv g' \pmod p \\  \implies &amp;g=g' \\  \implies &amp;ap\equiv a'p \pmod{p^2} \\  \implies &amp;a\equiv a' \pmod p \\  \implies &amp;a=a'  \end{aligned}\]</spanclass="math></spanclass="math></spanclass="math></li><li>Since <spanclass="math inline"="">\(\varphi(\varphi(p^2))=(p-1)\varphi(\varphi(p))=(p-1)|G|=|G_1|\),<span class="math inline">\(G_1\)</span> is the set of all primitiveroots modulo <span class="math inline">\(p^2\)</span>.</spanclass="math></li></ul></li><li><span class="math inline">\(G_2\)</span> is the set of all primitiveroots modulo <span class="math inline">\(p^k\)</span> for <spanclass="math inline"="">\(k\geq 3\):<ul><li>If <span class="math inline">\(g_2\)</span> is a primitive rootmodulo <span class="math inline">\(p^k\)</span>, then <spanclass="math inline"="">\(g_2\) is a primitive root modulo <spanclass="math inline"="">\(p^2\), so <span class="math inline">\(g_2 =g + ap^2\)</span> for some <span class="math inline">\(g \inG_1\)</span> and <span class="math inline">\(a \in\mathbb{Z}_{p^{k-2}}\)</span>.</spanclass="math></spanclass="math></li><li>Suppose <span class="math inline">\(g_2=g+ap^2\)</span> is aprimitive root modulo <span class="math inline">\(p^k\)</span>, then wehave <span class="math display">\[\begin{aligned}  g_2^{p^{k-2}(p-1)} &amp;= (g+ap^2)^{p^{k-2}(p-1)} \\  &amp;= \sum_{i=0}^{p^{k-2}(p-1)} \binom{p^{k-2}(p-1)}{i} g^i(ap^2)^{p^{k-2}(p-1)-i} \\  &amp;\equiv g^{p^{k-2}(p-1)} \pmod{p^k} \\  &amp;\not\equiv 1 \pmod{p^k}  \end{aligned}\]</span> Since <span class="math inline">\(g\)</span> isa primitive root modulo <span class="math inline">\(p^2\)</span>, wehave <span class="math inline">\(g^{p-1} \not\equiv 1\pmod{p^2}\)</span>, so <span class="math inline">\(g^{p^{k-2}(p-1)}\not\equiv 1 \pmod{p^k}\)</span> for all <spanclass="math inline"="">\(k\geq 3\), thus the formula above alwaysholds.</spanclass="math></li><li>So <span class="math inline">\(G_2\)</span> has totally <spanclass="math inline"="">\(|\mathbb{Z}_{p^{k-2}}||G_1|\) distinctelements. Since <spanclass="math inline"="">\(\varphi(\varphi(p^k))=p^{k-2}\varphi(\varphi(p^2))=|G_2|\),<span class="math inline">\(G_2\)</span> is the set of all primitiveroots modulo <span class="math inline">\(p^k\)</span> for all <spanclass="math inline"="">\(k\geq 3\).</spanclass="math></spanclass="math></spanclass="math></li></ul></spanclass="math></li><li><span class="math inline">\(G_3\)</span> is the set of all primitiveroots modulo <span class="math inline">\(2p^k\)</span>:<ul><li>Due to the proof of Thm 3.9, the primitive roots modulo <spanclass="math inline"="">\(2p^k\) are of the form <spanclass="math inline"="">\(g\) or <spanclass="math inline"="">\(g+p^k\) for some <spanclass="math inline"="">\(g \in G_2\).</spanclass="math></spanclass="math></spanclass="math></spanclass="math></li><li>Since <spanclass="math inline"="">\(\varphi(\varphi(2p^k))=\varphi(\varphi(p^k))=|G_2|=|G_3|\),<span class="math inline">\(G_3\)</span> is the set of all primitiveroots modulo <span class="math inline">\(2p^k\)</span>.</spanclass="math></li></ul></li></ol>
+          <ol type="1"><li><span class="math inline">\(G_1\)</span> is the set of all primitiveroots modulo <span class="math inline">\(p^2\)</span>:<ul><li>If <span class="math inline">\(g_1\)</span> is a primitive rootmodulo <span class="math inline">\(p^2\)</span>, then <spanclass="math inline"="">\(g_1\) is a primitive root modulo <spanclass="math inline"="">\(p\), so <span class="math inline">\(g_1 = g+ ap\)</span> for some <span class="math inline">\(g \in G\)</span> and<span class="math inline">\(a \in \mathbb{Z}_p\)</span>.<ul><li>If <span class="math inline">\(g_1\)</span> is not a primitive rootmodulo <span class="math inline">\(p\)</span>, then <spanclass="math inline"="">\(g_1^d\equiv 1 \pmod p\) for some <spanclass="math inline"="">\(d\mid p-1\) with <spanclass="math inline"="">\(d&lt;p-1\), thus <spanclass="math inline"="">\((g_1^d)^p = (1+kp)^p \equiv 1 \pmod{p^2}\)with <span class="math inline">\(dp &lt; p(p-1)\)</span>, so <spanclass="math inline"="">\(g_1\) is not a primitive root modulo <spanclass="math inline"="">\(p^2\), which is a contradiction.</spanclass="math></spanclass="math></spanclass="math></spanclass="math></spanclass="math></spanclass="math></li></ul></spanclass="math></spanclass="math></li><li>Suppose <span class="math inline">\(g_1=g+ap\)</span> is a primitiveroot modulo <span class="math inline">\(p^2\)</span>, then we have <spanclass="math display"="">\[  \begin{aligned}  g_1^{p-1} &amp;= (g+ap)^{p-1} = \sum_{i=0}^{p-1} \binom{p-1}{i} g^i(ap)^{p-1-i} \\  &amp;\equiv g^{p-1} + ap(p-1)g^{p-2} \pmod{p^2} \\  &amp;\equiv g^{p-1} - ap g^{p-2} \pmod{p^2} \\  &amp;\not\equiv 1 \pmod{p^2} \\  \end{aligned}  \] Thus <span class="math display">\[  apg^{p-1} \not\equiv g^p-g \pmod{p^2}  \]</span> Since <span class="math inline">\(g\)</span> is a primitiveroot modulo <span class="math inline">\(p\)</span>, thus <spanclass="math inline"="">\(g^{p-1}\equiv 1 \pmod p\), so <spanclass="math inline"="">\(apg^{p-1} \equiv ap(1+kp) \equiv ap\pmod{p^2}\), thus <span class="math display">\[  ap \not\equiv g^p-g \pmod{p^2} \iff a \not\equiv \frac{g^p-g}{p} \pmodp  \]</span> I.e. there is a unique <spanclass="math inline"="">\(a\) not satisfying the condition, so thereare <span class="math inline">\(p-1\)</span> choices for <spanclass="math inline"="">\(a\) for each <spanclass="math inline"="">\(g\in G\).</spanclass="math></spanclass="math></spanclass="math></spanclass="math></spanclass="math></spanclass="math></li><li>So <span class="math inline">\(G_1\)</span> has totally <spanclass="math inline"="">\((p-1)\varphi(\varphi(p))\) distinctelements, and they are all primitive roots modulo <spanclass="math inline"="">\(p^2\). <span class="math display">\[  \begin{aligned}  &amp;g+ap\equiv g'+a'p \pmod{p^2}\\  \implies &amp;g+ap\equiv g'+a'p \pmod p \\  \implies &amp;g\equiv g' \pmod p \\  \implies &amp;g=g' \\  \implies &amp;ap\equiv a'p \pmod{p^2} \\  \implies &amp;a\equiv a' \pmod p \\  \implies &amp;a=a'  \end{aligned}  \]</span></spanclass="math></spanclass="math></li><li>Since <spanclass="math inline"="">\(\varphi(\varphi(p^2))=(p-1)\varphi(\varphi(p))=(p-1)|G|=|G_1|\),<span class="math inline">\(G_1\)</span> is the set of all primitiveroots modulo <span class="math inline">\(p^2\)</span>.</spanclass="math></li></ul></li><li><span class="math inline">\(G_2\)</span> is the set of all primitiveroots modulo <span class="math inline">\(p^k\)</span> for <spanclass="math inline"="">\(k\geq 3\):<ul><li>If <span class="math inline">\(g_2\)</span> is a primitive rootmodulo <span class="math inline">\(p^k\)</span>, then <spanclass="math inline"="">\(g_2\) is a primitive root modulo <spanclass="math inline"="">\(p^2\), so <span class="math inline">\(g_2 =g + ap^2\)</span> for some <span class="math inline">\(g \inG_1\)</span> and <span class="math inline">\(a \in\mathbb{Z}_{p^{k-2}}\)</span>.</spanclass="math></spanclass="math></li><li>Suppose <span class="math inline">\(g_2=g+ap^2\)</span> is aprimitive root modulo <span class="math inline">\(p^k\)</span>, then wehave <span class="math display">\[  \begin{aligned}  g_2^{p^{k-2}(p-1)} &amp;= (g+ap^2)^{p^{k-2}(p-1)} \\  &amp;= \sum_{i=0}^{p^{k-2}(p-1)} \binom{p^{k-2}(p-1)}{i} g^i(ap^2)^{p^{k-2}(p-1)-i} \\  &amp;\equiv g^{p^{k-2}(p-1)} \pmod{p^k} \\  &amp;\not\equiv 1 \pmod{p^k}  \end{aligned}  \]</span> Since <span class="math inline">\(g\)</span> is a primitiveroot modulo <span class="math inline">\(p^2\)</span>, we have <spanclass="math inline"="">\(g^{p-1} \not\equiv 1 \pmod{p^2}\), so <spanclass="math inline"="">\(g^{p^{k-2}(p-1)} \not\equiv 1 \pmod{p^k}\)for all <span class="math inline">\(k\geq 3\)</span>, thus the formulaabove always holds.</spanclass="math></spanclass="math></li><li>So <span class="math inline">\(G_2\)</span> has totally <spanclass="math inline"="">\(|\mathbb{Z}_{p^{k-2}}||G_1|\) distinctelements. Since <spanclass="math inline"="">\(\varphi(\varphi(p^k))=p^{k-2}\varphi(\varphi(p^2))=|G_2|\),<span class="math inline">\(G_2\)</span> is the set of all primitiveroots modulo <span class="math inline">\(p^k\)</span> for all <spanclass="math inline"="">\(k\geq 3\).</spanclass="math></spanclass="math></spanclass="math></li></ul></spanclass="math></li><li><span class="math inline">\(G_3\)</span> is the set of all primitiveroots modulo <span class="math inline">\(2p^k\)</span>:<ul><li>Due to the proof of Thm 3.9, the primitive roots modulo <spanclass="math inline"="">\(2p^k\) are of the form <spanclass="math inline"="">\(g\) or <spanclass="math inline"="">\(g+p^k\) for some <spanclass="math inline"="">\(g \in G_2\).</spanclass="math></spanclass="math></spanclass="math></spanclass="math></li><li>Since <spanclass="math inline"="">\(\varphi(\varphi(2p^k))=\varphi(\varphi(p^k))=|G_2|=|G_3|\),<span class="math inline">\(G_3\)</span> is the set of all primitiveroots modulo <span class="math inline">\(2p^k\)</span>.</spanclass="math></li></ul></li></ol>
         </div>
       </div>
     </div><p></p></li>
@@ -1833,7 +1854,7 @@ k \geq 2\)</span></p>
       </div>
       <div class="fold-collapse collapse" id="collapse-30af1564">
         <div class="fold-content">
-          <ol type="1"><li>Since <spanclass="math inline"="">\(\mathrm{ord}_{p^k}(g)=\varphi(p^k)\), thus<span class="math inline">\(g^{\varphi(p^{k-1})}\not\equiv 1\pmod{p^k}\)</span> and <spanclass="math inline"="">\(g^{\varphi(p^{k-1})}\equiv 1\pmod{p^{k-1}}\), thus <spanclass="math inline"="">\(g^{\varphi(p^{k-1})}=1+ap^{k-1}\) with<span class="math inline">\(\gcd(a,p)=1\)</span>. Since <spanclass="math inline"="">\(p^{k-1}(p-1) = \mathrm{ord}_{p^k}(g) \mid\mathrm{ord}_{p^{k+1}}(g) \mid \varphi(p^{k+1})=p^{k}(p-1)\), wehave <spanclass="math inline"="">\(\mathrm{ord}_{p^{k+1}}(g)=p^{k-1}(p-1)\) or<span class="math inline">\(p^{k}(p-1)\)</span>. Since <spanclass="math display"="">\[\begin{aligned}g^{p^{k-1}(p-1)} &amp;= g^{\varphi(p^{k-1})p} \\&amp;= (1+ap^{k-1})^{p} \\&amp;\equiv 1 + ap^{k} \pmod{p^{k+1}} \\&amp;\not\equiv 1 \pmod{p^{k+1}}\end{aligned}\] So <spanclass="math inline"="">\(\mathrm{ord}_{p^{k+1}}(g)\neq\varphi(p^{k})=p^{k-1}(p-1)\), thus <spanclass="math inline"="">\(\mathrm{ord}_{p^{k+1}}(g)=\varphi(p^{k+1})\).</spanclass="math></spanclass="math></spanclass="math></spanclass="math></spanclass="math></spanclass="math></spanclass="math></spanclass="math></li><li>Suppose <spanclass="math inline"="">\(\mathrm{ord}_{p^{k-1}}(g)=d\), then <spanclass="math inline"="">\(d\mid \varphi(p^{k-1})\) and <spanclass="math inline"="">\(g^d\equiv 1 \pmod{p^{k-1}}\), thus <spanclass="math inline"="">\(g^d=1+ap^{k-1}\) for some <spanclass="math inline"="">\(a\in \mathbb{Z}\), then we have <spanclass="math display"="">\[(g^d)^p = (1+ap^{k-1})^p \equiv 1\pmod{p^{k}}\] So <spanclass="math inline"="">\(\mathrm{ord}_{p^{k}}(g) \mid pd\), thus<span class="math inline">\(\varphi(p^{k})\mid pd\)</span>, thus <spanclass="math inline"="">\(\varphi(p^{k-1})\mid d\), so <spanclass="math inline"="">\(\mathrm{ord}_{p^{k-1}}(g)=d=\varphi(p^{k-1})\).</spanclass="math></spanclass="math></spanclass="math></spanclass="math></spanclass="math></spanclass="math></spanclass="math></spanclass="math></spanclass="math></li></ol>
+          <ol type="1"><li>Since <spanclass="math inline"="">\(\mathrm{ord}_{p^k}(g)=\varphi(p^k)\), thus<span class="math inline">\(g^{\varphi(p^{k-1})}\not\equiv 1\pmod{p^k}\)</span> and <spanclass="math inline"="">\(g^{\varphi(p^{k-1})}\equiv 1\pmod{p^{k-1}}\), thus <spanclass="math inline"="">\(g^{\varphi(p^{k-1})}=1+ap^{k-1}\) with<span class="math inline">\(\gcd(a,p)=1\)</span>. Since <spanclass="math inline"="">\(p^{k-1}(p-1) = \mathrm{ord}_{p^k}(g) \mid\mathrm{ord}_{p^{k+1}}(g) \mid \varphi(p^{k+1})=p^{k}(p-1)\), wehave <spanclass="math inline"="">\(\mathrm{ord}_{p^{k+1}}(g)=p^{k-1}(p-1)\) or<span class="math inline">\(p^{k}(p-1)\)</span>. Since <spanclass="math display"="">\[\begin{aligned}g^{p^{k-1}(p-1)} &amp;= g^{\varphi(p^{k-1})p} \\&amp;= (1+ap^{k-1})^{p} \\&amp;\equiv 1 + ap^{k} \pmod{p^{k+1}} \\&amp;\not\equiv 1 \pmod{p^{k+1}}\end{aligned}\] So <span class="math inline">\(\mathrm{ord}_{p^{k+1}}(g)\neq\varphi(p^{k})=p^{k-1}(p-1)\)</span>, thus <spanclass="math inline"="">\(\mathrm{ord}_{p^{k+1}}(g)=\varphi(p^{k+1})\).</spanclass="math></spanclass="math></spanclass="math></spanclass="math></spanclass="math></spanclass="math></spanclass="math></li><li>Suppose <spanclass="math inline"="">\(\mathrm{ord}_{p^{k-1}}(g)=d\), then <spanclass="math inline"="">\(d\mid \varphi(p^{k-1})\) and <spanclass="math inline"="">\(g^d\equiv 1 \pmod{p^{k-1}}\), thus <spanclass="math inline"="">\(g^d=1+ap^{k-1}\) for some <spanclass="math inline"="">\(a\in \mathbb{Z}\), then we have <spanclass="math display"="">\[(g^d)^p = (1+ap^{k-1})^p \equiv 1 \pmod{p^{k}}\] So <span class="math inline">\(\mathrm{ord}_{p^{k}}(g) \midpd\)</span>, thus <span class="math inline">\(\varphi(p^{k})\midpd\)</span>, thus <span class="math inline">\(\varphi(p^{k-1})\midd\)</span>, so <spanclass="math inline"="">\(\mathrm{ord}_{p^{k-1}}(g)=d=\varphi(p^{k-1})\).</spanclass="math></spanclass="math></spanclass="math></spanclass="math></spanclass="math></spanclass="math></spanclass="math></li></ol>
         </div>
       </div>
     </div><p></p></li>
@@ -1841,7 +1862,9 @@ k \geq 2\)</span></p>
 <h2 id="discrete-logarithm">Discrete Logarithm</h2>
 <ul>
 <li><p><strong>Def 3.14 Discrete Logarithm</strong>: Let <span class="math inline">\(g\)</span> be a primitive root modulo <span class="math inline">\(m\)</span>, then discrete logarithm of <span class="math inline">\(a\)</span> modulo <span class="math inline">\(m\)</span> with <span class="math inline">\(\gcd(a,m)=1\)</span> is defined to be an integer
-<span class="math inline">\(x\)</span> satisfying <span class="math display">\[g^x \equiv a \pmod m\]</span></p>
+<span class="math inline">\(x\)</span> satisfying <span class="math display">\[
+  g^x \equiv a \pmod m
+  \]</span></p>
 <p>Denoted by <span class="math inline">\(x = \log_g a
 \pmod{\varphi(m)}\)</span>.</p></li>
 <li><p><strong>Thm 3.15 Properties of Discrete Logarithms</strong>: Let
@@ -1889,7 +1912,9 @@ Residues</h1>
 <ul>
 <li><p><strong>Def 4.1 Quadratic Residue</strong>: Let <span class="math inline">\(p\)</span> be an odd prime, then <span class="math inline">\(a\in\mathbb{Z}\)</span> with <span class="math inline">\(\gcd(a,p)=1\)</span> is called a quadratic residue
 (QR) modulo <span class="math inline">\(p\)</span> if the congruence
-<span class="math display">\[x^2 \equiv a \pmod p\]</span></p>
+<span class="math display">\[
+  x^2 \equiv a \pmod p
+  \]</span></p>
 <p>has a solution. Otherwise <span class="math inline">\(a\)</span> is
 called a quadratic non-residue (QNR) modulo <span class="math inline">\(p\)</span>.</p></li>
 <li><p><strong>Thm 4.2 Property of QR</strong>:</p>
@@ -1931,11 +1956,13 @@ QNR\)</span>.</p></li>
 <h2 id="legendre-symbol">Legendre Symbol</h2>
 <ul>
 <li><p><strong>Def 4.3 Legendre Symbol</strong>: Let <span class="math inline">\(p\)</span> be an odd prime, then for any <span class="math inline">\(a\in\mathbb{Z}\)</span>, the Legendre symbol <span class="math inline">\(\left(\frac{a}{p}\right)\)</span> is defined as
-<span class="math display">\[\left(\frac{a}{p}\right) = \begin{cases}
+<span class="math display">\[
+  \left(\frac{a}{p}\right) = \begin{cases}
       0 ,&amp; p \mid a \\
       1 ,&amp; a \text{ is a QR modulo } p \\
       -1 ,&amp; a \text{ is a QNR modulo } p
-  \end{cases}\]</span></p></li>
+  \end{cases}
+  \]</span></p></li>
 <li><p><strong>Thm 4.4</strong>: The number of solutions to <span class="math inline">\(x^2 \equiv a \pmod p\)</span> is <span class="math inline">\(1 + \left(\frac{a}{p}\right)\)</span>.</p>
 <p>
     </p><div class="fold">
@@ -1948,8 +1975,9 @@ QNR\)</span>.</p></li>
         </div>
       </div>
     </div><p></p></li>
-<li><p><strong>Thm 4.5 Euler’s Criterion</strong>: Let <span class="math inline">\(p\)</span> be an odd prime, then <span class="math display">\[\left(\frac{a}{p}\right) \equiv a^{\frac{p-1}{2}}
-\pmod p\]</span></p>
+<li><p><strong>Thm 4.5 Euler’s Criterion</strong>: Let <span class="math inline">\(p\)</span> be an odd prime, then <span class="math display">\[
+  \left(\frac{a}{p}\right) \equiv a^{\frac{p-1}{2}} \pmod p
+  \]</span></p>
 <p>
     </p><div class="fold">
       <div class="fold-title fold-info collapsed" data-toggle="collapse" href="#collapse-7791f3a0" role="button" aria-expanded="false" aria-controls="collapse-7791f3a0">
@@ -1957,7 +1985,7 @@ QNR\)</span>.</p></li>
       </div>
       <div class="fold-collapse collapse" id="collapse-7791f3a0">
         <div class="fold-content">
-          <ol type="1"><li><strong>Case 1</strong>: <span class="math inline">\(p \mida\)</span>, then <span class="math inline">\(a=kp\)</span> for some<span class="math inline">\(k\in\mathbb{Z}\)</span>. Then <spanclass="math inline"="">\(\left(\frac{a}{p}\right) \equiv 0 \equiv(kp)^{\frac{p-1}{2}} \pmod p\), done.</spanclass="math></li><li><strong>Case 2</strong>: <span class="math inline">\(a\)</span> is aQR modulo <span class="math inline">\(p\)</span>, then <spanclass="math inline"="">\(a \equiv g^{2k} \pmod p\) for some <spanclass="math inline"="">\(k\in\mathbb{Z}\). Then <spanclass="math inline"="">\(\left(\frac{a}{p}\right) \equiv 1 \equiv(g^{2k})^{\frac{p-1}{2}} \equiv g^{(p-1)k} \pmod p\), done.</spanclass="math></spanclass="math></spanclass="math></li><li><strong>Case 3</strong>: <span class="math inline">\(a\)</span> is aQNR modulo <span class="math inline">\(p\)</span>, then <spanclass="math inline"="">\((a^{\frac{p-1}{2}})^2 \equiv a^{p-1} \equiv 1\pmod p\), i.e.&nbsp;<spanclass="math inline"="">\(a^{\frac{p-1}{2}}\) is a solution to <spanclass="math inline"="">\(x^2 \equiv 1 \pmod p\), thus <spanclass="math inline"="">\(a^{\frac{p-1}{2}} \equiv \pm 1 \pmod p\).Let <span class="math inline">\(a\equiv g^k \pmod p\)</span> with odd<span class="math inline">\(k\)</span>, then <spanclass="math display"="">\[\mathrm{ord}_p(a) = \mathrm{ord}_p(g^k) =\frac{\mathrm{ord}_p(g)}{\gcd(\mathrm{ord}_p(g), k)} =\frac{p-1}{\gcd(p-1, k)}\] Suppose <spanclass="math inline"="">\(a^{\frac{p-1}{2}} \equiv 1 \pmod p\), then<span class="math inline">\(\frac{p-1}{\gcd(p-1, k)} \mid\frac{p-1}{2}\)</span>, i.e.&nbsp;<span class="math inline">\(\existst\in\mathbb{Z}\)</span> s.t. <spanclass="math inline"="">\(\frac{p-1}{\gcd(p-1, k)} \cdot t =\frac{p-1}{2}\), thus <span class="math inline">\(\gcd(p-1, k) =2t\)</span>, which contradicts the fact that <spanclass="math inline"="">\(k\) is odd. Thus <spanclass="math inline"="">\(a^{\frac{p-1}{2}} \equiv -1 \pmod p\),done.</spanclass="math></spanclass="math></spanclass="math></spanclass="math></spanclass="math></spanclass="math></spanclass="math></spanclass="math></spanclass="math></li></ol>
+          <ol type="1"><li><strong>Case 1</strong>: <span class="math inline">\(p \mida\)</span>, then <span class="math inline">\(a=kp\)</span> for some<span class="math inline">\(k\in\mathbb{Z}\)</span>. Then <spanclass="math inline"="">\(\left(\frac{a}{p}\right) \equiv 0 \equiv(kp)^{\frac{p-1}{2}} \pmod p\), done.</spanclass="math></li><li><strong>Case 2</strong>: <span class="math inline">\(a\)</span> is aQR modulo <span class="math inline">\(p\)</span>, then <spanclass="math inline"="">\(a \equiv g^{2k} \pmod p\) for some <spanclass="math inline"="">\(k\in\mathbb{Z}\). Then <spanclass="math inline"="">\(\left(\frac{a}{p}\right) \equiv 1 \equiv(g^{2k})^{\frac{p-1}{2}} \equiv g^{(p-1)k} \pmod p\), done.</spanclass="math></spanclass="math></spanclass="math></li><li><strong>Case 3</strong>: <span class="math inline">\(a\)</span> is aQNR modulo <span class="math inline">\(p\)</span>, then <spanclass="math inline"="">\((a^{\frac{p-1}{2}})^2 \equiv a^{p-1} \equiv 1\pmod p\), i.e.&nbsp;<spanclass="math inline"="">\(a^{\frac{p-1}{2}}\) is a solution to <spanclass="math inline"="">\(x^2 \equiv 1 \pmod p\), thus <spanclass="math inline"="">\(a^{\frac{p-1}{2}} \equiv \pm 1 \pmod p\).Let <span class="math inline">\(a\equiv g^k \pmod p\)</span> with odd<span class="math inline">\(k\)</span>, then <spanclass="math display"="">\[\mathrm{ord}_p(a) = \mathrm{ord}_p(g^k) =\frac{\mathrm{ord}_p(g)}{\gcd(\mathrm{ord}_p(g), k)} =\frac{p-1}{\gcd(p-1, k)}\] Suppose <span class="math inline">\(a^{\frac{p-1}{2}} \equiv 1\pmod p\)</span>, then <span class="math inline">\(\frac{p-1}{\gcd(p-1,k)} \mid \frac{p-1}{2}\)</span>, i.e.&nbsp;<spanclass="math inline"="">\(\exists t\in\mathbb{Z}\) s.t. <spanclass="math inline"="">\(\frac{p-1}{\gcd(p-1, k)} \cdot t =\frac{p-1}{2}\), thus <span class="math inline">\(\gcd(p-1, k) =2t\)</span>, which contradicts the fact that <spanclass="math inline"="">\(k\) is odd. Thus <spanclass="math inline"="">\(a^{\frac{p-1}{2}} \equiv -1 \pmod p\),done.</spanclass="math></spanclass="math></spanclass="math></spanclass="math></spanclass="math></spanclass="math></spanclass="math></spanclass="math></spanclass="math></li></ol>
         </div>
       </div>
     </div><p></p></li>
@@ -1981,7 +2009,7 @@ QNR\)</span>.</p></li>
       </div>
       <div class="fold-collapse collapse" id="collapse-64804395">
         <div class="fold-content">
-          <ol type="1"><li>By Euler’s Criterion, <spanclass="math inline"="">\(\left(\frac{mn}{p}\right) \equiv(mn)^{\frac{p-1}{2}} \equiv m^{\frac{p-1}{2}} n^{\frac{p-1}{2}} \equiv\left(\frac{m}{p}\right)\left(\frac{n}{p}\right) \pmod p\). Since<span class="math inline">\(\left(\frac{mn}{p}\right),\left(\frac{m}{p}\right), \left(\frac{n}{p}\right) \in \{-1, 0,1\}\)</span>, we have <spanclass="math inline"="">\(\left(\frac{mn}{p}\right) =\left(\frac{m}{p}\right)\left(\frac{n}{p}\right)\), done.</spanclass="math></spanclass="math></li><li>By Euler’s Criterion, <spanclass="math inline"="">\(\left(\frac{-1}{p}\right) \equiv(-1)^{\frac{p-1}{2}} \pmod p\). Since <spanclass="math inline"="">\(\left(\frac{-1}{p}\right), (-1)^{\frac{p-1}{2}}\in \{-1, 1\}\), we have <spanclass="math inline"="">\(\left(\frac{-1}{p}\right) =(-1)^{\frac{p-1}{2}}\). If <span class="math inline">\(p \equiv 1\pmod 4\)</span>, then <spanclass="math inline"="">\(\frac{p-1}{2}\) is even, thus <spanclass="math inline"="">\(\left(\frac{-1}{p}\right) = 1\). If <spanclass="math inline"="">\(p \equiv 3 \pmod 4\), then <spanclass="math inline"="">\(\frac{p-1}{2}\) is odd, thus <spanclass="math inline"="">\(\left(\frac{-1}{p}\right) = -1\),done.</spanclass="math></spanclass="math></spanclass="math></spanclass="math></spanclass="math></spanclass="math></spanclass="math></spanclass="math></li><li>Consider <span class="math inline">\(S = 2\cdot 4\cdot 6\cdots (p-1)= 2^{\frac{p-1}{2}} \cdot 1\cdot 2\cdot 3\cdots \frac{p-1}{2} \equiv2^{\frac{p-1}{2}} \cdot \left(\frac{p-1}{2}\right)! \pmod p\)</span>.<ul><li>Case 1: <span class="math inline">\(p \equiv 1 \pmod 4\)</span>:<span class="math display">\[\begin{aligned}  S &amp;\equiv 2\cdot 4\cdot 6\cdots (p-1) \\  &amp;= 2\cdot 4\cdots \frac{p-1}{2} \cdot \frac{p+3}{2} \cdot\frac{p+7}{2} \cdots (p-1) \\  &amp;\equiv 2\cdot 4\cdots \frac{p-1}{2} \cdot (\frac{p+3}{2}-p) \cdot(\frac{p+7}{2}-p) \cdots (p-1-p) \pmod p \\  &amp;\equiv 2\cdot 4\cdots \frac{p-1}{2} \cdot (-\frac{p-3}{2}) \cdot(-\frac{p-7}{2}) \cdots (-1) \pmod p \\  &amp;\equiv (-1)^{\frac{p-1}{4}} \cdot (\frac{p-1}{2})! \pmod p \\  \end{aligned}\]</span> Thus <spanclass="math inline"="">\(2^{\frac{p-1}{2}} \equiv (-1)^{\frac{p-1}{4}}\pmod p\), i.e.&nbsp;<spanclass="math inline"="">\(\left(\frac{2}{p}\right) =(-1)^{\frac{p-1}{4}}\). If <span class="math inline">\(p \equiv 1\pmod 8\)</span>, then <spanclass="math inline"="">\(\frac{p-1}{4}\) is even, thus <spanclass="math inline"="">\(\left(\frac{2}{p}\right) = 1\). If <spanclass="math inline"="">\(p \equiv 5 \pmod 8\), then <spanclass="math inline"="">\(\frac{p-1}{4}\) is odd, thus <spanclass="math inline"="">\(\left(\frac{2}{p}\right) = -1\), done.</spanclass="math></spanclass="math></spanclass="math></spanclass="math></spanclass="math></spanclass="math></spanclass="math></li><li>Case 2: <span class="math inline">\(p \equiv 3 \pmod 4\)</span>:<span class="math display">\[\begin{aligned}  S &amp;\equiv 2\cdot 4\cdot 6\cdots (p-1) \\  &amp;= 2\cdot 4\cdots \frac{p-3}{2} \cdot \frac{p+1}{2} \cdot\frac{p+5}{2} \cdots (p-1) \\  &amp;\equiv 2\cdot 4\cdots \frac{p-3}{2} \cdot (\frac{p+1}{2}-p) \cdot(\frac{p+5}{2}-p) \cdots (p-1-p) \pmod p \\  &amp;\equiv 2\cdot 4\cdots \frac{p-3}{2} \cdot (-\frac{p-1}{2}) \cdot(-\frac{p-5}{2}) \cdots (-1) \pmod p \\  &amp;\equiv (-1)^{\frac{p+1}{4}} \cdot (\frac{p-1}{2})! \pmod p \\  \end{aligned}\]</span> Thus <spanclass="math inline"="">\(2^{\frac{p-1}{2}} \equiv (-1)^{\frac{p+1}{4}}\pmod p\), i.e.&nbsp;<spanclass="math inline"="">\(\left(\frac{2}{p}\right) =(-1)^{\frac{p+1}{4}}\). If <span class="math inline">\(p \equiv 3\pmod 8\)</span>, then <spanclass="math inline"="">\(\frac{p+1}{4}\) is odd, thus <spanclass="math inline"="">\(\left(\frac{2}{p}\right) = -1\). If <spanclass="math inline"="">\(p \equiv 7 \pmod 8\), then <spanclass="math inline"="">\(\frac{p+1}{4}\) is even, thus <spanclass="math inline"="">\(\left(\frac{2}{p}\right) = 1\), done.</spanclass="math></spanclass="math></spanclass="math></spanclass="math></spanclass="math></spanclass="math></spanclass="math></li><li>Thus, combine the two cases, we have <spanclass="math inline"="">\(\left(\frac{2}{p}\right) =(-1)^{\frac{p^2-1}{8}}\), done.</spanclass="math></li></ul></li><li>Since <span class="math inline">\(\left(\frac{0}{p}\right) =0\)</span>, <span class="math inline">\(\left(\frac{a}{p}\right) =1\)</span> for <span class="math inline">\(\frac{p-1}{2}\)</span> <spanclass="math inline"="">\(QR\) and <spanclass="math inline"="">\(\left(\frac{a}{p}\right) = -1\) for <spanclass="math inline"="">\(\frac{p-1}{2}\) <spanclass="math inline"="">\(QNR\), we have <spanclass="math inline"="">\(\sum_{a\in\mathbb{Z}_p} \left(\frac{a}{p}\right) =0 + \frac{p-1}{2} \cdot 1 + \frac{p-1}{2} \cdot (-1) = 0\),done.</spanclass="math></spanclass="math></spanclass="math></spanclass="math></spanclass="math></li></ol>
+          <ol type="1"><li>By Euler’s Criterion, <spanclass="math inline"="">\(\left(\frac{mn}{p}\right) \equiv(mn)^{\frac{p-1}{2}} \equiv m^{\frac{p-1}{2}} n^{\frac{p-1}{2}} \equiv\left(\frac{m}{p}\right)\left(\frac{n}{p}\right) \pmod p\). Since<span class="math inline">\(\left(\frac{mn}{p}\right),\left(\frac{m}{p}\right), \left(\frac{n}{p}\right) \in \{-1, 0,1\}\)</span>, we have <spanclass="math inline"="">\(\left(\frac{mn}{p}\right) =\left(\frac{m}{p}\right)\left(\frac{n}{p}\right)\), done.</spanclass="math></spanclass="math></li><li>By Euler’s Criterion, <spanclass="math inline"="">\(\left(\frac{-1}{p}\right) \equiv(-1)^{\frac{p-1}{2}} \pmod p\). Since <spanclass="math inline"="">\(\left(\frac{-1}{p}\right), (-1)^{\frac{p-1}{2}}\in \{-1, 1\}\), we have <spanclass="math inline"="">\(\left(\frac{-1}{p}\right) =(-1)^{\frac{p-1}{2}}\). If <span class="math inline">\(p \equiv 1\pmod 4\)</span>, then <spanclass="math inline"="">\(\frac{p-1}{2}\) is even, thus <spanclass="math inline"="">\(\left(\frac{-1}{p}\right) = 1\). If <spanclass="math inline"="">\(p \equiv 3 \pmod 4\), then <spanclass="math inline"="">\(\frac{p-1}{2}\) is odd, thus <spanclass="math inline"="">\(\left(\frac{-1}{p}\right) = -1\),done.</spanclass="math></spanclass="math></spanclass="math></spanclass="math></spanclass="math></spanclass="math></spanclass="math></spanclass="math></li><li>Consider <span class="math inline">\(S = 2\cdot 4\cdot 6\cdots (p-1)= 2^{\frac{p-1}{2}} \cdot 1\cdot 2\cdot 3\cdots \frac{p-1}{2} \equiv2^{\frac{p-1}{2}} \cdot \left(\frac{p-1}{2}\right)! \pmod p\)</span>.<ul><li>Case 1: <span class="math inline">\(p \equiv 1 \pmod 4\)</span>:<span class="math display">\[  \begin{aligned}  S &amp;\equiv 2\cdot 4\cdot 6\cdots (p-1) \\  &amp;= 2\cdot 4\cdots \frac{p-1}{2} \cdot \frac{p+3}{2} \cdot\frac{p+7}{2} \cdots (p-1) \\  &amp;\equiv 2\cdot 4\cdots \frac{p-1}{2} \cdot (\frac{p+3}{2}-p) \cdot(\frac{p+7}{2}-p) \cdots (p-1-p) \pmod p \\  &amp;\equiv 2\cdot 4\cdots \frac{p-1}{2} \cdot (-\frac{p-3}{2}) \cdot(-\frac{p-7}{2}) \cdots (-1) \pmod p \\  &amp;\equiv (-1)^{\frac{p-1}{4}} \cdot (\frac{p-1}{2})! \pmod p \\  \end{aligned}  \]</span> Thus <span class="math inline">\(2^{\frac{p-1}{2}} \equiv(-1)^{\frac{p-1}{4}} \pmod p\)</span>, i.e.&nbsp;<spanclass="math inline"="">\(\left(\frac{2}{p}\right) =(-1)^{\frac{p-1}{4}}\). If <span class="math inline">\(p \equiv 1\pmod 8\)</span>, then <spanclass="math inline"="">\(\frac{p-1}{4}\) is even, thus <spanclass="math inline"="">\(\left(\frac{2}{p}\right) = 1\). If <spanclass="math inline"="">\(p \equiv 5 \pmod 8\), then <spanclass="math inline"="">\(\frac{p-1}{4}\) is odd, thus <spanclass="math inline"="">\(\left(\frac{2}{p}\right) = -1\), done.</spanclass="math></spanclass="math></spanclass="math></spanclass="math></spanclass="math></spanclass="math></li><li>Case 2: <span class="math inline">\(p \equiv 3 \pmod 4\)</span>:<span class="math display">\[  \begin{aligned}  S &amp;\equiv 2\cdot 4\cdot 6\cdots (p-1) \\  &amp;= 2\cdot 4\cdots \frac{p-3}{2} \cdot \frac{p+1}{2} \cdot\frac{p+5}{2} \cdots (p-1) \\  &amp;\equiv 2\cdot 4\cdots \frac{p-3}{2} \cdot (\frac{p+1}{2}-p) \cdot(\frac{p+5}{2}-p) \cdots (p-1-p) \pmod p \\  &amp;\equiv 2\cdot 4\cdots \frac{p-3}{2} \cdot (-\frac{p-1}{2}) \cdot(-\frac{p-5}{2}) \cdots (-1) \pmod p \\  &amp;\equiv (-1)^{\frac{p+1}{4}} \cdot (\frac{p-1}{2})! \pmod p \\  \end{aligned}  \]</span> Thus <span class="math inline">\(2^{\frac{p-1}{2}} \equiv(-1)^{\frac{p+1}{4}} \pmod p\)</span>, i.e.&nbsp;<spanclass="math inline"="">\(\left(\frac{2}{p}\right) =(-1)^{\frac{p+1}{4}}\). If <span class="math inline">\(p \equiv 3\pmod 8\)</span>, then <spanclass="math inline"="">\(\frac{p+1}{4}\) is odd, thus <spanclass="math inline"="">\(\left(\frac{2}{p}\right) = -1\). If <spanclass="math inline"="">\(p \equiv 7 \pmod 8\), then <spanclass="math inline"="">\(\frac{p+1}{4}\) is even, thus <spanclass="math inline"="">\(\left(\frac{2}{p}\right) = 1\), done.</spanclass="math></spanclass="math></spanclass="math></spanclass="math></spanclass="math></spanclass="math></li><li>Thus, combine the two cases, we have <spanclass="math inline"="">\(\left(\frac{2}{p}\right) =(-1)^{\frac{p^2-1}{8}}\), done.</spanclass="math></li></ul></li><li>Since <span class="math inline">\(\left(\frac{0}{p}\right) =0\)</span>, <span class="math inline">\(\left(\frac{a}{p}\right) =1\)</span> for <span class="math inline">\(\frac{p-1}{2}\)</span> <spanclass="math inline"="">\(QR\) and <spanclass="math inline"="">\(\left(\frac{a}{p}\right) = -1\) for <spanclass="math inline"="">\(\frac{p-1}{2}\) <spanclass="math inline"="">\(QNR\), we have <spanclass="math inline"="">\(\sum_{a\in\mathbb{Z}_p} \left(\frac{a}{p}\right) =0 + \frac{p-1}{2} \cdot 1 + \frac{p-1}{2} \cdot (-1) = 0\),done.</spanclass="math></spanclass="math></spanclass="math></spanclass="math></spanclass="math></li></ol>
         </div>
       </div>
     </div><p></p></li>
@@ -1993,8 +2021,10 @@ QNR\)</span>.</p></li>
 <span class="math inline">\(m = \prod_{i=1}^r p_i^{e_i}\)</span> with
 <span class="math inline">\(p_i\)</span> are distinct odd primes and
 <span class="math inline">\(e_i \geq 1\)</span>, then for any <span class="math inline">\(a\in\mathbb{Z}\)</span>, the Jacobi symbol <span class="math inline">\(\left(\frac{a}{m}\right)\)</span> is defined as
-<span class="math display">\[\left(\frac{a}{m}\right) = \prod_{i=1}^r
-\left(\frac{a}{p_i}\right)^{e_i}\]</span></li>
+<span class="math display">\[
+  \left(\frac{a}{m}\right) = \prod_{i=1}^r
+\left(\frac{a}{p_i}\right)^{e_i}
+  \]</span></li>
 <li><strong>Thm 4.8 Properties of Jacobi Symbol</strong>: Let <span class="math inline">\(m,n\geq 3\)</span> be odd integers, then for any
 <span class="math inline">\(a, b\in\mathbb{Z}\)</span>, we have
 <ol type="1">
@@ -2018,15 +2048,17 @@ QNR\)</span>.</p></li>
       </div>
       <div class="fold-collapse collapse" id="collapse-f48b1a15">
         <div class="fold-content">
-          <ol type="1"><li>Let <span class="math inline">\(m = \prod_{i=1}^r p_i^{e_i}\)</span>be the standard factorization of <span class="math inline">\(m\)</span>,then<ul><li><span class="math inline">\(\implies\)</span>: Assume <spanclass="math inline"="">\(\left(\frac{a}{m}\right) = 0\), then <spanclass="math inline"="">\(\exists i\in\{1, 2, \cdots, r\}\) s.t.<span class="math inline">\(\left(\frac{a}{p_i}\right) = 0\)</span>,thus <span class="math inline">\(p_i \mid a\)</span>, so <spanclass="math inline"="">\(p_i \mid \gcd(a, m)\), thus <spanclass="math inline"="">\(\gcd(a, m) &gt; 1\), done.</spanclass="math></spanclass="math></spanclass="math></spanclass="math></li><li><span class="math inline">\(\impliedby\)</span>: Assume <spanclass="math inline"="">\(\gcd(a, m) &gt; 1\), then <spanclass="math inline"="">\(\exists i\in\{1, 2, \cdots, r\}\) s.t.<span class="math inline">\(p_i \mid a\)</span>, thus <spanclass="math inline"="">\(\left(\frac{a}{p_i}\right) = 0\), so <spanclass="math inline"="">\(\left(\frac{a}{m}\right) = 0\), done.</spanclass="math></spanclass="math></spanclass="math></spanclass="math></li></ul></li><li>We have <span class="math display">\[\begin{aligned}\left(\frac{ab}{m}\right) &amp;= \prod_{i=1}^r\left(\frac{ab}{p_i}\right)^{e_i} \\&amp;= \prod_{i=1}^r \left(\frac{a}{p_i}\right)^{e_i} \cdot\prod_{i=1}^r \left(\frac{b}{p_i}\right)^{e_i} \\&amp;= \left(\frac{a}{m}\right)\left(\frac{b}{m}\right)\end{aligned}\]</span></li><li>Let <span class="math inline">\(m=\prod_{i=1}^r p_i^{e_i}\)</span>and <span class="math inline">\(n=\prod_{i=1}^r p_i^{f_i}\)</span> with<span class="math inline">\(e_i, f_i \geq 0\)</span>, then <spanclass="math display"="">\[\begin{aligned}\left(\frac{a}{mn}\right) &amp;= \left(\frac{a}{\prod_{i=1}^rp_i^{e_i+f_i}}\right) = \prod_{i=1}^r\left(\frac{a}{p_i}\right)^{e_i+f_i} \\&amp;= \prod_{i=1}^r \left(\frac{a}{p_i}\right)^{e_i} \cdot\prod_{i=1}^r \left(\frac{a}{p_i}\right)^{f_i} \\&amp;= \left(\frac{a}{m}\right)\left(\frac{a}{n}\right)\end{aligned}\]</spanclass="math></li><li>Follows from (1), (2) and (3).</li><li>Proof of 5:<ul><li><strong>Method 1</strong>: Let <span class="math inline">\(m =\prod_{i=1}^r p_i^{e_i}\)</span> be the standard factorization of <spanclass="math inline"="">\(m\), then <spanclass="math display"="">\[\begin{aligned}  \left(\frac{-1}{m}\right) &amp;= \prod_{i=1}^r\left(\frac{-1}{p_i}\right)^{e_i} \\  &amp;= \prod_{i=1}^r (-1)^{\frac{p_i-1}{2} e_i} \\  &amp;= (-1)^{\sum_{i=1}^r \frac{p_i-1}{2} e_i} \overset{?}{=}(-1)^{\frac{m-1}{2}}  \end{aligned}\] Claim that <spanclass="math inline"="">\(\sum_{i=1}^r \frac{p_i-1}{2} e_i \equiv\frac{m-1}{2} \pmod 2\).</spanclass="math></spanclass="math></spanclass="math></li><li><strong>Method 2</strong>: We can prove by induction on <spanclass="math inline"="">\(m\):<ol type="1"><li>If <span class="math inline">\(m=3\)</span>, done.</li><li>Assume the claim holds for all odd integers <spanclass="math inline"="">\(\leq m\), then consider <spanclass="math inline"="">\(m+2 = pk\) for some odd prime <spanclass="math inline"="">\(p\) and odd integer <spanclass="math inline"="">\(k\geq 1\). Then <spanclass="math display"="">\[\begin{aligned}\left(\frac{-1}{m+2}\right) &amp;= \left(\frac{-1}{pk}\right) =\left(\frac{-1}{p}\right)\left(\frac{-1}{k}\right) \\&amp;= (-1)^{\frac{p-1}{2}} \cdot (-1)^{\frac{k-1}{2}} \\&amp;= (-1)^{\frac{p-1}{2} + \frac{k-1}{2}}\end{aligned}\] It is sufficient to prove <spanclass="math inline"="">\(\frac{p-1}{2} + \frac{k-1}{2} \equiv\frac{pk-1}{2} \pmod 2\). Let <span class="math inline">\(p = 2u+ 1\)</span> and <span class="math inline">\(k = 2v + 1\)</span>, then<span class="math display">\[\begin{aligned}&amp;\frac{p-1}{2} + \frac{k-1}{2} - \frac{pk-1}{2} \\=&amp; \frac{p+k-pk-1}{2} \\=&amp; \frac{-(p-1)(k-1)}{2} \\=&amp; -2uv \equiv 0 \pmod 2\end{aligned}\]</span> Thus <span class="math inline">\(\frac{p-1}{2} +\frac{k-1}{2} \equiv \frac{pk-1}{2} \pmod 2\)</span>, done.</spanclass="math></spanclass="math></spanclass="math></spanclass="math></spanclass="math></spanclass="math></li></ol></spanclass="math></li></ul></li><li>Similar to (5), we can prove by induction on <spanclass="math inline"="">\(m\):<ol type="1"><li>If <span class="math inline">\(m=3\)</span>, done.</li><li>Assume the claim holds for all odd integers <spanclass="math inline"="">\(\leq m\), then consider <spanclass="math inline"="">\(m+2 = pk\) for some odd prime <spanclass="math inline"="">\(p\) and odd integer <spanclass="math inline"="">\(k\geq 1\). Then <spanclass="math display"="">\[\begin{aligned}\left(\frac{2}{m+2}\right) &amp;= \left(\frac{2}{pk}\right) =\left(\frac{2}{p}\right)\left(\frac{2}{k}\right) \\&amp;= (-1)^{\frac{p^2-1}{8}} \cdot (-1)^{\frac{k^2-1}{8}} \\&amp;= (-1)^{\frac{p^2-1}{8} + \frac{k^2-1}{8}}\end{aligned}\] It is sufficient to prove <spanclass="math inline"="">\(\frac{p^2-1}{8} + \frac{k^2-1}{8} \equiv\frac{(pk)^2-1}{8} \pmod 2\). Let <span class="math inline">\(p =2u + 1\)</span> and <span class="math inline">\(k = 2v + 1\)</span>,then <span class="math display">\[\begin{aligned}     &amp;\frac{p^2-1}{8} + \frac{k^2-1}{8} - \frac{(pk)^2-1}{8} \\     =&amp; \frac{p^2+k^2-(pk)^2-1}{8} \\     =&amp; \frac{-(p^2-1)(k^2-1)}{8} \\     =&amp; \frac{-(4u(u+1))(4v(v+1))}{8} \\     =&amp; -2u(u+1)v(v+1) \equiv 0 \pmod 2     \end{aligned}\]</span> Thus <spanclass="math inline"="">\(\frac{p^2-1}{8} + \frac{k^2-1}{8} \equiv\frac{(pk)^2-1}{8} \pmod 2\), done.</spanclass="math></spanclass="math></spanclass="math></spanclass="math></spanclass="math></spanclass="math></spanclass="math></li></ol></spanclass="math></li></ol>
+          <ol type="1"><li>Let <span class="math inline">\(m = \prod_{i=1}^r p_i^{e_i}\)</span>be the standard factorization of <span class="math inline">\(m\)</span>,then<ul><li><span class="math inline">\(\implies\)</span>: Assume <spanclass="math inline"="">\(\left(\frac{a}{m}\right) = 0\), then <spanclass="math inline"="">\(\exists i\in\{1, 2, \cdots, r\}\) s.t.<span class="math inline">\(\left(\frac{a}{p_i}\right) = 0\)</span>,thus <span class="math inline">\(p_i \mid a\)</span>, so <spanclass="math inline"="">\(p_i \mid \gcd(a, m)\), thus <spanclass="math inline"="">\(\gcd(a, m) &gt; 1\), done.</spanclass="math></spanclass="math></spanclass="math></spanclass="math></li><li><span class="math inline">\(\impliedby\)</span>: Assume <spanclass="math inline"="">\(\gcd(a, m) &gt; 1\), then <spanclass="math inline"="">\(\exists i\in\{1, 2, \cdots, r\}\) s.t.<span class="math inline">\(p_i \mid a\)</span>, thus <spanclass="math inline"="">\(\left(\frac{a}{p_i}\right) = 0\), so <spanclass="math inline"="">\(\left(\frac{a}{m}\right) = 0\), done.</spanclass="math></spanclass="math></spanclass="math></spanclass="math></li></ul></li><li>We have <span class="math display">\[\begin{aligned}\left(\frac{ab}{m}\right) &amp;= \prod_{i=1}^r\left(\frac{ab}{p_i}\right)^{e_i} \\&amp;= \prod_{i=1}^r \left(\frac{a}{p_i}\right)^{e_i} \cdot\prod_{i=1}^r \left(\frac{b}{p_i}\right)^{e_i} \\&amp;= \left(\frac{a}{m}\right)\left(\frac{b}{m}\right)\end{aligned}\]</span></li><li>Let <span class="math inline">\(m=\prod_{i=1}^r p_i^{e_i}\)</span>and <span class="math inline">\(n=\prod_{i=1}^r p_i^{f_i}\)</span> with<span class="math inline">\(e_i, f_i \geq 0\)</span>, then <spanclass="math display"="">\[\begin{aligned}\left(\frac{a}{mn}\right) &amp;= \left(\frac{a}{\prod_{i=1}^rp_i^{e_i+f_i}}\right) = \prod_{i=1}^r\left(\frac{a}{p_i}\right)^{e_i+f_i} \\&amp;= \prod_{i=1}^r \left(\frac{a}{p_i}\right)^{e_i} \cdot\prod_{i=1}^r \left(\frac{a}{p_i}\right)^{f_i} \\&amp;= \left(\frac{a}{m}\right)\left(\frac{a}{n}\right)\end{aligned}\]</spanclass="math></li><li>Follows from (1), (2) and (3).</li><li>Proof of 5:<ul><li><strong>Method 1</strong>: Let <span class="math inline">\(m =\prod_{i=1}^r p_i^{e_i}\)</span> be the standard factorization of <spanclass="math inline"="">\(m\), then <span class="math display">\[  \begin{aligned}  \left(\frac{-1}{m}\right) &amp;= \prod_{i=1}^r\left(\frac{-1}{p_i}\right)^{e_i} \\  &amp;= \prod_{i=1}^r (-1)^{\frac{p_i-1}{2} e_i} \\  &amp;= (-1)^{\sum_{i=1}^r \frac{p_i-1}{2} e_i} \overset{?}{=}(-1)^{\frac{m-1}{2}}  \end{aligned}  \]</span> Claim that <span class="math inline">\(\sum_{i=1}^r\frac{p_i-1}{2} e_i \equiv \frac{m-1}{2} \pmod 2\)</span>.</spanclass="math></li><li><strong>Method 2</strong>: We can prove by induction on <spanclass="math inline"="">\(m\):<ol type="1"><li>If <span class="math inline">\(m=3\)</span>, done.</li><li>Assume the claim holds for all odd integers <spanclass="math inline"="">\(\leq m\), then consider <spanclass="math inline"="">\(m+2 = pk\) for some odd prime <spanclass="math inline"="">\(p\) and odd integer <spanclass="math inline"="">\(k\geq 1\). Then <spanclass="math display"="">\[\begin{aligned}\left(\frac{-1}{m+2}\right) &amp;= \left(\frac{-1}{pk}\right) =\left(\frac{-1}{p}\right)\left(\frac{-1}{k}\right) \\&amp;= (-1)^{\frac{p-1}{2}} \cdot (-1)^{\frac{k-1}{2}} \\&amp;= (-1)^{\frac{p-1}{2} + \frac{k-1}{2}}\end{aligned}\] It is sufficient to prove <spanclass="math inline"="">\(\frac{p-1}{2} + \frac{k-1}{2} \equiv\frac{pk-1}{2} \pmod 2\). Let <span class="math inline">\(p = 2u+ 1\)</span> and <span class="math inline">\(k = 2v + 1\)</span>, then<span class="math display">\[\begin{aligned}&amp;\frac{p-1}{2} + \frac{k-1}{2} - \frac{pk-1}{2} \\=&amp; \frac{p+k-pk-1}{2} \\=&amp; \frac{-(p-1)(k-1)}{2} \\=&amp; -2uv \equiv 0 \pmod 2\end{aligned}\]</span> Thus <span class="math inline">\(\frac{p-1}{2} + \frac{k-1}{2}\equiv \frac{pk-1}{2} \pmod 2\)</span>, done.</spanclass="math></spanclass="math></spanclass="math></spanclass="math></spanclass="math></spanclass="math></li></ol></spanclass="math></li></ul></li><li>Similar to (5), we can prove by induction on <spanclass="math inline"="">\(m\):<ol type="1"><li>If <span class="math inline">\(m=3\)</span>, done.</li><li>Assume the claim holds for all odd integers <spanclass="math inline"="">\(\leq m\), then consider <spanclass="math inline"="">\(m+2 = pk\) for some odd prime <spanclass="math inline"="">\(p\) and odd integer <spanclass="math inline"="">\(k\geq 1\). Then <spanclass="math display"="">\[\begin{aligned}\left(\frac{2}{m+2}\right) &amp;= \left(\frac{2}{pk}\right) =\left(\frac{2}{p}\right)\left(\frac{2}{k}\right) \\&amp;= (-1)^{\frac{p^2-1}{8}} \cdot (-1)^{\frac{k^2-1}{8}} \\&amp;= (-1)^{\frac{p^2-1}{8} + \frac{k^2-1}{8}}\end{aligned}\] It is sufficient to prove <spanclass="math inline"="">\(\frac{p^2-1}{8} + \frac{k^2-1}{8} \equiv\frac{(pk)^2-1}{8} \pmod 2\). Let <span class="math inline">\(p =2u + 1\)</span> and <span class="math inline">\(k = 2v + 1\)</span>,then <span class="math display">\[     \begin{aligned}     &amp;\frac{p^2-1}{8} + \frac{k^2-1}{8} - \frac{(pk)^2-1}{8} \\     =&amp; \frac{p^2+k^2-(pk)^2-1}{8} \\     =&amp; \frac{-(p^2-1)(k^2-1)}{8} \\     =&amp; \frac{-(4u(u+1))(4v(v+1))}{8} \\     =&amp; -2u(u+1)v(v+1) \equiv 0 \pmod 2     \end{aligned}     \]</span> Thus <span class="math inline">\(\frac{p^2-1}{8} +\frac{k^2-1}{8} \equiv \frac{(pk)^2-1}{8} \pmod 2\)</span>, done.</spanclass="math></spanclass="math></spanclass="math></spanclass="math></spanclass="math></spanclass="math></li></ol></spanclass="math></li></ol>
         </div>
       </div>
     </div></li>
 </ul>
 <h2 id="quadratic-reciprocity">Quadratic Reciprocity</h2>
 <ul>
-<li><p><strong>Thm 4.6 Law of Quadratic Reciprocity</strong>: Let <span class="math inline">\(m,n\)</span> be odd integers with <span class="math inline">\(\gcd(m, n) = 1\)</span>, then <span class="math display">\[\left(\frac{m}{n}\right)\left(\frac{n}{m}\right)
-= (-1)^{\frac{m-1}{2} \cdot \frac{n-1}{2}}\]</span></p>
+<li><p><strong>Thm 4.6 Law of Quadratic Reciprocity</strong>: Let <span class="math inline">\(m,n\)</span> be odd integers with <span class="math inline">\(\gcd(m, n) = 1\)</span>, then <span class="math display">\[
+  \left(\frac{m}{n}\right)\left(\frac{n}{m}\right) = (-1)^{\frac{m-1}{2}
+\cdot \frac{n-1}{2}}
+  \]</span></p>
 <p>Equivalently, <span class="math inline">\(\left(\frac{m}{n}\right) =
 \left(\frac{n}{m}\right) \cdot (-1)^{\frac{m-1}{2} \cdot
 \frac{n-1}{2}}\)</span></p>
@@ -2037,7 +2069,7 @@ QNR\)</span>.</p></li>
       </div>
       <div class="fold-collapse collapse" id="collapse-32919eb1">
         <div class="fold-content">
-          <ol type="1"><li>Since <span class="math display">\[\begin{aligned}\left(\frac{3}{17}\right) &amp;= \left(\frac{17}{3}\right) \cdot(-1)^{\frac{3-1}{2} \cdot \frac{17-1}{2}} \\&amp;= \left(\frac{2}{3}\right) \cdot 1 \\&amp;= -1\end{aligned}\]</span> Thus <span class="math inline">\(3\)</span> is aNQR modulo <span class="math inline">\(17\)</span>.</li><li>Since <span class="math display">\[\begin{aligned}\left(\frac{6}{17}\right) &amp;= \left(\frac{2}{17}\right) \cdot\left(\frac{3}{17}\right) \\&amp;= (-1)^{\frac{17^2-1}{8}} \cdot (-1) \\&amp;= -1\end{aligned}\]</span> Thus <span class="math inline">\(6\)</span> is aNQR modulo <span class="math inline">\(17\)</span>.</li></ol>
+          <ol type="1"><li>Since <span class="math display">\[\begin{aligned}\left(\frac{3}{17}\right) &amp;= \left(\frac{17}{3}\right) \cdot(-1)^{\frac{3-1}{2} \cdot \frac{17-1}{2}} \\&amp;= \left(\frac{2}{3}\right) \cdot 1 \\&amp;= -1\end{aligned}\]</span> Thus <span class="math inline">\(3\)</span> is a NQR modulo<span class="math inline">\(17\)</span>.</li><li>Since <span class="math display">\[\begin{aligned}\left(\frac{6}{17}\right) &amp;= \left(\frac{2}{17}\right) \cdot\left(\frac{3}{17}\right) \\&amp;= (-1)^{\frac{17^2-1}{8}} \cdot (-1) \\&amp;= -1\end{aligned}\]</span> Thus <span class="math inline">\(6\)</span> is a NQR modulo<span class="math inline">\(17\)</span>.</li></ol>
         </div>
       </div>
     </div><p></p></li>
@@ -2057,8 +2089,10 @@ QNR\)</span>.</p></li>
 <h2 id="polynomials">Polynomials</h2>
 <ul>
 <li><p><strong>Def 5.1 Polynomial</strong>: A polynomial over a field
-<span class="math inline">\(F\)</span> has the form <span class="math display">\[f(x) = a_n x^n + a_{n-1} x^{n-1} + \cdots + a_1 x
-+ a_0,\quad a_i \in F\]</span></p>
+<span class="math inline">\(F\)</span> has the form <span class="math display">\[
+  f(x) = a_n x^n + a_{n-1} x^{n-1} + \cdots + a_1 x + a_0,\quad a_i \in
+F
+  \]</span></p>
 <ul>
 <li>If <span class="math inline">\(a_n \neq 0\)</span>, then <span class="math inline">\(n\)</span> is called the <strong>degree</strong>
 of <span class="math inline">\(f(x)\)</span> and is denoted <span class="math inline">\(\deg(f)\)</span>, and <span class="math inline">\(a_n\)</span> is called the <strong>leading
@@ -2069,19 +2103,24 @@ coefficient</strong> of <span class="math inline">\(f(x)\)</span>. If
 <strong>constant polynomial</strong>. The degree of the zero polynomial
 is defined to be <span class="math inline">\(-\infty\)</span>, others
 degree is defined to be <span class="math inline">\(0\)</span>, i.e.
-<span class="math display">\[\deg(a) = \begin{cases}
+<span class="math display">\[
+  \deg(a) = \begin{cases}
   0 &amp; a \neq 0 \\
   -\infty &amp; a = 0
-  \end{cases}\]</span></li>
+  \end{cases}
+  \]</span></li>
 </ul></li>
 <li><p><strong>Def 5.2 Addition and Multiplication</strong>: Let <span class="math inline">\(f(x)=a_0 + a_1 x + \cdots + a_n x^n\)</span> and
 <span class="math inline">\(g(x)=b_0 + b_1 x + \cdots + b_m x^m\)</span>
 be two polynomials.</p>
 <ul>
-<li>The <strong>sum</strong> of <span class="math inline">\(f(x)\)</span> and <span class="math inline">\(g(x)\)</span> is defined as <span class="math display">\[(f + g)(x) = f(x) + g(x) = \sum_{i=0}^{\max(n,
-m)} (a_i + b_i) x^i\]</span></li>
-<li>The <strong>product</strong> of <span class="math inline">\(f(x)\)</span> and <span class="math inline">\(g(x)\)</span> is defined as <span class="math display">\[(f \cdot g)(x) = f(x) \cdot g(x) = c_0 + c_1 x +
-\cdots + c_{n+m} x^{n+m}\]</span></li>
+<li>The <strong>sum</strong> of <span class="math inline">\(f(x)\)</span> and <span class="math inline">\(g(x)\)</span> is defined as <span class="math display">\[
+  (f + g)(x) = f(x) + g(x) = \sum_{i=0}^{\max(n, m)} (a_i + b_i) x^i
+  \]</span></li>
+<li>The <strong>product</strong> of <span class="math inline">\(f(x)\)</span> and <span class="math inline">\(g(x)\)</span> is defined as <span class="math display">\[
+  (f \cdot g)(x) = f(x) \cdot g(x) = c_0 + c_1 x + \cdots + c_{n+m}
+x^{n+m}
+  \]</span></li>
 </ul></li>
 <li><p><strong>Thm 5.3 Properties of Degree</strong>: Let <span class="math inline">\(f(x), g(x)\)</span> be two polynomials. Then</p>
 <ol type="1">
@@ -2093,8 +2132,9 @@ m)} (a_i + b_i) x^i\]</span></li>
 <span class="math inline">\(a \in F \setminus \{0\}\)</span>.</li>
 </ol></li>
 <li><p><strong>Def 5.4 Polynomial Ring</strong>: The polynomial ring
-over field <span class="math inline">\(F\)</span> is defined as <span class="math display">\[F[x] = \left\{\sum_{i=0}^n a_i x^i : n \geq 0,
-a_i \in F\right\}\]</span></p>
+over field <span class="math inline">\(F\)</span> is defined as <span class="math display">\[
+  F[x] = \left\{\sum_{i=0}^n a_i x^i : n \geq 0, a_i \in F\right\}
+  \]</span></p>
 <p>Indeed <span class="math inline">\((F[x], +, \cdot)\)</span> forms a
 commutative ring with additive identity <span class="math inline">\(0\)</span> and multiplicative identity <span class="math inline">\(1\)</span>. Furthermore, <span class="math inline">\(F[x]\)</span> is an integral domain.</p></li>
 <li><p><strong>Thm 5.5</strong>: The unit group of <span class="math inline">\(F[x]\)</span> is <span class="math inline">\(F^* =
@@ -2118,8 +2158,9 @@ in <span class="math inline">\(R\)</span>, denoted by <span class="math inline">
 <h2 id="divisibility-1">Divisibility</h2>
 <h3 id="divisibility-2">Divisibility</h3>
 <ul>
-<li><p><strong>Def 5.6 Divisibility</strong>: A polynomial <span class="math inline">\(f\)</span> is divisible by a polynomial <span class="math inline">\(g\)</span> if <span class="math display">\[\exists
-h \in F[x] \text{ s.t. } f = g \cdot h\]</span></p>
+<li><p><strong>Def 5.6 Divisibility</strong>: A polynomial <span class="math inline">\(f\)</span> is divisible by a polynomial <span class="math inline">\(g\)</span> if <span class="math display">\[
+  \exists h \in F[x] \text{ s.t. } f = g \cdot h
+  \]</span></p>
 <p>Then we say <span class="math inline">\(g\)</span> divides <span class="math inline">\(f\)</span>, denoted <span class="math inline">\(g
 \mid f\)</span>.</p></li>
 <li><p><strong>Thm 5.7 Property of Divisibility</strong>: Let <span class="math inline">\(f, g, h, u, v \in F[x]\)</span>.</p>
@@ -2147,8 +2188,9 @@ smallest positive integer.</li>
 </ol></li>
 <li><p><strong>Thm 5.9</strong>: Let <span class="math inline">\(f, g
 \in F[x]\)</span> with <span class="math inline">\(g \neq 0\)</span>.
-Then there exist unique pair of polynomials <span class="math inline">\(q, r \in F[x]\)</span> satisfying <span class="math display">\[f = q \cdot g + r, \quad \deg(r) &lt;
-\deg(g)\]</span></p>
+Then there exist unique pair of polynomials <span class="math inline">\(q, r \in F[x]\)</span> satisfying <span class="math display">\[
+  f = q \cdot g + r, \quad \deg(r) &lt; \deg(g)
+  \]</span></p>
 <p>
     </p><div class="fold">
       <div class="fold-title fold-info collapsed" data-toggle="collapse" href="#collapse-b38cf465" role="button" aria-expanded="false" aria-controls="collapse-b38cf465">
@@ -2156,7 +2198,7 @@ Then there exist unique pair of polynomials <span class="math inline">\(q, r \in
       </div>
       <div class="fold-collapse collapse" id="collapse-b38cf465">
         <div class="fold-content">
-          <ul><li><strong>Uniqueness</strong>: Assume taht <spanclass="math inline"="">\((q_1, r_1), (q_2, r_2)\) are two pairs ofpolynomials satisfying <span class="math inline">\(\begin{cases} f = q_1\cdot g + r_1 \\ f = q_2 \cdot g + r_2 \end{cases}\)</span>. Then <spanclass="math inline"="">\((q_1 - q_2) \cdot g = r_2 - r_1\), so wehave <span class="math display">\[\begin{aligned}  &amp;\deg((q_1 - q_2) \cdot g) = \deg(q_1 - q_2) + \deg(g) \\  &amp;\deg(r_2 - r_1) \leq \max\{\deg(r_1), \deg(r_2)\} &lt; \deg(g)  \end{aligned}\]</span> Then <span class="math inline">\(\deg(q_1 -q_2) &lt; 0 \implies \deg(q_1 - q_2) = -\infty \implies q_1 = q_2\implies r_1 = r_2\)</span>. Thus the two pairs are the same.</spanclass="math></spanclass="math></li><li><strong>Existence</strong>: Consider the set <spanclass="math inline"="">\(S = \{\deg(f - h \cdot g) : h \in F[x]\}\),thus <span class="math inline">\(S\neq\emptyset\)</span>. By Axiom 5.8,<span class="math inline">\(S\)</span> contains the smallest number<span class="math inline">\(t\)</span> (including <spanclass="math inline"="">\(-\infty\)), thus <spanclass="math inline"="">\(\exists q \in F[x]\) s.t. <spanclass="math inline"="">\(\deg(f - q \cdot g) = t\). Let <spanclass="math inline"="">\(r = f - q \cdot g\), thus <spanclass="math inline"="">\(\deg(r) = t\). Claim that <spanclass="math inline"="">\(\deg(r) &lt; \deg(g)\):<ul><li>Suppose <span class="math inline">\(\deg(r) \geq \deg(g)\)</span>,then write <span class="math display">\[\begin{aligned}  r(x) &amp;= r_n x^n + r_{n-1} x^{n-1} + \cdots + r_0 \quad (r_n \neq0) \\  g(x) &amp;= g_m x^m + g_{m-1} x^{m-1} + \cdots + g_0 \quad (g_m \neq0)  \end{aligned}\]</span> Let <span class="math inline">\(u(x) = r(x) -r_n g_m^{-1} x^{n-m} g(x)\)</span>, then <spanclass="math inline"="">\(\deg(u) \leq n-1 &lt; n = \deg(r) = t\),thus <span class="math inline">\(r(x) = u(x) + r_n g_m^{-1} x^{n-m} g(x)= f(x) - q(x) \cdot g(x)\)</span>, thus <span class="math inline">\(u(x)= f(x) - (q(x) + r_n g_m^{-1} x^{n-m}) \cdot g(x)\)</span>, which means<span class="math inline">\(\deg(u) \in S\)</span> and <spanclass="math inline"="">\(\deg(u) &lt; t\), contradicting thedefinition of <span class="math inline">\(t\)</span>.</spanclass="math></spanclass="math></li></ul></spanclass="math></spanclass="math></spanclass="math></spanclass="math></spanclass="math></spanclass="math></spanclass="math></li></ul>
+          <ul><li><strong>Uniqueness</strong>: Assume taht <spanclass="math inline"="">\((q_1, r_1), (q_2, r_2)\) are two pairs ofpolynomials satisfying <span class="math inline">\(\begin{cases} f = q_1\cdot g + r_1 \\ f = q_2 \cdot g + r_2 \end{cases}\)</span>. Then <spanclass="math inline"="">\((q_1 - q_2) \cdot g = r_2 - r_1\), so wehave <span class="math display">\[  \begin{aligned}  &amp;\deg((q_1 - q_2) \cdot g) = \deg(q_1 - q_2) + \deg(g) \\  &amp;\deg(r_2 - r_1) \leq \max\{\deg(r_1), \deg(r_2)\} &lt; \deg(g)  \end{aligned}  \]</span> Then <span class="math inline">\(\deg(q_1 - q_2) &lt; 0\implies \deg(q_1 - q_2) = -\infty \implies q_1 = q_2 \implies r_1 =r_2\)</span>. Thus the two pairs are the same.</spanclass="math></spanclass="math></li><li><strong>Existence</strong>: Consider the set <spanclass="math inline"="">\(S = \{\deg(f - h \cdot g) : h \in F[x]\}\),thus <span class="math inline">\(S\neq\emptyset\)</span>. By Axiom 5.8,<span class="math inline">\(S\)</span> contains the smallest number<span class="math inline">\(t\)</span> (including <spanclass="math inline"="">\(-\infty\)), thus <spanclass="math inline"="">\(\exists q \in F[x]\) s.t. <spanclass="math inline"="">\(\deg(f - q \cdot g) = t\). Let <spanclass="math inline"="">\(r = f - q \cdot g\), thus <spanclass="math inline"="">\(\deg(r) = t\). Claim that <spanclass="math inline"="">\(\deg(r) &lt; \deg(g)\):<ul><li>Suppose <span class="math inline">\(\deg(r) \geq \deg(g)\)</span>,then write <span class="math display">\[  \begin{aligned}  r(x) &amp;= r_n x^n + r_{n-1} x^{n-1} + \cdots + r_0 \quad (r_n \neq0) \\  g(x) &amp;= g_m x^m + g_{m-1} x^{m-1} + \cdots + g_0 \quad (g_m \neq0)  \end{aligned}  \]</span> Let <span class="math inline">\(u(x) = r(x) - r_n g_m^{-1}x^{n-m} g(x)\)</span>, then <span class="math inline">\(\deg(u) \leq n-1&lt; n = \deg(r) = t\)</span>, thus <span class="math inline">\(r(x) =u(x) + r_n g_m^{-1} x^{n-m} g(x) = f(x) - q(x) \cdot g(x)\)</span>, thus<span class="math inline">\(u(x) = f(x) - (q(x) + r_n g_m^{-1} x^{n-m})\cdot g(x)\)</span>, which means <span class="math inline">\(\deg(u) \inS\)</span> and <span class="math inline">\(\deg(u) &lt; t\)</span>,contradicting the definition of <spanclass="math inline"="">\(t\).</spanclass="math></li></ul></spanclass="math></spanclass="math></spanclass="math></spanclass="math></spanclass="math></spanclass="math></spanclass="math></li></ul>
         </div>
       </div>
     </div><p></p></li>
@@ -2181,7 +2223,7 @@ d\)</span>.</li>
       </div>
       <div class="fold-collapse collapse" id="collapse-058aecec">
         <div class="fold-content">
-          <ul><li><strong>Uniqueness</strong>: Assume that <spanclass="math inline"="">\(d_1, d_2\) are two GCDs of <spanclass="math inline"="">\(f, g\). Then <spanclass="math inline"="">\(d_1 \mid d_2\) and <spanclass="math inline"="">\(d_2 \mid d_1\), thus <spanclass="math inline"="">\(\exists a,b \in F[x]\) s.t. <spanclass="math inline"="">\(d_1 = a d_2\) and <spanclass="math inline"="">\(d_2 = b d_1\), thus <spanclass="math inline"="">\(d_1 = a b d_1 \implies d_1 (1 - a b) = 0 \impliesab = 1 \implies a, b \in F^*\). So <spanclass="math inline"="">\(a=b=1\), thus <spanclass="math inline"="">\(d_1 = d_2\).</spanclass="math></spanclass="math></spanclass="math></spanclass="math></spanclass="math></spanclass="math></spanclass="math></spanclass="math></spanclass="math></spanclass="math></li><li><strong>Existence</strong>: Consider the set <spanclass="math inline"="">\(S = \{\deg(uf + vg) : u, v \in F[x], (u,v) \neq(0,0)\}\), thus <spanclass="math inline"="">\(S\neq\emptyset\). By Axiom 5.8, <spanclass="math inline"="">\(S\) contains the smallest non-negativeinteger <span class="math inline">\(t\)</span>, thus <spanclass="math inline"="">\(\exists a, b \in F[x]\) s.t. <spanclass="math inline"="">\(\deg(af + bg) = t\). Let <spanclass="math inline"="">\(d = af + bg\), thus <spanclass="math inline"="">\(\deg(d) = t\). WLOG, we assume that <spanclass="math inline"="">\(d\) is monic, otherwise we can divide it byits leading coefficient. Claim that <spanclass="math inline"="">\(d=\gcd(f,g)\):<ul><li>Let <span class="math inline">\(f=q\cdot d + r\)</span> with <spanclass="math inline"="">\(\deg(r) &lt; \deg(d)\), then <spanclass="math display"="">\[\begin{aligned}  r &amp;= f - q \cdot d \\  &amp;= f - q \cdot (af + bg) \\  &amp;= (1 - qa)f + (-qb)g  \end{aligned}\] Thus <span class="math inline">\(\deg(r) \in S\implies \deg(r) = -\infty \implies r=0 \implies d \mid f\)</span>.Similarly, <span class="math inline">\(d \mid g\)</span>.</spanclass="math></spanclass="math></li><li>If <span class="math inline">\(d_1 \mid f, d_1 \mid g\)</span>, then<span class="math inline">\(d_1 \mid (af + bg)\)</span>, i.e.&nbsp;<spanclass="math inline"="">\(d_1 \mid d\).</spanclass="math></li></ul></spanclass="math></spanclass="math></spanclass="math></spanclass="math></spanclass="math></spanclass="math></spanclass="math></spanclass="math></spanclass="math></li></ul>
+          <ul><li><strong>Uniqueness</strong>: Assume that <spanclass="math inline"="">\(d_1, d_2\) are two GCDs of <spanclass="math inline"="">\(f, g\). Then <spanclass="math inline"="">\(d_1 \mid d_2\) and <spanclass="math inline"="">\(d_2 \mid d_1\), thus <spanclass="math inline"="">\(\exists a,b \in F[x]\) s.t. <spanclass="math inline"="">\(d_1 = a d_2\) and <spanclass="math inline"="">\(d_2 = b d_1\), thus <spanclass="math inline"="">\(d_1 = a b d_1 \implies d_1 (1 - a b) = 0 \impliesab = 1 \implies a, b \in F^*\). So <spanclass="math inline"="">\(a=b=1\), thus <spanclass="math inline"="">\(d_1 = d_2\).</spanclass="math></spanclass="math></spanclass="math></spanclass="math></spanclass="math></spanclass="math></spanclass="math></spanclass="math></spanclass="math></spanclass="math></li><li><strong>Existence</strong>: Consider the set <spanclass="math inline"="">\(S = \{\deg(uf + vg) : u, v \in F[x], (u,v) \neq(0,0)\}\), thus <spanclass="math inline"="">\(S\neq\emptyset\). By Axiom 5.8, <spanclass="math inline"="">\(S\) contains the smallest non-negativeinteger <span class="math inline">\(t\)</span>, thus <spanclass="math inline"="">\(\exists a, b \in F[x]\) s.t. <spanclass="math inline"="">\(\deg(af + bg) = t\). Let <spanclass="math inline"="">\(d = af + bg\), thus <spanclass="math inline"="">\(\deg(d) = t\). WLOG, we assume that <spanclass="math inline"="">\(d\) is monic, otherwise we can divide it byits leading coefficient. Claim that <spanclass="math inline"="">\(d=\gcd(f,g)\):<ul><li>Let <span class="math inline">\(f=q\cdot d + r\)</span> with <spanclass="math inline"="">\(\deg(r) &lt; \deg(d)\), then <spanclass="math display"="">\[  \begin{aligned}  r &amp;= f - q \cdot d \\  &amp;= f - q \cdot (af + bg) \\  &amp;= (1 - qa)f + (-qb)g  \end{aligned}  \] Thus <span class="math inline">\(\deg(r) \in S \implies\deg(r) = -\infty \implies r=0 \implies d \mid f\)</span>. Similarly,<span class="math inline">\(d \mid g\)</span>.</spanclass="math></spanclass="math></li><li>If <span class="math inline">\(d_1 \mid f, d_1 \mid g\)</span>, then<span class="math inline">\(d_1 \mid (af + bg)\)</span>, i.e.&nbsp;<spanclass="math inline"="">\(d_1 \mid d\).</spanclass="math></li></ul></spanclass="math></spanclass="math></spanclass="math></spanclass="math></spanclass="math></spanclass="math></spanclass="math></spanclass="math></spanclass="math></li></ul>
         </div>
       </div>
     </div><p></p></li>
@@ -2204,7 +2246,8 @@ g+rf)\)</span></li>
 </ul>
 <h3 id="euclidean-algorithm-1">Euclidean Algorithm</h3>
 <ul>
-<li><strong>Thm 5.15 Euclidean Algorithm</strong>: Give <span class="math inline">\(f, g \in F[x]\)</span> with <span class="math inline">\(g \neq 0\)</span>, let <span class="math inline">\(r_0=f, r_1=g\)</span>, we can compute <span class="math inline">\(r_2, r_3, \cdots\)</span> by long division: <span class="math display">\[\begin{cases}
+<li><strong>Thm 5.15 Euclidean Algorithm</strong>: Give <span class="math inline">\(f, g \in F[x]\)</span> with <span class="math inline">\(g \neq 0\)</span>, let <span class="math inline">\(r_0=f, r_1=g\)</span>, we can compute <span class="math inline">\(r_2, r_3, \cdots\)</span> by long division: <span class="math display">\[
+  \begin{cases}
   r_0 = q_1 \cdot r_1 + r_2, &amp; 0 \leq \deg(r_2) &lt; \deg(r_1) \\
   r_1 = q_2 \cdot r_2 + r_3, &amp; 0 \leq \deg(r_3) &lt; \deg(r_2) \\
   \cdots \\
@@ -2212,7 +2255,8 @@ g+rf)\)</span></li>
 \deg(r_{n-1}) \\
   r_{n-1} = q_n \cdot r_n, &amp; \deg(r_{n+1}) = -\infty \text{ (i.e. }
 r_{n+1} = 0\text{)}
-  \end{cases}\]</span></li>
+  \end{cases}
+  \]</span></li>
 <li><strong>Thm 5.16</strong>: By the Euclidean Algorithm given above,
 <span class="math inline">\(\gcd(r_i, r_{i+1}) = \gcd(r_{i+1},
 r_{i+2})\)</span> for <span class="math inline">\(i=0,1,\cdots,n-2\)</span>.
@@ -2224,10 +2268,12 @@ leading coefficient of <span class="math inline">\(r_n\)</span>.</li>
 <li><strong>Thm 5.17 Extended Euclidean Algorithm</strong>: Given <span class="math inline">\(f, g \in F[x]\)</span> with <span class="math inline">\(g \neq 0\)</span>, let <span class="math inline">\(r_0=f, r_1=g, s_0=1, s_1=0, t_0=0, t_1=1\)</span>,
 we can compute <span class="math inline">\(r_2, r_3, \cdots\)</span> by
 long division, and compute <span class="math inline">\(s_i,t_i\)</span>
-by <span class="math display">\[\begin{cases}
+by <span class="math display">\[
+  \begin{cases}
   s_{i+1}=s_{i-1}-q_is_i \\
   t_{i+1}=t_{i-1}-q_it_i
-  \end{cases}\]</span></li>
+  \end{cases}
+  \]</span></li>
 <li><strong>Thm 5.17</strong>: By the Extended Euclidean Algorithm given
 above, <span class="math inline">\(r_i=f s_i+g t_i\)</span> for <span class="math inline">\(i=0,1,\cdots,n\)</span>.
 <ul>
@@ -2274,7 +2320,7 @@ g\)</span></p></li>
       </div>
       <div class="fold-collapse collapse" id="collapse-40887d1e">
         <div class="fold-content">
-          <ul><li>Let <span class="math inline">\(d = \gcd(f,g)\)</span>, then <spanclass="math inline"="">\(\gcd\left(\frac{f}{d}, \frac{g}{d}\right) =1\), thus we have: <spanclass="math display"="">\[\frac{\mathrm{lcm}(f,g)}{d} =\mathrm{lcm}\left(\frac{f}{d}, \frac{g}{d}\right) = \frac{f}{d} \cdot\frac{g}{d}\]</spanclass="math></spanclass="math></li><li>Thus <span class="math inline">\(\gcd(f,g) \cdot \mathrm{lcm}(f,g) =d \cdot d \cdot \mathrm{lcm}\left(\frac{f}{d}, \frac{g}{d}\right) = f\cdot g\)</span>.</li></ul>
+          <ul><li>Let <span class="math inline">\(d = \gcd(f,g)\)</span>, then <spanclass="math inline"="">\(\gcd\left(\frac{f}{d}, \frac{g}{d}\right) =1\), thus we have: <span class="math display">\[  \frac{\mathrm{lcm}(f,g)}{d} = \mathrm{lcm}\left(\frac{f}{d},\frac{g}{d}\right) = \frac{f}{d} \cdot \frac{g}{d}  \]</span></spanclass="math></li><li>Thus <span class="math inline">\(\gcd(f,g) \cdot \mathrm{lcm}(f,g) =d \cdot d \cdot \mathrm{lcm}\left(\frac{f}{d}, \frac{g}{d}\right) = f\cdot g\)</span>.</li></ul>
         </div>
       </div>
     </div><p></p></li>
@@ -2322,8 +2368,9 @@ irreducible polynomials in <span class="math inline">\(F[x]\)</span>.</p></li>
 <li><p><strong>Thm 5.25</strong>: Every non-zero polynomial <span class="math inline">\(f\)</span> can be uniquely factorized into a
 product of <span class="math inline">\(a\in F^*\)</span> and monic
 irreducible polynomials <span class="math inline">\(p_i\)</span>, i.e.
-<span class="math display">\[f(x) = a \cdot p_1(x) \cdot p_2(x) \cdots
-p_t(x)\]</span></p>
+<span class="math display">\[
+  f(x) = a \cdot p_1(x) \cdot p_2(x) \cdots p_t(x)
+  \]</span></p>
 <ul>
 <li><strong>Notation</strong>: Let <span class="math inline">\(p\)</span> be an irreducible polynomial, if <span class="math inline">\(p^k \mid f\)</span> and <span class="math inline">\(p^{k+1} \nmid f\)</span>, then we denote <span class="math inline">\(v_p(f) = k\)</span> and call it the
 <strong>exponent</strong> of <span class="math inline">\(p\)</span> in
@@ -2347,7 +2394,9 @@ Classes</h3>
 <ul>
 <li><p><strong>Def 5.27 Congruence</strong>: Let <span class="math inline">\(m \in F[x]\)</span> with <span class="math inline">\(\deg(m) \geq 1\)</span>, then two polynomials
 <span class="math inline">\(a,b \in F[x]\)</span> are said to be
-congruent modulo <span class="math inline">\(m\)</span> if <span class="math display">\[m(x) \mid a(x) - b(x)\]</span></p>
+congruent modulo <span class="math inline">\(m\)</span> if <span class="math display">\[
+  m(x) \mid a(x) - b(x)
+  \]</span></p>
 <p>Denoted by <span class="math inline">\(a(x)\equiv b(x)
 \pmod{m(x)}\)</span>.</p></li>
 <li><p><strong>Thm 5.28 Properties of Congruence</strong>:</p>
@@ -2361,8 +2410,9 @@ congruent modulo <span class="math inline">\(m\)</span> if <span class="math dis
 <li><span class="math inline">\(m&gt;\gcd(m,c), ac\equiv bc \pmod m
 \implies a\equiv b \pmod{\frac{m}{\gcd(m,c)}}\)</span></li>
 </ol></li>
-<li><p><strong>Def 5.29 Residue Class</strong>: Let <span class="math inline">\(r,m\in F[x]\)</span>, the residue class of <span class="math inline">\(r\)</span> modulo <span class="math inline">\(m\)</span> is defined to be <span class="math display">\[[r]_m = \{a \in F[x]: a \equiv r
-\pmod{m}\}\]</span></p>
+<li><p><strong>Def 5.29 Residue Class</strong>: Let <span class="math inline">\(r,m\in F[x]\)</span>, the residue class of <span class="math inline">\(r\)</span> modulo <span class="math inline">\(m\)</span> is defined to be <span class="math display">\[
+  [r]_m = \{a \in F[x]: a \equiv r \pmod{m}\}
+  \]</span></p>
 <p>If there is no confusion, we denote <span class="math inline">\([r]_m\)</span> by <span class="math inline">\(\bar{r}\)</span> for simplicity.</p></li>
 <li><p><strong>Lemma 5.30</strong>:</p>
 <ol type="1">
@@ -2387,9 +2437,10 @@ union of disjoint sets.</li>
     </div></li>
 </ol></li>
 <li><p><strong>Def 5.31 Complete Residue System</strong>: <span class="math inline">\(F[x]/(mF[x])\)</span> is the set of all residue
-classes modulo <span class="math inline">\(m\)</span>, i.e. <span class="math display">\[F[x]/(mF[x]) = \{\bar{r}: \deg(r) &lt; \deg(m)\}
-= \left\{\overline{\sum_{i=0}^{\deg(m)-1} a_i x^i} : a_i \in
-F\right\}\]</span></p>
+classes modulo <span class="math inline">\(m\)</span>, i.e. <span class="math display">\[
+  F[x]/(mF[x]) = \{\bar{r}: \deg(r) &lt; \deg(m)\} =
+\left\{\overline{\sum_{i=0}^{\deg(m)-1} a_i x^i} : a_i \in F\right\}
+  \]</span></p>
 <p>If there is no confusion, we denote <span class="math inline">\(F[x]/(mF[x])\)</span> by <span class="math inline">\(F[x]/(m)\)</span> for simplicity.</p>
 <p>
     </p><div class="fold">
@@ -2398,21 +2449,25 @@ F\right\}\]</span></p>
       </div>
       <div class="fold-collapse collapse" id="collapse-aee05e1f">
         <div class="fold-content">
-          <ol type="1"><li><span class="math inline">\(m(x)=x\)</span>, then <spanclass="math inline"="">\(\deg(m) = 1\), thus <spanclass="math display"="">\[F[x]/(m) = F[x]/(x) = \{\bar{r}: \deg(r) &lt; 1\}= \{\bar{a}: a \in F\} \cong F\]</spanclass="math></spanclass="math></li><li><span class="math inline">\(m(x)=x^2+1\)</span>, then <spanclass="math inline"="">\(\deg(m) = 2\), thus <spanclass="math display"="">\[F[x]/(m) = \{\bar{r}: \deg(r) &lt; 2\} =\{\overline{a + bx}: a,b \in F\} \cong F^2\]</spanclass="math></spanclass="math></li></ol>
+          <ol type="1"><li><span class="math inline">\(m(x)=x\)</span>, then <spanclass="math inline"="">\(\deg(m) = 1\), thus <spanclass="math display"="">\[F[x]/(m) = F[x]/(x) = \{\bar{r}: \deg(r) &lt; 1\} = \{\bar{a}: a \in F\}\cong F\]</spanclass="math></spanclass="math></li><li><span class="math inline">\(m(x)=x^2+1\)</span>, then <spanclass="math inline"="">\(\deg(m) = 2\), thus <spanclass="math display"="">\[F[x]/(m) = \{\bar{r}: \deg(r) &lt; 2\} = \{\overline{a + bx}: a,b \inF\} \cong F^2\]</spanclass="math></spanclass="math></li></ol>
         </div>
       </div>
     </div><p></p></li>
 <li><p><strong>Def 5.32 Addition and Multiplication</strong>: Define
-addition <span class="math inline">\(+\)</span> and multiplication <span class="math inline">\(\cdot\)</span> on <span class="math inline">\(F[x]/(m)\)</span> by <span class="math display">\[\begin{aligned}
+addition <span class="math inline">\(+\)</span> and multiplication <span class="math inline">\(\cdot\)</span> on <span class="math inline">\(F[x]/(m)\)</span> by <span class="math display">\[
+  \begin{aligned}
   \bar{r}_1 + \bar{r}_2 &amp;= \overline{r_1 + r_2} \\
   \bar{r}_1 \cdot \bar{r}_2 &amp;= \overline{r_1 \cdot r_2}
-  \end{aligned}\]</span></p></li>
+  \end{aligned}
+  \]</span></p></li>
 <li><p><strong>Thm 5.33</strong>: Under the above addition and
 multiplication, <span class="math inline">\(F[x]/(m)\)</span> forms a
 <strong>commutative ring</strong> with the additive identity <span class="math inline">\(\bar{0}\)</span> and the multiplicative identity
 <span class="math inline">\(\bar{1}\)</span>.</p></li>
 <li><p><strong>Def 5.34 Invertible Element</strong>: A polynomial <span class="math inline">\(a\in F[x]\)</span> is called invertible modulo
-<span class="math inline">\(m\)</span> if <span class="math inline">\(\exists b\in F[x]\)</span> s.t. <span class="math display">\[a\cdot b \equiv 1 \pmod m\]</span></p>
+<span class="math inline">\(m\)</span> if <span class="math inline">\(\exists b\in F[x]\)</span> s.t. <span class="math display">\[
+  a\cdot b \equiv 1 \pmod m
+  \]</span></p>
 <p>I.e. <span class="math inline">\(a\)</span> is a
 <strong>unit</strong> in the commutative ring <span class="math inline">\(F[x]/(m)\)</span>, and <span class="math inline">\(b\)</span> is called the inverse of <span class="math inline">\(a\)</span> modulo <span class="math inline">\(m\)</span>, denoted by <span class="math inline">\(a^{-1}\)</span>.</p></li>
 <li><p><strong>Thm 5.35 Properties of Invertible</strong>: <span class="math inline">\(a\)</span> is invertible modulo <span class="math inline">\(m \iff \gcd(a,m) = 1\)</span>.</p>
@@ -2428,16 +2483,19 @@ multiplication, <span class="math inline">\(F[x]/(m)\)</span> forms a
       </div>
     </div><p></p></li>
 <li><p><strong>Def 5.36 Unit Group</strong>: The unit group of the ring
-<span class="math inline">\(F[x]/(m)\)</span> is denoted by <span class="math display">\[(F[x]/(m))^* = \{\bar{r} \in F[x]/(m) : \gcd(r,m)
-= 1\}\]</span></p></li>
+<span class="math inline">\(F[x]/(m)\)</span> is denoted by <span class="math display">\[
+  (F[x]/(m))^* = \{\bar{r} \in F[x]/(m) : \gcd(r,m) = 1\}
+  \]</span></p></li>
 </ul>
 <h3 id="euler-function-and-chinese-remainder-theorem-1">Euler Function
 and Chinese Remainder Theorem</h3>
 <ul>
 <li><p><strong>Def 5.37 Euler Function</strong>: The Euler function
 <span class="math inline">\(\Phi_p(m)\)</span> is defined to be the
-number of invertible elements in the ring <span class="math inline">\(\mathbb{Z}_p[x]/(m)\)</span> with <span class="math inline">\(\deg(m) \geq 1\)</span>, i.e. <span class="math display">\[\Phi_p(m) = |(\mathbb{Z}_p[x]/(m))^*| =
-\#\{\bar{r} \in \mathbb{Z}_p[x]/(m) : \gcd(r,m) = 1\}\]</span></p>
+number of invertible elements in the ring <span class="math inline">\(\mathbb{Z}_p[x]/(m)\)</span> with <span class="math inline">\(\deg(m) \geq 1\)</span>, i.e. <span class="math display">\[
+  \Phi_p(m) = |(\mathbb{Z}_p[x]/(m))^*| = \#\{\bar{r} \in
+\mathbb{Z}_p[x]/(m) : \gcd(r,m) = 1\}
+  \]</span></p>
 <ul>
 <li>When <span class="math inline">\(\deg(\alpha) = 0\)</span>, we
 define <span class="math inline">\(\forall \alpha \in \mathbb{Z}_p^*,
@@ -2450,39 +2508,45 @@ define <span class="math inline">\(\forall \alpha \in \mathbb{Z}_p^*,
       </div>
       <div class="fold-collapse collapse" id="collapse-91654cc7">
         <div class="fold-content">
-          <ol type="1"><li>To compute <span class="math inline">\(\Phi_2(x)\)</span>, considerthe ring <span class="math display">\[\mathbb{Z}_2[x]/(x) = \{\bar{r}:\deg(r) &lt; 1\} = \{\bar{a}: a \in \mathbb{Z}_2\} = \{\bar{0},\bar{1}\}\]</span> Thus <spanclass="math display"="">\[(\mathbb{Z}_2[x]/(x))^* = \{\bar{1}\}\]Thus <span class="math inline">\(\Phi_2(x) = 1\)</span>.</spanclass="math></li><li>To compute <span class="math inline">\(\Phi_2(x^3)\)</span>,consider the ring <span class="math display">\[\mathbb{Z}_2[x]/(x^3) =\{\bar{r}: \deg(r) &lt; 3\} = \{\overline{a + bx + cx^2}: a,b,c \in\mathbb{Z}_2\}\]</span> Thus <spanclass="math display"="">\[\begin{aligned}(\mathbb{Z}_2[x]/(x^3))^* &amp;= \{\bar{r} \in \mathbb{Z}_2[x]/(x^3) :\gcd(r,x^3) = 1\} \\&amp;= \{\overline{1 + bx + cx^2}: b,c \in \mathbb{Z}_2\}\end{aligned}\] Thus <span class="math inline">\(\Phi_2(x^3) =4\)</span>.</spanclass="math></li></ol>
+          <ol type="1"><li>To compute <span class="math inline">\(\Phi_2(x)\)</span>, considerthe ring <span class="math display">\[\mathbb{Z}_2[x]/(x) = \{\bar{r}: \deg(r) &lt; 1\} = \{\bar{a}: a \in\mathbb{Z}_2\} = \{\bar{0}, \bar{1}\}\]</span> Thus <span class="math display">\[(\mathbb{Z}_2[x]/(x))^* = \{\bar{1}\}\]</span> Thus <span class="math inline">\(\Phi_2(x) = 1\)</span>.</li><li>To compute <span class="math inline">\(\Phi_2(x^3)\)</span>,consider the ring <span class="math display">\[\mathbb{Z}_2[x]/(x^3) = \{\bar{r}: \deg(r) &lt; 3\} = \{\overline{a + bx+ cx^2}: a,b,c \in \mathbb{Z}_2\}\]</span> Thus <span class="math display">\[\begin{aligned}(\mathbb{Z}_2[x]/(x^3))^* &amp;= \{\bar{r} \in \mathbb{Z}_2[x]/(x^3) :\gcd(r,x^3) = 1\} \\&amp;= \{\overline{1 + bx + cx^2}: b,c \in \mathbb{Z}_2\}\end{aligned}\]</span> Thus <span class="math inline">\(\Phi_2(x^3) =4\)</span>.</li></ol>
         </div>
       </div>
     </div><p></p></li>
 <li><p><strong>Thm 5.38 Chinese Remainder Theorem</strong>: Let <span class="math inline">\(m_1, m_2, \cdots, m_t\)</span> be pairwise coprime
 polynomials in <span class="math inline">\(F[x]\)</span> with <span class="math inline">\(\deg(m_i) \geq 1\)</span>, then <span class="math inline">\(\forall a_1,a_2,\cdots,a_t\in F[x]\)</span>, the
-system of congruences <span class="math display">\[\begin{cases}
+system of congruences <span class="math display">\[
+  \begin{cases}
   x\equiv a_1 \pmod {m_1} \\
   x\equiv a_2 \pmod {m_2} \\
   \cdots \\
   x\equiv a_t \pmod {m_t}
-  \end{cases}\]</span></p>
+  \end{cases}
+  \]</span></p>
 <p>has a unique solution <span class="math inline">\(x\in
 F[x]/(M)\)</span> with <span class="math inline">\(M=\prod_{i=1}^t
 m_i\)</span>.</p></li>
 <li><p><strong>Thm 5.39 Properties of Euler Function</strong>: Let <span class="math inline">\(m,n,d\in \mathbb{Z}_p[x]\)</span></p>
 <ol type="1">
-<li>If <span class="math inline">\(\gcd(m,n) = 1\)</span>, then <span class="math display">\[\Phi_p(mn) = \Phi_p(m) \cdot
-\Phi_p(n)\]</span></li>
+<li>If <span class="math inline">\(\gcd(m,n) = 1\)</span>, then <span class="math display">\[
+\Phi_p(mn) = \Phi_p(m) \cdot \Phi_p(n)
+\]</span></li>
 <li>If <span class="math inline">\(q(x)\)</span> is an irreducible
-polynomial, then <span class="math display">\[\begin{aligned}
+polynomial, then <span class="math display">\[
+\begin{aligned}
 \Phi_p(q^n) &amp;= p^{(n-1)\deg(q)} (p^{\deg(q)} - 1) \\
 &amp;= p^{n\deg(q)} \left(1 - \frac{1}{p^{\deg(q)}}\right)
-\end{aligned}\]</span>
+\end{aligned}
+\]</span>
 <ul>
 <li>In particular, <span class="math inline">\(q\)</span> irreducible
 <span class="math inline">\(\implies \Phi_p(q) = p^{\deg(q)} -
 1\)</span>.</li>
 </ul></li>
 <li>For any polynomial <span class="math inline">\(m\)</span>, we have
-<span class="math display">\[\Phi_p(m) = p^{\deg(m)} \prod_{q\mid m,
-\atop q \text{ monic irreducible}} \left(1 -
-\frac{1}{p^{\deg(q)}}\right)\]</span>
+<span class="math display">\[
+\Phi_p(m) = p^{\deg(m)} \prod_{q\mid m, \atop q \text{ monic
+irreducible}} \left(1 - \frac{1}{p^{\deg(q)}}\right)
+\]</span>
 <ul>
 <li>In prticular, <span class="math inline">\(\deg(m) = 1 \implies
 \Phi_p(m) = p - 1\)</span>.</li>
@@ -2495,7 +2559,7 @@ polynomial, then <span class="math display">\[\begin{aligned}
       </div>
       <div class="fold-collapse collapse" id="collapse-86d823d7">
         <div class="fold-content">
-          <ol type="1"><li>If <span class="math inline">\(m\in \mathbb{Z}_p^*\)</span>, then<span class="math inline">\(\Phi_p(mn) = \Phi_p(n) = \Phi_p(m) \cdot\Phi_p(n)\)</span> since <span class="math inline">\(\Phi_p(m) =1\)</span>. So we just need to consider the case when <spanclass="math inline"="">\(\deg(m) \geq 1\) and <spanclass="math inline"="">\(\deg(n) \geq 1\):<ul><li>Since <span class="math inline">\(\begin{cases}\Phi_p(mn) =|(\mathbb{Z}_p[x]/(mn))^*| \\ \Phi_p(m)\Phi_p(n) =|(\mathbb{Z}_p[x]/(m))^* \times (\mathbb{Z}_p[x]/(n))^*|\end{cases}\)</span>, it is sufficient to show that there is a bijectionbetween <span class="math inline">\((\mathbb{Z}_p[x]/(mn))^*\)</span>and <span class="math inline">\((\mathbb{Z}_p[x]/(m))^* \times(\mathbb{Z}_p[x]/(n))^*\)</span>.</li><li>Consider the map: <span class="math display">\[\begin{aligned}  \varphi: (\mathbb{Z}_p[x]/(mn))^* &amp;\to (\mathbb{Z}_p[x]/(m))^*\times (\mathbb{Z}_p[x]/(n))^* \\  [r]_{mn} &amp;\mapsto ([r]_m, [r]_n)  \end{aligned}\]</span> It is easy to prove that <spanclass="math inline"="">\(\varphi\) is well-defined and is a ringisomorphism, thus <span class="math inline">\(\varphi\)</span> is abijection, thus <span class="math inline">\(\Phi_p(mn) = \Phi_p(m) \cdot\Phi_p(n)\)</span>.</spanclass="math></li></ul></spanclass="math></spanclass="math></li><li>Consider the set <span class="math display">\[\begin{aligned}S &amp;= (\mathbb{Z}_p[x]/(q^n)) \backslash (\mathbb{Z}_p[x]/(q^n))^* =\{\bar{r} \in \mathbb{Z}_p[x]/(q^n) : \gcd(r,q^n) \neq 1\} \\&amp;= \{\overline{uq}: u \in \mathbb{Z}_p[x]\} \\&amp;= \{\overline{uq}: \deg(uq) &lt; \deg(q^n)\} \\&amp;= \{\overline{uq}: \deg(u) &lt; (n-1)\deg(q)\} \\&amp;= \{\overline{\sum_{i=0}^{(n-1)\deg(q)-1} u_i x^i q}: u_i \in\mathbb{Z}_p\}\end{aligned}\]</span> Thus <span class="math inline">\(|S| =p^{(n-1)\deg(q)}\)</span>, thus <spanclass="math display"="">\[\begin{aligned}\Phi_p(q^n) &amp;= |\mathbb{Z}_p[x]/(q^n)| - |S| \\&amp;= p^{n\deg(q)} - p^{(n-1)\deg(q)} \\&amp;= p^{n\deg(q)} \left(1 - \frac{1}{p^{\deg(q)}}\right)\end{aligned}\]</spanclass="math></li><li>Let <span class="math inline">\(m = \alpha \cdot \prod_{i=1}^tq_i^{e_i}\)</span> be the standard factorization of <spanclass="math inline"="">\(m\), <span class="math inline">\(\alpha \in\mathbb{Z}_p^*\)</span> is the leading coefficient of <spanclass="math inline"="">\(m\), <spanclass="math inline"="">\(q_i\) are monic irreducible polynomials,then <span class="math display">\[\begin{aligned}\Phi_p(m) &amp;= \prod_{i=1}^t \Phi_p(q_i^{e_i}) \\&amp;= \prod_{i=1}^t p^{e_i \deg(q_i)} \left(1 -\frac{1}{p^{\deg(q_i)}}\right) \\&amp;= p^{\deg(m)} \prod_{i=1}^t \left(1 -\frac{1}{p^{\deg(q_i)}}\right) \\\end{aligned}\]</span></spanclass="math></spanclass="math></spanclass="math></li></ol>
+          <ol type="1"><li>If <span class="math inline">\(m\in \mathbb{Z}_p^*\)</span>, then<span class="math inline">\(\Phi_p(mn) = \Phi_p(n) = \Phi_p(m) \cdot\Phi_p(n)\)</span> since <span class="math inline">\(\Phi_p(m) =1\)</span>. So we just need to consider the case when <spanclass="math inline"="">\(\deg(m) \geq 1\) and <spanclass="math inline"="">\(\deg(n) \geq 1\):<ul><li>Since <span class="math inline">\(\begin{cases}\Phi_p(mn) =|(\mathbb{Z}_p[x]/(mn))^*| \\ \Phi_p(m)\Phi_p(n) =|(\mathbb{Z}_p[x]/(m))^* \times (\mathbb{Z}_p[x]/(n))^*|\end{cases}\)</span>, it is sufficient to show that there is a bijectionbetween <span class="math inline">\((\mathbb{Z}_p[x]/(mn))^*\)</span>and <span class="math inline">\((\mathbb{Z}_p[x]/(m))^* \times(\mathbb{Z}_p[x]/(n))^*\)</span>.</li><li>Consider the map: <span class="math display">\[  \begin{aligned}  \varphi: (\mathbb{Z}_p[x]/(mn))^* &amp;\to (\mathbb{Z}_p[x]/(m))^*\times (\mathbb{Z}_p[x]/(n))^* \\  [r]_{mn} &amp;\mapsto ([r]_m, [r]_n)  \end{aligned}  \]</span> It is easy to prove that <spanclass="math inline"="">\(\varphi\) is well-defined and is a ringisomorphism, thus <span class="math inline">\(\varphi\)</span> is abijection, thus <span class="math inline">\(\Phi_p(mn) = \Phi_p(m) \cdot\Phi_p(n)\)</span>.</spanclass="math></li></ul></spanclass="math></spanclass="math></li><li>Consider the set <span class="math display">\[\begin{aligned}S &amp;= (\mathbb{Z}_p[x]/(q^n)) \backslash (\mathbb{Z}_p[x]/(q^n))^* =\{\bar{r} \in \mathbb{Z}_p[x]/(q^n) : \gcd(r,q^n) \neq 1\} \\&amp;= \{\overline{uq}: u \in \mathbb{Z}_p[x]\} \\&amp;= \{\overline{uq}: \deg(uq) &lt; \deg(q^n)\} \\&amp;= \{\overline{uq}: \deg(u) &lt; (n-1)\deg(q)\} \\&amp;= \{\overline{\sum_{i=0}^{(n-1)\deg(q)-1} u_i x^i q}: u_i \in\mathbb{Z}_p\}\end{aligned}\]</span> Thus <span class="math inline">\(|S| =p^{(n-1)\deg(q)}\)</span>, thus <span class="math display">\[\begin{aligned}\Phi_p(q^n) &amp;= |\mathbb{Z}_p[x]/(q^n)| - |S| \\&amp;= p^{n\deg(q)} - p^{(n-1)\deg(q)} \\&amp;= p^{n\deg(q)} \left(1 - \frac{1}{p^{\deg(q)}}\right)\end{aligned}\]</span></li><li>Let <span class="math inline">\(m = \alpha \cdot \prod_{i=1}^tq_i^{e_i}\)</span> be the standard factorization of <spanclass="math inline"="">\(m\), <span class="math inline">\(\alpha \in\mathbb{Z}_p^*\)</span> is the leading coefficient of <spanclass="math inline"="">\(m\), <spanclass="math inline"="">\(q_i\) are monic irreducible polynomials,then <span class="math display">\[\begin{aligned}\Phi_p(m) &amp;= \prod_{i=1}^t \Phi_p(q_i^{e_i}) \\&amp;= \prod_{i=1}^t p^{e_i \deg(q_i)} \left(1 -\frac{1}{p^{\deg(q_i)}}\right) \\&amp;= p^{\deg(m)} \prod_{i=1}^t \left(1 -\frac{1}{p^{\deg(q_i)}}\right) \\\end{aligned}\]</span></spanclass="math></spanclass="math></spanclass="math></li></ol>
         </div>
       </div>
     </div><p></p></li>
@@ -2508,7 +2572,7 @@ p^{\deg(m)}\]</span></p>
       </div>
       <div class="fold-collapse collapse" id="collapse-3f41a9bd">
         <div class="fold-content">
-          <ul><li>Let <span class="math inline">\(m = \alpha \cdot \prod_{i=1}^tq_i^{e_i}\)</span> be the standard factorization of <spanclass="math inline"="">\(m\), <span class="math inline">\(\alpha \in\mathbb{Z}_p^*\)</span> is the leading coefficient of <spanclass="math inline"="">\(m\), <spanclass="math inline"="">\(q_i\) are monic irreducible polynomials,then <span class="math inline">\(d = \prod_{i=1}^t q_i^{k_i}, 0 \leq k_i\leq e_i\)</span> is a monic divisor of <spanclass="math inline"="">\(m\), thus <spanclass="math display"="">\[\begin{aligned}  \sum_{d\mid m, \atop d \text{ monic}} \Phi_p(d) &amp;= \sum_{0\leq k_i\leq e_i} \Phi_p\left(\prod_{i=1}^t q_i^{k_i}\right) \\  &amp;= \sum_{0\leq k_i \leq e_i} \prod_{i=1}^t \Phi_p(q_i^{k_i}) \\  &amp;= \prod_{i=1}^t \left(\sum_{k_i=0}^{e_i} \Phi_p(q_i^{k_i})\right)\\  &amp;= \prod_{i=1}^t \left(\sum_{k_i=0}^{e_i} \left(p^{k_i \deg(q_i)}- p^{(k_i-1) \deg(q_i)}\right)\right) \\  &amp;= \prod_{i=1}^t \left(p^{e_i \deg(q_i)}\right) \\  &amp;= p^{\deg(m)}  \end{aligned}\]</spanclass="math></spanclass="math></spanclass="math></spanclass="math></spanclass="math></li></ul>
+          <ul><li>Let <span class="math inline">\(m = \alpha \cdot \prod_{i=1}^tq_i^{e_i}\)</span> be the standard factorization of <spanclass="math inline"="">\(m\), <span class="math inline">\(\alpha \in\mathbb{Z}_p^*\)</span> is the leading coefficient of <spanclass="math inline"="">\(m\), <spanclass="math inline"="">\(q_i\) are monic irreducible polynomials,then <span class="math inline">\(d = \prod_{i=1}^t q_i^{k_i}, 0 \leq k_i\leq e_i\)</span> is a monic divisor of <spanclass="math inline"="">\(m\), thus <span class="math display">\[  \begin{aligned}  \sum_{d\mid m, \atop d \text{ monic}} \Phi_p(d) &amp;= \sum_{0\leq k_i\leq e_i} \Phi_p\left(\prod_{i=1}^t q_i^{k_i}\right) \\  &amp;= \sum_{0\leq k_i \leq e_i} \prod_{i=1}^t \Phi_p(q_i^{k_i}) \\  &amp;= \prod_{i=1}^t \left(\sum_{k_i=0}^{e_i} \Phi_p(q_i^{k_i})\right)\\  &amp;= \prod_{i=1}^t \left(\sum_{k_i=0}^{e_i} \left(p^{k_i \deg(q_i)}- p^{(k_i-1) \deg(q_i)}\right)\right) \\  &amp;= \prod_{i=1}^t \left(p^{e_i \deg(q_i)}\right) \\  &amp;= p^{\deg(m)}  \end{aligned}  \]</span></spanclass="math></spanclass="math></spanclass="math></spanclass="math></li></ul>
         </div>
       </div>
     </div><p></p></li>
@@ -2530,7 +2594,9 @@ p^{\deg(m)}\]</span></p>
     </div><p></p></li>
 <li><p><strong>Def 5.42 Order</strong>: Let <span class="math inline">\(a\in F[x]\)</span> be a non-zero polynomial with
 <span class="math inline">\(\gcd(a,m) = 1\)</span>, the order of <span class="math inline">\(a\)</span> modulo <span class="math inline">\(m\)</span> is defined to be the smallest positive
-integer <span class="math inline">\(k\)</span> s.t. <span class="math display">\[a^k \equiv 1 \pmod m\]</span></p>
+integer <span class="math inline">\(k\)</span> s.t. <span class="math display">\[
+  a^k \equiv 1 \pmod m
+  \]</span></p>
 <p>Denoted by <span class="math inline">\(\mathrm{ord}_m(a)\)</span>.</p></li>
 <li><p><strong>Thm 5.43 Properties of Order</strong>:</p>
 <ol type="1">
@@ -2543,7 +2609,9 @@ integer <span class="math inline">\(k\)</span> s.t. <span class="math display">\
 \cdot \mathrm{ord}_m(b)\)</span></li>
 </ol></li>
 <li><p><strong>Def 5.44 Primitive Element</strong>: An element <span class="math inline">\(g \in F[x]\)</span> with <span class="math inline">\(\gcd(g,m) = 1\)</span> is called a primitive
-element modulo <span class="math inline">\(m\)</span> if <span class="math display">\[\mathrm{ord}_m(g) = \Phi_p(m)\]</span></p></li>
+element modulo <span class="math inline">\(m\)</span> if <span class="math display">\[
+  \mathrm{ord}_m(g) = \Phi_p(m)
+  \]</span></p></li>
 <li><p><strong>Thm 5.45</strong>: Let <span class="math inline">\(m \in
 \mathbb{Z}_p[x]\)</span> with <span class="math inline">\(\deg(m) \geq
 1\)</span>, if there exists a primitive element modulo <span class="math inline">\(m\)</span>, then there are exactly <span class="math inline">\(\varphi(\Phi_p(m))\)</span> primitive elements
@@ -2599,7 +2667,7 @@ element modulo <span class="math inline">\(q^k \iff\)</span></p>
       </div>
       <div class="fold-collapse collapse" id="collapse-714793c6">
         <div class="fold-content">
-          <ul><li><span class="math inline">\(\impliedby\)</span>:<ol type="1"><li><span class="math inline">\(k=2\)</span>: Let <spanclass="math inline"="">\(g\in \mathbb{Z}_p[x]\) be a primitiveelement modulo <span class="math inline">\(q\)</span>, then <spanclass="math inline"="">\(\mathrm{ord}_q(g) = \Phi_p(q) = p^{\deg(q)} - 1 =p - 1\). Then we have: <spanclass="math display"="">\[\begin{aligned}&amp; g^{\mathrm{ord}_{q^2}(g)} \equiv 1 \pmod{q^2} \\\implies &amp; g^{\mathrm{ord}_{q^2}(g)} \equiv 1 \pmod{q} \\\implies &amp; p - 1 = \Phi_p(q) \mid \mathrm{ord}_{q^2}(g) \mid\Phi_p(q^2) = p(p - 1) \\\end{aligned}\]<ul><li>Thus if <span class="math inline">\(\mathrm{ord}_{q^2}(g) = p(p -1)\)</span>, then <span class="math inline">\(g\)</span> is a primitiveelement modulo <span class="math inline">\(q^2\)</span>.</li><li>Else if <span class="math inline">\(\mathrm{ord}_{q^2}(g) = p -1\)</span>, then consider the element <span class="math inline">\(g +q\)</span>, we have <span class="math inline">\(\mathrm{ord}_{q^2}(g +q) = p-1\)</span> or <span class="math inline">\(p(p-1)\)</span>.Suppose <span class="math inline">\(\mathrm{ord}_{q^2}(g + q) = p -1\)</span>, then we have: <span class="math display">\[\begin{aligned}  (g + q)^{p - 1} &amp;= g^{p - 1} + \binom{p - 1}{1} g^{p - 2} q +\cdots + \binom{p - 1}{p - 2} g q^{p - 2} + q^{p - 1} \\  &amp;\equiv g^{p - 1} + (p-1)g^{p - 2} q \\  &amp;\equiv 1 - g^{p - 2} q \not\equiv 1 \pmod{q^2}  \end{aligned}\]</span> Thus contradiction, so <spanclass="math inline"="">\(\mathrm{ord}_{q^2}(g + q) = p(p - 1)\),thus <span class="math inline">\(g + q\)</span> is a primitive elementmodulo <span class="math inline">\(q^2\)</span>.</spanclass="math></li></ul></spanclass="math></spanclass="math></spanclass="math></li><li><span class="math inline">\(k=3\)</span>: Let <spanclass="math inline"="">\(g\in \mathbb{Z}_2[x]\) be a primitiveelement modulo <span class="math inline">\(q^2\)</span>, then <spanclass="math display"="">\[\begin{aligned}2 = p(p-1) = \mathrm{ord}_{q^2}(g) \mid \mathrm{ord}_{q^3}(g) \mid\Phi_2(q^3) = p^2(p-1) = 4\end{aligned}\] Thus <spanclass="math inline"="">\(\mathrm{ord}_{q^3}(g) = 2\) or <spanclass="math inline"="">\(4\). Suppose <spanclass="math inline"="">\(\mathrm{ord}_{q^3}(g) = 2\), thus <spanclass="math display"="">\[\begin{aligned}&amp; g^2 \equiv 1 \pmod{q^3} \\\implies &amp; q^3 \mid g^2 - 1 = (g - 1)^2 \\\implies &amp; q^2 \mid g - 1\end{aligned}\] Thus <spanclass="math inline"="">\(\mathrm{ord}_{q^2}(g) = 1\), contradiction,thus <span class="math inline">\(\mathrm{ord}_{q^3}(g) = 4\)</span>,thus <span class="math inline">\(g\)</span> is a primitive elementmodulo <span class="math inline">\(q^3\)</span>.</spanclass="math></spanclass="math></spanclass="math></spanclass="math></spanclass="math></spanclass="math></spanclass="math></li></ol></li><li><span class="math inline">\(\implies\)</span>: We have <spanclass="math inline"="">\(\Phi_p(q^k) = (p^d - 1) \cdot p^{(k-1)d}\)with <span class="math inline">\(d = \deg(q)\)</span>. Let <spanclass="math inline"="">\(g\) be a primitive element modulo <spanclass="math inline"="">\(q^k\), then <spanclass="math inline"="">\(\mathrm{ord}_{q^k}(g) = \Phi_p(q^k)\). Let<span class="math inline">\(t = \lceil \log_p(k)\rceil\)</span>, then<span class="math inline">\(p^t \geq k\)</span>. Since <spanclass="math inline"="">\(\gcd(g, q^k) = 1 \implies \gcd(g, q) = 1\),we have <span class="math display">\[\begin{aligned}  &amp; g^{\Phi_p(q)} \equiv 1 \pmod q \\  \implies &amp; q \mid g^{\Phi_p(q)} - 1 \\  \implies &amp; q^k \mid q^{p^t} \mid (g^{\Phi_p(q)} - 1)^{p^t} =g^{\Phi_p(q) \cdot p^t} - 1 \\  \implies &amp; g^{\Phi_p(q) \cdot p^t} \equiv 1 \pmod{q^k} \\  \implies &amp; (p^d - 1)p^{(k-1)d} = \Phi_p(q^k) =\mathrm{ord}_{q^k}(g) \mid \Phi_p(q)p^t = (p^d - 1)p^t \\  \implies &amp; p^{(k-1)d} \mid p^t \\  \implies &amp; (k-1)d \leq t  \end{aligned}\]</span><ul><li>If <span class="math inline">\(p\neq 2\)</span>, then <spanclass="math inline"="">\((k-1)d \leq t = \lceil \log_p(k) \rceil \leq\lceil \ln(k) \rceil \leq \lceil k-1 \rceil = k-1\), thus <spanclass="math inline"="">\(d = 1\), thus <spanclass="math inline"="">\(\lceil \log_p(k) \rceil = k-1\), thus <spanclass="math inline"="">\(k=2\).</spanclass="math></spanclass="math></spanclass="math></spanclass="math></li><li>If <span class="math inline">\(p=2\)</span>:<ul><li>If <span class="math inline">\(d\geq 2\)</span>, then <spanclass="math inline"="">\(2k-2 \leq (k-1) \leq \lceil \log_2(k)\rceil\). Since linearly <spanclass="math inline"="">\(2k-2\) grows faster than <spanclass="math inline"="">\(\lceil \log_2(k) \rceil\) and <spanclass="math inline"="">\(k=2\) not satisfies the inequality,contradiction, thus <span class="math inline">\(d=1\)</span>.</spanclass="math></spanclass="math></spanclass="math></spanclass="math></li><li>If <span class="math inline">\(d=1\)</span>, then <spanclass="math inline"="">\(k-1 \leq \lceil \log_2(k) \rceil\). Sincelinearly <span class="math inline">\(k-1\)</span> grows faster than<span class="math inline">\(\lceil \log_2(k) \rceil\)</span> and <spanclass="math inline"="">\(k=4\) not satisfies the inequality,contradiction, thus <span class="math inline">\(k \leq 3\)</span>.</spanclass="math></spanclass="math></li></ul></li><li>Thus we have:<ol type="1"><li><span class="math inline">\(p\neq 2\)</span>, <spanclass="math inline"="">\(k=2\) and <spanclass="math inline"="">\(\deg(q) = 1\), or</spanclass="math></spanclass="math></li><li><span class="math inline">\(p=2\)</span>, <spanclass="math inline"="">\(2\leq k \leq 3\) and <spanclass="math inline"="">\(\deg(q) = 1\).</spanclass="math></spanclass="math></li></ol></li></ul></spanclass="math></spanclass="math></spanclass="math></spanclass="math></spanclass="math></li></ul>
+          <ul><li><span class="math inline">\(\impliedby\)</span>:<ol type="1"><li><span class="math inline">\(k=2\)</span>: Let <spanclass="math inline"="">\(g\in \mathbb{Z}_p[x]\) be a primitiveelement modulo <span class="math inline">\(q\)</span>, then <spanclass="math inline"="">\(\mathrm{ord}_q(g) = \Phi_p(q) = p^{\deg(q)} - 1 =p - 1\). Then we have: <span class="math display">\[\begin{aligned}&amp; g^{\mathrm{ord}_{q^2}(g)} \equiv 1 \pmod{q^2} \\\implies &amp; g^{\mathrm{ord}_{q^2}(g)} \equiv 1 \pmod{q} \\\implies &amp; p - 1 = \Phi_p(q) \mid \mathrm{ord}_{q^2}(g) \mid\Phi_p(q^2) = p(p - 1) \\\end{aligned}\]</span><ul><li>Thus if <span class="math inline">\(\mathrm{ord}_{q^2}(g) = p(p -1)\)</span>, then <span class="math inline">\(g\)</span> is a primitiveelement modulo <span class="math inline">\(q^2\)</span>.</li><li>Else if <span class="math inline">\(\mathrm{ord}_{q^2}(g) = p -1\)</span>, then consider the element <span class="math inline">\(g +q\)</span>, we have <span class="math inline">\(\mathrm{ord}_{q^2}(g +q) = p-1\)</span> or <span class="math inline">\(p(p-1)\)</span>.Suppose <span class="math inline">\(\mathrm{ord}_{q^2}(g + q) = p -1\)</span>, then we have: <span class="math display">\[  \begin{aligned}  (g + q)^{p - 1} &amp;= g^{p - 1} + \binom{p - 1}{1} g^{p - 2} q +\cdots + \binom{p - 1}{p - 2} g q^{p - 2} + q^{p - 1} \\  &amp;\equiv g^{p - 1} + (p-1)g^{p - 2} q \\  &amp;\equiv 1 - g^{p - 2} q \not\equiv 1 \pmod{q^2}  \end{aligned}  \]</span> Thus contradiction, so <spanclass="math inline"="">\(\mathrm{ord}_{q^2}(g + q) = p(p - 1)\),thus <span class="math inline">\(g + q\)</span> is a primitive elementmodulo <span class="math inline">\(q^2\)</span>.</spanclass="math></li></ul></spanclass="math></spanclass="math></li><li><span class="math inline">\(k=3\)</span>: Let <spanclass="math inline"="">\(g\in \mathbb{Z}_2[x]\) be a primitiveelement modulo <span class="math inline">\(q^2\)</span>, then <spanclass="math display"="">\[\begin{aligned}2 = p(p-1) = \mathrm{ord}_{q^2}(g) \mid \mathrm{ord}_{q^3}(g) \mid\Phi_2(q^3) = p^2(p-1) = 4\end{aligned}\] Thus <span class="math inline">\(\mathrm{ord}_{q^3}(g) =2\)</span> or <span class="math inline">\(4\)</span>. Suppose <spanclass="math inline"="">\(\mathrm{ord}_{q^3}(g) = 2\), thus <spanclass="math display"="">\[\begin{aligned}&amp; g^2 \equiv 1 \pmod{q^3} \\\implies &amp; q^3 \mid g^2 - 1 = (g - 1)^2 \\\implies &amp; q^2 \mid g - 1\end{aligned}\] Thus <span class="math inline">\(\mathrm{ord}_{q^2}(g) =1\)</span>, contradiction, thus <spanclass="math inline"="">\(\mathrm{ord}_{q^3}(g) = 4\), thus <spanclass="math inline"="">\(g\) is a primitive element modulo <spanclass="math inline"="">\(q^3\).</spanclass="math></spanclass="math></spanclass="math></spanclass="math></spanclass="math></spanclass="math></spanclass="math></li></ol></li><li><span class="math inline">\(\implies\)</span>: We have <spanclass="math inline"="">\(\Phi_p(q^k) = (p^d - 1) \cdot p^{(k-1)d}\)with <span class="math inline">\(d = \deg(q)\)</span>. Let <spanclass="math inline"="">\(g\) be a primitive element modulo <spanclass="math inline"="">\(q^k\), then <spanclass="math inline"="">\(\mathrm{ord}_{q^k}(g) = \Phi_p(q^k)\). Let<span class="math inline">\(t = \lceil \log_p(k)\rceil\)</span>, then<span class="math inline">\(p^t \geq k\)</span>. Since <spanclass="math inline"="">\(\gcd(g, q^k) = 1 \implies \gcd(g, q) = 1\),we have <span class="math display">\[  \begin{aligned}  &amp; g^{\Phi_p(q)} \equiv 1 \pmod q \\  \implies &amp; q \mid g^{\Phi_p(q)} - 1 \\  \implies &amp; q^k \mid q^{p^t} \mid (g^{\Phi_p(q)} - 1)^{p^t} =g^{\Phi_p(q) \cdot p^t} - 1 \\  \implies &amp; g^{\Phi_p(q) \cdot p^t} \equiv 1 \pmod{q^k} \\  \implies &amp; (p^d - 1)p^{(k-1)d} = \Phi_p(q^k) =\mathrm{ord}_{q^k}(g) \mid \Phi_p(q)p^t = (p^d - 1)p^t \\  \implies &amp; p^{(k-1)d} \mid p^t \\  \implies &amp; (k-1)d \leq t  \end{aligned}  \]</span><ul><li>If <span class="math inline">\(p\neq 2\)</span>, then <spanclass="math inline"="">\((k-1)d \leq t = \lceil \log_p(k) \rceil \leq\lceil \ln(k) \rceil \leq \lceil k-1 \rceil = k-1\), thus <spanclass="math inline"="">\(d = 1\), thus <spanclass="math inline"="">\(\lceil \log_p(k) \rceil = k-1\), thus <spanclass="math inline"="">\(k=2\).</spanclass="math></spanclass="math></spanclass="math></spanclass="math></li><li>If <span class="math inline">\(p=2\)</span>:<ul><li>If <span class="math inline">\(d\geq 2\)</span>, then <spanclass="math inline"="">\(2k-2 \leq (k-1) \leq \lceil \log_2(k)\rceil\). Since linearly <spanclass="math inline"="">\(2k-2\) grows faster than <spanclass="math inline"="">\(\lceil \log_2(k) \rceil\) and <spanclass="math inline"="">\(k=2\) not satisfies the inequality,contradiction, thus <span class="math inline">\(d=1\)</span>.</spanclass="math></spanclass="math></spanclass="math></spanclass="math></li><li>If <span class="math inline">\(d=1\)</span>, then <spanclass="math inline"="">\(k-1 \leq \lceil \log_2(k) \rceil\). Sincelinearly <span class="math inline">\(k-1\)</span> grows faster than<span class="math inline">\(\lceil \log_2(k) \rceil\)</span> and <spanclass="math inline"="">\(k=4\) not satisfies the inequality,contradiction, thus <span class="math inline">\(k \leq 3\)</span>.</spanclass="math></spanclass="math></li></ul></li><li>Thus we have:<ol type="1"><li><span class="math inline">\(p\neq 2\)</span>, <spanclass="math inline"="">\(k=2\) and <spanclass="math inline"="">\(\deg(q) = 1\), or</spanclass="math></spanclass="math></li><li><span class="math inline">\(p=2\)</span>, <spanclass="math inline"="">\(2\leq k \leq 3\) and <spanclass="math inline"="">\(\deg(q) = 1\).</spanclass="math></spanclass="math></li></ol></li></ul></spanclass="math></spanclass="math></spanclass="math></spanclass="math></spanclass="math></li></ul>
         </div>
       </div>
     </div><p></p></li>
@@ -2624,7 +2692,7 @@ in Thm 5.48.</li>
       </div>
       <div class="fold-collapse collapse" id="collapse-b1b4ad99">
         <div class="fold-content">
-          <ul><li>By the Chinese Remainder Theorem for rings, we have the isomorphismof groups of units: <spanclass="math display"="">\[(\mathbb{Z}_p[x]/(m(x)))^* \cong(\mathbb{Z}_p[x]/(q_1^{e_1}(x)))^* \times \dots \times(\mathbb{Z}_p[x]/(q_n^{e_n}(x)))^*\] Let <spanclass="math inline"="">\(G = (\mathbb{Z}_p[x]/(m(x)))^*\) and <spanclass="math inline"="">\(G_i =(\mathbb{Z}_p[x]/(q_i^{e_i}(x)))^*\).</spanclass="math></spanclass="math></spanclass="math></li><li>Then we have:<ul><li><span class="math inline">\(\qquad\)</span> A primitive elementmodulo <span class="math inline">\(m(x)\)</span> exists</li><li><span class="math inline">\(\iff G\)</span> is a cyclic group</li><li><span class="math inline">\(\iff G_1 \times \dots \timesG_n\)</span> is cyclic</li><li><span class="math inline">\(\iff \forall 1 \leq i \leq n,G_i\)</span> is cyclic and their orders <spanclass="math inline"="">\(|G_i| = \Phi_p(q_i^{e_i})\) are pairwisecoprime</spanclass="math></li><li><span class="math inline">\(\iff \forall 1 \leq i \leq n\)</span>,there exists a primitive element modulo <spanclass="math inline"="">\(q_i^{e_i}\) and <spanclass="math inline"="">\(\forall 1 \leq i \leq j \leq n\), <spanclass="math inline"="">\(\gcd(\Phi_p(q_i^{e_i}), \Phi_p(q_j^{e_j})) =1\).</spanclass="math></spanclass="math></spanclass="math></li></ul></li></ul>
+          <ul><li>By the Chinese Remainder Theorem for rings, we have the isomorphismof groups of units: <span class="math display">\[(\mathbb{Z}_p[x]/(m(x)))^* \cong (\mathbb{Z}_p[x]/(q_1^{e_1}(x)))^*\times \dots \times (\mathbb{Z}_p[x]/(q_n^{e_n}(x)))^*\]</span> Let <span class="math inline">\(G =(\mathbb{Z}_p[x]/(m(x)))^*\)</span> and <span class="math inline">\(G_i= (\mathbb{Z}_p[x]/(q_i^{e_i}(x)))^*\)</span>.</li><li>Then we have:<ul><li><span class="math inline">\(\qquad\)</span> A primitive elementmodulo <span class="math inline">\(m(x)\)</span> exists</li><li><span class="math inline">\(\iff G\)</span> is a cyclic group</li><li><span class="math inline">\(\iff G_1 \times \dots \timesG_n\)</span> is cyclic</li><li><span class="math inline">\(\iff \forall 1 \leq i \leq n,G_i\)</span> is cyclic and their orders <spanclass="math inline"="">\(|G_i| = \Phi_p(q_i^{e_i})\) are pairwisecoprime</spanclass="math></li><li><span class="math inline">\(\iff \forall 1 \leq i \leq n\)</span>,there exists a primitive element modulo <spanclass="math inline"="">\(q_i^{e_i}\) and <spanclass="math inline"="">\(\forall 1 \leq i \leq j \leq n\), <spanclass="math inline"="">\(\gcd(\Phi_p(q_i^{e_i}), \Phi_p(q_j^{e_j})) =1\).</spanclass="math></spanclass="math></spanclass="math></li></ul></li></ul>
         </div>
       </div>
     </div><p></p></li>
@@ -2665,7 +2733,9 @@ irreducible polynomials.</li>
 <h2 id="lagrange-interpolation">Lagrange interpolation</h2>
 <h3 id="roots">Roots</h3>
 <ul>
-<li><p><strong>Def 5.51 Root</strong>: An element <span class="math inline">\(r \in F\)</span> is called a root of <span class="math inline">\(f \in F[x]\)</span> if <span class="math display">\[f(r) = 0\]</span></p></li>
+<li><p><strong>Def 5.51 Root</strong>: An element <span class="math inline">\(r \in F\)</span> is called a root of <span class="math inline">\(f \in F[x]\)</span> if <span class="math display">\[
+  f(r) = 0
+  \]</span></p></li>
 <li><p><strong>Lemma 5.52</strong>: An element <span class="math inline">\(r \in F\)</span> is a root of <span class="math inline">\(f \in F[x] \iff (x-r) | f(x)\)</span></p>
 <p>
     </p><div class="fold">
@@ -2679,8 +2749,9 @@ irreducible polynomials.</li>
       </div>
     </div><p></p></li>
 <li><p><strong>Def 5.53 Derivative</strong>: If <span class="math inline">\(f(x) = a_0 + a_1x + \cdots + a_nx^n\)</span>, then
-the derivative <span class="math inline">\(f'\)</span> of <span class="math inline">\(f\)</span> is defined by <span class="math display">\[f' = a_1 + 2a_2x + \cdots +
-na_nx^{n-1}\]</span></p></li>
+the derivative <span class="math inline">\(f'\)</span> of <span class="math inline">\(f\)</span> is defined by <span class="math display">\[
+  f' = a_1 + 2a_2x + \cdots + na_nx^{n-1}
+  \]</span></p></li>
 <li><p><strong>Def 5.54 Multiplicity of Root</strong>: Let <span class="math inline">\(r \in F\)</span> be a root of <span class="math inline">\(f \in F[x]\)</span>. If <span class="math inline">\(k\)</span> is a positive integer s.t. <span class="math inline">\((x-r)^k | f\)</span> but <span class="math inline">\((x-r)^{k+1} \nmid f\)</span>, then <span class="math inline">\(k\)</span> is called the multiplicity of root
 <span class="math inline">\(r\)</span>.</p>
 <ul>
@@ -2719,15 +2790,18 @@ elements of <span class="math inline">\(F\)</span>.</p>
       </div>
       <div class="fold-collapse collapse" id="collapse-e70d1bd0">
         <div class="fold-content">
-          <ul><li>It is sufficient to show that they are linearly independent. Suppose<span class="math inline">\(\sum_{i=1}^n \lambda_i L_i(x) = 0\)</span>for some <span class="math inline">\(\lambda_i \in F\)</span>, then<span class="math inline">\(\forall k\)</span>, we have <spanclass="math display"="">\[0 = \sum_{i=1}^n \lambda_i \prod_{j \ne i}(a_k -a_j) = \lambda_k \prod_{j \ne k}(a_k - a_j), \quad \prod_{j \ne k}(a_k -a_j) \neq 0\] Since in the sum, when <spanclass="math inline"="">\(i \neq k\), the term <spanclass="math inline"="">\(\prod_{j \ne i}(a_k - a_j) = 0\), only when<span class="math inline">\(i = k\)</span>, the term <spanclass="math inline"="">\(\prod_{j \ne i}(a_k - a_j) = \prod_{j \ne k}(a_k -a_j) \neq 0\). Thus <span class="math inline">\(\forall k,\lambda_k = 0\)</span>, thus they are linearly independent.</spanclass="math></spanclass="math></spanclass="math></spanclass="math></li></ul>
+          <ul><li>It is sufficient to show that they are linearly independent. Suppose<span class="math inline">\(\sum_{i=1}^n \lambda_i L_i(x) = 0\)</span>for some <span class="math inline">\(\lambda_i \in F\)</span>, then<span class="math inline">\(\forall k\)</span>, we have <spanclass="math display"="">\[  0 = \sum_{i=1}^n \lambda_i \prod_{j \ne i}(a_k - a_j) = \lambda_k\prod_{j \ne k}(a_k - a_j), \quad \prod_{j \ne k}(a_k - a_j) \neq 0  \] Since in the sum, when <span class="math inline">\(i \neqk\)</span>, the term <span class="math inline">\(\prod_{j \ne i}(a_k -a_j) = 0\)</span>, only when <span class="math inline">\(i = k\)</span>,the term <span class="math inline">\(\prod_{j \ne i}(a_k - a_j) =\prod_{j \ne k}(a_k - a_j) \neq 0\)</span>. Thus <spanclass="math inline"="">\(\forall k, \lambda_k = 0\), thus they arelinearly independent.</spanclass="math></spanclass="math></li></ul>
         </div>
       </div>
     </div><p></p></li>
 <li><p><strong>Thm 5.58 Lagrange Interpolation</strong>: For <span class="math inline">\(n &gt; 0\)</span>, let <span class="math inline">\(a_1, \cdots, a_n\)</span> be <span class="math inline">\(n\)</span> distinct elements of <span class="math inline">\(F\)</span>, and let <span class="math inline">\(b_1, \cdots, b_n\)</span> be <span class="math inline">\(n\)</span> arbitrary elements of <span class="math inline">\(F\)</span>. Then there exists a unique polynomial
-<span class="math inline">\(f \in F[x]\)</span> with <span class="math inline">\(\deg(f) \le n-1\)</span> s.t. <span class="math display">\[f(a_i) = b_i, \quad i=1,2,\cdots,n\]</span></p>
+<span class="math inline">\(f \in F[x]\)</span> with <span class="math inline">\(\deg(f) \le n-1\)</span> s.t. <span class="math display">\[
+  f(a_i) = b_i, \quad i=1,2,\cdots,n
+  \]</span></p>
 <p>Furthermore, this polynomial <span class="math inline">\(f\)</span>
-is given by <span class="math display">\[f(x) = \sum_{i=1}^n \prod_{j
-\ne i} \frac{(x-a_j)}{(a_i-a_j)} b_i\]</span></p>
+is given by <span class="math display">\[
+  f(x) = \sum_{i=1}^n \prod_{j \ne i} \frac{(x-a_j)}{(a_i-a_j)} b_i
+  \]</span></p>
 <p>
     </p><div class="fold">
       <div class="fold-title fold-info collapsed" data-toggle="collapse" href="#collapse-7e7cad9c" role="button" aria-expanded="false" aria-controls="collapse-7e7cad9c">
@@ -2735,7 +2809,7 @@ is given by <span class="math display">\[f(x) = \sum_{i=1}^n \prod_{j
       </div>
       <div class="fold-collapse collapse" id="collapse-7e7cad9c">
         <div class="fold-content">
-          <ul><li>Let <span class="math inline">\(f(x) = \sum_{i=0}^{n-1} \lambda_ix^i\)</span> satisfy <span class="math inline">\(f(a_i) = b_i\)</span>for each <span class="math inline">\(i\)</span>. Then we have <spanclass="math display"="">\[\begin{pmatrix}  1 &amp; a_1 &amp; a_1^2 &amp; \cdots &amp; a_1^{n-1} \\  1 &amp; a_2 &amp; a_2^2 &amp; \cdots &amp; a_2^{n-1} \\  \vdots &amp; \vdots &amp; \vdots &amp; \ddots &amp; \vdots \\  1 &amp; a_n &amp; a_n^2 &amp; \cdots &amp; a_n^{n-1}  \end{pmatrix}  \begin{pmatrix} \lambda_0 \\ \lambda_1 \\ \lambda_2 \\ \vdots \\\lambda_{n-1} \end{pmatrix}  = \begin{pmatrix} b_1 \\ b_2 \\ b_3 \\ \vdots \\ b_n\end{pmatrix}\] Since the coefficient matrix is a Vandermondematrix with distinct <span class="math inline">\(a_i\)</span>, it isinvertible, thus there exists a unique solution <spanclass="math inline"="">\(\lambda_i\), thus there exists a uniquepolynomial <span class="math inline">\(f\)</span> with <spanclass="math inline"="">\(\deg(f) \le n-1\) s.t. <spanclass="math inline"="">\(f(a_i) = b_i\) for each <spanclass="math inline"="">\(i\).</spanclass="math></spanclass="math></spanclass="math></spanclass="math></spanclass="math></li></ul>
+          <ul><li>Let <span class="math inline">\(f(x) = \sum_{i=0}^{n-1} \lambda_ix^i\)</span> satisfy <span class="math inline">\(f(a_i) = b_i\)</span>for each <span class="math inline">\(i\)</span>. Then we have <spanclass="math display"="">\[  \begin{pmatrix}  1 &amp; a_1 &amp; a_1^2 &amp; \cdots &amp; a_1^{n-1} \\  1 &amp; a_2 &amp; a_2^2 &amp; \cdots &amp; a_2^{n-1} \\  \vdots &amp; \vdots &amp; \vdots &amp; \ddots &amp; \vdots \\  1 &amp; a_n &amp; a_n^2 &amp; \cdots &amp; a_n^{n-1}  \end{pmatrix}  \begin{pmatrix} \lambda_0 \\ \lambda_1 \\ \lambda_2 \\ \vdots \\\lambda_{n-1} \end{pmatrix}  = \begin{pmatrix} b_1 \\ b_2 \\ b_3 \\ \vdots \\ b_n \end{pmatrix}  \] Since the coefficient matrix is a Vandermonde matrix withdistinct <span class="math inline">\(a_i\)</span>, it is invertible,thus there exists a unique solution <spanclass="math inline"="">\(\lambda_i\), thus there exists a uniquepolynomial <span class="math inline">\(f\)</span> with <spanclass="math inline"="">\(\deg(f) \le n-1\) s.t. <spanclass="math inline"="">\(f(a_i) = b_i\) for each <spanclass="math inline"="">\(i\).</spanclass="math></spanclass="math></spanclass="math></spanclass="math></spanclass="math></li></ul>
         </div>
       </div>
     </div><p></p>
@@ -2746,7 +2820,7 @@ is given by <span class="math display">\[f(x) = \sum_{i=1}^n \prod_{j
       </div>
       <div class="fold-collapse collapse" id="collapse-4b0bcabb">
         <div class="fold-content">
-          <ul><li>Let <span class="math inline">\(f(x) = \sum_{i=1}^n \lambda_i L_i(x)= \sum_{i=1}^n \lambda_i \prod_{j \ne i}(x-a_j)\)</span> satisfy <spanclass="math inline"="">\(f(a_i) = b_i\) for each <spanclass="math inline"="">\(i\). Then we have <spanclass="math display"="">\[b_k = f(a_k) = \sum_{i=1}^n \lambda_i \prod_{j\ne i}(a_k - a_j) = \lambda_k \prod_{j \ne k}(a_k - a_j)\] Thus<span class="math inline">\(\lambda_k = \frac{b_k}{\prod_{j \ne k}(a_k -a_j)}\)</span>, thus there exists a unique polynomial <spanclass="math inline"="">\(f=\sum_{i=1}^n \prod_{j \ne i}\frac{(x-a_j)}{(a_i-a_j)} b_i\) with <spanclass="math inline"="">\(\deg(f) \le n-1\) s.t. <spanclass="math inline"="">\(f(a_i) = b_i\) for each <spanclass="math inline"="">\(i\).</spanclass="math></spanclass="math></spanclass="math></spanclass="math></spanclass="math></spanclass="math></spanclass="math></li></ul>
+          <ul><li>Let <span class="math inline">\(f(x) = \sum_{i=1}^n \lambda_i L_i(x)= \sum_{i=1}^n \lambda_i \prod_{j \ne i}(x-a_j)\)</span> satisfy <spanclass="math inline"="">\(f(a_i) = b_i\) for each <spanclass="math inline"="">\(i\). Then we have <spanclass="math display"="">\[  b_k = f(a_k) = \sum_{i=1}^n \lambda_i \prod_{j \ne i}(a_k - a_j) =\lambda_k \prod_{j \ne k}(a_k - a_j)  \] Thus <span class="math inline">\(\lambda_k =\frac{b_k}{\prod_{j \ne k}(a_k - a_j)}\)</span>, thus there exists aunique polynomial <span class="math inline">\(f=\sum_{i=1}^n \prod_{j\ne i} \frac{(x-a_j)}{(a_i-a_j)} b_i\)</span> with <spanclass="math inline"="">\(\deg(f) \le n-1\) s.t. <spanclass="math inline"="">\(f(a_i) = b_i\) for each <spanclass="math inline"="">\(i\).</spanclass="math></spanclass="math></spanclass="math></spanclass="math></spanclass="math></spanclass="math></li></ul>
         </div>
       </div>
     </div><p></p></li>
@@ -2768,8 +2842,9 @@ in which every nonzero element is invertible.</p>
 </ul></li>
 <li><p><strong>Def 6.2 Characteristic</strong>: The characteristic of a
 field <span class="math inline">\(F\)</span> is defined by the smallest
-positive integer <span class="math inline">\(p\)</span> s.t. <span class="math display">\[p \cdot 1 = \underbrace{1 + \cdots + 1}_p =
-0\]</span></p>
+positive integer <span class="math inline">\(p\)</span> s.t. <span class="math display">\[
+  p \cdot 1 = \underbrace{1 + \cdots + 1}_p = 0
+  \]</span></p>
 <p>Denote the characteristic of a field <span class="math inline">\(F\)</span> by <span class="math inline">\(\mathrm{char}(F)\)</span>. If there is no such
 <span class="math inline">\(p\)</span>, then <span class="math inline">\(\mathrm{char}(F) = 0\)</span>.</p></li>
 <li><p><strong>Thm 6.3</strong>: The characteristic of a field <span class="math inline">\(F\)</span> is either <span class="math inline">\(0\)</span> or a prime.</p>
@@ -2780,7 +2855,7 @@ positive integer <span class="math inline">\(p\)</span> s.t. <span class="math d
       </div>
       <div class="fold-collapse collapse" id="collapse-a9441db9">
         <div class="fold-content">
-          <ul><li>Suppose <span class="math inline">\(\mathrm{char}(F) = m &gt;0\)</span> is a composite number. Then there exist <spanclass="math inline"="">\(1 &lt; a, b &lt; m\) such that <spanclass="math inline"="">\(m = ab\). Then <spanclass="math display"="">\[0 = m \cdot 1 = (ab) \cdot 1 = (a \cdot 1)(b\cdot 1) \implies a \cdot 1 = 0 \text{ or } b \cdot 1 = 0\] Thuscontradicts the minimality of <span class="math inline">\(m\)</span>.Therefore, <span class="math inline">\(\mathrm{char}(F)\)</span> must bea prime.</spanclass="math></spanclass="math></spanclass="math></li></ul>
+          <ul><li>Suppose <span class="math inline">\(\mathrm{char}(F) = m &gt;0\)</span> is a composite number. Then there exist <spanclass="math inline"="">\(1 &lt; a, b &lt; m\) such that <spanclass="math inline"="">\(m = ab\). Then <spanclass="math display"="">\[  0 = m \cdot 1 = (ab) \cdot 1 = (a \cdot 1)(b \cdot 1) \implies a \cdot1 = 0 \text{ or } b \cdot 1 = 0  \] Thus contradicts the minimality of <spanclass="math inline"="">\(m\). Therefore, <spanclass="math inline"="">\(\mathrm{char}(F)\) must be a prime.</spanclass="math></spanclass="math></spanclass="math></spanclass="math></spanclass="math></li></ul>
         </div>
       </div>
     </div><p></p></li>
@@ -2809,7 +2884,7 @@ denoted by <span class="math inline">\([E : F]\)</span>. The extension
       </div>
       <div class="fold-collapse collapse" id="collapse-f750ffd3">
         <div class="fold-content">
-          <p><span class="math display">\[[\mathbb{C},\mathbb{Q}] = +\infty, \quad[\mathbb{C},\mathbb{R}] = 2\]</span></p>
+          <p><span class="math display">\[[\mathbb{C},\mathbb{Q}] = +\infty, \quad [\mathbb{C},\mathbb{R}] = 2\]</span></p>
         </div>
       </div>
     </div><p></p></li>
@@ -2821,15 +2896,19 @@ Then</p>
 <li><span class="math inline">\(E/K\)</span> is a finite extension <span class="math inline">\(\iff\)</span> Both <span class="math inline">\(E/F\)</span> and <span class="math inline">\(F/K\)</span> and finite extensions.</li>
 </ul></li>
 <li><p><strong>Def 6.10 Ring generation</strong>: Let <span class="math inline">\(E/F\)</span> be a field extension, <span class="math inline">\(\alpha\)</span> be an element of <span class="math inline">\(E\)</span>. Then the smallest subring of <span class="math inline">\(E\)</span> containing both <span class="math inline">\(F\)</span> and <span class="math inline">\(\alpha\)</span> is called the ring generated by
-<span class="math inline">\(\alpha\)</span> over <span class="math inline">\(F\)</span>, denoted by <span class="math inline">\(F[\alpha]\)</span>. <span class="math display">\[F[\alpha] = \{f(\alpha) : f \in
-F[x]\}\]</span></p></li>
+<span class="math inline">\(\alpha\)</span> over <span class="math inline">\(F\)</span>, denoted by <span class="math inline">\(F[\alpha]\)</span>. <span class="math display">\[
+  F[\alpha] = \{f(\alpha) : f \in F[x]\}
+  \]</span></p></li>
 <li><p><strong>Def 6.11 Field generation</strong>: Let <span class="math inline">\(E/F\)</span> be a field extension, <span class="math inline">\(\alpha\)</span> be an element of <span class="math inline">\(E\)</span>. Then the smallest subfield of <span class="math inline">\(E\)</span> containing both <span class="math inline">\(F\)</span> and <span class="math inline">\(\alpha\)</span> is called the field generated by
-<span class="math inline">\(\alpha\)</span> over <span class="math inline">\(F\)</span>, denoted by <span class="math inline">\(F(\alpha)\)</span>. <span class="math display">\[F(\alpha) = \{\frac{f(\alpha)}{g(\alpha)} : f, g
-\in F[x], g(\alpha) \ne 0\}\]</span></p></li>
+<span class="math inline">\(\alpha\)</span> over <span class="math inline">\(F\)</span>, denoted by <span class="math inline">\(F(\alpha)\)</span>. <span class="math display">\[
+  F(\alpha) = \{\frac{f(\alpha)}{g(\alpha)} : f, g \in F[x], g(\alpha)
+\ne 0\}
+  \]</span></p></li>
 <li><p><strong>Thm 6.12</strong>: Let <span class="math inline">\(m(x)\in F[x]\)</span> be an irreducible polynomial
-with <span class="math inline">\(\deg(m) = d\)</span> and let <span class="math inline">\(\theta\)</span> be a root of <span class="math inline">\(m(x)\)</span>. Then <span class="math display">\[F(\theta) = F[\theta] = \left\{\sum_{i=0}^{d-1}
-a_i\theta^i : a_i \in F\right\} = \{f(\theta) : f \in F[x], \deg(f) \le
-d-1\}\]</span></p>
+with <span class="math inline">\(\deg(m) = d\)</span> and let <span class="math inline">\(\theta\)</span> be a root of <span class="math inline">\(m(x)\)</span>. Then <span class="math display">\[
+  F(\theta) = F[\theta] = \left\{\sum_{i=0}^{d-1} a_i\theta^i : a_i \in
+F\right\} = \{f(\theta) : f \in F[x], \deg(f) \le d-1\}
+  \]</span></p>
 <p>Furthermore, <span class="math inline">\([F(\theta) : F] =
 d\)</span>.</p>
 <p>
@@ -2844,8 +2923,9 @@ d\)</span>.</p>
       </div>
     </div><p></p></li>
 <li><p><strong>Thm 6.13</strong>: Let <span class="math inline">\(m(x)\in F[x]\)</span> be an irreducible polynomial
-with <span class="math inline">\(\deg(m) = d\)</span> and let <span class="math inline">\(\theta\)</span> be a root of <span class="math inline">\(m(x)\)</span>. Then <span class="math display">\[F[x]/(m) \simeq F(\theta) =
-F[\theta]\]</span></p>
+with <span class="math inline">\(\deg(m) = d\)</span> and let <span class="math inline">\(\theta\)</span> be a root of <span class="math inline">\(m(x)\)</span>. Then <span class="math display">\[
+  F[x]/(m) \simeq F(\theta) = F[\theta]
+  \]</span></p>
 <p>
     </p><div class="fold">
       <div class="fold-title fold-info collapsed" data-toggle="collapse" href="#collapse-fbf5ad21" role="button" aria-expanded="false" aria-controls="collapse-fbf5ad21">
@@ -2853,7 +2933,7 @@ F[\theta]\]</span></p>
       </div>
       <div class="fold-collapse collapse" id="collapse-fbf5ad21">
         <div class="fold-content">
-          <ul><li><strong>The first isomorphism theorem</strong>: Let <spanclass="math inline"="">\(R, S\) be rings and <spanclass="math inline"="">\(\pi : R \to S\) be a ring homomorphism.Then <span class="math inline">\(\ker(\pi) = \{r \in R : \pi(r) =0\}\)</span> is an ideal of <span class="math inline">\(R\)</span> and<span class="math inline">\(\mathrm{Im}(\pi) = \{\pi(r) : r \inR\}\)</span> is a subring of <span class="math inline">\(S\)</span>.Moreover, <span class="math inline">\(R/\ker(\pi) \simeq\mathrm{Im}(\pi)\)</span>.</spanclass="math></spanclass="math></li><li>Consider the homomorphism <spanclass="math display"="">\[\begin{aligned}  \pi : F[x] &amp;\to F(\theta) \\  f(x) &amp;\mapsto f(\theta)  \end{aligned}\] Then <span class="math inline">\(\pi\)</span>is a ring homomorphism and <span class="math inline">\(\ker(\pi) =\{f(x) \in F[x] : \pi(f) = f(\theta) = 0\} = \{f(x) \in F[x] : m(x) \midf(x)\} = (m) = m(x)F[x]\)</span>. Thus by the first isomorphism theorem,we have <span class="math display">\[F[x]/(m) \simeq \mathrm{Im}(\pi) =F[\theta] = F(\theta)\]</span></spanclass="math></li></ul>
+          <ul><li><strong>The first isomorphism theorem</strong>: Let <spanclass="math inline"="">\(R, S\) be rings and <spanclass="math inline"="">\(\pi : R \to S\) be a ring homomorphism.Then <span class="math inline">\(\ker(\pi) = \{r \in R : \pi(r) =0\}\)</span> is an ideal of <span class="math inline">\(R\)</span> and<span class="math inline">\(\mathrm{Im}(\pi) = \{\pi(r) : r \inR\}\)</span> is a subring of <span class="math inline">\(S\)</span>.Moreover, <span class="math inline">\(R/\ker(\pi) \simeq\mathrm{Im}(\pi)\)</span>.</spanclass="math></spanclass="math></li><li>Consider the homomorphism <span class="math display">\[  \begin{aligned}  \pi : F[x] &amp;\to F(\theta) \\  f(x) &amp;\mapsto f(\theta)  \end{aligned}  \]</span> Then <span class="math inline">\(\pi\)</span> is a ringhomomorphism and <span class="math inline">\(\ker(\pi) = \{f(x) \in F[x]: \pi(f) = f(\theta) = 0\} = \{f(x) \in F[x] : m(x) \mid f(x)\} = (m) =m(x)F[x]\)</span>. Thus by the first isomorphism theorem, we have <spanclass="math display"="">\[  F[x]/(m) \simeq \mathrm{Im}(\pi) = F[\theta] = F(\theta)  \]</spanclass="math></li></ul>
         </div>
       </div>
     </div><p></p>
@@ -2864,7 +2944,7 @@ F[\theta]\]</span></p>
       </div>
       <div class="fold-collapse collapse" id="collapse-2a11ed60">
         <div class="fold-content">
-          <ol type="1"><li><span class="math inline">\(x^2+1 \in \mathbb{R}[x]\)</span> isirreducible, <span class="math inline">\(i\)</span> is a root of <spanclass="math inline"="">\(x^2+1\). Thus <spanclass="math display"="">\[\mathbb{R}[x]/(x^2+1) \simeq \mathbb{R}[i] =\{a+bi : a,b \in \mathbb{R}\} = \mathbb{C}\]</spanclass="math></spanclass="math></li><li><span class="math inline">\(x^2+x+1 \in \mathbb{Z}_2[x]\)</span> isirreducible, since <span class="math inline">\(0,1\)</span> are notroots. Let <span class="math inline">\(\theta\)</span> be a root of<span class="math inline">\(x^2+x+1\)</span>. Then <spanclass="math display"="">\[\mathbb{Z}_2[x]/(x^2+x+1) \simeq\mathbb{Z}_2[\theta] = \{0, 1, \theta, 1+\theta\}\] Since <spanclass="math inline"="">\(\theta(\theta+1) = \theta^2 + \theta = -1 \equiv1\), we have <span class="math inline">\(\theta^{-1} = \theta +1\)</span>.</spanclass="math></spanclass="math></li></ol>
+          <ol type="1"><li><span class="math inline">\(x^2+1 \in \mathbb{R}[x]\)</span> isirreducible, <span class="math inline">\(i\)</span> is a root of <spanclass="math inline"="">\(x^2+1\). Thus <span class="math display">\[\mathbb{R}[x]/(x^2+1) \simeq \mathbb{R}[i] = \{a+bi : a,b \in\mathbb{R}\} = \mathbb{C}\]</span></spanclass="math></li><li><span class="math inline">\(x^2+x+1 \in \mathbb{Z}_2[x]\)</span> isirreducible, since <span class="math inline">\(0,1\)</span> are notroots. Let <span class="math inline">\(\theta\)</span> be a root of<span class="math inline">\(x^2+x+1\)</span>. Then <spanclass="math display"="">\[\mathbb{Z}_2[x]/(x^2+x+1) \simeq \mathbb{Z}_2[\theta] = \{0, 1, \theta,1+\theta\}\] Since <span class="math inline">\(\theta(\theta+1) = \theta^2+ \theta = -1 \equiv 1\)</span>, we have <spanclass="math inline"="">\(\theta^{-1} = \theta + 1\).</spanclass="math></spanclass="math></li></ol>
         </div>
       </div>
     </div><p></p></li>
@@ -2888,7 +2968,7 @@ b^p\)</span>.</li>
       </div>
       <div class="fold-collapse collapse" id="collapse-2f08b8e9">
         <div class="fold-content">
-          <ol type="1"><li>Since <span class="math inline">\(F\)</span> is a field, <spanclass="math inline"="">\(\mathrm{char}(F)\) is either <spanclass="math inline"="">\(0\) or a prime. If <spanclass="math inline"="">\(\mathrm{char}(F) = 0\), then the primefield of <span class="math inline">\(F\)</span> is <spanclass="math inline"="">\(\mathbb{Q}\), which is infinite. Thus <spanclass="math inline"="">\(\mathrm{char}(F)\) must be a prime <spanclass="math inline"="">\(p\).</spanclass="math></spanclass="math></spanclass="math></spanclass="math></spanclass="math></spanclass="math></li><li><span class="math inline">\(\forall a, b \in F\)</span>, we have<span class="math display">\[(a+b)^p = \sum_{i=0}^p \binom{p}{i} a^ib^{p-i} = a^p + b^p\]</span> since <span class="math inline">\(p \mid\binom{p}{i} = \frac{p!}{i!(p-i)!}\)</span> for <spanclass="math inline"="">\(1 \le i \le p-1\).|</spanclass="math></li><li>If <span class="math inline">\(a = 0\)</span>, done. If <spanclass="math inline"="">\(a \ne 0\), label <spanclass="math inline"="">\(q-1\) elements of <spanclass="math inline"="">\(F^*\) as <span class="math inline">\(F^* =\{a_1, a_2, \ldots, a_{q-1}\}\)</span>. Then <spanclass="math inline"="">\(\forall i, a_i^{q-1} = 1\), thus <spanclass="math inline"="">\(a_i^q = a_i\). Thus <spanclass="math inline"="">\(\forall a \in F, a^q = a\).</spanclass="math></spanclass="math></spanclass="math></spanclass="math></spanclass="math></spanclass="math></li></ol>
+          <ol type="1"><li>Since <span class="math inline">\(F\)</span> is a field, <spanclass="math inline"="">\(\mathrm{char}(F)\) is either <spanclass="math inline"="">\(0\) or a prime. If <spanclass="math inline"="">\(\mathrm{char}(F) = 0\), then the primefield of <span class="math inline">\(F\)</span> is <spanclass="math inline"="">\(\mathbb{Q}\), which is infinite. Thus <spanclass="math inline"="">\(\mathrm{char}(F)\) must be a prime <spanclass="math inline"="">\(p\).</spanclass="math></spanclass="math></spanclass="math></spanclass="math></spanclass="math></spanclass="math></li><li><span class="math inline">\(\forall a, b \in F\)</span>, we have<span class="math display">\[(a+b)^p = \sum_{i=0}^p \binom{p}{i} a^i b^{p-i} = a^p + b^p\]</span> since <span class="math inline">\(p \mid \binom{p}{i} =\frac{p!}{i!(p-i)!}\)</span> for <span class="math inline">\(1 \le i \lep-1\)</span>.|</li><li>If <span class="math inline">\(a = 0\)</span>, done. If <spanclass="math inline"="">\(a \ne 0\), label <spanclass="math inline"="">\(q-1\) elements of <spanclass="math inline"="">\(F^*\) as <span class="math inline">\(F^* =\{a_1, a_2, \ldots, a_{q-1}\}\)</span>. Then <spanclass="math inline"="">\(\forall i, a_i^{q-1} = 1\), thus <spanclass="math inline"="">\(a_i^q = a_i\). Thus <spanclass="math inline"="">\(\forall a \in F, a^q = a\).</spanclass="math></spanclass="math></spanclass="math></spanclass="math></spanclass="math></spanclass="math></li></ol>
         </div>
       </div>
     </div><p></p></li>
@@ -3002,7 +3082,7 @@ finite field of <span class="math inline">\(p^n\)</span> elements.</p>
       </div>
       <div class="fold-collapse collapse" id="collapse-ff147dd1">
         <div class="fold-content">
-          <ul><li>To construct a finite field of <spanclass="math inline"="">\(16\) elements, find an irreduciblepolynomial of degree <span class="math inline">\(4\)</span> over <spanclass="math inline"="">\(\mathbb{Z}_2\).<ul><li>The only irreducible polynomial of degree <spanclass="math inline"="">\(2\) over <spanclass="math inline"="">\(\mathbb{Z}_2\) is <spanclass="math inline"="">\(x^2+x+1\).</spanclass="math></spanclass="math></spanclass="math></li><li>All irreducible polynomial of degree <spanclass="math inline"="">\(4\) over <spanclass="math inline"="">\(\mathbb{Z}_2\) are <spanclass="math inline"="">\(x^4+x^3+x^2+x+1, x^4+x^3+1, x^4+x+1\). Wechoose <span class="math inline">\(m(x) = x^4+x+1\)</span> to construct<span class="math inline">\(\mathbb{F}_{16}\)</span>.</spanclass="math></spanclass="math></spanclass="math></li></ul></spanclass="math></spanclass="math></li><li>Let <span class="math inline">\(\theta\)</span> be a root of <spanclass="math inline"="">\(m(x)\), thus we have <spanclass="math display"="">\[\mathbb{F}_{16} = \mathbb{Z}_2[x]/(m) \simeq\mathbb{Z}_2(\theta) = \{a_0 + a_1\theta + a_2\theta^2 + a_3\theta^3 :a_i \in \mathbb{Z}_2\}\]</spanclass="math></spanclass="math></li><li>And we have if <span class="math inline">\(\theta\)</span> is a rootof <span class="math inline">\(m(x)\)</span>, then <spanclass="math inline"="">\(\theta^{2^n}\) is also a root of <spanclass="math inline"="">\(m(x)\).<ul><li>Since <span class="math inline">\(m(\theta) = \theta^4 + \theta + 1= 0\)</span>, thus <span class="math inline">\(\theta^4 = \theta +1\)</span>.</li><li><span class="math inline">\(m(\theta^2) = (\theta^2)^4 + \theta^2 +1 = (\theta^4)^2 + \theta^2 + 1 = (\theta^4 + \theta + 1)^2 =0\)</span>. Thus <span class="math inline">\(\theta^2\)</span> is a rootof <span class="math inline">\(m(x)\)</span>.</li><li><span class="math inline">\(m(\theta^4) = m(\theta + 1) =(\theta+1)^4 + (\theta+1) + 1 = \theta^4 + \theta + 1 = 0\)</span>. Thus<span class="math inline">\(\theta^4\)</span> is a root of <spanclass="math inline"="">\(m(x)\).</spanclass="math></li><li><span class="math inline">\(m(\theta^8) = m((\theta^4)^2) =m((\theta+1)^2) = m(\theta^2 + 1) = (\theta^2+1)^4 + (\theta^2 + 1) + 1= 0\)</span>. Thus <span class="math inline">\(\theta^8\)</span> is aroot of <span class="math inline">\(m(x)\)</span>.</li><li>Since <span class="math inline">\(\theta^{16} = \theta\)</span>, wehave <span class="math inline">\(m(\theta^{2^n}) = 0\)</span> for all<span class="math inline">\(n \ge 0\)</span>. Thus <spanclass="math inline"="">\(\{\theta, \theta^2, \theta^4 = \theta + 1,\theta^8 = \theta^2 + 1\}\) are all distinct roots of <spanclass="math inline"="">\(m(x)\).</spanclass="math></spanclass="math></li></ul></spanclass="math></spanclass="math></li></ul>
+          <ul><li>To construct a finite field of <spanclass="math inline"="">\(16\) elements, find an irreduciblepolynomial of degree <span class="math inline">\(4\)</span> over <spanclass="math inline"="">\(\mathbb{Z}_2\).<ul><li>The only irreducible polynomial of degree <spanclass="math inline"="">\(2\) over <spanclass="math inline"="">\(\mathbb{Z}_2\) is <spanclass="math inline"="">\(x^2+x+1\).</spanclass="math></spanclass="math></spanclass="math></li><li>All irreducible polynomial of degree <spanclass="math inline"="">\(4\) over <spanclass="math inline"="">\(\mathbb{Z}_2\) are <spanclass="math inline"="">\(x^4+x^3+x^2+x+1, x^4+x^3+1, x^4+x+1\). Wechoose <span class="math inline">\(m(x) = x^4+x+1\)</span> to construct<span class="math inline">\(\mathbb{F}_{16}\)</span>.</spanclass="math></spanclass="math></spanclass="math></li></ul></spanclass="math></spanclass="math></li><li>Let <span class="math inline">\(\theta\)</span> be a root of <spanclass="math inline"="">\(m(x)\), thus we have <spanclass="math display"="">\[  \mathbb{F}_{16} = \mathbb{Z}_2[x]/(m) \simeq \mathbb{Z}_2(\theta) =\{a_0 + a_1\theta + a_2\theta^2 + a_3\theta^3 : a_i \in \mathbb{Z}_2\}  \]</spanclass="math></spanclass="math></li><li>And we have if <span class="math inline">\(\theta\)</span> is a rootof <span class="math inline">\(m(x)\)</span>, then <spanclass="math inline"="">\(\theta^{2^n}\) is also a root of <spanclass="math inline"="">\(m(x)\).<ul><li>Since <span class="math inline">\(m(\theta) = \theta^4 + \theta + 1= 0\)</span>, thus <span class="math inline">\(\theta^4 = \theta +1\)</span>.</li><li><span class="math inline">\(m(\theta^2) = (\theta^2)^4 + \theta^2 +1 = (\theta^4)^2 + \theta^2 + 1 = (\theta^4 + \theta + 1)^2 =0\)</span>. Thus <span class="math inline">\(\theta^2\)</span> is a rootof <span class="math inline">\(m(x)\)</span>.</li><li><span class="math inline">\(m(\theta^4) = m(\theta + 1) =(\theta+1)^4 + (\theta+1) + 1 = \theta^4 + \theta + 1 = 0\)</span>. Thus<span class="math inline">\(\theta^4\)</span> is a root of <spanclass="math inline"="">\(m(x)\).</spanclass="math></li><li><span class="math inline">\(m(\theta^8) = m((\theta^4)^2) =m((\theta+1)^2) = m(\theta^2 + 1) = (\theta^2+1)^4 + (\theta^2 + 1) + 1= 0\)</span>. Thus <span class="math inline">\(\theta^8\)</span> is aroot of <span class="math inline">\(m(x)\)</span>.</li><li>Since <span class="math inline">\(\theta^{16} = \theta\)</span>, wehave <span class="math inline">\(m(\theta^{2^n}) = 0\)</span> for all<span class="math inline">\(n \ge 0\)</span>. Thus <spanclass="math inline"="">\(\{\theta, \theta^2, \theta^4 = \theta + 1,\theta^8 = \theta^2 + 1\}\) are all distinct roots of <spanclass="math inline"="">\(m(x)\).</spanclass="math></spanclass="math></li></ul></spanclass="math></spanclass="math></li></ul>
         </div>
       </div>
     </div><p></p></li>
@@ -3011,18 +3091,23 @@ monic}\}\)</span> be the number of monic irreducible polynomials with
 <span class="math inline">\(\deg(g) = d\)</span> over <span class="math inline">\(F_q\)</span>. Then</p>
 <ol type="1">
 <li>Let <span class="math inline">\(n \ge 1 \in \mathbb{Z}\)</span>,
-then <span class="math display">\[x^{q^n} - x = \prod_{d \mid n}
-\prod_{g \in F_q[x],  \text{ monic, irr} \atop \deg(g) = d}
-g(x)\]</span></li>
-<li>We have the following identity, which can help us to compute <span class="math inline">\(I_q(d)\)</span>: <span class="math display">\[q^n
-= \sum_{d \mid n} d \cdot I_q(d)\]</span></li>
-<li>By the Möbius inversion formula, we have <span class="math display">\[I_q(n) = \frac{1}{n} \sum_{d \mid n} \mu(d)
-q^{\frac{n}{d}}\]</span> where <span class="math inline">\(\mu(d)\)</span> is the Möbius function defined by
-<span class="math display">\[\mu(d) = \begin{cases}
+then <span class="math display">\[
+x^{q^n} - x = \prod_{d \mid n} \prod_{g \in F_q[x],  \text{ monic, irr}
+\atop \deg(g) = d} g(x)
+\]</span></li>
+<li>We have the following identity, which can help us to compute <span class="math inline">\(I_q(d)\)</span>: <span class="math display">\[
+q^n = \sum_{d \mid n} d \cdot I_q(d)
+\]</span></li>
+<li>By the Möbius inversion formula, we have <span class="math display">\[
+I_q(n) = \frac{1}{n} \sum_{d \mid n} \mu(d) q^{\frac{n}{d}}
+\]</span> where <span class="math inline">\(\mu(d)\)</span> is the
+Möbius function defined by <span class="math display">\[
+\mu(d) = \begin{cases}
 1 &amp;  d = 1 \\
 (-1)^k &amp; d = \prod_{i=1}^k p_i \text{ for distinct primes } p_i \\
 0 &amp; \exists p \text{ s.t. } p^2 \mid d
-\end{cases}\]</span></li>
+\end{cases}
+\]</span></li>
 </ol></li>
 </ul>
 
@@ -3301,7 +3386,7 @@ q^{\frac{n}{d}}\]</span> where <span class="math inline">\(\mu(d)\)</span> is th
     <div class="hitokoto">
         <i class="fas fa-quote-left"></i>
         <a target="_blank" rel="noopener" href="https://developer.hitokoto.cn/" id="hitokoto_text"><span id="hitokoto">且以群词 注解我这座荒山</span></a>
-        <script src="/Blog/js/Hitokoto.js" defer></script>
+        <script src="/js/Hitokoto.js" defer></script>
     </div>
     <div class="data">
         <span class="total-word-container">
@@ -3331,11 +3416,11 @@ q^{\frac{n}{d}}\]</span> where <span class="math inline">\(\mu(d)\)</span> is th
     <div class="duration">
         <i class="fas fa-calendar"></i>
         <span id="duration-container">人生缓缓&nbsp;自有答案</span>
-        <script src="/Blog/js/Duration.js"></script>
+        <script src="/js/Duration.js"></script>
     </div>
 </div>
 
-<link href="/Blog/css/Footer.css" type="text/css" rel="stylesheet"/>
+<link href="/css/Footer.css" type="text/css" rel="stylesheet"/>
 <script>
     document.querySelectorAll("[id^='busuanzi_value_']").forEach(element => {
         element.id = element.id.replace("busuanzi_value_", "vercount_value_");
@@ -3551,7 +3636,7 @@ q^{\frac{n}{d}}\]</span> where <span class="math inline">\(\mu(d)\)</span> is th
 
 
   <script type="text/javascript">
-  document.getElementById("g-total-word-id").innerHTML = "742k";
+  document.getElementById("g-total-word-id").innerHTML = "728k";
   document.getElementById('g-total-posts-id').textContent ="86";
 </script>
 

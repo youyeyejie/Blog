@@ -28,7 +28,7 @@
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://youyeyejie.github.io/Blog/img/cover/nis3351.webp">
 <meta property="article:published_time" content="2025-10-25T12:25:12.000Z">
-<meta property="article:modified_time" content="2026-11-17T10:00:08.609Z">
+<meta property="article:modified_time" content="2026-11-17T12:30:35.665Z">
 <meta property="article:author" content="youyeyejie">
 <meta property="article:tag" content="SJTU">
 <meta property="article:tag" content="数据库">
@@ -89,7 +89,7 @@
   <script id="fluid-configs">
     var Fluid = window.Fluid || {};
     Fluid.ctx = Object.assign({}, Fluid.ctx)
-    var CONFIG = {"hostname":"youyeyejie.github.io","root":"/Blog/","version":"1.9.8","typing":{"enable":true,"typeSpeed":70,"cursorChar":"_","loop":false,"scope":[]},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"left","visible":"hover","icon":""},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"code_language":{"enable":false,"default":"TEXT"},"copy_btn":false,"image_caption":{"enable":true},"image_zoom":{"enable":true,"img_url_replace":["",""]},"toc":{"enable":true,"placement":"right","headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":0},"lazyload":{"enable":true,"loading_img":"/Blog/img/loading/loading3.gif","onlypost":true,"offset_factor":2},"web_analytics":{"enable":false,"follow_dnt":true,"baidu":null,"google":{"measurement_id":null},"tencent":{"sid":null,"cid":null},"leancloud":{"app_id":null,"app_key":null,"server_url":null,"path":"window.location.pathname","ignore_local":false},"umami":{"src":null,"website_id":null,"domains":null,"start_time":"2024-01-01T00:00:00.000Z","token":null,"api_server":null}},"search_path":"/Blog/local-search.xml","include_content_in_search":true};
+    var CONFIG = {"hostname":"youyeyejie.github.io","root":"/Blog/","version":"1.9.8","typing":{"enable":true,"typeSpeed":70,"cursorChar":"_","loop":false,"scope":[]},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"left","visible":"hover","icon":""},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"code_language":{"enable":false,"default":"TEXT"},"copy_btn":false,"image_caption":{"enable":true},"image_zoom":{"enable":true,"img_url_replace":["",""]},"toc":{"enable":true,"placement":"right","headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":0},"lazyload":{"enable":true,"loading_img":"/img/loading/loading3.gif","onlypost":true,"offset_factor":2},"web_analytics":{"enable":false,"follow_dnt":true,"baidu":null,"google":{"measurement_id":null},"tencent":{"sid":null,"cid":null},"leancloud":{"app_id":null,"app_key":null,"server_url":null,"path":"window.location.pathname","ignore_local":false},"umami":{"src":null,"website_id":null,"domains":null,"start_time":"2024-01-01T00:00:00.000Z","token":null,"api_server":null}},"search_path":"/Blog/local-search.xml","include_content_in_search":true};
 
     if (CONFIG.web_analytics.follow_dnt) {
       var dntVal = navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack;
@@ -139,8 +139,8 @@
     </div>
 </div>
 
-<script src="/Blog/js/RainbowLoading.js" type="text/javascript"></script>
-<link href="/Blog/css/RainbowLoading.css" type="text/css" rel="stylesheet"/><div id="rightmenu-wrapper">
+<script src="/js/RainbowLoading.js" type="text/javascript"></script>
+<link href="/css/RainbowLoading.css" type="text/css" rel="stylesheet"/><div id="rightmenu-wrapper">
   <ul class="list-v rightmenu" id="rightmenu-content">
 	    <li class="navigation menuNavigation-Content">
             <a class="nav icon-only fix-cursor-default" aria-label="back" onclick="history.back()"><i class="fa-solid fa-chevron-left"></i></a>
@@ -220,7 +220,7 @@
 		    </a>
 	    </li>
         <li class="menuLoad-Content" style="display: block;">
-		    <a class="vlts-menu fix-cursor-default" target="_self" href="/Blog/categories/">
+		    <a class="vlts-menu fix-cursor-default" target="_self" href="/categories/">
 		        <span>
 			        <i class="iconfont icon-category-fill"></i>
                     &nbsp;博客分类
@@ -228,7 +228,7 @@
 		    </a>
 	    </li>
         <li class="menuLoad-Content" style="display: block;">
-		    <a class="vlts-menu fix-cursor-default" target="_self" href="/Blog/tags/">
+		    <a class="vlts-menu fix-cursor-default" target="_self" href="/tags/">
 		        <span>
 			        <i class="fa-solid fa-tags"></i>
                     &nbsp;文章标签
@@ -282,8 +282,8 @@
 </div>
 
 
-<script src="/Blog/js/RightMenu.js" type="text/javascript"></script>
-<link href="/Blog/css/RightMenu.css" type="text/css" rel="stylesheet"/>
+<script src="/js/RightMenu.js" type="text/javascript"></script>
+<link href="/css/RightMenu.css" type="text/css" rel="stylesheet"/>
 
   <header>
     
@@ -2676,11 +2676,13 @@ S)\)</span></li>
 </ul></li>
 <li>两类常用连接运算：
 <ul>
-<li><p><strong>等值连接</strong>（equi join）：<span class="math inline">\(\theta\)</span> 为 <span class="math inline">\(=\)</span> 的连接运算 <span class="math display">\[\begin{aligned}
+<li><p><strong>等值连接</strong>（equi join）：<span class="math inline">\(\theta\)</span> 为 <span class="math inline">\(=\)</span> 的连接运算 <span class="math display">\[
+  \begin{aligned}
   R \underset{A=B}{\bowtie} S &amp;= \{\overset{\frown}{t_r t_s} | t_r
 \in R \land t_s \in S \land t_r[A] = t_s[B]\} \\
   &amp;= \sigma_{ t_r[A] = t_s[B]}(R \times S)
-  \end{aligned}\]</span></p>
+  \end{aligned}
+  \]</span></p>
 <ul>
 <li>从关系 <span class="math inline">\(R\)</span> 与 <span class="math inline">\(S\)</span> 的广义笛卡儿积中选取 <span class="math inline">\(A\)</span>、<span class="math inline">\(B\)</span>
 属性值相等的那些元组。</li>
@@ -2688,11 +2690,13 @@ S)\)</span></li>
 </ul></li>
 <li><p><strong>自然连接</strong>（Natural
 join）：一种特殊的等值连接，两个关系中进行比较的分量必须是相同的属性组，且在结果中
-<strong>把重复的属性列去掉</strong>。 <span class="math display">\[\begin{aligned}
+<strong>把重复的属性列去掉</strong>。 <span class="math display">\[
+  \begin{aligned}
   R \bowtie S &amp;= \{\overset{\frown}{t_r t_s}[U-B] | t_r \in R \land
 t_s \in S \land t_r[B] = t_s[B]\} \\
   &amp;= \pi_{U-B}(\sigma_{ t_r[A] = t_s[B]}(R \times S))
-  \end{aligned}\]</span></p>
+  \end{aligned}
+  \]</span></p>
 <ul>
 <li>自然连接 <strong>不需要写明连接条件</strong></li>
 <li>其中 <span class="math inline">\(R\)</span> 和 <span class="math inline">\(S\)</span> 具有相同的属性组 <span class="math inline">\(B\)</span>，<span class="math inline">\(U\)</span>
@@ -4727,8 +4731,8 @@ P))\]</span></li>
 实现逻辑蕴函</h5>
 <ul>
 <li>SQL 语言中没有蕴函（Implication）逻辑运算</li>
-<li>可以利用谓词演算将逻辑蕴函谓词等价转换为： <span class="math display">\[P \rightarrow Q \equiv \neg P \lor
-Q\]</span></li>
+<li>可以利用谓词演算将逻辑蕴函谓词等价转换为： <span class="math display">\[P \rightarrow Q \equiv \neg P \lor Q
+\]</span></li>
 <li>示例：查询至少选修了学生 201215122 选修的全部课程的学生号码。
 <ul>
 <li>用逻辑蕴函表达：查询学号为 x 的学生，对所有的课程 y，只要 201215122
@@ -4736,12 +4740,14 @@ Q\]</span></li>
 <li>形式化表示：用 <span class="math inline">\(p\)</span> 表示谓词 “学生
 201215122 选修了课程 y”，用 <span class="math inline">\(q\)</span>
 表示谓词 “学生 x 选修了课程 y”，则上述查询为: <span class="math inline">\((\forall y) p \rightarrow q\)</span></li>
-<li>等价变换： <span class="math display">\[\begin{aligned}
+<li>等价变换： <span class="math display">\[
+  \begin{aligned}
   (\forall y)p \rightarrow q &amp;\equiv \neg (\exists y (\neg (p
 \rightarrow q ))) \\
   &amp;\equiv \neg (\exists y (\neg (\neg p \lor q))) \\
   &amp;\equiv \neg (\exists y (p \land \neg q))
-  \end{aligned}\]</span></li>
+  \end{aligned}
+  \]</span></li>
 <li>变换后语义：不存在这样的课程 y，学生 201215122 选修了 y，而学生 x
 没有选。 <figure class="shiki sql"><div class="codeblock"><div class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></div><div class="code"><pre class="shiki one-dark-pro"><code><span class="line"><span style="color:#C678DD">SELECT DISTINCT</span><span style="color:#ABB2BF"> Sno </span><span style="color:#7F848E;font-style:italic">-- 查询这样的学生x</span></span>
 <span class="line"><span style="color:#C678DD">FROM</span><span style="color:#ABB2BF"> SC SCX</span></span>
@@ -7720,7 +7726,7 @@ M\)</span>
     <div class="hitokoto">
         <i class="fas fa-quote-left"></i>
         <a target="_blank" rel="noopener" href="https://developer.hitokoto.cn/" id="hitokoto_text"><span id="hitokoto">且以群词 注解我这座荒山</span></a>
-        <script src="/Blog/js/Hitokoto.js" defer></script>
+        <script src="/js/Hitokoto.js" defer></script>
     </div>
     <div class="data">
         <span class="total-word-container">
@@ -7750,11 +7756,11 @@ M\)</span>
     <div class="duration">
         <i class="fas fa-calendar"></i>
         <span id="duration-container">人生缓缓&nbsp;自有答案</span>
-        <script src="/Blog/js/Duration.js"></script>
+        <script src="/js/Duration.js"></script>
     </div>
 </div>
 
-<link href="/Blog/css/Footer.css" type="text/css" rel="stylesheet"/>
+<link href="/css/Footer.css" type="text/css" rel="stylesheet"/>
 <script>
     document.querySelectorAll("[id^='busuanzi_value_']").forEach(element => {
         element.id = element.id.replace("busuanzi_value_", "vercount_value_");
@@ -7970,7 +7976,7 @@ M\)</span>
 
 
   <script type="text/javascript">
-  document.getElementById("g-total-word-id").innerHTML = "742k";
+  document.getElementById("g-total-word-id").innerHTML = "728k";
   document.getElementById('g-total-posts-id').textContent ="86";
 </script>
 
