@@ -30,7 +30,7 @@
 <meta property="og:image" content="https://youyeyejie.github.io/Blog/_posts/%E4%BF%A1%E5%AE%89%E4%BD%9C%E5%93%81%E8%B5%9B%E8%B5%9B%E5%90%8E%E6%80%BB%E7%BB%93/image.webp">
 <meta property="og:image" content="https://youyeyejie.github.io/Blog/_posts/%E4%BF%A1%E5%AE%89%E4%BD%9C%E5%93%81%E8%B5%9B%E8%B5%9B%E5%90%8E%E6%80%BB%E7%BB%93/image-1.webp">
 <meta property="article:published_time" content="2026-08-26T08:14:43.000Z">
-<meta property="article:modified_time" content="2026-11-17T13:50:07.750Z">
+<meta property="article:modified_time" content="2026-11-17T14:06:30.771Z">
 <meta property="article:author" content="youyeyejie">
 <meta property="article:tag" content="信安赛">
 <meta name="twitter:card" content="summary_large_image">
@@ -687,6 +687,19 @@ PPT 时得出的结论，很多组的 PPT 一眼 AI
     <script type="text/javascript">
       Fluid.utils.loadComments('#giscus', function() {
         var options = {"repo":"youyeyejie/Blog","repo-id":"R_kgDOO-Uo1g","category":"General","category-id":"DIC_kwDOO-Uo1s4Crz5J","theme-light":"light","theme-dark":"dark","mapping":"pathname","reactions-enabled":1,"emit-metadata":0,"input-position":"top","lang":"zh-CN"};
+        // Keep discussion keys relative to the blog, independent of its deployment directory.
+        if (options.mapping === 'pathname') {
+          var pathname = window.location.pathname;
+          var root = "/Blog/";
+          if (pathname === root.slice(0, -1)) {
+            pathname = '/';
+          } else if (pathname.startsWith(root)) {
+            pathname = '/' + pathname.slice(root.length);
+          }
+          options.mapping = 'specific';
+          // Match giscus's pathname algorithm, including URL encoding and the trailing slash.
+          options.term = pathname.length < 2 ? 'index' : pathname.substring(1).replace(/\.\w+$/, '');
+        }
         var attributes = {};
         for (let option in options) {
           if (!option.startsWith('theme-')) {

@@ -29,7 +29,7 @@
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://youyeyejie.github.io/Blog/_posts/Fluid%E9%A6%96%E9%A1%B5%E4%BE%A7%E8%BE%B9%E6%A0%8F%E7%BD%91%E7%AB%99%E7%BB%9F%E8%AE%A1/image.webp">
 <meta property="article:published_time" content="2025-08-01T06:51:42.000Z">
-<meta property="article:modified_time" content="2026-11-17T13:50:07.709Z">
+<meta property="article:modified_time" content="2026-11-17T14:06:30.729Z">
 <meta property="article:author" content="youyeyejie">
 <meta property="article:tag" content="Fluid">
 <meta property="article:tag" content="Hexo">
@@ -997,6 +997,19 @@ sitemap
     <script type="text/javascript">
       Fluid.utils.loadComments('#giscus', function() {
         var options = {"repo":"youyeyejie/Blog","repo-id":"R_kgDOO-Uo1g","category":"General","category-id":"DIC_kwDOO-Uo1s4Crz5J","theme-light":"light","theme-dark":"dark","mapping":"pathname","reactions-enabled":1,"emit-metadata":0,"input-position":"top","lang":"zh-CN"};
+        // Keep discussion keys relative to the blog, independent of its deployment directory.
+        if (options.mapping === 'pathname') {
+          var pathname = window.location.pathname;
+          var root = "/Blog/";
+          if (pathname === root.slice(0, -1)) {
+            pathname = '/';
+          } else if (pathname.startsWith(root)) {
+            pathname = '/' + pathname.slice(root.length);
+          }
+          options.mapping = 'specific';
+          // Match giscus's pathname algorithm, including URL encoding and the trailing slash.
+          options.term = pathname.length < 2 ? 'index' : pathname.substring(1).replace(/\.\w+$/, '');
+        }
         var attributes = {};
         for (let option in options) {
           if (!option.startsWith('theme-')) {

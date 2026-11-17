@@ -34,7 +34,7 @@
 <meta property="og:image" content="https://youyeyejie.github.io/Blog/_posts/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BB%EF%BC%9ARMIA%E4%B8%8EInfoRMIA/image-5.webp">
 <meta property="og:image" content="https://youyeyejie.github.io/Blog/_posts/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BB%EF%BC%9ARMIA%E4%B8%8EInfoRMIA/image-4.webp">
 <meta property="article:published_time" content="2026-02-01T08:05:03.000Z">
-<meta property="article:modified_time" content="2026-11-17T13:50:08.061Z">
+<meta property="article:modified_time" content="2026-11-17T14:06:31.088Z">
 <meta property="article:author" content="youyeyejie">
 <meta property="article:tag" content="MIA">
 <meta property="article:tag" content="人工智能安全">
@@ -1093,6 +1093,19 @@ preprint arXiv:2510.05582</a>, 2025.</li>
     <script type="text/javascript">
       Fluid.utils.loadComments('#giscus', function() {
         var options = {"repo":"youyeyejie/Blog","repo-id":"R_kgDOO-Uo1g","category":"General","category-id":"DIC_kwDOO-Uo1s4Crz5J","theme-light":"light","theme-dark":"dark","mapping":"pathname","reactions-enabled":1,"emit-metadata":0,"input-position":"top","lang":"zh-CN"};
+        // Keep discussion keys relative to the blog, independent of its deployment directory.
+        if (options.mapping === 'pathname') {
+          var pathname = window.location.pathname;
+          var root = "/Blog/";
+          if (pathname === root.slice(0, -1)) {
+            pathname = '/';
+          } else if (pathname.startsWith(root)) {
+            pathname = '/' + pathname.slice(root.length);
+          }
+          options.mapping = 'specific';
+          // Match giscus's pathname algorithm, including URL encoding and the trailing slash.
+          options.term = pathname.length < 2 ? 'index' : pathname.substring(1).replace(/\.\w+$/, '');
+        }
         var attributes = {};
         for (let option in options) {
           if (!option.startsWith('theme-')) {
