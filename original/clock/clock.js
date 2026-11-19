@@ -149,3 +149,18 @@ document.addEventListener('dblclick', function(event) {
 
 setInterval(updateTime, 1000);
 updateTime(); // 立即执行一次
+
+async function enterFullscreen() {
+    const page = document.documentElement;
+    if (!document.fullscreenEnabled || !page.requestFullscreen) return;
+
+    try {
+        await page.requestFullscreen({ navigationUI: 'hide' });
+        document.removeEventListener('click', enterFullscreen);
+    } catch {
+        // 未获自动全屏权限时，等用户点击页面后重试。
+        document.addEventListener('click', enterFullscreen);
+    }
+}
+
+enterFullscreen();
